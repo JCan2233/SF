@@ -1,0 +1,19 @@
+{
+	"id":"jc_sf_alien_sys",
+	"type":"SHIELD_MOD",
+	"aiType":"FORTRESS_SHIELD",
+
+	"statsScript":"data.scripts.shipsystems.Jc_sf_alien_sys",
+	
+	"shieldRingColor":[0,0,155,255],
+	"shieldInnerColor":[100,50,200,75],
+	"shieldThicknessMult":2,
+	"shieldFluctuationMult":0,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.8,
+	"soundFilterGainHF":0.1,
+	
+	"loopSound":"system_fortress_shield_loop",
+	"outOfUsesSound":"gun_out_of_ammo"
+}

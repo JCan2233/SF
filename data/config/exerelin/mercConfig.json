@@ -1,0 +1,63 @@
+{
+    "companies": {
+        "jc_sf_merc": {
+            "name": "幽灵军团",
+            "desc": "几枚幽灵核心及其控制的舰船组成的精英佣兵团。",
+            "logo": "graphics/jc/factions/jc_sf_crest.png",
+            "feeUpfront": 120000,
+            "feeMonthly": 2800,
+            "faction": "jc_sf",
+            "minRep": "FAVORABLE",
+            "minLevel": 5,
+            "ships": [
+                [
+                    "jc_sf_dragon_1",
+                    "jc_sf_dragon_2",
+                    "jc_sf_dragon_3",
+                    "jc_sf_troll_1",
+                    "jc_sf_troll_2",
+                    "jc_sf_troll_3",
+                    "jc_sf_kraken_1",
+                    "jc_sf_kraken_2",
+                    "jc_sf_kraken_3"
+                ],
+                [
+                    "jc_sf_ghoul_1",
+                    "jc_sf_ghoul_2",
+                    "jc_sf_ghoul_3",
+                    "jc_sf_warg_1",
+                    "jc_sf_warg_2",
+                    "jc_sf_warg_3",
+                    "jc_sf_lich_1",
+                    "jc_sf_lich_2",
+                    "jc_sf_lich_3"
+                ],
+                [
+                    "jc_sf_soul_1",
+                    "jc_sf_soul_2",
+                    "jc_sf_raven_1",
+                    "jc_sf_raven_2",
+                    "jc_sf_raven_3",
+                    "jc_sf_elf_1",
+                    "jc_sf_elf_2",
+                    "jc_sf_elf_3"
+                ]
+            ],
+            "officers": [
+                {
+                    "level": 7,
+                    "aiCoreId": "jc_sf1_core"
+                },
+                {
+                    "level": 4,
+                    "aiCoreId": "jc_sf2_core"
+                },
+                {
+                    "level": 4,
+                    "aiCoreId": "jc_sf2_core"
+                }
+            ],
+            "averageSMods": 1
+        }
+    }
+}

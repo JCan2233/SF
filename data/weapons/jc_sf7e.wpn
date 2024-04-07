@@ -1,0 +1,50 @@
+{
+  "id": "jc_sf7e",
+  "specClass": "projectile",
+  "everyFrameEffect":"data.scripts.weapons.Jc_sf7e_EveryFrameWeaponEffect",
+  "projectileSpecId": "jc_sf7e_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/jc/weapons/common/jc_sf7e_turret_base.png",
+  "turretGlowSprite": "graphics/jc/weapons/common/jc_sf7e_turret_base_glow.png",
+  "hardpointSprite": "graphics/jc/weapons/common/jc_sf7e_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/jc/weapons/common/jc_sf7e_hardpoint_base_glow.png",
+  "glowColor": [
+    255,
+    100,
+    100,
+    225
+  ],
+  "turretOffsets": [
+    30.5,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    44.5,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 60,
+    "spread": 5,
+    "particleSizeMin": 12,
+    "particleSizeRange": 12,
+    "particleDuration": 0.24,
+    "particleCount": 24,
+    "particleColor": [
+      255,
+      100,
+      100,
+      255
+    ]
+  },
+  #"fireSoundTwo": "plasma_cannon_fire"
+}

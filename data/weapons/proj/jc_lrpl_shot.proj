@@ -1,0 +1,18 @@
+{
+	"id":"jc_lrpl_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.Jc_lrp_OnHitEffect",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":60.0,
+	"fadeTime":0.25,
+	"fringeColor":[200,50,200,255],
+	"coreColor":[70,255,235,192],
+	"glowColor":[200,50,200,192],
+	"glowRadius":5,
+	"textureType":"ROUGH",
+	"textureScrollSpeed":64,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+}

@@ -1,0 +1,97 @@
+{
+  "hullName": "jc_sf_asura_drone",
+  "hullId": "jc_sf_asura_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_asura/drone.png",
+  "style": "jc_sf",
+  "height": 69,
+  "width": 58,
+  "center": [29, 34.5],
+  "collisionRadius": 44,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 43,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "jc_sf_asura_bm",
+    "WS0003": "jc_sf_pdburst"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [27, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 180,
+      "locations": [-33, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-24.5, 12],
+      "length": 12,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-24.5, -12],
+      "length": 12,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-33, 4],
+      "length": 13,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-33, -4],
+      "length": 13,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    }
+  ],
+  "bounds": [
+    -17.5, -29,
+    28, -15,
+    28, 15,
+    -17.5, 29,
+    -33, -0
+  ]
+}

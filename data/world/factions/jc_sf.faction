@@ -1,0 +1,219 @@
+{
+	id:"jc_sf",
+	"displayName":"幽灵部队",
+	"displayNameWithArticle":"幽灵部队",
+	"displayNameLong":"幽灵部队",
+	"displayNameLongWithArticle":"幽灵部队",
+	
+	"logo":"graphics/jc/factions/jc_sf.png",
+	"crest":"graphics/jc/factions/jc_sf_crest.png",
+	"shipNamePrefix":"SFS",
+	
+	"color":[122,138,192,255],
+	"baseUIColor":[145,160,255,255],
+	"darkUIColor":[20,30,70,175],
+	"secondaryUIColor":[20,30,60,255],
+    "secondarySegments":6,
+	
+	"showInIntelTab":true,
+	
+	"shipNameSources":{
+		"jc_sf":1,
+	},
+	"names":{
+		"jc_sf":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["jc_sf"],
+		"hulls":[],
+	},
+	"knownShips":{
+		"tags":["jc_sf"],
+		"hulls":[],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":["jc_sf"],
+		"hulls":[],
+	},
+	"knownFighters":{
+		"tags":["jc_sf"],
+		"fighters":[],
+	},
+	"priorityFighters":{
+		"tags":["jc_sf"],
+		"fighters":[],
+	},
+	"knownWeapons":{
+		"tags":["jc_sf"],
+		"weapons":[],
+	},
+	"priorityWeapons":{
+		"tags":["jc_sf"],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["jc_sf"],
+		"hullMods":[
+			"advancedshieldemitter",
+			"advancedoptics",
+			"turretgyros",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",
+			"hardenedshieldemitter",
+			"insulatedengine",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields",
+			"operations_center",
+			"fluxbreakers",
+			"solar_shielding",
+			"stabilizedshieldemitter",
+			"surveying_equipment"
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":4,
+		"shipQuality":2,
+		"numShips":2,
+		
+		"shipSize":4,
+		
+		"aggression":3, # doesn't matter since automated ships are super aggressive regardless
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"coordinated_maneuvers",
+			"electronic_warfare",
+			"flux_regulation",
+		],
+	},
+	"illegalCommodities":[
+	],
+	"music":{
+		"theme":"jc_sf_theme",
+		"market_neutral":"jc_sf_market_neutral",
+		"market_hostile":"jc_sf_market_hostile",
+		"market_friendly":"jc_sf_market_friendly",
+		"encounter_neutral":"jc_sf_encounter_neutral",
+		"encounter_hostile":"jc_sf_encounter_hostile",
+		"encounter_friendly":"jc_sf_encounter_friendly",
+	},	
+	"portraits":{
+		"standard_male":[
+			"graphics/jc/portraits/jc_sf_ai1.png",
+			"graphics/jc/portraits/jc_sf_ai2.png",
+		],
+		"standard_female":[
+			"graphics/jc/portraits/jc_sf_ai1.png",
+			"graphics/jc/portraits/jc_sf_ai2.png",
+		],
+	},
+	"voices":{
+		"LOW":{
+			"villain":2,
+			"spacer":10,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"business":10,
+			"official":10,
+		},
+		"HIGH":{
+			"scientist":10,
+			"official":10,
+		},
+	},
+	"custom":{
+		"allowsTransponderOffTrade":true, 
+		"fightToTheLast":true, 
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":0.5,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities": false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":false,
+		},
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"执行官"},
+		},
+		"posts":{
+			"factionLeader":{"name":"分区中枢核心"},
+		
+			"patrolCommander":{"name":"巡逻队主控"},
+			"fleetCommander":{"name":"舰队主控"},
+			
+			"baseCommander":{"name":"基地主控"},
+			"stationCommander":{"name":"作战单元主控"},
+			"outpostCommander":{"name":"链式单元主控"},
+			"portmaster":{"name":"空港主控"},
+			
+			"supplyOfficer":{"name":"军需官"},
+			"supplyManager":{"name":"后勤总管"},
+			"medicalSupplier":{"name":"维护工程师"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"大型贸易舰队",
+		"tradeLiner":"星际旅行线",
+		"tradeSmuggler":"秘密运输舰队",
+		"smallTrader":"贸易舰队",
+		
+		"patrolSmall":"监察",
+		"patrolMedium":"维系",
+		"patrolLarge":"执行",
+		
+		"taskForce":"核心机动队",
+		"battlestation":"链式单元",
+		"vengeanceFleet":"复仇",
+
+		"exerelinInvasionFleet":"同化",
+		"exerelinInvasionSupportFleet":"先锋",
+		"exerelinResponseFleet":"监守",
+		"exerelinDefenceFleet":"护卫",
+		"nex_defenseFleet":"护卫",
+		"exerelinMiningFleet":"资源开采舰队",
+		
+		"nex_colonyFleet":"远征舰队",
+		"nex_reliefFleet":"救援舰队",
+		"nex_specialForces":"幽灵机动队",
+	}
+},

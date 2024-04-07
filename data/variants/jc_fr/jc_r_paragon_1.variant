@@ -1,0 +1,85 @@
+{
+  "variantId": "jc_r_paragon_1",
+  "hullId": "jc_r_paragon",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 43,
+  "fluxVents": 43,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "fluxbreakers",
+    "missleracks",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "plasma",
+        "WS 002": "plasma"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "tachyonlance",
+        "WS 004": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "sabotpod",
+        "WS 006": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 015": "breach",
+        "WS 021": "breach",
+        "WS 023": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "hveldriver",
+        "WS 008": "hveldriver",
+        "WS 009": "gravitonbeam",
+        "WS 010": "gravitonbeam",
+        "WS 012": "taclaser",
+        "WS 014": "taclaser",
+        "WS 018": "taclaser",
+        "WS 020": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 011": "pdburst",
+        "WS 013": "pdburst",
+        "WS 016": "pdburst",
+        "WS 017": "pdburst",
+        "WS 019": "pdburst",
+        "WS 022": "pdburst"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "MO": "jc_fdm_m"
+    }
+  ],
+  "wings": [
+    "spark_wing"
+  ]
+}

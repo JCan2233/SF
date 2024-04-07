@@ -1,0 +1,2 @@
+id,name,rulesRequired,positiveLimitation,durationByMonth,needMaxLevel,canReselectRules,milestoneToUnlock
+jc_aiThreat,智械危机,"jc_criticalBug,jc_aiSupport,jc_ecmBalance,jc_aiEnemy,jc_aiAssault,ancient_threat",3,-1,TRUE,FALSE,jc_infinite

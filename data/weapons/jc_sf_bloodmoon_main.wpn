@@ -1,0 +1,63 @@
+{
+  "id": "jc_sf_bloodmoon_main",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.Jc_sf_bloodmoon_BeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "autocharge":true,
+  "turretSprite": "graphics/jc/weapons/jc_empty.png",
+  "turretGlowSprite": "graphics/jc/weapons/sf/jc_sf_bloodmoon_main_glow.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "",
+  "glowColor": [
+    180,
+    80,
+    80,
+    235
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [
+    255,
+    40,
+    40,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    200
+  ],
+  "width": 128,
+  "textureType": [
+    "graphics/jc/fx/jc_beam_1.png",
+    "graphics/jc/fx/jc_beam_2.png"
+  ],
+  "textureScrollSpeed": 150,
+  "pixelsPerTexel": 2,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "jc_sf_bloodmoon_main_2"
+}

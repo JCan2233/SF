@@ -1,0 +1,96 @@
+{
+  "variantId": "jc_ash_1",
+  "hullId": "jc_ash",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_atl"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hydra"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "gorgonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "harpoonpod",
+        "WS0010": "harpoonpod",
+        "WS0011": "harpoonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyburst",
+        "WS0006": "heavyburst",
+        "WS0007": "heavyburst",
+        "WS0008": "heavyburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "lrpdlaser",
+        "WS0013": "lrpdlaser",
+        "WS0014": "lrpdlaser",
+        "WS0015": "lrpdlaser",
+        "WS0016": "lrpdlaser",
+        "WS0017": "lrpdlaser",
+        "WS0018": "lrpdlaser",
+        "WS0019": "lrpdlaser",
+        "WS0020": "lrpdlaser",
+        "WS0021": "lrpdlaser",
+        "WS0022": "lrpdlaser",
+        "WS0023": "lrpdlaser",
+        "WS0024": "lrpdlaser",
+        "WS0025": "lrpdlaser",
+        "WS0026": "lrpdlaser",
+        "WS0027": "lrpdlaser",
+        "WS0028": "lrpdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "spark_wing",
+    "lux_wing",
+    "lux_wing",
+    "flash_wing",
+    "flash_wing",
+    "jc_neon_wing",
+    "jc_neon_wing"
+  ]
+}

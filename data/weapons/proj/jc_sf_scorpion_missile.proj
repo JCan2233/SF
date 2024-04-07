@@ -1,0 +1,86 @@
+{
+	"id":"jc_sf_scorpion_missile",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/jc/ships/sf/jc_sf_scorpion/jc_sf_scorpion_missile.png",
+	"onFireEffect":"data.scripts.weapons.Jc_sf_scorpionMissileEffect",
+	"onHitEffect":"data.scripts.weapons.Jc_sf_scorpionMissileEffect",
+	"size":[28,76],	
+	"center":[14,38],
+	"collisionRadius":41,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[0,100,150,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":200, # purely visual
+	"armingTime":1,
+	"noEngineGlowTime":0.4, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"applyOnHitEffectWhenPassThrough":false,
+	"engineSpec":{"turnAcc":90,
+				  "turnRate":30,
+				  "acc":300,
+				  "dec":200},
+	"engineSlots":[
+		{
+			"id":"ES1",
+			"loc":[-17, 11],
+		    "style":"CUSTOM",
+			"styleId":"jc_sf_notrail",
+		    "width":6.0,
+		    "length":20.0,
+		    "angle":140.0,
+        	"contrailSize":6
+	    },
+		{
+			"id":"ES2",
+			"loc":[-17, -11],
+		    "style":"CUSTOM",
+			"styleId":"jc_sf_notrail",
+		    "width":6.0,
+		    "length":20.0,
+		    "angle":-140.0,
+        	"contrailSize":6
+	    },
+	    {
+			"id":"ES3",
+			"loc":[-27, 10],
+		    "style":"CUSTOM",
+			"styleId":"jc_sf_notrail",
+		    "width":6.0,
+		    "length":40.0,
+		    "angle":160.0,
+        	"contrailSize":6
+	    },
+		{
+			"id":"ES4",
+			"loc":[-27, -10],
+		    "style":"CUSTOM",
+			"styleId":"jc_sf_notrail",
+		    "width":6.0,
+		    "length":40.0,
+		    "angle":-160.0,
+        	"contrailSize":6
+	    },
+	    {
+			"id":"ES5",
+			"loc":[-33, 5],
+		    "style":"CUSTOM",
+			"styleId":"jc_sf",
+		    "width":14.0,
+		    "length":70.0,
+		    "angle":180.0,
+        	"contrailSize":6
+	    },
+		{
+			"id":"ES6",
+			"loc":[-33, -5],
+		    "style":"CUSTOM",
+			"styleId":"jc_sf",
+		    "width":14.0,
+		    "length":70.0,
+		    "angle":-180.0,
+        	"contrailSize":6
+	    }
+	]
+}

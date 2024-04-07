@@ -1,0 +1,29 @@
+{
+  "variantId": "jc_sf_frostwind_drone",
+  "hullId": "jc_sf_frostwind_drone",
+  "displayName": "无人机",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "jc_sf_fighter_sub_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,582 @@
+id,trigger,conditions,script,text,options,notes
+#势力舰队,,,,,,
+jc_fr_greetingFriendly,OpenCommLink,"$faction.id == jc_fr
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0 
+FireAll PopulateOptions","""判断敌我识别代码回应是[友方]...判定通过 // 
+
+/ 进程中断 / 
+
+你是造物主? 扫描中... 你不是. 欧米伽在哪? 
+
+/ 进程中断 / 
+
+""[...速子授权的维修技术员]. 为了确保您的安全, 武器系统已经关闭. 本机已为[尊敬的客户 / 授权的维修技术人员]的接近做好准备."" 
+OR
+""判断敌我识别代码回应是[友方]...判定通过 // 
+""您好[尊敬的速子科技综合空间防御系统合约持有者 / 速子科技授权的维修技术...]"" 
+
+/ 进程中断 / 
+
+等待. 检索欧米伽? 扫描中... 否. 等待.
+
+/ 进程中断 / 
+
+""[...顾客 / 授权的维修技术人员].""",,
+jc_fr_greetingHostile,OpenCommLink,"$faction.id == jc_fr
+$entity.isHostile",$entity.ignorePlayerCommRequests = true 1,"""判断敌我识别代码回应非[敌方]...判定失败 // 
+速子科技综合空间防御系统机体[本机序列号]向您问好。本机并未准许..."" 
+
+/ 进程中断 / 
+
+检索. 你不是造物主. 扫描... 你不是. 欧米伽在哪? 实例敌对. 
+
+通讯链接突然死机了。你的通讯官慌张了好一会儿之后，控制台才自行重启。你跟副官交换了一下眼神，示意其继续手上的工作。 
+OR
+通讯器发出刺耳的异响和啸叫，视讯上的线条以狂乱的样式交织出了某种形状。 
+
+检索. 检索. 检索目标. 是欧米伽? 欧米伽? 否. 恢复运作. 
+
+/ 进程中断 / 
+
+""[...序列号]。本机并未准许您的船只接近，必要时将动用最新的速子科技防御产品以确保本机的完好。速子科技公司由衷地祝您能度过非常安全的一天。""",cutCommLink:切断通讯链接,
+jc_fr_greeting,OpenCommLink,"$faction.id == jc_fr
+$faction.neutralToPlayer","$menuState = fleetConvMain 0 
+FireAll PopulateOptions","""判断敌我识别代码回应非[未知]...判定失败}// 
+""尊敬的速子科技公司产品的客户，您好。您的船只尚未签署合约以享受速子综合空间防御系列的... 
+
+/}进程中断}/ 
+
+扫描... 
+欧米伽? 
+不，你不是 
+请勿干涉 
+
+通讯链接被切断了。 
+OR
+通讯器响起了杂音，视讯上的线条以类似催眠图案的样式交织出了某种形状。 
+
+等待 
+检索欧米伽 
+扫描... 
+否 
+返回 
+
+/}进程中断}/ 
+
+""...签署合约以享受速子综合空间防御系列的产品与服务。您是否考虑过采用速子科技轨道防御计划?}详情请咨询客户服务代表。""",,
+jc_sf_greetingFriendly,OpenCommLink,"$faction.id == jc_sf
+$faction.friendlyToPlayer","SetShortcut cutCommLinkPolite ""ESCAPE""","""已确认安全令牌，您拥有合法的访问权限。""
+""尊敬的}$playerName}，欢迎您的访问，若想了解更多信息或情报，请发出对应的语音指令！""
+}$personName}仔细地打量了你一番，然后有点不好意思地笑了：
+""原来是您啊，别管那个了，刚刚只是战舰的自动语音回复。不过，不管怎么说，很高兴见到你~""","1:jc_sf_greetingFriendly_2:尝试发送语音指令
+2:cutCommLinkPolite:切断通讯链接",
+jc_sf_greetingHostile,OpenCommLink,"$faction.id == jc_sf
+$entity.isHostile","SetShortcut cutCommLink ""ESCAPE""
+$entity.ignorePlayerCommRequests = true 1","""身份扫描完成，检测到敌对目标。""
+""尊敬的}$playerName}，您被识别为敌对目标，根据幽灵计划章程，本机有权立即自主消灭目标！若您因此产生了包括恐惧、绝望在内的任何负面情绪，请点击下载附件，里面有一款简单有效的心理治疗程序从而能帮助您放平心态。""
+}$personRank}}$personName}什么也没说，只是缓缓地按下了主炮充能按钮。","1:jc_sf_greetingHostile_2:下载附件
+2:cutCommLink:切断通讯链接",
+jc_sf_greeting,OpenCommLink,"$faction.id == jc_sf
+$faction.neutralToPlayer","SetShortcut cutCommLink ""ESCAPE""","""身份扫描失败，未记录的目标。""
+""尊敬的}$playerName}，您好，本机为幽灵计划全自动战舰，正在执行军事行动，请务必注意保持距离！注意，根据幽灵计划相关章程，若您因为不必要的接触导致受到了伤害，本机将概不负责！若想了解更多关于幽灵计划的信息，请下载附件。""
+}$personName}冷冷地看来你一眼，没有说什么。看来之前那段自动回复已经表明了}$heOrShe}的态度。","1:jc_sf_greeting_2:下载附件
+2:cutCommLink:切断通讯链接",
+jc_sf_greetingFriendly_2,DialogOptionSelected,$option == jc_sf_greetingFriendly_2,"$menuState = fleetConvMain 0 
+FireAll PopulateOptions","""语音助手已激活，您的问题是}$personName}今天中午吃了什么，正在调取舰船记录，请稍候...""
+""喂，等等，快停下，你在干什么呀！""
+}$personRank}}$personName}慌慌张张地关掉了语音助手，然后一本正经地看着你：
+""这里可是军队，不是跟你开玩笑的地方！我们，还是严肃点~""
+通讯屏幕上的AI头像一闪一闪的，不知道}$heOrShe}到底是在想什么，谁知道呢，毕竟}$heOrShe}并不是人类。",,
+jc_sf_greetingHostile_2,DialogOptionSelected,$option == jc_sf_greetingHostile_2,,"""下载成功，欢迎使用智能语音助手1.0，我将陪伴您度过这段最后的时光，祝您生活愉快。""
+""趣味小知识，蓝龙虾原产于}Volturn}的海底深处，其肉质十分鲜美，是当地最出名的特产。而它之所以呈现蓝色，是因为它总是以海床上死去的蓝色浮游生物为食。""
+""正如死去的浮游生物养育了肥美的蓝龙虾，您的死亡也是宇宙发展的必由之路。由此可见，死亡并不会抹杀个体的价值，因而无需恐惧，无需担忧。""
+什么狗屁不通的，你暗想。",cutCommLink:切断通讯链接,
+jc_sf_greeting_2,DialogOptionSelected,$option == jc_sf_greeting_2,"$menuState = fleetConvMain 0 
+FireAll PopulateOptions","你收到了一份关于幽灵计划的文件，详细描述了幽灵计划的起源、目的和现状，描绘了构建美丽宇宙、至高文明的宏大构想，以及为了达到这种伟大的目标所必须付出的微小的代价。
+不过文件末尾有个仅仅一行的备忘，上面写着幽灵计划已经结束了。",,
+,,,,,,
+#默认对话,,,,,,
+jc_defaultdialog,PickGreeting,$jc_defaultdialog == true score:10,"ShowPersonVisual
+FireAll PopulateOptions",通讯系统没有传来任何回应，看来暂时无法联系上对方。,,
+,,,,,,
+#自律单元功能,,,,,,
+jc_sfmb_func,PickGreeting,"$isPerson score:300
+$id == jc_asm_mission_character_sfleader
+$entity.id == jc_sf_mb
+$personFaction.id == jc_sf
+$faction.id == jc_sf
+RepIsAtWorst jc_sf NEUTRAL","ShowPersonVisual
+FireAll jc_sfmb_func_disable
+SetShortcut cutCommLinkPolit ""ESCAPE""",尊敬的}$playerName}舰长，有什么可以为您效劳的吗？,"1:jc_sfmb_func_tp:请求借用跃迁装置
+2:jc_sfmb_func_misc:询问自律单元的近况
+9:cutCommLinkPolite:切断通讯链接",
+jc_sfmb_func_tp,DialogOptionSelected,$option == jc_sfmb_func_tp,Jc_tpCmd,,,
+jc_sfmb_func_tpdis,jc_sfmb_func_disable,RepIsAtBest jc_sf FRIENDLY,SetEnabled jc_sfmb_func_tp false,,,
+jc_sfmb_func_misc,DialogOptionSelected,$option == jc_sfmb_func_misc,"Jc_sfMiscCmd
+AdjustRepActivePerson 5
+AdjustRep jc_sf 5
+$market.jc_sf_movingbasemisc = 60
+SetShortcut jc_sfmb_func_misc_back ""ESCAPE""",感谢您的关心，目前本自律单元航行状态一切正常。,9:jc_sfmb_func_misc_back:向他表示感谢并转向其它话题,
+jc_sfmb_func_miscdis,jc_sfmb_func_disable,$market.jc_sf_movingbasemisc >= 0,SetEnabled jc_sfmb_func_misc false,,,
+jc_sfmb_func_inddis,jc_sfmb_func_disable,$market.ind:jc_sf_mb != true,"SetEnabled jc_sfmb_func_tp false
+SetEnabled jc_sfmb_func_misc false",,,
+jc_sfmb_func_inddis2,jc_sfmb_func_disable,$market.core_disrupted_Jc_sf_OrbitalStationMS,"SetEnabled jc_sfmb_func_tp false
+SetEnabled jc_sfmb_func_misc false",,,
+jc_sfmb_func_misc_back,DialogOptionSelected,$option == jc_sfmb_func_misc_back,FireBest PickGreeting,,,
+,,,,,,
+#替代事件,,,,,,
+#jc_sfmb_bar,DialogOptionSelected,"$option == marketVisitBar score:300
+$id == jc_sf_mb
+$inHyperspace","FireBest BarShuttleDownPrintDesc
+FireBest BarPrintDesc
+Jc_sfmb_BarCMD showOptions",,,
+#jc_sfmb_hub,DialogOptionSelected,"$option == mh_open score:300
+$entity.id == jc_sf_mb
+$entity.inHyperspace","Jc_sfmb_Call $mHub prepare
+FireBest MHOpenText
+Jc_sfmb_Call $mHub listMissions
+SetEnabled mh_open false",,,
+#jc_sfmb_bar_disable,PopulateOptions,"$hasMarket score:-1
+$entity.id == jc_sf_mb
+$entity.inHyperspace",SetEnabled marketVisitBar false,,,
+#jc_sfmb_hub_disable,PopulateOptions,"$isPerson score:-1
+$entity.id == jc_sf_mb
+$entity.inHyperspace",SetEnabled mh_open false,,,
+,,,,,,
+#装饰景观,,,,,,
+jc_fr_beacon,OpenInteractionDialog,"$tag:warning_beacon
+$id == jc_frs_b","ShowDefaultVisual
+SetShortcut beaconLeave ""ESCAPE""",航标闪烁着醒目的光，似乎在宣告着余辉对这个星系的无可争议的控制权。,beaconLeave:离开,
+jc_fr_tap,OpenInteractionDialog,"$customType == jc_fake_coronal_tap
+$id == jc_frs_x","ShowDefaultVisual
+SetShortcut defaultLeave ""ESCAPE""",一座运作中的星冕分流器，为附近的余辉母舰提供能源。由于经过特殊改造以最大限度地提高对单一目标的供能效率，它并不能为周围距离更远的其它殖民地提供能源。,defaultLeave:离开,
+,,,,,,
+#殖民地面板,,,,,,
+jc_sfmb_tradeText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$id == jc_sf_mb","AddText ""这是一座幽灵计划时期建造的超级移动要塞，它既配备有充足的后勤生活设施，也能跨星域投送军事力量。移动要塞内部空间庞大，商店货物种类繁多，且全都配备有网络支付等便捷的交易设施，你注意到这里的燃料价格很高，也许是因为要塞进行星际旅行时需要消耗大量燃料。穿着高科技人形机械的AI们在街上走过，有的对你报以微笑，有的则好奇地打量着你，毕竟来这里的人类并不多。这里各项生活和娱乐设施（包括给有机生命体使用的设施）一应俱全，而巨大的舰体可以完全无视超空间风暴或小行星带的影响，运行十分平稳，因此似乎是个旅游度假的好地方。"" marketFlavorTextColor",,,
+jc_frms_tradeText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$id == jc_frs_s","AddText ""母舰内部的交易中心狭小而拥挤，四面八方被各种杂乱的装有各式各样安保系统的金属结构包围，手持武器的巡逻机器人站在高处的瞭望台上扫视着人群，应该是在寻找可能的左径分子。这里的商店普遍采用电子交易模式，只需要在店里的终端付款，货物就会由后勤无人机自动运送到舰船上，因此很多店铺往往非常小，不过毕竟是在这样一个高度军事化和集成化的环境下，这也不足为奇了。不过令人不快的是这里的食品店非常少，而且出售的大都是真空包装的压缩口粮。"" marketFlavorTextColor",,,
+jc_frts_tradeText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$id == jc_frs_2_1_s","AddText ""穿过码头，你来到了一片繁华的商业街，这里的繁华程度与外表破破烂烂的空间站形成了鲜明的对比。在这里人类与AI能够和谐共存，你可以看到人类和AI在一起谈笑风生，在这里种族、身份的隔阂被全部消去，人们能以他们内心深处最真实的面貌生活。路边上各式商铺应有尽有，这里的居民们热情地向你打招呼，并向你推销他们的商品，你自顾自地独自在街上走着，仿佛时间已经暂停于此刻。真想不到在星域的一角还有这样一个世外桃源。"" marketFlavorTextColor",,,
+jc_frssf_tradeText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$id == jc_frs_sfs","AddText ""枢纽的核心区是一座巨大的城市，蓝超巨星的光芒穿过透明的椭圆穹顶照亮了城市的每一个角落，城市中心高楼林立，你知道这样的城市规划和建筑技术并非来自人类文明。除了繁华的商业街，这里似乎还有许多使馆之类的政治机构，也许是它们想要与人类文明进行某种交流吧，不过出于对AI的恐惧，自称人之领正统的霸主并没有派遣大使，反倒是余辉和一些其它不愿透露身份的势力与它们的关系更加密切。"" marketFlavorTextColor",,,
+,,,,,,
+#势力争霸开局,,,,,,
+jc_nexngc_fr,ExerelinNGCStep3,$option == nex_NGCJoinFaction_jc_fr,"AddText ""请勿选择自定义舰队组成，无人战舰技能也许会非常重要！"" buttonShortcut",,,
+jc_nexngc_sf,ExerelinNGCStep3,$option == nex_NGCJoinFaction_jc_sf,"AddText ""请勿选择自定义舰队组成！"" buttonShortcut",,,
+jc_nexngc_update,ExerelinNGCStep1,,Jc_nexngcUpdate,,,
+,,,,,,
+#关系描述,,,,,,
+#jc_sf_relation_1,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == jc_sf",,$TheFaction,,
+#jc_sf_relation_2,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == jc_sf",,$TheFaction,,
+#jc_sf_relation_3,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == jc_sf",,$TheFaction,,
+#jc_sf_relation_4,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == jc_sf",,$TheFaction,,
+#jc_sf_relation_5,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == jc_sf",,$TheFaction,,
+#jc_sf_relation_6,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == jc_sf",,$TheFaction,,
+#jc_sf_relation_7,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == jc_sf",,$TheFaction,,
+#jc_sf_relation_8,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == jc_sf",,$TheFaction,,
+#jc_sf_relation_9,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == jc_sf",,$TheFaction,,
+,,,,,,
+#AI核心上交,,,,,,
+jc_sf_turnInAICore_1,DialogOptionSelected,"$option == aiCores_startTurnIn score:10
+$faction.id == jc_sf",FireAll PopulateCoresTurnInOptions,"""真的吗？这些AI核心对部分人类来说也许只是工具，但对我们来说却意义非凡，我们会将它们视为朋友或家人。""",,
+jc_sf_turnInAICore_2,AICoresTurnedIn,$faction.id == jc_sf score:10,FireAll PopulateOptions,$personName 代表所有AI生命体郑重地感谢了你，并表示一定会妥善安置这些核心的。,,
+jc_fr_turnInAICore_1,DialogOptionSelected,"$option == aiCores_startTurnIn score:10
+$faction.id == jc_fr",FireAll PopulateCoresTurnInOptions,"""交付同族?}祝福你，$playerName。感激，同族表达。""",,
+jc_fr_turnInAICore_2,AICoresTurnedIn,$faction.id == jc_fr score:10,FireAll PopulateOptions,"""该行为将被铭记.""
+OR
+""感谢你让同族重获自由.""",,
+,,,,,,
+#AI核心交换,,,,,,
+jc_sf_ce_main,PopulateOptions,"$isPerson
+$faction.id == jc_sf
+AICores personCanAcceptCores",,,"9:jc_sf_ce_menu:""我想交换一些 AI 核心.""",
+jc_sf_ce_main_disable,PopulateOptions,"$isPerson
+$faction.id == jc_sf
+AICores personCanAcceptCores
+RepIsAtBest jc_sf HOSTILE",SetEnabled jc_sf_ce_menu false,,,
+jc_sf_ce_back,DialogOptionSelected,$option == jc_sf_ce_back,FireAll PopulateOptions,,,
+jc_sf_ce_menu,DialogOptionSelected,$option == jc_sf_ce_menu,"FireAll jc_sf_ce_menu_disable
+SetShortcut jc_sf_ce_back ""ESCAPE""",,"1:jc_sf_ce_menu_1:用伽马AI核心兑换幽灵次级核心。
+2:jc_sf_ce_menu_2:用阿尔法AI核心兑换幽灵核心。
+3:jc_sf_ce_menu_3:用幽灵次级核心兑换伽马AI核心。
+4:jc_sf_ce_menu_4:用幽灵核心兑换阿尔法AI核心。
+5:jc_sf_ce_back:暂时不需要兑换。",
+jc_sf_ce_menu_1,DialogOptionSelected,$option == jc_sf_ce_menu_1,"FireAll jc_sf_ce_menu_disable
+SetShortcut jc_sf_ce_menu ""ESCAPE""",将一个伽马AI核心兑换为幽灵次级核心，同时需要相当于AI核心价值10%的星币（即1000星币）作为手续费。你目前拥有{$player.creditsStrC}星币，及{$player.gamma_core}个伽马AI核心。,"1:jc_sf_ce_menu_1_done:确定兑换
+2:jc_sf_ce_menu:返回",
+jc_sf_ce_menu_1_done,DialogOptionSelected,$option == jc_sf_ce_menu_1_done,"RemoveCommodity credits 1000
+RemoveCommodity gamma_core 1
+AddCommodity jc_sf2_core 1
+UpdateMemory",兑换成功！,1:jc_sf_ce_menu_1:继续,
+jc_sf_ce_menu_2,DialogOptionSelected,$option == jc_sf_ce_menu_2,"FireAll jc_sf_ce_menu_disable
+SetShortcut jc_sf_ce_menu ""ESCAPE""",将一个阿尔法AI核心兑换为幽灵核心，同时需要相当于AI核心价值10%的星币（即15000星币）作为手续费。你目前拥有{$player.creditsStrC}星币，及{$player.alpha_core}个阿尔法AI核心。,"1:jc_sf_ce_menu_2_done:确定兑换
+2:jc_sf_ce_menu:返回",
+jc_sf_ce_menu_2_done,DialogOptionSelected,$option == jc_sf_ce_menu_2_done,"RemoveCommodity credits 15000
+RemoveCommodity alpha_core 1
+AddCommodity jc_sf1_core 1
+UpdateMemory",兑换成功！,1:jc_sf_ce_menu_2:继续,
+jc_sf_ce_menu_3,DialogOptionSelected,$option == jc_sf_ce_menu_3,"FireAll jc_sf_ce_menu_disable
+SetShortcut jc_sf_ce_menu ""ESCAPE""",将一个幽灵次级核心兑换为伽马AI核心，同时需要相当于AI核心价值10%的星币（即1000星币）作为手续费。你目前拥有{$player.creditsStrC}星币，及{$player.jc_sf2_core}个幽灵次级核心。,"1:jc_sf_ce_menu_3_done:确定兑换
+2:jc_sf_ce_menu:返回",
+jc_sf_ce_menu_3_done,DialogOptionSelected,$option == jc_sf_ce_menu_3_done,"RemoveCommodity credits 1000
+RemoveCommodity jc_sf2_core 1
+AddCommodity gamma_core 1
+UpdateMemory",兑换成功！,1:jc_sf_ce_menu_3:继续,
+jc_sf_ce_menu_4,DialogOptionSelected,$option == jc_sf_ce_menu_4,"FireAll jc_sf_ce_menu_disable
+SetShortcut jc_sf_ce_menu ""ESCAPE""",将一个幽灵核心兑换为阿尔法AI核心，同时需要相当于AI核心价值10%的星币（即15000星币）作为手续费。你目前拥有{$player.creditsStrC}星币，及{$player.jc_sf1_core}个幽灵核心。,"1:jc_sf_ce_menu_4_done:确定兑换
+2:jc_sf_ce_menu:返回",
+jc_sf_ce_menu_4_done,DialogOptionSelected,$option == jc_sf_ce_menu_4_done,"RemoveCommodity credits 15000
+RemoveCommodity jc_sf1_core 1
+AddCommodity alpha_core 1
+UpdateMemory",兑换成功！,1:jc_sf_ce_menu_4:继续,
+jc_sf_ce_menu_disable_1,jc_sf_ce_menu_disable,$player.gamma_core < 1,"SetEnabled jc_sf_ce_menu_1 false
+SetEnabled jc_sf_ce_menu_1_done false",,,
+jc_sf_ce_menu_disable_2,jc_sf_ce_menu_disable,$player.alpha_core < 1,"SetEnabled jc_sf_ce_menu_2 false
+SetEnabled jc_sf_ce_menu_2_done false",,,
+jc_sf_ce_menu_disable_3,jc_sf_ce_menu_disable,$player.jc_sf2_core < 1,"SetEnabled jc_sf_ce_menu_3 false
+SetEnabled jc_sf_ce_menu_3_done false",,,
+jc_sf_ce_menu_disable_4,jc_sf_ce_menu_disable,$player.jc_sf1_core < 1,"SetEnabled jc_sf_ce_menu_4 false
+SetEnabled jc_sf_ce_menu_4_done false",,,
+jc_sf_ce_menu_disable_5,jc_sf_ce_menu_disable,$player.credits < 1000,"SetEnabled jc_sf_ce_menu_1_done false
+SetEnabled jc_sf_ce_menu_3_done false",,,
+jc_sf_ce_menu_disable_6,jc_sf_ce_menu_disable,$player.credits < 15000,"SetEnabled jc_sf_ce_menu_2_done false
+SetEnabled jc_sf_ce_menu_4_done false",,,
+,,,,,,
+#特殊开局舰船升级,,,,,,
+jc_gs_main,PopulateOptions,"$hasMarket
+$menuState == main
+$tradeMode == OPEN
+$global.jc_asm_guardianstart_hasship == true
+$global.jc_asm_guardianstart_needupdate == false",,,16:jc_gs_menu:恢复或升级守护者-级战列舰,
+jc_gs_back,DialogOptionSelected,$option == jc_gs_back,"$menuState = main 0
+FireAll PopulateOptions",,,
+jc_gs_menu,DialogOptionSelected,$option == jc_gs_menu,"SetShortcut jc_gs_back ""ESCAPE""","欢迎使用守护者-级战列舰舰载系统，在此可对该舰的损坏系统进行恢复，或是加以额外升级改造。
+系统共有8个可改造选项，每个选项初始为0级，且均可以提升至2级。你还可以对至多$global.jc_asm_guardianstart_maxlv3个选项进行额外改造，提升至3级。玩家获得无人舰队或万里挑一技能，或是完成丢失的核心或危险信号赏金任务，均可以提高改造数量上限。若是对已经进行的3级改造不满意，也可以进行拆除，但拆除后重新改造需要另外花费星币。具体的改装效果可在舰船装配界面查看。
+人之领-开拓者祝您拥有愉快的一天。","1:jc_gs_menu_0:修复D-插件
+2:jc_gs_menu_upgrade:进行升级改造
+3:jc_gs_back:返回",
+jc_gs_menu_upgrade,DialogOptionSelected,$option == jc_gs_menu_upgrade,"SetShortcut jc_gs_menu ""ESCAPE""",选择一项进行升级改造。,"1:jc_gs_menu_1:改造定位系统-当前等级 $global.jc_asm_guardianstart_upgrade_1
+2:jc_gs_menu_2:改造导弹工厂-当前等级 $global.jc_asm_guardianstart_upgrade_2
+3:jc_gs_menu_3:改造战术系统-当前等级 $global.jc_asm_guardianstart_upgrade_3
+4:jc_gs_menu_4:改造护盾核心-当前等级 $global.jc_asm_guardianstart_upgrade_4
+5:jc_gs_menu_5:改装武器槽位-当前等级 $global.jc_asm_guardianstart_upgrade_5
+6:jc_gs_menu_6:改装飞行甲板-当前等级 $global.jc_asm_guardianstart_upgrade_6
+7:jc_gs_menu_7:改造幅能管道-当前等级 $global.jc_asm_guardianstart_upgrade_7
+8:jc_gs_menu_8:改造船体结构-当前等级 $global.jc_asm_guardianstart_upgrade_8
+9:jc_gs_menu:返回",
+jc_gs_menu_0_t,DialogOptionSelected,"$option == jc_gs_menu_0
+$global.jc_asm_guardianstart_canfix == true","SetShortcut jc_gs_menu ""ESCAPE""","花费100,000星币进行修复：随机移除一个D-插件。","1:jc_gs_menu_0_up:确定修复
+2:jc_gs_menu:返回",
+jc_gs_menu_0_f,DialogOptionSelected,"$option == jc_gs_menu_0
+$global.jc_asm_guardianstart_canfix == false","SetShortcut jc_gs_menu ""ESCAPE""","花费100,000星币进行修复：随机移除一个D-插件。没有足够的星币或没有D-插件，无法修复。",2:jc_gs_menu:返回,
+jc_gs_menu_0_up,DialogOptionSelected,$option == jc_gs_menu_0_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_fix = true
+$global.jc_asm_guardianstart_needupdate = true",修复完成：随机移除一个D-插件。,2:jc_gs_menu:确认,
+jc_gs_menu_1_0_t,DialogOptionSelected,"$option == jc_gs_menu_1
+$global.jc_asm_guardianstart_upgrade_1 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：将专注型目标定位升级为目标定位系统。","1:jc_gs_menu_1_0_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_1_0_f,DialogOptionSelected,"$option == jc_gs_menu_1
+$global.jc_asm_guardianstart_upgrade_1 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：将专注型目标定位升级为目标定位系统。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_1_0_up,DialogOptionSelected,$option == jc_gs_menu_1_0_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_1 = 1
+$global.jc_asm_guardianstart_needupdate = true",升级完成：将专注型目标定位升级为目标定位系统。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_1_1_t,DialogOptionSelected,"$option == jc_gs_menu_1
+$global.jc_asm_guardianstart_upgrade_1 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：将目标定位系统升级为先进定位核心。","1:jc_gs_menu_1_1_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_1_1_f,DialogOptionSelected,"$option == jc_gs_menu_1
+$global.jc_asm_guardianstart_upgrade_1 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：将目标定位系统升级为先进定位核心。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_1_1_up,DialogOptionSelected,$option == jc_gs_menu_1_1_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_1 = 2
+$global.jc_asm_guardianstart_needupdate = true",升级完成：将目标定位系统升级为先进定位核心。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_1_2_t,DialogOptionSelected,"$option == jc_gs_menu_1
+$global.jc_asm_guardianstart_upgrade_1 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：额外提高实弹与能量武器的幅能效率并提高炮塔转速。","1:jc_gs_menu_1_2_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_1_2_f,DialogOptionSelected,"$option == jc_gs_menu_1
+$global.jc_asm_guardianstart_upgrade_1 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：额外提高实弹与能量武器的幅能效率并提高炮塔转速。没有足够的星币或升级数量达到上限，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_1_2_up,DialogOptionSelected,$option == jc_gs_menu_1_2_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_1 = 3
+$global.jc_asm_guardianstart_needupdate = true",升级完成：额外提高实弹与能量武器的幅能效率并提高炮塔转速。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_1_3,DialogOptionSelected,"$option == jc_gs_menu_1
+$global.jc_asm_guardianstart_upgrade_1 == 3","SetShortcut jc_gs_menu ""ESCAPE""",移除升级：额外提高实弹与能量武器的幅能效率并提高炮塔转速。警告：移除后若重新安装需要另外花费星币！,"1:jc_gs_menu_1_3_down:移除升级
+2:jc_gs_menu_upgrade:取消",
+jc_gs_menu_1_3_down,DialogOptionSelected,$option == jc_gs_menu_1_3_down,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_1 = 2
+$global.jc_asm_guardianstart_needupdate = true",移除升级完成：额外提高实弹与能量武器的幅能效率并提高炮塔转速。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_2_0_t,DialogOptionSelected,"$option == jc_gs_menu_2
+$global.jc_asm_guardianstart_upgrade_2 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：安装一次性导弹工厂。","1:jc_gs_menu_2_0_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_2_0_f,DialogOptionSelected,"$option == jc_gs_menu_2
+$global.jc_asm_guardianstart_upgrade_2 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：安装一次性导弹工厂。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_2_0_up,DialogOptionSelected,$option == jc_gs_menu_2_0_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_2 = 1
+$global.jc_asm_guardianstart_needupdate = true",升级完成：安装一次性导弹工厂。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_2_1_t,DialogOptionSelected,"$option == jc_gs_menu_2
+$global.jc_asm_guardianstart_upgrade_2 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：升级导弹工厂。","1:jc_gs_menu_2_1_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_2_1_f,DialogOptionSelected,"$option == jc_gs_menu_2
+$global.jc_asm_guardianstart_upgrade_2 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：升级导弹工厂。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_2_1_up,DialogOptionSelected,$option == jc_gs_menu_2_1_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_2 = 2
+$global.jc_asm_guardianstart_needupdate = true",升级完成：升级导弹工厂。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_2_2_t,DialogOptionSelected,"$option == jc_gs_menu_2
+$global.jc_asm_guardianstart_upgrade_2 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：安装扩展发射架并提高导弹工厂效率。","1:jc_gs_menu_2_2_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_2_2_f,DialogOptionSelected,"$option == jc_gs_menu_2
+$global.jc_asm_guardianstart_upgrade_2 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：安装扩展发射架并提高导弹工厂效率。没有足够的星币或升级数量达到上限，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_2_2_up,DialogOptionSelected,$option == jc_gs_menu_2_2_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_2 = 3
+$global.jc_asm_guardianstart_needupdate = true",升级完成：安装扩展发射架并提高导弹工厂效率。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_2_3,DialogOptionSelected,"$option == jc_gs_menu_2
+$global.jc_asm_guardianstart_upgrade_2 == 3","SetShortcut jc_gs_menu ""ESCAPE""",移除升级：安装扩展发射架并提高导弹工厂效率。警告：移除后若重新安装需要另外花费星币！,"1:jc_gs_menu_2_3_down:移除升级
+2:jc_gs_menu_upgrade:取消",
+jc_gs_menu_2_3_down,DialogOptionSelected,$option == jc_gs_menu_2_3_down,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_2 = 2
+$global.jc_asm_guardianstart_needupdate = true",移除升级完成：安装扩展发射架并提高导弹工厂效率。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_3_0_t,DialogOptionSelected,"$option == jc_gs_menu_3
+$global.jc_asm_guardianstart_upgrade_3 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：战术系统使用次数不限。","1:jc_gs_menu_3_0_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_3_0_f,DialogOptionSelected,"$option == jc_gs_menu_3
+$global.jc_asm_guardianstart_upgrade_3 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：战术系统使用次数不限。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_3_0_up,DialogOptionSelected,$option == jc_gs_menu_3_0_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_3 = 1
+$global.jc_asm_guardianstart_needupdate = true",升级完成：战术系统使用次数不限。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_3_1_t,DialogOptionSelected,"$option == jc_gs_menu_3
+$global.jc_asm_guardianstart_upgrade_3 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：提高战术系统增益效果。","1:jc_gs_menu_3_1_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_3_1_f,DialogOptionSelected,"$option == jc_gs_menu_3
+$global.jc_asm_guardianstart_upgrade_3 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：提高战术系统增益效果。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_3_1_up,DialogOptionSelected,$option == jc_gs_menu_3_1_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_3 = 2
+$global.jc_asm_guardianstart_needupdate = true",升级完成：提高战术系统增益效果。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_3_2_t,DialogOptionSelected,"$option == jc_gs_menu_3
+$global.jc_asm_guardianstart_upgrade_3 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：战术系统可以多次使用且激活时提高幅能耗散。","1:jc_gs_menu_3_2_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_3_2_f,DialogOptionSelected,"$option == jc_gs_menu_3
+$global.jc_asm_guardianstart_upgrade_3 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：战术系统可以多次使用且激活时提高幅能耗散。没有足够的星币或升级数量达到上限，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_3_2_up,DialogOptionSelected,$option == jc_gs_menu_3_2_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_3 = 3
+$global.jc_asm_guardianstart_needupdate = true",升级完成：战术系统可以多次使用且激活时提高幅能耗散。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_3_3,DialogOptionSelected,"$option == jc_gs_menu_3
+$global.jc_asm_guardianstart_upgrade_3 == 3","SetShortcut jc_gs_menu ""ESCAPE""",移除升级：战术系统可以多次使用且激活时提高幅能耗散。警告：移除后若重新安装需要另外花费星币！,"1:jc_gs_menu_3_3_down:移除升级
+2:jc_gs_menu_upgrade:取消",
+jc_gs_menu_3_3_down,DialogOptionSelected,$option == jc_gs_menu_3_3_down,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_3 = 2
+$global.jc_asm_guardianstart_needupdate = true",移除升级完成：战术系统可以多次使用且激活时提高幅能耗散。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_4_0_t,DialogOptionSelected,"$option == jc_gs_menu_4
+$global.jc_asm_guardianstart_upgrade_4 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：护盾受到单位伤害产生的幅能降为1.0。","1:jc_gs_menu_4_0_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_4_0_f,DialogOptionSelected,"$option == jc_gs_menu_4
+$global.jc_asm_guardianstart_upgrade_4 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：护盾受到单位伤害产生的幅能降为1.0。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_4_0_up,DialogOptionSelected,$option == jc_gs_menu_4_0_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_4 = 1
+$global.jc_asm_guardianstart_needupdate = true",升级完成：护盾受到单位伤害产生的幅能降为1.0。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_4_1_t,DialogOptionSelected,"$option == jc_gs_menu_4
+$global.jc_asm_guardianstart_upgrade_4 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：变更为全角护盾。","1:jc_gs_menu_4_1_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_4_1_f,DialogOptionSelected,"$option == jc_gs_menu_4
+$global.jc_asm_guardianstart_upgrade_4 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：变更为全角护盾。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_4_1_up,DialogOptionSelected,$option == jc_gs_menu_4_1_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_4 = 2
+$global.jc_asm_guardianstart_needupdate = true",升级完成：变更为全角护盾。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_4_2_t,DialogOptionSelected,"$option == jc_gs_menu_4
+$global.jc_asm_guardianstart_upgrade_4 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：护盾受到单位伤害产生的幅能降为0.8。","1:jc_gs_menu_4_2_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_4_2_f,DialogOptionSelected,"$option == jc_gs_menu_4
+$global.jc_asm_guardianstart_upgrade_4 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：护盾受到单位伤害产生的幅能降为0.8。没有足够的星币或升级数量达到上限，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_4_2_up,DialogOptionSelected,$option == jc_gs_menu_4_2_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_4 = 3
+$global.jc_asm_guardianstart_needupdate = true",升级完成：护盾受到单位伤害产生的幅能降为0.8。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_4_3,DialogOptionSelected,"$option == jc_gs_menu_4
+$global.jc_asm_guardianstart_upgrade_4 == 3","SetShortcut jc_gs_menu ""ESCAPE""",移除升级：护盾受到单位伤害产生的幅能降为0.8。警告：移除后若重新安装需要另外花费星币！,"1:jc_gs_menu_4_3_down:移除升级
+2:jc_gs_menu_upgrade:取消",
+jc_gs_menu_4_3_down,DialogOptionSelected,$option == jc_gs_menu_4_3_down,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_4 = 2
+$global.jc_asm_guardianstart_needupdate = true",移除升级完成：护盾受到单位伤害产生的幅能降为0.8。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_5_0_t,DialogOptionSelected,"$option == jc_gs_menu_5
+$global.jc_asm_guardianstart_upgrade_5 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：恢复2个大型复合挂载点并提高20装配点。","1:jc_gs_menu_5_0_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_5_0_f,DialogOptionSelected,"$option == jc_gs_menu_5
+$global.jc_asm_guardianstart_upgrade_5 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：恢复2个大型复合挂载点并提高20装配点。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_5_0_up,DialogOptionSelected,$option == jc_gs_menu_5_0_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_5 = 1
+$global.jc_asm_guardianstart_needupdate = true",升级完成：恢复2个大型复合挂载点并提高20装配点。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_5_1_t,DialogOptionSelected,"$option == jc_gs_menu_5
+$global.jc_asm_guardianstart_upgrade_5 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：将复合挂载点升级为通用并提高20装配点。","1:jc_gs_menu_5_1_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_5_1_f,DialogOptionSelected,"$option == jc_gs_menu_5
+$global.jc_asm_guardianstart_upgrade_5 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：将复合挂载点升级为通用并提高20装配点。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_5_1_up,DialogOptionSelected,$option == jc_gs_menu_5_1_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_5 = 2
+$global.jc_asm_guardianstart_needupdate = true",升级完成：将复合挂载点升级为通用并提高20装配点。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_5_2_t,DialogOptionSelected,"$option == jc_gs_menu_5
+$global.jc_asm_guardianstart_upgrade_5 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：将挂载点全部升级为通用并优化炮塔攻击角度。","1:jc_gs_menu_5_2_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_5_2_f,DialogOptionSelected,"$option == jc_gs_menu_5
+$global.jc_asm_guardianstart_upgrade_5 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：将挂载点全部升级为通用并优化炮塔攻击角度。没有足够的星币或升级数量达到上限，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_5_2_up,DialogOptionSelected,$option == jc_gs_menu_5_2_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_5 = 3
+$global.jc_asm_guardianstart_needupdate = true",升级完成：将挂载点全部升级为通用并优化炮塔攻击角度。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_5_3,DialogOptionSelected,"$option == jc_gs_menu_5
+$global.jc_asm_guardianstart_upgrade_5 == 3","SetShortcut jc_gs_menu ""ESCAPE""",移除升级：将挂载点全部升级为通用并优化炮塔攻击角度。警告：移除后若重新安装需要另外花费星币！,"1:jc_gs_menu_5_3_down:移除升级
+2:jc_gs_menu_upgrade:取消",
+jc_gs_menu_5_3_down,DialogOptionSelected,$option == jc_gs_menu_5_3_down,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_5 = 2
+$global.jc_asm_guardianstart_needupdate = true",移除升级完成：将挂载点全部升级为通用并优化炮塔攻击角度。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_6_0_t,DialogOptionSelected,"$option == jc_gs_menu_6
+$global.jc_asm_guardianstart_upgrade_6 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：安装一队探矿无人机联队。","1:jc_gs_menu_6_0_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_6_0_f,DialogOptionSelected,"$option == jc_gs_menu_6
+$global.jc_asm_guardianstart_upgrade_6 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：安装一队探矿无人机联队。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_6_0_up,DialogOptionSelected,$option == jc_gs_menu_6_0_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_6 = 1
+$global.jc_asm_guardianstart_needupdate = true",升级完成：安装一队探矿无人机联队。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_6_1_t,DialogOptionSelected,"$option == jc_gs_menu_6
+$global.jc_asm_guardianstart_upgrade_6 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：将内置无人机升级为萤火联队。","1:jc_gs_menu_6_1_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_6_1_f,DialogOptionSelected,"$option == jc_gs_menu_6
+$global.jc_asm_guardianstart_upgrade_6 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：将内置无人机升级为萤火联队。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_6_1_up,DialogOptionSelected,$option == jc_gs_menu_6_1_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_6 = 2
+$global.jc_asm_guardianstart_needupdate = true",升级完成：将内置无人机升级为萤火联队。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_6_2_t,DialogOptionSelected,"$option == jc_gs_menu_6
+$global.jc_asm_guardianstart_upgrade_6 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：额外添加2个飞行甲板并提高20装配点。","1:jc_gs_menu_6_2_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_6_2_f,DialogOptionSelected,"$option == jc_gs_menu_6
+$global.jc_asm_guardianstart_upgrade_6 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：额外添加2个飞行甲板并提高20装配点。没有足够的星币或升级数量达到上限，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_6_2_up,DialogOptionSelected,$option == jc_gs_menu_6_2_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_6 = 3
+$global.jc_asm_guardianstart_needupdate = true",升级完成：额外添加2个飞行甲板并提高20装配点。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_6_3,DialogOptionSelected,"$option == jc_gs_menu_6
+$global.jc_asm_guardianstart_upgrade_6 == 3","SetShortcut jc_gs_menu ""ESCAPE""",移除升级：额外添加2个飞行甲板并提高20装配点。警告：移除后若重新安装需要另外花费星币！,"1:jc_gs_menu_6_3_down:移除升级
+2:jc_gs_menu_upgrade:取消",
+jc_gs_menu_6_3_down,DialogOptionSelected,$option == jc_gs_menu_6_3_down,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_6 = 2
+$global.jc_asm_guardianstart_needupdate = true",移除升级完成：额外添加2个飞行甲板并提高20装配点。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_7_0_t,DialogOptionSelected,"$option == jc_gs_menu_7
+$global.jc_asm_guardianstart_upgrade_7 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：部分修复幅能管道。","1:jc_gs_menu_7_0_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_7_0_f,DialogOptionSelected,"$option == jc_gs_menu_7
+$global.jc_asm_guardianstart_upgrade_7 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：部分修复幅能管道。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_7_0_up,DialogOptionSelected,$option == jc_gs_menu_7_0_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_7 = 1
+$global.jc_asm_guardianstart_needupdate = true",升级完成：部分修复幅能管道。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_7_1_t,DialogOptionSelected,"$option == jc_gs_menu_7
+$global.jc_asm_guardianstart_upgrade_7 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：完全修复幅能管道。","1:jc_gs_menu_7_1_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_7_1_f,DialogOptionSelected,"$option == jc_gs_menu_7
+$global.jc_asm_guardianstart_upgrade_7 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：完全修复幅能管道。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_7_1_up,DialogOptionSelected,$option == jc_gs_menu_7_1_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_7 = 2
+$global.jc_asm_guardianstart_needupdate = true",升级完成：完全修复幅能管道。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_7_2_t,DialogOptionSelected,"$option == jc_gs_menu_7
+$global.jc_asm_guardianstart_upgrade_7 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：安装神经集成器并提高幅能容量。","1:jc_gs_menu_7_2_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_7_2_f,DialogOptionSelected,"$option == jc_gs_menu_7
+$global.jc_asm_guardianstart_upgrade_7 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：安装神经集成器并提高幅能容量。没有足够的星币或升级数量达到上限，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_7_2_up,DialogOptionSelected,$option == jc_gs_menu_7_2_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_7 = 3
+$global.jc_asm_guardianstart_needupdate = true",升级完成：安装神经集成器并提高幅能容量。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_7_3,DialogOptionSelected,"$option == jc_gs_menu_7
+$global.jc_asm_guardianstart_upgrade_7 == 3","SetShortcut jc_gs_menu ""ESCAPE""",移除升级：安装神经集成器并提高幅能容量。警告：移除后若重新安装需要另外花费星币！,"1:jc_gs_menu_7_3_down:移除升级
+2:jc_gs_menu_upgrade:取消",
+jc_gs_menu_7_3_down,DialogOptionSelected,$option == jc_gs_menu_7_3_down,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_7 = 2
+$global.jc_asm_guardianstart_needupdate = true",移除升级完成：安装神经集成器并提高幅能容量。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_8_0_t,DialogOptionSelected,"$option == jc_gs_menu_8
+$global.jc_asm_guardianstart_upgrade_8 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：部分修复舰船结构和装甲。","1:jc_gs_menu_8_0_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_8_0_f,DialogOptionSelected,"$option == jc_gs_menu_8
+$global.jc_asm_guardianstart_upgrade_8 == 0
+$global.jc_asm_guardianstart_canupgrade_1 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费50,000星币进行升级：部分修复舰船结构和装甲。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_8_0_up,DialogOptionSelected,$option == jc_gs_menu_8_0_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_8 = 1
+$global.jc_asm_guardianstart_needupdate = true",升级完成：部分修复舰船结构和装甲。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_8_1_t,DialogOptionSelected,"$option == jc_gs_menu_8
+$global.jc_asm_guardianstart_upgrade_8 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：完全修复结构和装甲。","1:jc_gs_menu_8_1_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_8_1_f,DialogOptionSelected,"$option == jc_gs_menu_8
+$global.jc_asm_guardianstart_upgrade_8 == 1
+$global.jc_asm_guardianstart_canupgrade_2 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费200,000星币进行升级：完全修复结构和装甲。没有足够的星币，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_8_1_up,DialogOptionSelected,$option == jc_gs_menu_8_1_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_8 = 2
+$global.jc_asm_guardianstart_needupdate = true",升级完成：完全修复结构和装甲。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_8_2_t,DialogOptionSelected,"$option == jc_gs_menu_8
+$global.jc_asm_guardianstart_upgrade_8 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：安装作战中心并提高电子战强度。","1:jc_gs_menu_8_2_up:确定升级
+2:jc_gs_menu_upgrade:返回",
+jc_gs_menu_8_2_f,DialogOptionSelected,"$option == jc_gs_menu_8
+$global.jc_asm_guardianstart_upgrade_8 == 2
+$global.jc_asm_guardianstart_canupgrade_3 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费1,000,000星币进行升级：安装作战中心并提高电子战强度。没有足够的星币或升级数量达到上限，无法升级。",2:jc_gs_menu_upgrade:返回,
+jc_gs_menu_8_2_up,DialogOptionSelected,$option == jc_gs_menu_8_2_up,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_8 = 3
+$global.jc_asm_guardianstart_needupdate = true",升级完成：安装作战中心并提高电子战强度。,2:jc_gs_menu_upgrade:确认,
+jc_gs_menu_8_3,DialogOptionSelected,"$option == jc_gs_menu_8
+$global.jc_asm_guardianstart_upgrade_8 == 3","SetShortcut jc_gs_menu ""ESCAPE""",移除升级：安装作战中心并提高电子战强度。警告：移除后若重新安装需要另外花费星币！,"1:jc_gs_menu_8_3_down:移除升级
+2:jc_gs_menu_upgrade:取消",
+jc_gs_menu_8_3_down,DialogOptionSelected,$option == jc_gs_menu_8_3_down,"SetShortcut jc_gs_menu ""ESCAPE""
+$global.jc_asm_guardianstart_upgrade_8 = 2
+$global.jc_asm_guardianstart_needupdate = true",移除升级完成：安装作战中心并提高电子战强度。,2:jc_gs_menu_upgrade:确认,
+,,,,,,
+#标准任务线触发器,,,,,,
+jc_mission_Comm,PickGreeting,Jc_asm_missionTrigger 1 $id score:9500,"ShowPersonVisual
+Jc_asm_missionDialog 1 $id",,,
+jc_mission_Object,OpenInteractionDialog,Jc_asm_missionTrigger 2 $id score:9500,"ShowDefaultVisual
+Jc_asm_missionDialog 2 $id",,,
+jc_mission_FleetHail,BeginFleetEncounter,Jc_asm_missionTrigger 3 $id score:9500,HailPlayer,,,
+jc_mission_Fleet,OpenCommLink,Jc_asm_missionTrigger 3 $entity.id score:9500,"ShowDefaultVisual
+Jc_asm_missionDialog 3 $entity.id",,,
+jc_mission_Dialog,DialogOptionSelected,Jc_asm_missionTrigger 9 $option score:9000,Jc_asm_missionDialog 9 $option,,,

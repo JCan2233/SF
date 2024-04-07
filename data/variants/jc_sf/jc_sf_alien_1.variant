@@ -1,0 +1,49 @@
+{
+  "variantId": "jc_sf_alien_1",
+  "hullId": "jc_sf_alien",
+  "displayName": "标准",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_alien_main"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WL": "jc_sf_alien_side",
+        "WR": "jc_sf_alien_side"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "jc_sf_needler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_pdlaser",
+        "WS0004": "jc_sf_pdlaser",
+        "WS0005": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

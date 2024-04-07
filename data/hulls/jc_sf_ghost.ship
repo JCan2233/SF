@@ -1,0 +1,198 @@
+{
+  "hullName": "jc_sf_ghost",
+  "hullId": "jc_sf_ghost",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_ghost/jc_sf_ghost.png",
+  "style": "jc_sf",
+  "height": 142,
+  "width": 158,
+  "center": [79, 71],
+  "collisionRadius": 95.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 94,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "phasefield",
+    "jc_sf_carrier"
+  ],
+  "builtInWeapons": {
+    "WS0006": "jc_sf_ghost_bay_background",
+    "WS0007": "jc_sf_ghost_bay_light",
+    "WS0008": "jc_sf_ghost_bay_base"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 60,
+      "locations": [19, 33]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -60,
+      "locations": [19, -33]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [28, 54]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [28, -54]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 180,
+      "locations": [-35, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0],
+      "renderOrderMod": -3
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0],
+      "renderOrderMod": -2
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0],
+      "renderOrderMod": -1
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        0, 12.5,
+        24.5, 13
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        0, -11.5,
+        24.5, -11
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51, 18],
+      "length": 26,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-51, -18],
+      "length": 26,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-52, 12],
+      "length": 26,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-52, -12],
+      "length": 26,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-60, 3.5],
+      "length": 16,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-60, -3.5],
+      "length": 16,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    }
+  ],
+  "bounds": [
+    -58.5, -24,
+    -67, -37.5,
+    -22.5, -79,
+    26, -62,
+    26, -48,
+    71.5, -24.5,
+    58.5, -18.5,
+    58.5, 18.5,
+    71.5, 24.5,
+    26, 48,
+    26, 62,
+    -22.5, 79,
+    -67, 37.5,
+    -58.5, 24
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "jc_sf_shadowlord_blade",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade.png",
+  "turretGlowSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade_glow.png",
+  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade.png",
+  "hardpointGlowSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade_glow.png",
+  "glowColor": [
+    35,
+    85,
+    165,
+    235
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    29.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    54.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    0,
+    25,
+    125,
+    255
+  ],
+  "coreColor": [
+    200,
+    0,
+    0,
+    200
+  ],
+  "width": 36,
+  "textureType": SMOOTH,
+  "textureScrollSpeed": 256,
+  "pixelsPerTexel": 4,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "tachyon_lance_fire"
+}

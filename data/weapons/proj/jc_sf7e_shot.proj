@@ -1,0 +1,18 @@
+{
+	"id":"jc_sf7e_shot",
+	"specClass":"projectile",
+	"onFireEffect":"data.scripts.weapons.Jc_sf7e_OnFireEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":150.0,
+	"width":60.0,
+	"hitGlowRadius":150,
+	"fadeTime":0.25,
+	"fringeColor":[255,0,0,255],
+	"coreColor":[70,255,235,200],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	"passThroughMissiles":true,
+}

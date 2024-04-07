@@ -1,0 +1,43 @@
+{
+  "variantId": "jc_r_hyperion_1",
+  "hullId": "jc_r_hyperion",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedshieldemitter",
+    "targetingunit",
+    "hardened_subsystems",
+    "autorepair",
+    "armoredweapons",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "jc_sfmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "heavyblaster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

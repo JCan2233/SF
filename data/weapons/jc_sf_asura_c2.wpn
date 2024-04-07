@@ -1,0 +1,63 @@
+{
+  "id": "jc_sf_asura_c2",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.scripts.weapons.Jc_sf_asura_c_Effect",
+  "beamEffect": "data.scripts.weapons.Jc_sf_asura_c_BeamEffect",
+  "beamFireOnlyOnFullCharge": true,
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/jc/ships/sf/jc_sf_asura/c_2.png",
+  "hardpointSprite": "graphics/jc/ships/sf/jc_sf_asura/c_2.png",
+  "turretGlowSprite": "graphics/jc/ships/sf/jc_sf_asura/c_glow.png",
+  "hardpointGlowSprite": "graphics/jc/ships/sf/jc_sf_asura/c_glow.png",
+  "glowColor": [
+    246,
+    18,
+    2,
+    200
+  ],
+  "hitGlowRadius": 35,
+  "turretOffsets": [
+    2,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    7.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    246,
+    18,
+    2,
+    200
+  ],
+  "coreColor": [
+    127,
+    0,
+    255,
+    170
+  ],
+  "width": 60,
+  "textureType": [
+    "graphics/jc/fx/jc_beam_1.png",
+    "graphics/jc/fx/jc_beam_2.png"
+  ],
+  "textureScrollSpeed": 150,
+  "pixelsPerTexel": 1,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "tachyon_lance_fire"
+}

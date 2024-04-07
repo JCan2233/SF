@@ -1,0 +1,40 @@
+{
+    "displayName": "近战型",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "hullId": "jc_sf_asura",
+    "hullMods": [
+        "jc_sf_asura_switch_C",
+        "jc_sf_asura_switch_L",
+        "jc_sf_asura_switch_R",
+        "jc_sf_asura_switch_B"
+    ],
+    "goalVariant": true,
+    "sMods": ["targetingunit","autorepair","fluxbreakers"],
+    "variantId": "jc_sf_asura_3",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WL": "jc_sf_asura_w3L",
+                "WR": "jc_sf_asura_w1R"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"B": "jc_sf_asura_b3"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"C": "jc_sf_asura_c2"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"H": "jc_sf_asura_h"}
+        }
+    ]
+}

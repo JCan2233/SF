@@ -1,0 +1,19 @@
+{
+	"id":"jc_sf_ghost_sys",
+	"type":"STAT_MOD",
+	"aiType":"RECALL_DEVICE",
+	
+	"runScriptWhileIdle":true,
+	"statsScript":"data.scripts.shipsystems.Jc_sf_ghost_sys",
+	
+	"canUseWhileRightClickSystemOn":true,
+	"useSound":"system_recall_device",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

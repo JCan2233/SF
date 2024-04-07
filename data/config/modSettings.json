@@ -1,0 +1,15 @@
+{
+    "nexerelin": {
+        "mining_ship_strengths": {
+            "jc_moonlight": 1,
+            "jc_starlight": 20,
+            "jc_r_mining_drone": 1,
+            "jc_r_scholar": 1
+        }
+    },
+    "MoreMilitaryMissions": {
+        "DmReinforcementFactionBlacklist": [
+            "jc_asm_bounty"
+        ]
+    }
+}

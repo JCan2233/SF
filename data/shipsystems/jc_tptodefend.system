@@ -1,0 +1,14 @@
+{
+	"id":"jc_tptodefend",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"data.scripts.shipsystems.Jc_tptodefend",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_tptodefend_ai",
+
+	"useSound":"system_phase_skimmer",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

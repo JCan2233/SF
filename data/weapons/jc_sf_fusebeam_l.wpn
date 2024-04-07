@@ -1,0 +1,60 @@
+{
+  "id": "jc_sf_fusebeam_l",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.Jc_sf_fusebeamEffect",
+  "beamEffect": "data.scripts.weapons.Jc_sf_fuse_EMPBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/jc/weapons/sf/jc_sf_fusebeam_l_turret.png",
+  "turretGlowSprite": "graphics/jc/weapons/sf/jc_sf_fusebeam_l_turret_glow.png",
+  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_fusebeam_l_hardpoint.png",
+  "hardpointGlowSprite": "graphics/jc/weapons/sf/jc_sf_fusebeam_l_hardpoint_glow.png",
+  "glowColor": [
+    127,
+    0,
+    255,
+    200
+  ],
+  "hitGlowRadius": 75,
+  "turretOffsets": [
+    30,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    35.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    0,
+    0,
+    255,
+    255
+  ],
+  "coreColor": [
+    255,
+    0,
+    255,
+    255
+  ],
+  "beamFireOnlyOnFullCharge": true,
+  "width": 40,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 256,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "jc_sf_fusebeam"
+}

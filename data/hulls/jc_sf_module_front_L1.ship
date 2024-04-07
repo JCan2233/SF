@@ -1,0 +1,132 @@
+{
+  "hullName": "jc_sf_module_front_L1",
+  "hullId": "jc_sf_module_front_L1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/station/front_L1.png",
+  "style": "jc_sf",
+  "height": 367,
+  "width": 171,
+  "center": [106.5, 183],
+  "collisionRadius": 188,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 187,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "supercomputer",
+    "missile_reload",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 60,
+      "locations": [-89, 39.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 10,
+      "locations": [68, -12.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -40,
+      "locations": [-42.5, -16]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 10,
+      "locations": [-15.5, 9]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 10,
+      "locations": [18.5, -4]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 70,
+      "locations": [11, 28.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 70,
+      "locations": [-36, 47.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 35,
+      "locations": [104, -15.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -35,
+      "locations": [125, -19.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [146, -14.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 70,
+      "locations": [37, 19.5]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -164.5, 47,
+    -181, 4,
+    -103.5, -64.5,
+    142.5, -56,
+    157, -20.5,
+    147.5, -1.5,
+    -125, 86
+  ]
+}

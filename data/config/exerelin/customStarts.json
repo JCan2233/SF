@@ -1,0 +1,12 @@
+{
+    "starts": [
+        {
+            "id": "jc_guardianstart",
+            "name": "失落守护者",
+            "difficulty": "普通",
+            "desc": "你曾是余辉外交联盟的高级雇佣兵，统领着一支强大的无人舰队，并以一艘来自人之领时代的特殊舰船作为旗舰。但在一次敌对势力袭击时你由于喝醉酒而没能及时指挥舰队，导致舰队损失惨重，几乎全军覆没，只有旗舰杀出重围。由于玩忽职守，外交联盟已将你移除军职，现在你只能靠自己在英仙座漂泊.",
+            "className": "data.scripts.campaign.customstart.Jc_guardianstart",
+            "factionId": "player"
+        }
+    ]
+}

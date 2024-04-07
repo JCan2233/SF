@@ -1,0 +1,53 @@
+{
+	"id":"jc_sf_station_missile",
+	"specClass":"missile",
+	"missileType":"ROCKET",
+	"sprite":"graphics/jc/weapons/sf/jc_sf_station_missile.png",
+	"size":[14,22],	
+	"center":[7,11],
+	"collisionRadius":20,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[100,0,150,150],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":300, # purely visual
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":150,
+					 "coreRadius":75, # full damage within core radius
+					 "collisionClass":MISSILE_NO_FF,
+					 "collisionClassByFighter":MISSILE_NO_FF,
+					 "particleSizeMin":2.0,
+					 "particleSizeRange":2.0,
+					 "particleDuration":1,
+					 "particleCount":100,
+					 "particleColor":[100,0,150,255]},
+	"armingTime":0.5,
+	"noEngineGlowTime":0.25, # time spent without the engine glow being rendered
+	"fadeTime":0.1, # fadeout duration
+	"flameoutTime":0.5, # total time from flameout to full fadeout
+	"alwaysAccelerate":true,
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":400,
+				  "dec":0},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-11, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[80,90,255,255],
+						"contrailDuration":1.5,
+						"contrailWidthMult":0.67,
+						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":0,
+						"contrailAngularVelocityMult":0.5,
+						"contrailSpawnDistMult":0, # how far away from engine it starts
+						"contrailColor":[255,19,60,125],
+						"glowSizeMult":2,
+						"glowAlternateColor":[0,150,200,150],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":80.0,
+				    "angle":180.0}]
+}
+			

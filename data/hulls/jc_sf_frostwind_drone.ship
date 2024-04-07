@@ -1,0 +1,61 @@
+{
+  "hullName": "jc_sf_frostwind_drone",
+  "hullId": "jc_sf_frostwind_drone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/drones/drone_terminatorB.png",
+  "style": "jc_sf",
+  "height": 21,
+  "width": 18,
+  "center": [9, 8],
+  "collisionRadius": 40,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "no_weapon_flux",
+    "terminator_core"
+  ],
+  "builtInWeapons": {
+    "WS 001": "jc_sf_fighter_sub_s",
+    "WS 002": "jc_sf_pdlaser"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3, 0]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [3, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-4, 0],
+      "length": 24,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    }
+  ],
+  "bounds": [
+    14, 0,
+    -2, 9,
+    -5, 0,
+    -2, -8
+  ]
+}

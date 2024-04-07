@@ -1,0 +1,36 @@
+{
+	"id":"jc_sf_ringwraith_fs",
+	"type":"TELEPORTER",
+	"aiType":"CUSTOM",
+
+	"runScriptWhileIdle":true,
+	"statsScript":"data.scripts.shipsystems.Jc_sf_ringwraith_fs",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_ringwraith_fs_ai",
+	
+	"jitterColor":[140,200,255,150],
+	"jitterCopies":5,
+	"jitterRange":25,
+	"jitterRangeRadiusFraction":0,
+	
+	"engineGlowLengthMult":0,
+	"engineGlowWidthMult":0,
+	"engineGlowGlowMult":0,
+	
+	"range":1500,
+	"randomRange":0,
+
+	"requiresZeroFluxBoost":false,
+	"vulnerableChargeup":false,
+	"vulnerableChargedown":false,
+	"renderCopyDuringTeleport":true,
+	"fadeActivationSoundOnChargedown":true,
+	
+	"useSound":"system_phase_teleporter",	
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":1000,
+		"averageSpeedIncrease":40,
+	}
+}

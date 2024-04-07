@@ -1,0 +1,110 @@
+{
+  "hullName": "Remnant Station Engine",
+  "hullId": "jc_frse",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/jc_frse.png",
+  "style": "HIGH_TECH",
+  "height": 108,
+  "width": 164,
+  "center": [82, 36],
+  "collisionRadius": 100,
+  "shieldCenter": [1, 0],
+  "shieldRadius": 100,
+  "viewOffset": 0,
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion",
+    "jc_shard_frms",
+    "jc_modulemod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 10,
+      "locations": [13, 48]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -10,
+      "locations": [14, -48]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 50,
+      "locations": [20, 71]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 10,
+      "locations": [41, 45]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -10,
+      "locations": [41, -45]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -50,
+      "locations": [20, -71]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [24, 20],
+      "length": 120,
+      "width": 60,
+      "angle": 0,
+      "contrailSize": 60,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [24, 3],
+      "length": 120,
+      "width": 60,
+      "angle": 0,
+      "contrailSize": 60,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [24, -14],
+      "length": 120,
+      "width": 60,
+      "angle": 0,
+      "contrailSize": 60,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    20, 73,
+    60, 55,
+    60, -55,
+    19, -72,
+    -9, -56,
+    -9, 59
+  ]
+}

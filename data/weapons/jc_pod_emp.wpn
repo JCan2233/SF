@@ -1,0 +1,28 @@
+{
+	"id":"jc_pod_emp",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"everyFrameEffect":"data.scripts.weapons.Jc_emppod_Effect",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/jc/weapons/jc_empty.png",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"",
+	"glowColor":[250,150,0,200],
+	"fringeColor":[0,0,0,0],
+	"coreColor":[0,0,0,0],
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"NONE",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"fireSoundTwo":"phase_beam_loop",
+	"darkCore":false,
+	"width":20.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF]
+}

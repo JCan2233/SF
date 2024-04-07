@@ -1,0 +1,57 @@
+{
+  "variantId": "jc_apex_omega_1",
+  "hullId": "jc_apex_omega",
+  "displayName": "进攻",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "cryoflux",
+        "WS 005": "cryoflux",
+        "WS 006": "cryoflux",
+        "WS 007": "cryoflux"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "disintegrator",
+        "WS 003": "disintegrator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 011": "minipulser",
+        "WS 012": "minipulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "shockrepeater",
+        "WS 009": "shockrepeater",
+        "WS 010": "shockrepeater",
+        "WS 013": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "jc_spark_omega_wing",
+    "jc_spark_omega_wing"
+  ]
+}

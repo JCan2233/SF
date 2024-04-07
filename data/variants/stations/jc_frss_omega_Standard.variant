@@ -1,0 +1,17 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "jc_frss_omega",
+    "hullMods": [],
+    "quality": 0.5,
+    "variantId": "jc_frss_omega_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "gigacannon",
+            "WS 002": "gigacannon"
+        }
+    }]
+}

@@ -1,0 +1,138 @@
+{
+    "playableFaction": true,
+    "corvusCompatible": true,
+    "startingFaction": true,
+    "dropPrisoners": false,
+    "allowPrisonerActions": false,
+    "ngcTooltip": "藏匿在星域边缘的余辉舰队占领了一个星系并向世人宣告它们的存在，星域中的各大势力虎视眈眈，这难道是第三次AI战争的前兆？",
+    "invasionSupportFleetName": "军团",
+    "miningVariantsOrWings": [
+        "jc_starlight_mine"
+    ],
+    "stabilizeCommodities": [
+        "supplies"
+    ],
+    "marketSpawnWeight": 0.1,
+    "colonyExpeditionChance": 0.25,
+    "colonyTargetValuator": "exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    "specialForcesNamerClass": "data.scripts.campaign.fleet.Jc_fr_SFN",
+    "factionsLiked": [
+        "independent",
+        "tritachyon",
+        "jc_sf",
+        "jkf"
+    ],
+    "factionsDisliked": [
+        "luddic_path",
+        "luddic_church",
+        "hegemony"
+    ],
+    "startRelationships": {
+        "player": -0.5,
+        "luddic_path": -1,
+        "luddic_church": -0.6,
+        "hegemony": -0.6,
+        "remnant": 1,
+        "tritachyon": 0.5,
+        "jkf": 0.25,
+        "jc_sf": 0.25
+    },
+    "maxRelationships": {
+        "luddic_path": -0.5,
+        "luddic_church": 0.0,
+        "hegemony": 0.0
+    },
+    "alignments": {
+        "diplomatic": 1,
+        "technocratic": 1
+    },
+    "diplomacyTraits": [
+        "likes_ai",
+        "pacifist",
+        "helps_allies",
+        "irredentist"
+    ],
+    "freeMarket": true,
+    "startSpecialItems": [
+        [
+            [
+                "jc_autobp_package",
+                ""
+            ]
+        ],
+        [
+            [
+                "jc_autofleetport",
+                ""
+            ]
+        ]
+    ],
+    "startShipsSuper": [
+        [
+            "wolf_Starting"
+        ],
+        [
+            "jc_r_scholar_0"
+        ],
+        [
+            "jc_r_scholar_0",
+            "glimmer_Assault",
+            "lumen_Standard"
+        ],
+        [
+            "jc_r_scholar_0",
+            "fulgent_Assault",
+            "glimmer_Support",
+            "jc_r_buffalo_1"
+        ],
+        [
+            "jc_r_scholar_0",
+            "scintilla_Strike",
+            "scintilla_Strike",
+            "jc_r_buffalo_1"
+        ],
+        [
+            "jc_r_scholar_0",
+            "brilliant_Standard",
+            "glimmer_Support",
+            "jc_r_colossus_1"
+        ],
+        [
+            "jc_r_scholar_0",
+            "jc_starlight_mine",
+            "fulgent_Assault"
+        ],
+        [
+            "jc_r_scholar_0",
+            "radiant_Standard"
+        ]
+    ],
+    "bonusSeeds": [
+        {
+            "id": "nanoforge_pristine",
+            "count": 1
+        },
+        {
+            "id": "drone_replicator",
+            "count": 1
+        },
+        {
+            "id": "aiCore_station",
+            "count": 10,
+            "mult": 10
+        },
+        {
+            "id": "aiCore_any",
+            "mult": 4
+        }
+    ],
+    "defenceStations": [
+        {
+            "ids": [
+                "jc_orbitalstation_fr",
+                "jc_battlestation_fr",
+                "jc_starfortress_fr"
+            ]
+        }
+    ]
+}

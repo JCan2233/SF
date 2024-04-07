@@ -1,0 +1,37 @@
+{
+  "variantId": "jc_sf_ghost_2",
+  "hullId": "jc_sf_ghost",
+  "displayName": "打击",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_torpedo_s",
+        "WS0004": "jc_sf_torpedo_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_pdlaser",
+        "WS0002": "jc_sf_pdlaser",
+        "WS0005": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "jc_sf_larva_wing",
+    "jc_sf_larva_wing"
+  ]
+}

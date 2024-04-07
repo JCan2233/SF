@@ -1,0 +1,73 @@
+{
+  "variantId": "jc_sf_worm_3",
+  "hullId": "jc_sf_worm",
+  "displayName": "突击",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 24,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "jc_sf_attack"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "jc_sf_emissile_m",
+        "WS0016": "jc_sf_emissile_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "jc_sf_kmissile_m",
+        "WS0019": "jc_sf_kmissile_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "jc_sf_fusecannon_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "jc_sf_fusebeam_l",
+        "WS0014": "jc_sf_fusebeam_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "jc_sf_atklaser_m",
+        "WS0010": "jc_sf_atklaser_m",
+        "WS0011": "jc_sf_atklaser_m",
+        "WS0012": "jc_sf_atklaser_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_pdlaser",
+        "WS0002": "jc_sf_pdlaser",
+        "WS0003": "jc_sf_pdlaser",
+        "WS0004": "jc_sf_pdlaser",
+        "WS0005": "jc_sf_pdlaser",
+        "WS0006": "jc_sf_pdlaser",
+        "WS0007": "jc_sf_pdlaser",
+        "WS0008": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

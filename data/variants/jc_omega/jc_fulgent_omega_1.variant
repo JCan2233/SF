@@ -1,0 +1,52 @@
+{
+  "variantId": "jc_fulgent_omega_1",
+  "hullId": "jc_fulgent_omega",
+  "displayName": "反装甲",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "riftlance",
+        "WS 002": "riftlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "disintegrator",
+        "WS 003": "disintegrator",
+        "WS 004": "disintegrator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "amsrm",
+        "WS 010": "amsrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "shockrepeater",
+        "WS 006": "shockrepeater",
+        "WS 007": "shockrepeater",
+        "WS 008": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,86 @@
+{
+  "variantId": "jc_sf_fullmoon_1",
+  "hullId": "jc_sf_fullmoon",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 29,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "expanded_deck_crew",
+    "jc_sf_extraammo"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "jc_sf_fullmoon_main"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_railgun",
+        "WS0002": "jc_sf_railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "jc_sf_chaingun",
+        "WS0009": "jc_sf_chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_lrcannon_l",
+        "WS0004": "jc_sf_lrcannon_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "jc_sf_ionlaser",
+        "WS0007": "jc_sf_ionlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "jc_sf_atklaser_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "jc_sf_pdlaser",
+        "WS0011": "jc_sf_pdlaser",
+        "WS0013": "jc_sf_pdlaser",
+        "WS0014": "jc_sf_pdlaser",
+        "WS0015": "jc_sf_pdlaser",
+        "WS0016": "jc_sf_pdlaser",
+        "WS0017": "jc_sf_pdlaser",
+        "WS0018": "jc_sf_pdlaser",
+        "WS0019": "jc_sf_pdlaser",
+        "WS0020": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "jc_sf_leech_wing",
+    "jc_sf_leech_wing",
+    "jc_sf_bat_wing",
+    "jc_sf_bat_wing"
+  ]
+}

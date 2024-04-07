@@ -1,0 +1,90 @@
+{
+  "hullName": "firefly",
+  "hullId": "jc_firefly",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/jc/ships/jc_firefly.png",
+  "style": "HIGH_TECH",
+  "height": 70,
+  "width": 76,
+  "center": [38, 29],
+  "collisionRadius": 53.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 52.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "no_weapon_flux",
+    "jc_sws"
+  ],
+  "weaponSlots": [
+    {
+      "id": "SYS01",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 180,
+      "locations": [-24, -0]
+    },
+    {
+      "id": "IMS_1",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [1, -0]
+    },
+    {
+      "id": "IMS_2",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [38, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27.5, 32.5],
+      "length": 12,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-27.5, -32.5],
+      "length": 12,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-28.5, 4],
+      "length": 10,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-28.5, -4],
+      "length": 10,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -19.5, -22,
+    -26.5, -36,
+    -15, -36,
+    40, -0,
+    -15, 36,
+    -26.5, 36,
+    -19.5, 22
+  ]
+}

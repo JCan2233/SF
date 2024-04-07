@@ -1,0 +1,50 @@
+{
+  "variantId": "jc_barrier_2",
+  "hullId": "jc_barrier",
+  "displayName": "打击",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "fluxbreakers",
+    "missleracks",
+    "auxiliarythrusters"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "breachpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pdlaser",
+        "WS0002": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

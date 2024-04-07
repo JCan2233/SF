@@ -1,0 +1,211 @@
+{
+  "hullName": "jc_sf_ghoul",
+  "hullId": "jc_sf_ghoul",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_ghoul.png",
+  "style": "jc_sf",
+  "height": 145,
+  "width": 163,
+  "center": [81.5, 72.5],
+  "collisionRadius": 102,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 100.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "jc_sf_respawn"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 30,
+      "locations": [39.5, 36.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -30,
+      "locations": [39.5, -36.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 150,
+      "locations": [-47.5, 24.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -150,
+      "locations": [-47.5, -24.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [-4.5, 60.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [-4.5, -60.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [55.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-71.5, 25],
+      "length": 18.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-71.5, -25],
+      "length": 18.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-68.5, 33],
+      "length": 11,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-68.5, -33],
+      "length": 11,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-68.5, 4],
+      "length": 9,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-68.5, -4],
+      "length": 9,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-68, 10],
+      "length": 9,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-68, -10],
+      "length": 9,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-68, 17.5],
+      "length": 9,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-68, -17.5],
+      "length": 9,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-62.5, 8],
+      "length": 7,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-62.5, -8],
+      "length": 7,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    }
+  ],
+  "bounds": [
+    -62.5, -42,
+    -6.5, -81.5,
+    63, -42,
+    63, 42,
+    -6.5, 81.5,
+    -62.5, 42
+  ]
+}

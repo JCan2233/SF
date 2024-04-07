@@ -1,0 +1,137 @@
+{
+  "hullName": "FD",
+  "hullId": "jc_fd",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/jc/ships/jc_fd.png",
+  "style": "HIGH_TECH",
+  "height": 114,
+  "width": 114,
+  "center": [57, 57],
+  "collisionRadius": 76.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 74.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "no_weapon_flux",
+    "advancedcore",
+    "advancedoptics",
+    "jc_no_hurt",
+    "jc_boss_buff"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS00",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [24, 24],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": 45,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [24, -24],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": -45,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24, 24],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": 135,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-24, -24],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": -135,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [12, 42],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": 0,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [12, -42],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": -0,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [42, 12],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": 90,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [42, -12],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": -90,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, 42],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": 180,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-12, -42],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": -180,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42, 12],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": 90,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-42, -12],
+      "length": 9.192388,
+      "width": 5.656854,
+      "angle": -90,
+      "contrailSize": 5.656854,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    0, -54,
+    53.5, -0,
+    0, 54,
+    -54, -0
+  ]
+}

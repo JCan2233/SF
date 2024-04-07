@@ -1,0 +1,27 @@
+{
+	"id":"jc_sf_frostwind_sys",
+	"type":"STAT_MOD",
+	"aiType":"DRONE_STRIKE",
+	
+	"statsScript":"data.scripts.shipsystems.Jc_sf_frostwind_sys",
+	
+	"canNotCauseOverload":true,
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"system_termination_sequence",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":2000,
+		"threatAmount":8,
+		"threatAngle":0,
+		"threatArc":360,
+		"threatDamage":1500,
+		"threatSpeed":300,
+	}
+}
+
+
+
+

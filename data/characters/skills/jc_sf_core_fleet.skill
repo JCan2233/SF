@@ -1,0 +1,25 @@
+{
+	"id":"jc_sf_core_fleet",
+	"governingAptitude":"technology",
+	"compressHullmods":false,
+	"elite":true,
+	"scope":CUSTOM,
+	"scopeStr":"舰队中的幽灵部队舰船",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"data.scripts.campaign.skills.Jc_sf_core_fleet$Level1"},
+			]
+		},
+		{
+			"name":"精英",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"ALL_SHIPS_IN_FLEET", "script":"data.scripts.campaign.skills.Jc_sf_core_fleet$Level2"},
+			]
+		},
+	],
+}

@@ -1,0 +1,12 @@
+id,name,short,desc,cost,isBonus,isGolden,spritePath,effectPlugin,extra1,extra2,source,tags,spriteAuthor
+#负面,,,,,,,,,,,,,
+jc_criticalBug,致命漏洞,弱点伤害抗性额外降低,我方舰船护盾受到的动能伤害、装甲受到的高爆伤害、结构受到的破片伤害均提高{%s，受到的EMP伤害提高{%s，且护盾被电弧效果击穿的概率变为{%s}倍。,4,,,graphics/jc/icons/ungp/jc_criticalBug.png,data.scripts.ungp.Jc_criticalBug,,,幽灵部队,,
+jc_aiSupport,防御条款,战场余辉增援,战斗中敌方每隔约{%s}/{%s}秒有{%s}基础概率额外部署{%s}/{%s，若未能成功增援则会提高下次增援概率，反之重置概率，增援舰船等级不超过场上等级最高的其它敌舰的等级。%s,4,,,graphics/jc/icons/ungp/jc_aiSupport.png,data.scripts.ungp.Jc_aiSupport,,,幽灵部队,,
+jc_ecmBalance,内存溢出,强化敌方电子战能力,敌方电子战强度上限提高{%s，且所有敌舰均有{%s}概率额外获得{%s}电子战强度。,3,,,graphics/jc/icons/ungp/jc_ecmBalance.png,data.scripts.ungp.Jc_ecmBalance,,,幽灵部队,,
+jc_aiEnemy,神经植入,增强敌方军官属性,敌方军官所有非精英的常规战斗技能将升级为精英，同时提高所有敌舰战斗中的进攻性。,3,,,graphics/jc/icons/ungp/jc_aiEnemy.png,data.scripts.ungp.Jc_aiEnemy,,,幽灵部队,,
+jc_aiAssault,肃正协议,潜在的余辉突袭,玩家与余辉永久敌对，且玩家殖民地每间隔约{%s}天会出现余辉突袭舰队，若突袭失败则会增强下一次的突袭战力，反之重置增益。,2,,,graphics/jc/icons/ungp/jc_aiAssault.png,data.scripts.ungp.Jc_aiAssault,,,幽灵部队,,
+#正面,,,,,,,,,,,,,
+jc_integratedAI,智能集成,允许玩家直接操控一艘无人舰船,允许玩家直接操控一艘无人舰船且无视自动化舰船内插惩罚，将未分配AI核心的无人舰置于舰队的第一艘舰船位置即可生效。若玩家缺少{%s}或{%s}技能，每缺少一个都会使舰船最大战备值降低{%s,-3,TRUE,,graphics/jc/icons/ungp/jc_integratedAI.png,data.scripts.ungp.Jc_integratedAI,,,幽灵部队,,
+jc_automatedfleet,无人舰队,为无人舰船提供后勤加成,无人舰船的维护补给和燃料消耗降低{%s,-2,TRUE,,graphics/jc/icons/ungp/jc_automatedfleet.png,data.scripts.ungp.Jc_automatedfleet,,,幽灵部队,,
+#特殊,,,,,,,,,,,,,
+jc_infinite,永不消逝,提高玩家旗舰的战斗耐久性能,对于玩家亲自操控的舰船：处于峰值时间时会每秒修复{%s}装甲和结构，计算速率时至多计入{%s}装甲和{%s}结构；峰值时间耗尽后战备值不会下降；作战结束后若舰船未被摧毁且没有撤退，则基于玩家亲自操控的时间占比恢复消耗的战备值。,-4,TRUE,TRUE,graphics/jc/icons/ungp/jc_infinite.png,data.scripts.ungp.Jc_infinitePeak,,,幽灵部队,milestone,

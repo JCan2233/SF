@@ -1,0 +1,30 @@
+{
+  "variantId": "jc_sf_module_engine",
+  "hullId": "jc_sf_module_engine",
+  "displayName": "标准",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_atklaser_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_pdlaser",
+        "WS0002": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

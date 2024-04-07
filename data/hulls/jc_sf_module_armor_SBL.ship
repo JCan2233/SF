@@ -1,0 +1,31 @@
+{
+  "hullName": "jc_sf_module_armor_SBL",
+  "hullId": "jc_sf_module_armor_SBL",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/station/armor_SBL.png",
+  "style": "jc_sf",
+  "height": 77,
+  "width": 125,
+  "center": [62.5, 38.5],
+  "collisionRadius": 79,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 76.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    36.5, 2,
+    37, 53.5,
+    27.5, 61.5,
+    14, 49.5,
+    14, 20,
+    -37.5, -31.5,
+    -37.5, -61,
+    -24, -62
+  ]
+}

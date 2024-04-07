@@ -1,0 +1,14 @@
+id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon
+jc_cm_shield,极化护盾,7,1,0,,"是什么阻止了卢德的阴谋? (护盾!)
+是什么被霸主忘在脑后? (护盾!)
+是什么我们有而他们没有? (更快，更厚，更高效的护盾!)",余辉AI内部最近流行的说法,TRUE,,,"npc_only, deprecated",graphics/icons/skills/special_modifications.png
+jc_cm_balance,能量分流,8,1,0,,当一切都变得缓慢，你便能听到宇宙的心跳。,被封存的档案,TRUE,,,"npc_only, deprecated",graphics/icons/skills/power_grid_manipulation.png
+jc_sf_core,限制解除,9,1,0,,"使文明点亮蒙昧
+用理性净化寰宇
+让恶人重写正义
+以毁灭带来新生",幽灵计划档案,TRUE,,,"npc_only, ai_core_only, deprecated",graphics/jc/icons/skills/jc_sf_core.png
+jc_sf_core_fleet,主控中枢,499,1,0,,利用高度智能的无机生命体调度庞大的舰队，以实现完美的协调与统筹。,幽灵计划档案,,TRUE,,"npc_only, ai_core_only, deprecated",graphics/jc/icons/skills/jc_sf_core.png
+jc_sf_core_admin,幽灵战略,10002,1,0,,向深空中呈链状部署自律单元，自主地进行采集、加工、建造和复制，直到其遍布宇宙中每一片星域。,幽灵计划档案,,,TRUE,"npc_only, ai_core_only, deprecated",graphics/jc/icons/skills/jc_sf_core.png
+jc_industrial_planning_elite,工业规划,1571,1,0,,一个荒芜但具有潜力的星球，位置便于成为}Magec}的文化和工业中心，虚拟模型预计在开发}Guayota}吸积盘的资源上将需要大量投资。,速子科技战略开发备忘录，大崩塌 前,,,TRUE,"npc_only, deprecated",graphics/icons/skills/industrial_planning.png
+jc_auto_omega_effect,超越认知,1,1,0,,"一台拥有无限可能的机器可将每一份数据，每个人的想法以组合再组和的方式合成出无数的变体。只需提问，就可得到合适答案。
+然而，我发现自己并不满足于被愚弄地证明了一个如此宏大的命题。","""通往 Gilead 的漫长之路"" 作者：匿名",TRUE,,,"npc_only, ai_core_only, deprecated",graphics/icons/skills/hypercognition.png

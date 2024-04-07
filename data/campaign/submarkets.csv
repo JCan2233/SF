@@ -1,0 +1,4 @@
+id,name,faction,desc,script,icon,order
+jc_fr_market,人工智能交易所,,AI势力开设的特殊市场，允许交易包括AI核心、自动化舰船在内的各种货物或船只，但关税相对较高。,data.scripts.campaign.submarkets.Jc_market_fr,,1
+jc_fr_market2,人工智能交易所,,AI势力开设的特殊市场，它们在这里收购各种货物和舰船，并出售高端的武器、战机甚至AI核心，但基础关税相对较高。,data.scripts.campaign.submarkets.Jc_market_fr2,,2
+jc_fr_storage,无人舰专用泊位,player,AI势力设立的专用舰船存储，旨在为盟友们提供免费而便利的无人舰泊位。,data.scripts.campaign.submarkets.Jc_storage_fr,graphics/jc/icons/markets/jc_fr_storage.png,999

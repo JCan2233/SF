@@ -1,0 +1,110 @@
+{
+  "hullName": "pod",
+  "hullId": "jc_autocivpod",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/jc/ships/jc_pod.png",
+  "style": "HIGH_TECH",
+  "height": 45,
+  "width": 52,
+  "center": [26, 22.5],
+  "collisionRadius": 58,
+  "shieldCenter": [4, -0],
+  "shieldRadius": 53,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_autociv_pod"
+  ],
+  "builtInWeapons": {
+    "WS0001": "jc_pod_mg",
+    "WS0002": "jc_pod_AL",
+    "WS0003": "jc_pod_AR",
+    "WS0004": "jc_pod_M"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-3, -0],
+      "renderOrderMod": -9
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": 0,
+      "locations": [-0.5, 17],
+      "renderOrderMod": -999
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -0,
+      "locations": [-0.5, -17],
+      "renderOrderMod": -998
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0],
+      "renderOrderMod": -99
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [0, 0]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 30,
+      "angle": 0,
+      "locations": [0, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-21, 4],
+      "length": 7.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-21, -4],
+      "length": 7.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -15.5, -11,
+    -20.5, -22.5,
+    13.5, -19.5,
+    21, -0,
+    13.5, 19.5,
+    -20.5, 22.5,
+    -15.5, 11
+  ]
+}

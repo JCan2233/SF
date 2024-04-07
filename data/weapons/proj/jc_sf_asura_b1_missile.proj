@@ -1,0 +1,38 @@
+{
+	"id":"jc_sf_asura_b1_missile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/jc/ships/sf/jc_sf_asura/b_1_m.png",
+	"size":[8,14],	
+	"center":[4,7],
+	"collisionRadius":12,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,100,100,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
+	"fadeTime":0.1, # fadeout duration
+	"engineSpec":{"turnAcc":1720,
+				  "turnRate":240,
+				  "acc":2500,
+				  "dec":2500},				  
+	"engineSlots":[{"id":"ES1",
+					"loc":[-7, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[80,90,255,255],
+						"contrailDuration":1,
+						"contrailWidthMult":0.67,
+						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":0,
+						"contrailAngularVelocityMult":0.5,
+						"contrailSpawnDistMult":0, # how far away from engine it starts
+						"contrailColor":[255,19,60,125],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0}]
+}

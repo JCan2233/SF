@@ -1,0 +1,21 @@
+{
+  "variantId": "jc_fd_d",
+  "hullId": "jc_fd",
+  "displayName": "标准",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS00": "jc_tlp"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

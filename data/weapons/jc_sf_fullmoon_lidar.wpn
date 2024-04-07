@@ -1,0 +1,29 @@
+{
+	"specClass":"beam",
+	"id":"jc_sf_fullmoon_lidar",
+	"type":"DECORATIVE",
+	"size":"SMALL",
+	"everyFrameEffect": "data.scripts.weapons.Jc_sf_fullmoon_lidarEffect",
+	"collisionClass": "RAY_FIGHTER",
+  	"collisionClassByFighter": "RAY_FIGHTER",
+	"showDamageWhenDecorative":false,
+	"renderBelowAllWeapons":true,
+	"turretSprite":"graphics/jc/weapons/jc_empty.png",
+	"hardpointSprite":"graphics/jc/weapons/jc_empty.png",
+	"turretOffsets":[0, 0, 0, 10, 0, -10, 0, 20, 0, -20],
+	"turretAngleOffsets":[0,0,0,0,0],
+	"hardpointOffsets":[0, 0, 0, 10, 0, -10, 0, 20, 0, -20],
+	"hardpointAngleOffsets":[0,0,0,0,0],
+	"fringeColor":[0,0,155,40],
+	"coreColor":[155,155,155,40],
+	"glowColor":[0,0,0,0],
+	"width":32.0,
+	"textureType": [
+	    "graphics/jc/fx/jc_beam_2.png",
+	    "graphics/jc/fx/jc_beam_2.png"
+	],
+	"textureScrollSpeed":128.0,
+	"pixelsPerTexel":2.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF,FIGHTER,ASTEROID],
+	"fireSoundOne":"lidar_ping"
+}

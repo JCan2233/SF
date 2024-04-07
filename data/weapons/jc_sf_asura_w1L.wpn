@@ -1,0 +1,49 @@
+{
+  "id": "jc_sf_asura_w1L",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_sf_asura_w1_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/jc/ships/sf/jc_sf_asura/w1_L.png",
+  "turretGlowSprite": "graphics/jc/ships/sf/jc_sf_asura/w1_L_glow.png",
+  "hardpointSprite": "graphics/jc/ships/sf/jc_sf_asura/w1_L.png",
+  "hardpointGlowSprite": "graphics/jc/ships/sf/jc_sf_asura/w1_L_glow.png",
+  "glowColor": [
+    150,
+    180,
+    255,
+    200
+  ],
+  "turretOffsets": [
+    105,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    157.5,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 45,
+    "spread": 15,
+    "particleSizeMin": 12,
+    "particleSizeRange": 8,
+    "particleDuration": 0.5,
+    "particleCount": 40,
+    "particleColor": [
+      150,
+      180,
+      255,
+      200
+    ]
+  },
+  "fireSoundTwo": "jc_sf_railgun_2"
+}

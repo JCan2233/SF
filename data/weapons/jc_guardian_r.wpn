@@ -1,0 +1,28 @@
+{
+	"id":"jc_guardian_r",  # this id must match what's in the spreadsheet
+	"specClass":"beam",
+	"beamEffect":"data.scripts.weapons.Jc_r_PaladinEffect",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"collisionClass":"RAY_FIGHTER",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"turretSprite":"graphics/jc/weapons/jc_atl.png",
+	"turretGlowSprite":"graphics/weapons/guardian_turret_glow.png",
+	"hardpointSprite":"graphics/jc/weapons/jc_atlh.png",
+	"hardpointGlowSprite":"graphics/weapons/guardian_hardpoint_glow.png",	
+	"turretOffsets":[13, 0, 15, -19, 8, -13, 8, 13, 15, 19],
+	"turretAngleOffsets":[0, 0, 0, 0, 0],
+	"hardpointOffsets":[23, 0, 25, -19, 18, -13, 18, 13, 25, 19],
+	"hardpointAngleOffsets":[0, 0, 0, 0, 0],
+	"fringeColor":[70,255,235,200],
+	"coreColor":[255,255,255,100],
+	"glowColor":[70,255,235,200],
+	"darkCore":false,
+	"convergeOnPoint":true,
+	"width":8.0,
+	"textureType":SMOOTH,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+	"textureScrollSpeed":292.0,
+	"pixelsPerTexel":5.0,
+	"fireSoundOne":"guardian_pd_fire"
+}

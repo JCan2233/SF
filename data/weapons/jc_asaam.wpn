@@ -1,0 +1,49 @@
+{
+  "id": "jc_asaam",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_asaam_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/jc/weapons/common/jc_asaam_turret_base.png",
+  "turretGlowSprite": "graphics/jc/weapons/common/jc_asaam_turret_base_glow.png",
+  "hardpointSprite": "graphics/jc/weapons/common/jc_asaam_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/jc/weapons/common/jc_asaam_hardpoint_base_glow.png",
+  "glowColor": [
+    100,
+    255,
+    100,
+    225
+  ],
+  "turretOffsets": [
+    18.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    27,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 1,
+    "particleSizeMin": 5,
+    "particleSizeRange": 5,
+    "particleDuration": 0.15,
+    "particleCount": 10,
+    "particleColor": [
+      100,
+      255,
+      100,
+      255
+    ]
+  },
+  "fireSoundTwo": "pulse_laser_fire"
+}

@@ -1,0 +1,137 @@
+{
+  "hullName": "jc_sf_havoc_L",
+  "hullId": "jc_sf_havoc_L",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_havoc_L.png",
+  "style": "jc_sf",
+  "height": 65,
+  "width": 48,
+  "center": [24, 32.5],
+  "collisionRadius": 41,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 40,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "jc_sf_havoc_sub",
+    "WS0002": "jc_sf_havoc_sub",
+    "WS0003": "jc_sf_pdburst",
+    "WS0005": "jc_sf_havoc_main"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [23.5, 12.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [31.5, 5.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-10.5, 6]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [13.5, -14.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8, -17],
+      "length": 7,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-12, -12],
+      "length": 7,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-16, -7],
+      "length": 7,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-20.5, -2],
+      "length": 7,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-25, 3],
+      "length": 7,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-29.5, 8],
+      "length": 7,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [2.5, -22],
+      "length": 11,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    }
+  ],
+  "bounds": [
+    32.5, -12.5,
+    18, 9,
+    -3.5, 22.5,
+    -27, 19,
+    -31, 9,
+    -6.5, -18.5,
+    20, -23
+  ]
+}

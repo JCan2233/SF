@@ -1,0 +1,44 @@
+{
+  "baseHullId": "jc_r_guardian",
+  "skinHullId": "jc_r_guardian_fr",
+  "systemId":"plasmajets",
+  "hullName":"守护者",
+  "hullDesignation":"无人战列舰",
+  "descriptionPrefix":"这艘独特的守护者-级经过了余辉AI的初步改造，以适应它们的作战风格。看得出来，前速子科技旗下的AI们并不适应这种没有优秀护盾的舰船，所以它们只是进行了粗略的改造，便很快对它失去了兴趣。但听闻英仙座的舰长们大都非常惧怕守护者-级无人舰，因此外交联盟便将它任命为母星的巡逻队旗舰，用来威慑潜在的敌人。",
+  "tags":["no_autofit"],
+  "builtInMods": [
+    "jc_gs_mf2",
+    "advancedcore",
+    "automated",
+    "jc_boss_buff",
+    "jc_no_retreat"
+  ],
+  "fighterBays": 1,
+  "builtInWings": ["jc_firefly_wing"],
+  "ordnancePoints":400,
+  "spriteName": "graphics/jc/ships/jc_r_guardian_2.png",
+  "weaponSlotChanges":{
+    "WS 002":{
+      "angle": 90,
+      "arc": 220,
+    },
+    "WS 003":{
+      "angle": -90,
+      "arc": 220,
+    },
+    "WS 006":{
+      "type": "UNIVERSAL",
+    },
+    "WS 009":{
+      "type": "UNIVERSAL",
+    },
+    "WS 016":{
+      "angle": -80,
+      "arc": 200,
+    },
+    "WS 017":{
+      "angle": 80,
+      "arc": 200,
+    },
+  }
+}

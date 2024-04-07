@@ -1,0 +1,167 @@
+{
+  "hullName": "jc_sf_asura",
+  "hullId": "jc_sf_asura",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_asura/main.png",
+  "style": "jc_sf_mecha",
+  "height": 126,
+  "width": 175,
+  "center": [87.5, 63],
+  "collisionRadius": 140,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 137,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "jc_sf_asura_mod",
+    "jc_boss_buff",
+    "jc_sf_fireSupport"
+  ],
+  "builtInWeapons": {
+    "AL": "jc_sf_asura_arm",
+    "AR": "jc_sf_asura_arm",
+    "DC": "jc_sf_asura_main",
+    "H": "jc_sf_asura_h"
+  },
+  "weaponSlots": [
+    {
+      "id": "C",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [34, 0]
+    },
+    {
+      "id": "DC",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0],
+      "renderOrderMod": -98
+    },
+    {
+      "id": "H",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-9, 0]
+    },
+    {
+      "id": "WL",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [14, 62],
+      "renderOrderMod": -998
+    },
+    {
+      "id": "AL",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [14, 62],
+      "renderOrderMod": -999
+    },
+    {
+      "id": "WR",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -0,
+      "locations": [14, -62],
+      "renderOrderMod": -996
+    },
+    {
+      "id": "AR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -0,
+      "locations": [14, -62],
+      "renderOrderMod": -997
+    },
+    {
+      "id": "B",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-37, -0],
+      "renderOrderMod": -99
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-59.5, 16.5],
+      "length": 19,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-59.5, -16.5],
+      "length": 19,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-62, 8],
+      "length": 12,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-62, -8],
+      "length": 12,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-62.5, -0],
+      "length": 7.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    }
+  ],
+  "bounds": [
+    -60, -19,
+    -18, -34,
+    -20, -60,
+    1, -86,
+    24, -40,
+    63, -0,
+    24, 40,
+    1, 86,
+    -20, 60,
+    -18, 34,
+    -60, 19
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "jc_sf_alien_main",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "everyFrameEffect": "data.scripts.weapons.Jc_sf_alienMain",
+  "beamEffect": "data.scripts.weapons.Jc_sf_alienMain",
+  "beamFireOnlyOnFullCharge": true,
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/jc/weapons/jc_empty.png",
+  "hardpointSprite": "",
+  "turretGlowSprite": "",
+  "hardpointGlowSprite": "",
+  "glowColor": [
+    100,
+    50,
+    200,
+    200
+  ],
+  "hitGlowRadius": 35,
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    100,
+    10,
+    100,
+    200
+  ],
+  "coreColor": [
+    100,
+    50,
+    200,
+    200
+  ],
+  "width": 60,
+  "textureType": [
+    "graphics/jc/fx/jc_beam_1.png",
+    "graphics/jc/fx/jc_beam_2.png"
+  ],
+  "textureScrollSpeed": 100,
+  "pixelsPerTexel": 1,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo":"graviton_beam_loop"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "jc_sf_ionlaser",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect": "data.scripts.weapons.Jc_sf_ionBeamEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/jc/weapons/sf/jc_sf_ionlaser_turret.png",
+  "turretGlowSprite": "graphics/jc/weapons/sf/jc_sf_ionlaser_turret_glow.png",
+  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_ionlaser_hardpoint.png",
+  "hardpointGlowSprite": "graphics/jc/weapons/sf/jc_sf_ionlaser_hardpoint_glow.png",
+  "glowColor": [
+    200,
+    50,
+    50,
+    200
+  ],
+  "hitGlowRadius": 75,
+  "turretOffsets": [
+    20.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    25.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    150,
+    0,
+    0,
+    255
+  ],
+  "coreColor": [
+    0,
+    50,
+    200,
+    255
+  ],
+  "width": 20,
+  "textureType": SMOOTH,
+  "textureScrollSpeed": 256,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "ion_beam_loop"
+}

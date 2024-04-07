@@ -1,0 +1,40 @@
+{
+  "variantId": "jc_glimmer_omega_2",
+  "hullId": "jc_glimmer_omega",
+  "displayName": "反装甲",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "disintegrator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "amsrm",
+        "WS 005": "amsrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "shockrepeater",
+        "WS 003": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,50 @@
+{
+  "id": "jc_sf_chaingun_l",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_sf_chaingun_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.Jc_sf_chaingunEffect",
+  "turretSprite": "graphics/jc/weapons/sf/jc_sf_chaingun/l_turret_00.png",
+  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_chaingun/l_hardpoint_00.png",
+  "turretOffsets": [
+    33.5,
+    9,
+    33.5,
+    -9
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    40,
+    9,
+    40,
+    -9
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "separateRecoilForLinkedBarrels": true,
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 4,
+  "frameRate": 4,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 5,
+    "particleSizeMin": 6,
+    "particleSizeRange": 14,
+    "particleDuration": 0.15,
+    "particleCount": 11,
+    "particleColor": [
+      255,
+      200,
+      70,
+      200
+    ]
+  },
+  "fireSoundTwo": "jc_sf_chaingun"
+}

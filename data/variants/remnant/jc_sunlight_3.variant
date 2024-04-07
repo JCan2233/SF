@@ -1,0 +1,77 @@
+{
+  "variantId": "jc_sunlight_3",
+  "hullId": "jc_sunlight",
+  "displayName": "打击",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 23,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "jc_slm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "jc_sls",
+        "WS0013": "jc_sls"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "tachyonlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "heavyneedler",
+        "WS0011": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gravitonbeam",
+        "WS0002": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "heavyburst",
+        "WS0009": "pdburst"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "jc_firefly_wing",
+    "spark_wing"
+  ]
+}

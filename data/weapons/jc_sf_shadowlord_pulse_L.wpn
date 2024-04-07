@@ -1,0 +1,79 @@
+{
+  "id": "jc_sf_shadowlord_pulse_L",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_sf_shadowlord_pulse_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/pulse.png",
+  "turretGlowSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/pulse_glow.png",
+  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/pulse.png",
+  "hardpointGlowSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/pulse_glow.png",
+  "glowColor": [
+    200,
+    100,
+    100,
+    255
+  ],
+  "turretOffsets": [
+    13.5,
+    7.5,
+    13.5,
+    -7.5,
+    6.5,
+    11.5,
+    6.5,
+    -11.5,
+    0.5,
+    14.5,
+    0.5,
+    -14.5
+  ],
+  "turretAngleOffsets": [
+    60,
+    -60,
+    60,
+    -60,
+    60,
+    -60
+  ],
+  "hardpointOffsets": [
+    25,
+    7.5,
+    25,
+    -7.5,
+    18,
+    11.5,
+    18,
+    -11.5,
+    12,
+    14.5,
+    12,
+    -14.5
+  ],
+  "hardpointAngleOffsets": [
+    60,
+    -60,
+    60,
+    -60,
+    60,
+    -60
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "particleDuration": 0.12,
+    "particleCount": 10,
+    "particleColor": [
+      200,
+      100,
+      100,
+      255
+    ]
+  },
+  "fireSoundTwo": "jc_sf_atklaser"
+}

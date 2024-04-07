@@ -1,0 +1,13 @@
+{
+	"id":"jc_sf_siege_sys",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+
+	"statsScript":"data.scripts.shipsystems.Jc_sf_siege_sys",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_siege_sys_ai",
+
+	"weaponTypes":[ENERGY, BALLISTIC],
+	
+	"loopSound":"system_high_energy_focus_loop",
+	"outOfUsesSound":"gun_out_of_ammo",	
+}

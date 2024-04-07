@@ -1,0 +1,235 @@
+{
+  "hullName": "jc_sf_asura_backpack",
+  "hullId": "jc_sf_asura_backpack",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/jc/ships/jc_empty.png",
+  "style": "jc_sf",
+  "height": 1,
+  "width": 1,
+  "center": [0.5, 0.5],
+  "collisionRadius": 1.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 1,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO"
+  ],
+  "weaponSlots": [
+    {
+      "id": "S1",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-44, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-61.5, 37],
+      "length": 8,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-61.5, -37],
+      "length": 8,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-62, 30],
+      "length": 11,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-62, -30],
+      "length": 11,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-62.5, 24],
+      "length": 14,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-62.5, -24],
+      "length": 14,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-54, 58],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-54, -58],
+      "length": 16,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-53.5, 54],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-53.5, -54],
+      "length": 16,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-43, 56],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-43, -56],
+      "length": 16,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-42.5, 52],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-42.5, -52],
+      "length": 16,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-52, 39],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-52, -39],
+      "length": 16,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-51.5, 35],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-51.5, -35],
+      "length": 16,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-41, 37],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-41, -37],
+      "length": 16,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-40.5, 33],
+      "length": 16,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-40.5, -33],
+      "length": 16,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    }
+  ],
+  "bounds": [
+    -0.5, 0.5,
+    0.5, 0.5,
+    0.5, -0.5,
+    -0.5, -0.5
+  ]
+}

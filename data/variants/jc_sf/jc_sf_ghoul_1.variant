@@ -1,0 +1,50 @@
+{
+  "variantId": "jc_sf_ghoul_1",
+  "hullId": "jc_sf_ghoul",
+  "displayName": "标准",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "jc_sf_ionlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "jc_sf_atklaser_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "jc_sf_pdmissile_s",
+        "WS0006": "jc_sf_pdmissile_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_pdlaser",
+        "WS0002": "jc_sf_pdlaser",
+        "WS0003": "jc_sf_pdlaser",
+        "WS0004": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

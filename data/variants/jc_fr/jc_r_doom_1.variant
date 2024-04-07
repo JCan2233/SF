@@ -1,0 +1,67 @@
+{
+  "variantId": "jc_r_doom_1",
+  "hullId": "jc_r_doom",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "targetingunit",
+    "adaptive_coils"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "phasebeam",
+        "WS 002": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "harpoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "reaper",
+        "WS 006": "reaper"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "heavyneedler",
+        "WS 008": "heavyneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "pdlaser",
+        "WS 010": "pdlaser",
+        "WS 011": "pdburst",
+        "WS 012": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

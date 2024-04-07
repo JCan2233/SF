@@ -1,0 +1,39 @@
+{
+	"id":"jc_mote_noemp",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/bomblet0.png",
+	"size":[4,4],	
+	"center":[2,2],
+	"collisionRadius":11,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,0,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":75, # purely visual
+	"flameoutTime":0.2, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.2, # time spent without the engine glow being rendered
+	"fadeTime":0.2, # fadeout duration
+	"glowColor":[255,0,0,255],
+	"engineSpec":{"turnAcc":1000,
+				  "turnRate":50,
+				  "acc":3000,
+				  "dec":0},
+	"alwaysAccelerate":true,
+	"useHitGlowWhenDestroyed":true,
+	"engineSlots":[
+					{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"engineColor":[255,0,0,255],
+						"contrailParticleSizeMult":10,
+						"contrailParticleDuration":0.2,
+						"contrailMaxSpeedMult":-0.1,
+						"contrailAngularVelocityMult":0f,
+						"contrailColor":[255,0,200,127],
+						"type":"GLOW" # GLOW or SMOKE
+					},
+				    "width":12.0,
+				    "length":12.0,
+				    "angle":180.0},
+				   ]
+}

@@ -1,0 +1,59 @@
+{
+  "variantId": "jc_r_scholar_2",
+  "hullId": "jc_r_scholar",
+  "displayName": "打击",
+  "goalVariant": true,
+  "fluxCapacitors": 12,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": ["automated"],
+  "hullMods": [
+    "jc_auto_scholar_auto",
+    "hardenedshieldemitter",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammerrack"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "jc_tlp_2"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "phasebeam",
+        "WS0004": "phasebeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "irpulse",
+        "WS0012": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

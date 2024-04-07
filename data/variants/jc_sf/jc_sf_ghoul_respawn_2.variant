@@ -1,0 +1,51 @@
+{
+  "variantId": "jc_sf_ghoul_respawn_2",
+  "hullId": "jc_sf_ghoul_respawn",
+  "displayName": "复仇",
+  "goalVariant": false,
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit",
+    "jc_sf_extraammo"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "jc_sf_chaingun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "jc_sf_atklaser_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "jc_sf_torpedo_s",
+        "WS0006": "jc_sf_torpedo_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_pdlaser",
+        "WS0002": "jc_sf_pdlaser",
+        "WS0003": "jc_sf_pdlaser",
+        "WS0004": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

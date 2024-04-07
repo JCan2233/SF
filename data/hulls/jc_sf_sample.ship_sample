@@ -1,0 +1,16 @@
+{
+  "hullName": "jc_sf_bloodmoon",
+  "hullId": "jc_sf_bloodmoon",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_bloodmoon.png",
+  "style": "jc_sf",
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "jc_sf_stardestroyer",
+    "jc_shieldE"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": []
+}

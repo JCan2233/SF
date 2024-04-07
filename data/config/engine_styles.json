@@ -1,0 +1,56 @@
+{
+    "jc_sf": {
+        "engineColor": [
+            80,
+            90,
+            255,
+            255
+        ],
+        "mode": "QUAD_STRIP",
+        "contrailDuration": 1.5,
+        "contrailWidthMult": 0.67,
+        "contrailWidthAddedFractionAtEnd": -1,
+        "contrailMinSeg": 5,
+        "contrailMaxSpeedMult": 1,
+        "contrailAngularVelocityMult": 0,
+        "contrailColor": [
+            255,
+            19,
+            60,
+            100
+        ],
+        "contrailCampaignColor": [
+            80,
+            90,
+            255,
+            75
+        ],
+        "type": "GLOW"
+    },
+    "jc_sf_notrail": {
+        "engineColor": [
+            80,
+            90,
+            255,
+            255
+        ],
+        "contrailParticleSizeMult": 0,
+        "contrailParticleDuration": 0,
+        "contrailParticleFinalSizeMult": 0,
+        "contrailMaxSpeedMult": 0,
+        "contrailAngularVelocityMult": 0,
+        "contrailColor": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "contrailCampaignColor": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "type": "GLOW"
+    }
+}

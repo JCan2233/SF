@@ -1,0 +1,17 @@
+{
+	"id":"jc_spdc_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.Jc_spdc_OnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":67.0,
+	"width":40.0,
+	"hitGlowRadius":200,
+	"fadeTime":0.25,
+	"fringeColor":[100,150,255,255],
+	"coreColor":[150,150,255,255],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256,
+	"pixelsPerTexel":5.0
+}

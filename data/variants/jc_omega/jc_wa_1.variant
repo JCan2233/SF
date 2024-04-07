@@ -1,0 +1,60 @@
+{
+  "variantId": "jc_wa_1",
+  "hullId": "jc_wa",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "targetingunit",
+    "turretgyros"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "jc_rc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vpdriver",
+        "WS 002": "vpdriver",
+        "WS 003": "vpdriver",
+        "WS 004": "vpdriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "disintegrator",
+        "WS 006": "disintegrator",
+        "WS 007": "disintegrator",
+        "WS 008": "disintegrator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "shockrepeater",
+        "WS 010": "shockrepeater",
+        "WS 011": "shockrepeater",
+        "WS 012": "shockrepeater",
+        "WS 013": "shockrepeater",
+        "WS 014": "shockrepeater",
+        "WS 015": "shockrepeater",
+        "WS 016": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

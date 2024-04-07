@@ -1,0 +1,38 @@
+{
+  "hullName": "JKFASM_B",
+  "hullId": "jc_jkfasm_blade",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/jc_jkfasm_blade.png",
+  "style": "HIGH_TECH",
+  "height": 196,
+  "width": 183,
+  "center": [91.5, 98],
+  "collisionRadius": 131,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 126,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_jkfasm_blade",
+    "jc_noop",
+    "jc_boss_buff",
+    "always_detaches",
+    "reduced_explosion",
+    "jc_modulemod"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -96, -64.5,
+    -54.5, -43,
+    97.5, -43.5,
+    86, -54,
+    -30, -89.5,
+    -96.5, -68.5,
+    -96.5, 68.5,
+    -30, 89.5,
+    86, 54,
+    97.5, 43.5,
+    -54.5, 43,
+    -96, 64.5
+  ]
+}

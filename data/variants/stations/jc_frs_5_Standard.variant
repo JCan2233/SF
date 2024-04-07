@@ -1,0 +1,44 @@
+{
+    "displayName": "欧米伽",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "hullId": "jc_frs_5",
+    "hullMods": [],
+    "quality": 0.5,
+    "variantId": "jc_frs_5_Standard",
+    "weaponGroups": [],
+    "modules": [
+    	# top plus armor
+		{"WS 024": "jc_s_remnant_armour3_Standard"},
+		{"WS 001": "jc_s_remnant_weapon_platform1_Standard"},
+		
+		# bottom right plus armor
+		{"WS 030": "jc_s_remnant_armour3_Standard"},
+		{"WS 007": "jc_s_remnant_weapon_platform1_Standard"},
+		
+		# bottom left plus armor
+		{"WS 027": "jc_s_remnant_armour3_Standard"},
+		{"WS 016": "jc_s_remnant_weapon_platform1_Standard"},
+		
+		# bottom PD/shield
+		{"WS 032": "jc_frss_omega_Standard"},
+		
+		# left PD/shield
+		{"WS 033": "jc_frss_omega_Standard"},
+		
+		# right PD/shield
+		{"WS 034": "jc_frss_omega_Standard"},
+		
+		# left side weapon platforms
+		{"WS 035": "jc_s_remnant_weapon_platform2_Standard"},
+		{"WS 036": "jc_s_remnant_weapon_platform2_Standard"},
+		
+		# right side weapon platforms
+		{"WS 037": "jc_s_remnant_weapon_platform2_Standard"},
+		{"WS 038": "jc_s_remnant_weapon_platform2_Standard"},
+		
+		# hangars
+		{"WS 039": "jc_frse_Standard"},
+		{"WS 040": "jc_frse_Standard"},
+    ],
+}

@@ -1,0 +1,29 @@
+{
+  "hullName": "jc_sf_module_cone_R",
+  "hullId": "jc_sf_module_cone_R",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/station/cone_R.png",
+  "style": "jc_sf",
+  "height": 109,
+  "width": 150,
+  "center": [75, 54.5],
+  "collisionRadius": 95.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 92.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    53, -63,
+    -9, 31.5,
+    -1.5, 52,
+    -23.5, 73.5,
+    -53, 45,
+    40, -75
+  ]
+}

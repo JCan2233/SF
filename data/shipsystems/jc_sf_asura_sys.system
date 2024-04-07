@@ -1,0 +1,26 @@
+{
+	"id":"jc_sf_asura_sys",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"runScriptWhileIdle":true,
+	"statsScript":"data.scripts.shipsystems.Jc_sf_asura_sys",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_asura_sys_ai",
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.5,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_temporalshell",
+	"loopSound":"system_temporalshell_loop",
+	"deactivateSound":"system_temporalshell_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

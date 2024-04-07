@@ -1,0 +1,24 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 7,
+    "fluxVents": 7,
+    "goalVariant": true,
+    "hullId": "jc_r_colossus",
+    "hullMods": [
+        "insulatedengine",
+        "unstable_injector",
+        "jc_auto_crew"
+    ],
+    "permaMods": [],
+    "variantId": "jc_r_colossus_1",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {
+            "WS 001": "pdlaser",
+            "WS 002": "pdlaser",
+            "WS 003": "pdlaser",
+            "WS 004": "pdlaser"
+        }
+    }]
+}

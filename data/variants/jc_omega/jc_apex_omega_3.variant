@@ -1,0 +1,50 @@
+{
+  "variantId": "jc_apex_omega_3",
+  "hullId": "jc_apex_omega",
+  "displayName": "反装甲",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "cryoblaster",
+        "WS 006": "cryoblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "disintegrator",
+        "WS 007": "disintegrator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "riftbeam",
+        "WS 003": "riftbeam",
+        "WS 008": "shockrepeater",
+        "WS 009": "shockrepeater",
+        "WS 010": "shockrepeater",
+        "WS 011": "shockrepeater",
+        "WS 012": "shockrepeater",
+        "WS 013": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "jc_lux_omega_wing",
+    "jc_lux_omega_wing"
+  ]
+}

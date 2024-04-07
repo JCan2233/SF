@@ -1,0 +1,9 @@
+{
+  "baseHullId": "jc_sf_ghoul",
+  "skinHullId": "jc_sf_ghoul_respawn",
+  "builtInMods": ["jc_always_ally","do_not_back_off","automated","jc_no_retreat"],
+  "removeBuiltInMods":["jc_sf_respawn"],
+  "addHints":[UNBOARDABLE,HIDE_IN_CODEX],
+  "tags":["restricted"],
+  "suppliesToRecover":0
+}

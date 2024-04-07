@@ -1,0 +1,60 @@
+{
+  "variantId": "jc_fulgent_omega_2",
+  "hullId": "jc_fulgent_omega",
+  "displayName": "反护盾",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "minipulser",
+        "WS 002": "minipulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "cryoblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "resonatormrm",
+        "WS 004": "resonatormrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "amsrm",
+        "WS 010": "amsrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "shockrepeater",
+        "WS 006": "shockrepeater",
+        "WS 007": "shockrepeater",
+        "WS 008": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

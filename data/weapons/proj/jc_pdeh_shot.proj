@@ -1,0 +1,31 @@
+{
+	"id":"jc_pdeh_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":35.0,
+	"hitGlowRadius":30,
+	"width":6.5,
+	"fadeTime":0.2,
+	"fringeColor":[50,50,255,255],
+	"coreColor":[70,255,235,150],	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":20,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":30,
+									 "coreRadius":20, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":1.8,
+									 "particleSizeRange":1.8,
+									 "particleDuration":0.5,
+									 "particleCount":50,
+									 "particleColor":[155,155,255,255],
+									 "sound":"explosion_flak"},
+					}
+					
+}

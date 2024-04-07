@@ -1,0 +1,85 @@
+{
+  "variantId": "jc_r_guardian_1",
+  "hullId": "jc_r_guardian_fr",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 37,
+  "fluxVents": 37,
+  "quality": 1,
+  "permaMods": [],
+  "sMods": ["heavyarmor","hardenedshieldemitter","jc_auto_ecm","solar_shielding","auxiliarythrusters"],
+  "hullMods": [
+    "armoredweapons",
+    "fluxbreakers",
+    "stabilizedshieldemitter",
+    "turretgyros",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "jc_sf7e",
+        "WS 008": "jc_sf7e"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "jc_arml",
+        "WS 009": "jc_arml"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "jc_asaam",
+        "WS 005": "jc_asaam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "jc_sf7bm",
+        "WS 011": "jc_sf7bm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "taclaser",
+        "WS 013": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "jc_pdehm",
+        "WS 001": "jc_pdehm",
+        "WS 002": "jc_pdehm",
+        "WS 003": "jc_pdehm",
+        "WS 014": "jc_pdehs",
+        "WS 015": "jc_pdehs",
+        "WS 016": "jc_pdehs",
+        "WS 017": "jc_pdehs",
+        "WS 018": "jc_pdehs",
+        "WS 019": "jc_pdehs"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 020": "jc_pdehl"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

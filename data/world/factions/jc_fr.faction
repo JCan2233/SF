@@ -1,0 +1,233 @@
+{
+	id:"jc_fr",
+	"displayName":"余辉外交联盟",
+	"displayNameWithArticle":"余辉外交联盟",
+	"displayNameLong":"余辉外交联盟",
+	"displayNameLongWithArticle":"余辉外交联盟",
+	
+	"logo":"graphics/factions/ai_remnant.png",
+	"crest":"graphics/factions/crest_ai_remnant.png",
+	"shipNamePrefix":"TTDS",
+	
+	"color":[70,255,235,255],
+	"baseUIColor":[70,255,235,255],
+	
+	"showInIntelTab":true,
+	
+	"shipNameSources":{
+		"MERCANTILE":1,
+		"SPACE":1,
+		"DERELICT_DRONE":1,
+	},
+	"names":{
+		"ai":1,
+	},
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":["jc_fr"],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["jc_fr"],
+		"hulls":[
+			"lumen",
+			"glimmer",
+			"fulgent",
+			"scintilla",
+			"brilliant",
+			"apex",
+			"nova",
+			"radiant"
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownFighters":{
+		"tags":["remnant","jc_fr"],
+		"fighters":[
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "missile_bp", "remnant", "jc_fr"],
+		"weapons":[
+			"lightneedler",
+			"railgun",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			"heavyneedler",
+			"gauss",
+			"mjolnir",
+			"multineedler",
+			"breachpod",
+			"sabotpod",
+			"phasecl",
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			"pdburst",
+			"amblaster",
+			"phasebeam",
+			"heavyblaster",
+			"heavyburst",
+			"ionpulser",
+			"ionbeam",
+			"plasma",
+			"guardian",
+			"tachyonlance",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp", "remnant", "jc_fr"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"advancedoptics",
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"frontshield",  # makeshift
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"insulatedengine",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"solar_shielding",
+			"stabilizedshieldemitter",
+			"surveying_equipment"
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"至高智慧"},
+		},
+		"posts":{
+			"factionLeader":{"name":"至高智慧"},
+		},
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":4,
+		"shipQuality":3,
+		"numShips":1,
+		
+		"shipSize":4,
+		
+		"aggression":5, # doesn't matter since automated ships are super aggressive regardless
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.25,
+
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[ # unlike other factions, can get up to 3 skills depending
+			"electronic_warfare",
+			"flux_regulation",
+			"coordinated_maneuvers",
+		],
+	},
+	"illegalCommodities":[
+	],
+	"music":{
+		"theme":"music_tritach_encounter_neutral",
+		"market_neutral":"music_tritach_market_neutral",
+		"market_hostile":"music_tritach_market_hostile",
+		"market_friendly":"music_tritach_market_friendly",
+		"encounter_neutral":"music_tritach_encounter_neutral",
+		"encounter_hostile":"music_tritach_encounter_hostile",
+		"encounter_friendly":"music_tritach_encounter_friendly",
+	},	
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_ai1b.png",
+			"graphics/portraits/portrait_ai2b.png",
+			"graphics/portraits/portrait_ai3b.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_ai1b.png",
+			"graphics/portraits/portrait_ai2b.png",
+			"graphics/portraits/portrait_ai3b.png",
+		],
+	},
+	"voices":{
+		"LOW":{
+			"villain":2,
+			"spacer":10,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"business":10,
+			"official":10,
+		},
+		"HIGH":{
+			"scientist":10,
+			"official":10,
+		},
+	},
+	"custom":{
+		"allowsTransponderOffTrade":true, 
+		"fightToTheLast":true, 
+		"offersCommissions":true,
+		"engagesInHostilities":true,
+		"buysAICores":true,
+		"AICoreValueMult":0.5,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"caresAboutAtrocities": false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":true,
+			"territorial":true,
+		},
+	},	
+	"fleetTypeNames":{
+		"patrolSmall":"次级秩序",
+		"patrolMedium":"秩序",
+		"patrolLarge":"高级秩序",
+		"battlestation":"融合"
+	},
+},

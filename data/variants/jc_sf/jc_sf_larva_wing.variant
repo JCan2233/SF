@@ -1,0 +1,22 @@
+{
+  "variantId": "jc_sf_larva_wing",
+  "hullId": "jc_sf_larva",
+  "displayName": "粒子轰炸机",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_motebomb"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

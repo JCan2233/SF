@@ -1,0 +1,199 @@
+{
+  "hullName": "WA",
+  "hullId": "jc_wa",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/jc/ships/jc_wa.png",
+  "style": "OMEGA",
+  "height": 299,
+  "width": 299,
+  "center": [150, 150],
+  "collisionRadius": 165.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 162.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "jc_wam",
+    "phasefield",
+    "do_not_back_off",
+    "jc_no_retreat",
+    "jc_boss"
+  ],
+  "builtInWeapons": {
+    "WS 000": "jc_rc"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, 0]
+    },
+    {
+      "id": "WS 001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 45,
+      "locations": [53, 53]
+    },
+    {
+      "id": "WS 002",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": -45,
+      "locations": [53, -53]
+    },
+    {
+      "id": "WS 003",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 135,
+      "locations": [-53, 53]
+    },
+    {
+      "id": "WS 004",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": -135,
+      "locations": [-53, -53]
+    },
+    {
+      "id": "WS 005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 0,
+      "locations": [75, 0]
+    },
+    {
+      "id": "WS 006",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 180,
+      "locations": [-75, 0]
+    },
+    {
+      "id": "WS 007",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 90,
+      "locations": [0, 75]
+    },
+    {
+      "id": "WS 008",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": -90,
+      "locations": [0, -75]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 22.5,
+      "locations": [104, 43]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 67.5,
+      "locations": [43, 104]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 112.5,
+      "locations": [-43, 104]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 157.5,
+      "locations": [-104, 43]
+    },
+    {
+      "id": "WS 013",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 292.5,
+      "locations": [43, -104]
+    },
+    {
+      "id": "WS 014",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 337.5,
+      "locations": [104, -43]
+    },
+    {
+      "id": "WS 015",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 247.5,
+      "locations": [-43, -104]
+    },
+    {
+      "id": "WS 016",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HIDDEN",
+      "arc": 225,
+      "angle": 202.5,
+      "locations": [-104, -43]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -146.5, -22,
+    -134, -65,
+    -104.5, -106,
+    -60.5, -136,
+    -2, -147.5,
+    58, -137,
+    113.5, -93,
+    145, -31,
+    145, 31,
+    113.5, 93,
+    58, 137,
+    -2, 147.5,
+    -60.5, 136,
+    -104.5, 106,
+    -134, 65,
+    -146.5, 22
+  ]
+}

@@ -1,0 +1,25 @@
+{
+	"id":"jc_industrial_planning_elite",
+	"governingAptitude":"industry",
+	"compressHullmods":false,
+	"elite":true,
+	"scope":"GOVERNED_OUTPOST",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"CHARACTER_STATS", "script":"com.fs.starfarer.api.impl.campaign.skills.IndustrialPlanning$Level1"}
+			]
+		},
+		{
+			"name":"精英",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"CHARACTER_STATS", "script":"data.scripts.campaign.skills.Jc_industrial_planning_elite$Level2"}
+			]
+		},
+	],
+}
+

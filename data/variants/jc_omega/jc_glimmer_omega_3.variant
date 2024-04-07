@@ -1,0 +1,40 @@
+{
+  "variantId": "jc_glimmer_omega_3",
+  "hullId": "jc_glimmer_omega",
+  "displayName": "反护盾",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "cryoblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "minipulser",
+        "WS 005": "minipulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "shockrepeater",
+        "WS 003": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

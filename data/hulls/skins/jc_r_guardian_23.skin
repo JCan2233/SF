@@ -1,0 +1,37 @@
+{
+  "baseHullId": "jc_r_guardian",
+  "skinHullId": "jc_r_guardian_23",
+  "hullName":"守护者",
+  "builtInMods": [
+    "jc_auto_scholar",
+    "jc_gs_core"
+  ],
+  "fighterBays": 3,
+  "builtInWings": ["jc_firefly_wing"],
+  "ordnancePoints":420,
+  "spriteName": "graphics/jc/ships/jc_r_guardian_2.png",
+  "weaponSlotChanges":{
+    "WS 002":{
+      "angle": 90,
+      "arc": 220,
+    },
+    "WS 003":{
+      "angle": -90,
+      "arc": 220,
+    },
+    "WS 006":{
+      "type": "UNIVERSAL",
+    },
+    "WS 009":{
+      "type": "UNIVERSAL",
+    },
+    "WS 016":{
+      "angle": -80,
+      "arc": 200,
+    },
+    "WS 017":{
+      "angle": 80,
+      "arc": 200,
+    },
+  }
+}

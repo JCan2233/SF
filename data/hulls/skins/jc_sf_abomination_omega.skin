@@ -1,0 +1,29 @@
+{
+  "baseHullId": "jc_sf_abomination",
+  "skinHullId": "jc_sf_abomination_omega",
+  "hullName":"憎恶 (PK)",
+  "descriptionPrefix":"未知变体舰船，数据库不可用。",
+  "hullDesignation":"武库舰",
+  "builtInMods": ["jc_sf_stardestroyer","jc_boss_buff","jc_sf_abomination_omega"],
+  "removeBuiltInMods":["jc_sf_supply_p"],
+  "addHints":[UNBOARDABLE,HIDE_IN_CODEX,CARRIER],
+  "removeHints":[CIVILIAN,LINER,TRANSPORT],
+  "tags":["restricted","no_autofit"],
+  "weaponSlotChanges":{
+    "WS0001":{
+      "type": "BUILT_IN",
+    },
+    "WS0004":{
+      "type": "BUILT_IN",
+    },
+    "WS0005":{
+      "type": "BUILT_IN",
+    }
+  },
+  "builtInWeapons":{
+    "WS0001": "jc_rt",
+    "WS0004": "resonatormrm",
+    "WS0005": "resonatormrm"
+  },
+  "fleetPoints":25,
+}

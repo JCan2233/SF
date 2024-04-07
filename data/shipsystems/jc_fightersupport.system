@@ -1,0 +1,17 @@
+{
+	"id":"jc_fightersupport",
+	"type":"STAT_MOD",
+	"aiType":"RESERVE_DEPLOYMENT",
+	
+	"statsScript":"data.scripts.shipsystems.Jc_fightersupport",
+	
+	"useSound":"system_reserve_wing",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

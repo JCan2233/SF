@@ -1,0 +1,11 @@
+{
+  "baseHullId": "jc_sf_abomination",
+  "skinHullId": "jc_sf_abomination_f",
+  "hullDesignation":"武装燃料舰",
+  "builtInMods": ["jc_sf_supply_f"],
+  "removeBuiltInMods":["jc_sf_supply_p"],
+  "addHints":[TANKER],
+  "removeHints":[LINER,TRANSPORT],
+  "spriteName":"graphics/jc/ships/sf/jc_sf_abomination_f.png",
+  "tags":["jc_sf","jc_sf_bp"]
+}

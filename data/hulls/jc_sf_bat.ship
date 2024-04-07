@@ -1,0 +1,109 @@
+{
+  "hullName": "jc_sf_bat",
+  "hullId": "jc_sf_bat",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_bat.png",
+  "style": "jc_sf",
+  "height": 54,
+  "width": 46,
+  "center": [23, 27],
+  "collisionRadius": 31.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 30.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "no_weapon_flux"
+  ],
+  "builtInWeapons": {
+    "WS0001": "jc_sf_fighter_sub",
+    "WS0002": "jc_sf_fighter_sub",
+    "WS0003": "jc_sf_bat_main"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [7, 15]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": -0,
+      "locations": [7, -15]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [11.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 180,
+      "locations": [-23, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-24, 1.5],
+      "length": 4.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-24, -1.5],
+      "length": 4.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-15, 15.5],
+      "length": 7,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-15, -15.5],
+      "length": 7,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    }
+  ],
+  "bounds": [
+    -20.5, -8.5,
+    -10, -20,
+    7, -10,
+    12.5, -0,
+    7, 10,
+    -10, 20,
+    -20.5, 8.5
+  ]
+}

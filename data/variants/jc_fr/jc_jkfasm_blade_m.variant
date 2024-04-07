@@ -1,0 +1,14 @@
+{
+  "variantId": "jc_jkfasm_blade_m",
+  "hullId": "jc_jkfasm_blade",
+  "displayName": "聚合晶体",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

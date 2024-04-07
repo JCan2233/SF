@@ -1,0 +1,17 @@
+{
+	"baseHullId":"jc_radiant_omega",
+	"skinHullId":"jc_n_radiant_omega",
+	"hullName":"死光",
+  	"hullDesignation":"无人战列舰",
+	"tags":["restricted"],
+	"removeBuiltInMods":["jc_shard_special","do_not_back_off","jc_no_retreat","jc_always_ally"],
+	"ordnancePoints":400,
+	"builtInWeapons": {
+    	"WS 003": "riftcascade"
+  	},
+	"weaponSlotChanges":{
+		"WS 003":{
+      		"type": "BUILT_IN"
+    	}
+	}
+}

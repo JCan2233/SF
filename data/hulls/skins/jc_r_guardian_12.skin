@@ -1,0 +1,13 @@
+{
+  "baseHullId": "jc_r_guardian",
+  "skinHullId": "jc_r_guardian_12",
+  "hullName":"守护者",
+  "builtInMods": [
+    "jc_auto_scholar",
+    "jc_gs_core"
+  ],
+  "fighterBays": 1,
+  "builtInWings": ["jc_firefly_wing"],
+  "ordnancePoints":380,
+  "spriteName": "graphics/jc/ships/jc_r_guardian_2.png"
+}

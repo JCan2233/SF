@@ -1,0 +1,36 @@
+{
+  "variantId": "jc_autocivpod_3_wing",
+  "hullId": "jc_autocivpod",
+  "displayName": "辅助机",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_pod_mg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "jc_pod_emp"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "jc_pod_mis"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

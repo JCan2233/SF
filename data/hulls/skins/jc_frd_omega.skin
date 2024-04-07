@@ -1,0 +1,7 @@
+{
+	"baseHullId":"jc_frd",
+	"skinHullId":"jc_frd_omega",
+	"tags":["restricted","no_sell","no_dealer"],
+	"removeBuiltInMods":[],
+	"builtInMods":["jc_shard_frms"]
+}

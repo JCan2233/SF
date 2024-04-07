@@ -1,0 +1,7 @@
+{
+	"id":"jc_sf_flarelauncher_fighter",
+	"type":"WEAPON",
+	"aiType":"FLARE_JAMMER",
+	"weaponDataId":"jc_sf_flarelauncher_fighter",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

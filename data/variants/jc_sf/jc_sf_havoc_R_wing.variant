@@ -1,0 +1,30 @@
+{
+  "variantId": "jc_sf_havoc_R_wing",
+  "hullId": "jc_sf_havoc_R",
+  "displayName": "整合炮艇",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_havoc_sub",
+        "WS0002": "jc_sf_havoc_sub"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,28 @@
+{
+  "hullName": "jc_sf_shadowlord_s",
+  "hullId": "jc_sf_shadowlord_s",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/jc_empty.png",
+  "style": "jc_sf",
+  "height": 1,
+  "width": 1,
+  "center": [0.5, 0.5],
+  "collisionRadius": 279.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 275,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "never_detaches",
+    "jc_boss_buff"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -0.5, 0.5,
+    0.5, 0.5,
+    0.5, -0.5,
+    -0.5, -0.5
+  ]
+}

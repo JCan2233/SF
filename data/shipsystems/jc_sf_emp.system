@@ -1,0 +1,19 @@
+{
+	"id":"jc_sf_emp",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"data.scripts.shipsystems.Jc_sf_emp",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_emp_ai",
+
+	"useSound":"system_emp_emitter_activate",
+	"loopSound":"system_emp_emitter_loop",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":600,
+		"threatAmount":4,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}

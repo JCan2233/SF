@@ -1,0 +1,29 @@
+{
+  "variantId": "jc_sf_asura_drone_drone",
+  "hullId": "jc_sf_asura_drone",
+  "displayName": "补给支援机",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_asura_bm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

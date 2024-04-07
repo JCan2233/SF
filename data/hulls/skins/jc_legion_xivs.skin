@@ -1,0 +1,32 @@
+{
+	"baseHullId":"legion",
+	"skinHullId":"jc_legion_xivs",
+	"hullName":"军团 (XIV-S)",
+	"descriptionPrefix":"一艘经过特殊改装的第十四战斗群的军团-级，没有人知道它有着怎么样的过往。",
+	"tags":["no_bp_drop"],
+	"addHints":[HIDE_IN_CODEX],
+	"tech":"第十四战斗群",
+	"fleetPoints":30,
+	"ordnancePoints":310,
+	"baseValueMult":1.7,
+	"spriteName":"graphics/ships/legion/legion_xiv.png",
+	"coversColor":[255,255,255,255],
+	"builtInMods":["fourteenth","hbi","ballistic_rangefinder"],
+    "weaponSlotChanges":{
+	   "WS 002":{
+		  "type": "BALLISTIC",
+	   },
+	   "WS 003":{
+		  "type": "BALLISTIC",
+	   },
+	   "WS 004":{
+		  "type": "BALLISTIC",
+	   },
+	   "WS 005":{
+		  "type": "BALLISTIC",
+	   },
+	   "WS 007":{
+		  "type": "BALLISTIC",
+	   }
+    }
+}

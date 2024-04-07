@@ -1,0 +1,22 @@
+{
+  "variantId": "jc_sf_module_ram_R",
+  "hullId": "jc_sf_module_ram_R",
+  "displayName": "标准",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_fusebeam_m"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

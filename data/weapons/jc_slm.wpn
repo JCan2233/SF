@@ -1,0 +1,29 @@
+{
+	"id":"jc_slm",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/jc/weapons/jc_empty.png",
+	"turretGlowSprite":"",
+	"hardpointSprite":"",
+	"hardpointGlowSprite":"",
+	"glowColor":[100,255,100,200],
+	"turretOffsets":[5, -8, 5, 8],
+	"turretAngleOffsets":[0, 0],
+	"hardpointOffsets":[5, -8, 5, 8],
+	"hardpointAngleOffsets":[0, 0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"jc_slm_shot",  # projectile that will be fired
+	"muzzleFlashSpec": {
+	    "length": 30,
+	    "spread": 10,
+	    "particleSizeMin": 15,
+	    "particleSizeRange": 9,
+	    "particleDuration": 0.15,
+	    "particleCount": 10,
+	    "particleColor": [100,155,255,255]
+	},
+	#"fireSoundTwo":"pulse_laser_fire",
+}

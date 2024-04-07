@@ -1,0 +1,57 @@
+{
+  "variantId": "jc_starlight_cargo",
+  "hullId": "jc_starlight",
+  "displayName": "货物运输",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [
+    "jc_auto_supply_f_cargo"
+  ],
+  "hullMods": [
+    "auxiliarythrusters",
+    "jc_auto_supply_cargo"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "railgun",
+        "WS0011": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "breach",
+        "WS0013": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,7 @@
+{
+	"baseHullId":"remnant_hangar1",
+	"skinHullId":"jc_s_remnant_hangar1",
+	"tags":["restricted","no_sell"],
+	"removeBuiltInMods":[],
+	"builtInMods":["jc_shard_frms"]
+}

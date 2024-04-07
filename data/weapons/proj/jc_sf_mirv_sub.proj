@@ -1,0 +1,41 @@
+{
+	"id":"jc_sf_mirv_sub",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"onHitEffect":"data.scripts.weapons.Jc_sf_mirv_OnHitEffect",
+	"sprite":"graphics/jc/weapons/sf/jc_sf_mirv_sub.png",
+	"size":[6,19],	
+	"center":[3,9.5],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,165,0,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":80, # purely visual
+	"maxFlightTime": 6,
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
+	"fadeTime":0.1, # fadeout duration
+	"engineSpec":{"turnAcc":1000,
+				  "turnRate":50,
+				  "maxSpeed":300,
+				  "acc":800,
+				  "dec":400},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-9.5, 0],
+				    "style":"CUSTOM",
+				    "styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[80,90,255,255],
+						"contrailDuration":1,
+						"contrailWidthMult":0.67,
+						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":0,
+						"contrailAngularVelocityMult":0.5,
+						"contrailSpawnDistMult":0, # how far away from engine it starts
+						"contrailColor":[255,19,60,125],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":4.0,
+				    "length":20.0,
+				    "angle":180.0}]
+}

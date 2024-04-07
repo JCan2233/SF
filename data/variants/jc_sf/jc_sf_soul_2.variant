@@ -1,0 +1,33 @@
+{
+  "variantId": "jc_sf_soul_2",
+  "hullId": "jc_sf_soul",
+  "displayName": "护航",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "jc_sf_defence"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_fusebeam_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_pdlaser",
+        "WS0002": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

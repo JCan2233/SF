@@ -1,0 +1,22 @@
+{
+	"id":"jc_ecmhack",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"data.scripts.shipsystems.Jc_ecmhack",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_ecmhack_ai",
+
+	"runScriptWhileIdle":true, # unapply() never gets called
+		
+	"useSound":"system_entropy",
+	"loopSound":"system_entropy_loop",
+	"deactivateSound":"system_entropy_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

@@ -1,0 +1,55 @@
+{
+    "displayName": "精英",
+    "fluxCapacitors": 43,
+    "fluxVents": 43,
+    "hullId": "jc_legion_xivs",
+    "hullMods": [
+        "targetingunit",
+        "expanded_deck_crew",
+        "heavyarmor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jc_legion_xivs_Elite",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "heavyac",
+                "WS 003": "heavyac",
+                "WS 004": "heavyac",
+                "WS 005": "heavyac",
+                "WS 007": "heavyac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "devastator",
+                "WS 001": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "vulcan",
+                "WS 009": "vulcan",
+                "WS 014": "vulcan",
+                "WS 015": "vulcan",
+                "WS 018": "vulcan",
+                "WS 019": "vulcan",
+                "WS 020": "vulcan",
+                "WS 021": "vulcan"
+            }
+        }
+    ],
+    "wings": [
+        "broadsword_wing",
+        "broadsword_wing",
+        "broadsword_wing",
+        "broadsword_wing"
+    ]
+}

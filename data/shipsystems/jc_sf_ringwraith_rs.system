@@ -1,0 +1,18 @@
+{
+	"id":"jc_sf_ringwraith_rs",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"runScriptWhileIdle":true,
+	"statsScript":"data.scripts.shipsystems.Jc_sf_ringwraith_rs",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_ringwraith_rs_ai",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper_omega",
+	"loopSound":"system_damper_omega_loop",
+	"deactivateSound":"system_damper_omega_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+	}
+}

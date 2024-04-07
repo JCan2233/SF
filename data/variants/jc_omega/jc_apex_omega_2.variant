@@ -1,0 +1,57 @@
+{
+  "variantId": "jc_apex_omega_2",
+  "hullId": "jc_apex_omega",
+  "displayName": "反护盾",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "resonatormrm",
+        "WS 005": "resonatormrm",
+        "WS 006": "resonatormrm",
+        "WS 007": "resonatormrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "cryoblaster",
+        "WS 003": "cryoblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 011": "minipulser",
+        "WS 012": "minipulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "shockrepeater",
+        "WS 009": "shockrepeater",
+        "WS 010": "shockrepeater",
+        "WS 013": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "jc_lux_omega2_wing",
+    "jc_lux_omega2_wing"
+  ]
+}

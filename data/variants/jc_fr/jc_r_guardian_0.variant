@@ -1,0 +1,91 @@
+{
+  "variantId": "jc_r_guardian_0",
+  "hullId": "jc_r_guardian_00",
+  "displayName": "失落",
+  "goalVariant": true,
+  "fluxCapacitors": 38,
+  "fluxVents": 39,
+  "quality": 1,
+  "permaMods": [
+    "dedicated_targeting_core",
+    "comp_armor",
+    "comp_hull",
+    "degraded_engines",
+    "faulty_grid",
+    "comp_structure",
+    "glitched_sensors",
+    "fragile_subsystems",
+    "erratic_injector",
+    "damaged_mounts",
+    "degraded_shields"
+  ],
+  "hullMods": [
+    "jc_auto_scholar_manned",
+    "autorepair",
+    "blast_doors",
+    "efficiency_overhaul",
+    "fluxdistributor",
+    "insulatedengine",
+    "missleracks",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "mark9",
+        "WS 008": "mark9"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "annihilatorpod",
+        "WS 011": "annihilatorpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 012": "taclaser",
+        "WS 013": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 014": "mininglaser",
+        "WS 015": "mininglaser",
+        "WS 016": "mininglaser",
+        "WS 017": "mininglaser",
+        "WS 018": "mininglaser",
+        "WS 019": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 020": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "flak",
+        "WS 001": "flak",
+        "WS 002": "flak",
+        "WS 003": "flak",
+        "WS 004": "flak",
+        "WS 005": "flak"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

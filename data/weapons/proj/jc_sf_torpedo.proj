@@ -1,0 +1,46 @@
+{
+	"id":"jc_sf_torpedo",
+	"specClass":"missile",
+	"missileType":"MISSILE",
+	"sprite":"graphics/jc/weapons/sf/jc_sf_torpedo.png",
+	"onFireEffect":"data.scripts.weapons.Jc_sf_torpedoEffect",
+	"onHitEffect":"data.scripts.weapons.Jc_sf_torpedoEffect",
+	"size":[16,25],	
+	"center":[8,12.5],
+	"collisionRadius":20,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[0,100,150,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":200, # purely visual
+	"armingTime":0.5,
+	"noEngineGlowTime":0.25, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	"passThroughMissiles":true,
+	#"passThroughFighters":false, # use default
+	"applyOnHitEffectWhenPassThrough":false,
+	"engineSpec":{"turnAcc":300,
+				  "turnRate":50,
+				  "acc":500,
+				  "dec":200},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-12.5, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[80,90,255,255],
+						"contrailDuration":1.5,
+						"contrailWidthMult":0.67,
+						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":0,
+						"contrailAngularVelocityMult":0.5,
+						"contrailSpawnDistMult":0, # how far away from engine it starts
+						"contrailColor":[255,19,60,125],
+						"glowSizeMult":2,
+						"glowAlternateColor":[0,150,200,150],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":10.0,
+				    "length":80.0,
+				    "angle":180.0}]
+}
+			

@@ -1,0 +1,55 @@
+{
+  "variantId": "jc_ecmhacker_1",
+  "hullId": "jc_ecmhacker",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 29,
+  "fluxVents": 29,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit",
+    "jc_auto_scholar_auto",
+    "stabilizedshieldemitter",
+    "advancedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "jc_spdc"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "heavymauler",
+        "WS0010": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "jc_emp2",
+        "WS0008": "jc_emp2"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "lrpdlaser",
+        "WS0002": "lrpdlaser",
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

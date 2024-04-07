@@ -1,0 +1,6 @@
+name,id,planetary,decivRemove,script,desc,icon,order
+AI文明,jc_auto_civ,,TRUE,data.scripts.campaign.econ.Jc_auto_civ,此地的居民均为AI核心或机械生命体。本地船员、陆战队员、器官的需求降为零且产出减半，消除食品、毒品的需求，同时高度团结的AI居民会提高当地的稳定性。,graphics/jc/icons/markets/jc_aiciv.png,140.26
+赛博文明,jc_auto_civ2,,TRUE,data.scripts.campaign.econ.Jc_autociv_industry_c,此地的居民均为AI或赛博生命体。本地船员、陆战队员、器官的需求降为零且产出减半，消除食品、毒品的需求，同时提高当地的稳定性。,graphics/jc/icons/markets/jc_aiciv.png,140.25
+余辉母舰,jc_auto_ms,,TRUE,data.scripts.campaign.econ.Jc_auto_ms,此地为余辉AI在核心星域的殖民母舰，拥有强大的军事力量。,graphics/icons/markets/frontier.png,140.27
+深空自律单元,jc_sf_mb_c,,TRUE,data.scripts.campaign.econ.Jc_sf_mb_Condition,此地为幽灵部队在英仙座的核心要塞，拥有强大的军事力量，轨道采集设备可以开采当前星系所有星球的矿物资源。不过机动要塞运行需要额外消耗大量燃料。,graphics/icons/markets/frontier.png,140.28
+行星杀手打击,jc_starDestroyerCondition,,TRUE,data.scripts.campaign.econ.Jc_starDestroyerEffect,该殖民地刚刚遭受了幽灵部队行星歼灭舰船的打击，各类设施均处于瘫痪状态，当地的政治局势和军事部署也受到了毁灭性的冲击。,graphics/icons/markets/plundered.png,1140.26

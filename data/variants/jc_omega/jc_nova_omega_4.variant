@@ -1,0 +1,62 @@
+{
+  "variantId": "jc_nova_omega_4",
+  "hullId": "jc_nova_omega",
+  "displayName": "打击",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "rifttorpedo",
+        "WS 001": "rifttorpedo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "cryoblaster",
+        "WS 003": "cryoblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "disintegrator",
+        "WS 005": "disintegrator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "resonatormrm",
+        "WS 007": "resonatormrm",
+        "WS 008": "resonatormrm",
+        "WS 009": "resonatormrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "shockrepeater",
+        "WS 011": "shockrepeater",
+        "WS 012": "shockrepeater",
+        "WS 013": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

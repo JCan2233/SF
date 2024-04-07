@@ -1,0 +1,40 @@
+{
+  "variantId": "jc_reflection_1",
+  "hullId": "jc_reflection",
+  "displayName": "标准",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "advancedoptics",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "taclaser",
+        "WS0002": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "SYS_00": "jc_emps"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,74 @@
+{
+  "variantId": "jc_sf_bloodmoon_2",
+  "hullId": "jc_sf_bloodmoon",
+  "displayName": "打击",
+  "goalVariant": true,
+  "fluxCapacitors": 31,
+  "fluxVents": 32,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "jc_sf_bloodmoon_main"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_mirv",
+        "WS0002": "jc_sf_mirv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "jc_sf_kmissile_m",
+        "WS0009": "jc_sf_kmissile_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_fusebeam_l",
+        "WS0004": "jc_sf_fusebeam_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "jc_sf_atklaser_m",
+        "WS0007": "jc_sf_atklaser_m",
+        "WS0012": "jc_sf_atklaser_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "jc_sf_pdlaser",
+        "WS0011": "jc_sf_pdlaser",
+        "WS0013": "jc_sf_pdlaser",
+        "WS0014": "jc_sf_pdlaser",
+        "WS0015": "jc_sf_pdlaser",
+        "WS0016": "jc_sf_pdlaser",
+        "WS0017": "jc_sf_pdlaser",
+        "WS0018": "jc_sf_pdlaser",
+        "WS0019": "jc_sf_pdlaser",
+        "WS0020": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

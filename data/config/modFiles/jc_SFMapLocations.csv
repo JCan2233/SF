@@ -1,0 +1,10 @@
+id,tier,conditionDescForPlanet
+#自定义实体id或星球环境id,#等级1~4，只有星冕分流器等限量物体才能是4级,#星球环境描述，为空则视为实体，有内容则视为环境
+,,
+#工业革命,,
+IndEvo_RuinsCondition,2,古代工业设施遗迹
+IndEvo_mineFieldCondition,3,自主复制的雷区
+IndEvo_ArtilleryStationCondition,2,轨道炮台设施
+IndEvo_arsenalStation,2,
+IndEvo_orbitalLaboratory,3,
+IndEvo_abandonedPetCenter,2,

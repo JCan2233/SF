@@ -1,0 +1,58 @@
+{
+  "variantId": "jc_starlight_mine",
+  "hullId": "jc_starlight",
+  "displayName": "勘探采矿",
+  "goalVariant": true,
+  "fluxCapacitors": 13,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [
+    "jc_auto_supply_f_mine"
+  ],
+  "hullMods": [
+    "auxiliarythrusters",
+    "jc_auto_supply_mine",
+    "jc_auto_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "pulselaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "railgun",
+        "WS0011": "railgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "hammer",
+        "WS0013": "hammer"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdlaser",
+        "WS0003": "pdlaser",
+        "WS0004": "pdlaser",
+        "WS0005": "pdlaser",
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

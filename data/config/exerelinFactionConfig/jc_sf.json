@@ -1,0 +1,119 @@
+{
+    "playableFaction": true,
+    "corvusCompatible": true,
+    "startingFaction": true,
+    "dropPrisoners": false,
+    "allowPrisonerActions": false,
+    "ngcTooltip": "来自异星的无人战争兵器浩浩荡荡地驶向英仙座，它们的到来是会带来秩序还是点燃战火？",
+    "asteroidMiningFleetName": "小行星开采舰队",
+    "gasMiningFleetName": "气巨星开采舰队",
+    "invasionFleetName": "同化",
+    "invasionSupportFleetName": "先锋",
+    "defenceFleetName": "护卫",
+    "responseFleetName": "监守",
+    "miningVariantsOrWings": [
+        "jc_sf_abomination_c",
+        "jc_sf_abomination_f"
+    ],
+    "stabilizeCommodities": [
+        "supplies",
+        "hand_weapons"
+    ],
+    "marketSpawnWeight": 0.1,
+    "colonyExpeditionChance": 1,
+    "colonyTargetValuator": "exerelin.campaign.colony.IndustrialColonyTargetValuator",
+    "specialForcesNamerClass": "data.scripts.campaign.fleet.Jc_sf_SFN",
+    "specialForcesMaxFleets": 3,
+    "specialForcesPointMult": 1.5,
+    "specialForcesSizeMult": 1.5,
+    "factionsLiked": [
+        "jc_fr"
+    ],
+    "factionsDisliked": [
+        "luddic_path",
+        "luddic_church"
+    ],
+    "startRelationships": {
+        "luddic_path": -1,
+        "luddic_church": -0.6,
+        "hegemony": -0.6,
+        "remnant": 0.25,
+        "jc_fr": 0.25
+    },
+    "maxRelationships": {
+        "luddic_path": -0.5,
+        "luddic_church": 0.0,
+        "hegemony": 0.5
+    },
+    "alignments": {
+        "diplomatic": 1,
+        "technocratic": 1,
+        "hierarchial": -0.5,
+        "corporate": -0.5,
+        "militarist": -0.5
+    },
+    "diplomacyTraits": [
+        "likes_ai",
+        "helps_allies",
+        "irredentist"
+    ],
+    "freeMarket": true,
+    "startSpecialItems": [
+        [
+            [
+                "jc_sf_package",
+                ""
+            ]
+        ]
+    ],
+    "startShipsSuper": [
+        [
+            "jc_sf_elf_0"
+        ],
+        [
+            "jc_sf_lich_0",
+            "jc_sf_elf_0"
+        ],
+        [
+            "jc_sf_dragon_0",
+            "jc_sf_lich_0",
+            "jc_sf_elf_0"
+        ],
+        [
+            "jc_sf_dragon_0",
+            "jc_sf_ghost_0",
+            "jc_sf_elf_0"
+        ],
+        [
+            "jc_sf_swarm_0",
+            "jc_sf_ghost_0",
+            "jc_sf_elf_0"
+        ],
+        [
+            "jc_sf_worm_0"
+        ],
+        [
+            "jc_sf_bloodmoon_0"
+        ]
+    ],
+    "bonusSeeds": [
+        {
+            "id": "aiCore_station",
+            "count": 10,
+            "mult": 10
+        },
+        {
+            "id": "aiCore_any",
+            "mult": 4
+        }
+    ],
+    "defenceStations": [
+        {
+            "ids": [
+                "jc_orbitalstation_sf",
+                "jc_battlestation_sf",
+                "jc_starfortress_sf"
+            ]
+        }
+    ]
+}

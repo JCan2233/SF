@@ -1,0 +1,11 @@
+{
+	"id":"jc_sf_flarelauncher_active",
+	"type":"WEAPON",
+	"aiType":"FLARE",
+	"weaponDataId":"jc_sf_flarelauncher_active",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}	
+}

@@ -1,0 +1,45 @@
+{
+  "id": "jc_sf_alien_sideR",
+  "specClass": "beam",
+  "type": "DECORATIVE",
+  "size": "SMALL",
+  "collisionClass": "NONE",
+  "collisionClassByFighter": "NONE",
+  "turretSprite": "graphics/jc/ships/sf/jc_sf_alien/jc_sf_alien_WR.png",
+  "hardpointSprite": "graphics/jc/ships/sf/jc_sf_alien/jc_sf_alien_WR.png",
+  "turretGlowSprite": "graphics/jc/ships/sf/jc_sf_alien/jc_sf_alien_WR_glow.png",
+  "hardpointGlowSprite": "graphics/jc/ships/sf/jc_sf_alien/jc_sf_alien_WR_glow.png",
+  "renderBelowAllWeapons": true,
+  "glowColor": [50,100,200,200],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    0,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "coreColor": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "width": 1,
+  "textureType": ROUGH,
+  "textureScrollSpeed": 1,
+  "pixelsPerTexel": 1
+}

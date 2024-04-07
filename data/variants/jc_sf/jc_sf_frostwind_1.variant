@@ -1,0 +1,39 @@
+{
+  "variantId": "jc_sf_frostwind_1",
+  "hullId": "jc_sf_frostwind",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_emissile_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_needler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "jc_sf_ionlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

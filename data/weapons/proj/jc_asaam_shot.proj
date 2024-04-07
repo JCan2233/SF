@@ -1,0 +1,16 @@
+{
+	"id":"jc_asaam_shot",
+	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.Jc_asaa_OnHitEffect",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":50.0,
+	"width":35.0,
+	"fadeTime":0.1,
+	"fringeColor":[20,255,20,255],
+	"coreColor":[70,255,235,200],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0	
+}

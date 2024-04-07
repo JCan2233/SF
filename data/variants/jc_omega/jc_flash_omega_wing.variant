@@ -1,0 +1,21 @@
+{
+  "variantId": "jc_flash_omega_wing",
+  "hullId": "jc_flash_omega",
+  "displayName": "导弹",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "permaMods": [],
+  "hullMods": ["missleracks"],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "amsrm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

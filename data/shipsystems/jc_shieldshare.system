@@ -1,0 +1,11 @@
+{
+	"id":"jc_shieldshare",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+
+	"statsScript":"data.scripts.shipsystems.Jc_shieldshare",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_shieldshare_ai",
+	
+	"loopSound":"system_fortress_shield_loop",
+	"outOfUsesSound":"gun_out_of_ammo",	
+}

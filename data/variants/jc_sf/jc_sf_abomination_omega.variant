@@ -1,0 +1,50 @@
+{
+    "displayName": "机密",
+    "fluxCapacitors": 15,
+    "fluxVents": 14,
+    "hullId": "jc_sf_abomination_omega",
+    "hullMods": [
+        "eccm",
+        "autorepair",
+        "fluxbreakers"
+    ],
+    "sMods": ["jc_sf_defence","jc_sf_shieldstabilizer","targetingunit"],
+    "variantId": "jc_sf_abomination_omega",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "jc_rt"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0004": "resonatormrm",
+                "WS0005": "resonatormrm"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "jc_sf_ionlaser"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0003": "jc_sf_atklaser_m"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0006": "jc_sf_pdburst",
+                "WS0007": "jc_sf_pdburst",
+                "WS0008": "jc_sf_pdburst",
+                "WS0009": "jc_sf_pdburst",
+                "WS0010": "jc_sf_pdburst",
+                "WS0011": "jc_sf_pdburst"
+            }
+        }
+    ]
+}

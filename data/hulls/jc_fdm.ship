@@ -1,0 +1,54 @@
+{
+  "hullName": "FD_m",
+  "hullId": "jc_fdm",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/jc_empty.png",
+  "style": "LOW_TECH",
+  "height": 1,
+  "width": 1,
+  "center": [0.5, 0.5],
+  "collisionRadius": 300,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 300,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_no_hurt",
+    "never_detaches",
+    "reduced_explosion",
+    "jc_boss_buff",
+    "jc_noop",
+    "jc_modulemod"
+  ],
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -119, 0,
+        -102.5, 0
+      ]
+    },
+    {
+      "id": "S 1",
+      "size": "LARGE",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -111, 0
+      ]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -0.5, 0.5,
+    0.5, 0.5,
+    0.5, -0.5,
+    -0.5, -0.5
+  ]
+}

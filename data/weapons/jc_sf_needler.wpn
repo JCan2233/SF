@@ -1,0 +1,56 @@
+{
+  "id": "jc_sf_needler",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_sf_needler_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/jc/weapons/sf/jc_sf_needler_turret.png",
+  "turretGlowSprite": "graphics/jc/weapons/sf/jc_sf_needler_turret_glow.png",
+  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_needler_hardpoint.png",
+  "hardpointGlowSprite": "graphics/jc/weapons/sf/jc_sf_needler_hardpoint_glow.png",
+  "glowColor": [
+    50,
+    50,
+    255,
+    255
+  ],
+  "turretOffsets": [
+    24,
+    1,
+    24,
+    -1
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    35,
+    1,
+    35,
+    -1
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "separateRecoilForLinkedBarrels": true,
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 5,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "particleDuration": 0.09,
+    "particleCount": 6,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "needler_fire"
+}

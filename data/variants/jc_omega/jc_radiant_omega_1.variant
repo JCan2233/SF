@@ -1,0 +1,72 @@
+{
+  "variantId": "jc_radiant_omega_1",
+  "hullId": "jc_radiant_omega",
+  "displayName": "打击",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "rifttorpedo",
+        "WS 001": "rifttorpedo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "rifttorpedo",
+        "WS 004": "rifttorpedo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "vpdriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "resonatormrm",
+        "WS 006": "resonatormrm",
+        "WS 007": "resonatormrm",
+        "WS 008": "resonatormrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "riftlance",
+        "WS 017": "riftlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "shockrepeater",
+        "WS 011": "shockrepeater",
+        "WS 012": "shockrepeater",
+        "WS 013": "shockrepeater",
+        "WS 014": "shockrepeater",
+        "WS 015": "shockrepeater",
+        "WS 016": "shockrepeater",
+        "WS 018": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

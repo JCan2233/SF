@@ -1,0 +1,45 @@
+{
+  "id": "jc_sf_asura_b3",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_empty_proj",
+  "type": "SYSTEM",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.Jc_HideWhenHulkEffect",
+  "turretSprite": "graphics/jc/ships/sf/jc_sf_asura/b_3.png",
+  "hardpointSprite": "graphics/jc/ships/sf/jc_sf_asura/b_3.png",
+  "turretOffsets": [
+    -25,
+    48,
+    -25,
+    -48,
+    -5,
+    59,
+    -5,
+    -59
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    -9,
+    48,
+    -9,
+    -48,
+    12,
+    59.5,
+    12,
+    -59.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE",
+  "mountTypeOverride": "MISSILE"
+}

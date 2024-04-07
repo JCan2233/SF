@@ -1,0 +1,17 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "hullId": "jc_frd",
+    "hullMods": [
+        "turretgyros",
+        "magazines"
+    ],
+    "permaMods": [],
+    "variantId": "jc_frd_Standard",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 000": "jc_guardian_r"}
+    }]
+}

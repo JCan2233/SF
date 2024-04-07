@@ -1,0 +1,33 @@
+{
+  "variantId": "jc_lumen_omega_3",
+  "hullId": "jc_lumen_omega",
+  "displayName": "打击",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "amsrm",
+        "WS 007": "amsrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "amsrm",
+        "WS 009": "amsrm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

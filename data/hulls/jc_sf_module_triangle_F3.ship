@@ -1,0 +1,48 @@
+{
+  "hullName": "jc_sf_module_triangle_F3",
+  "hullId": "jc_sf_module_triangle_F3",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/station/triangle_3.png",
+  "style": "jc_sf",
+  "height": 157,
+  "width": 150,
+  "center": [75, 114],
+  "collisionRadius": 135.5,
+  "shieldCenter": [130.5, 0],
+  "shieldRadius": 240,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "never_detaches",
+    "supercomputer"
+  ],
+  "builtInWeapons": {
+    "WS0001": "jc_sf_pdl_station"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [-21, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -92, -26.5,
+    -112, -50.5,
+    -70, -74,
+    40, -27,
+    14, -11.5,
+    14, 11.5,
+    40, 27,
+    -70, 74,
+    -112, 50.5,
+    -92, 26.5,
+    -112, -0
+  ]
+}

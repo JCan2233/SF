@@ -1,0 +1,15 @@
+{
+	"id":"jc_sf_sacrifice_sys",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"runScriptWhileIdle":true,
+	"statsScript":"data.scripts.shipsystems.Jc_sf_sacrifice_sys",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_sacrifice_sys_ai",
+
+	"useSound":"system_damper",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+	}
+}

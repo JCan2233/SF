@@ -1,0 +1,6 @@
+{
+  "baseHullId": "jc_sf_asura_backpack",
+  "skinHullId": "jc_sf_asura_backpack_2",
+  "tags":["restricted"],
+  "removeEngineSlots":[0,1,2,3,4,5]
+}

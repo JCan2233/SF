@@ -1,0 +1,7 @@
+{
+	"baseHullId":"remnant_weapon_platform2",
+	"skinHullId":"jc_s_remnant_weapon_platform2",
+	"tags":["restricted","no_sell"],
+	"removeBuiltInMods":[],
+	"builtInMods":["jc_shard_frms"]
+}

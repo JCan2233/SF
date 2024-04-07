@@ -1,0 +1,22 @@
+{
+	"id":"jc_r_damper",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"data.scripts.shipsystems.Jc_r_damper",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_r_damper_ai",
+
+	"canUseWhileRightClickSystemOn":true,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+

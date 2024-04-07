@@ -1,0 +1,24 @@
+{
+	"id":"jc_sf_core_admin",
+	"governingAptitude":"technology", # why not
+	"compressHullmods":false,
+	"elite":true,
+	"scope":"GOVERNED_OUTPOST",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"GOVERNED_OUTPOST", "script":"data.scripts.campaign.skills.Jc_sf_core_admin$Level1"}
+			]
+		},
+		{
+			"name":"精英",
+			"requiredSkillLevel":2,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"GOVERNED_OUTPOST", "script":"data.scripts.campaign.skills.Jc_sf_core_admin$Level2"}
+			]
+		},
+	],
+}

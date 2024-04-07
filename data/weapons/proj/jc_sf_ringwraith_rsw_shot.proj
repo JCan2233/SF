@@ -1,0 +1,16 @@
+{
+	"id":"jc_sf_ringwraith_rsw_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY_FIGHTER",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":100.0,
+	"width":20.0,
+	"hitGlowRadius":50,
+	"fadeTime":0.25,
+	"fringeColor":[200,30,50,255],
+	"coreColor":[255,255,255,200],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0
+}

@@ -1,0 +1,17 @@
+{
+	"id":"jc_sf_sacrifice_wpn1_m",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_NO_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":15,
+	"width":15,
+	"hitGlowRadius":75,
+	"fadeTime":0.1,
+	"fringeColor":[200,0,0,255],
+	"coreColor":[100,255,200,127],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":false,
+	"bulletSprite":"graphics/missiles/bomblet0.png"	
+}

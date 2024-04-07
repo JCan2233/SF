@@ -1,0 +1,62 @@
+{
+  "id": "jc_sf_atklaser_l",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_sf_atklaser_l_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "everyFrameEffect": "data.scripts.weapons.Jc_sf_normalEffect",
+  "turretSprite": "graphics/jc/weapons/sf/jc_sf_atklaser_l_turret.png",
+  "turretGlowSprite": "graphics/jc/weapons/sf/jc_sf_atklaser_l_turret_glow.png",
+  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_atklaser_l_hardpoint.png",
+  "hardpointGlowSprite": "graphics/jc/weapons/sf/jc_sf_atklaser_l_hardpoint_glow.png",
+  "glowColor": [
+    200,
+    100,
+    100,
+    225
+  ],
+  "turretOffsets": [
+    30.5,
+    5.5,
+    31.5,
+    0,
+    30.5,
+    -5.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    45,
+    5.5,
+    46,
+    0,
+    45,
+    -5.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 40,
+    "spread": 8,
+    "particleSizeMin": 20,
+    "particleSizeRange": 20,
+    "particleDuration": 0.12,
+    "particleCount": 12,
+    "particleColor": [
+      200,
+      100,
+      100,
+      255
+    ]
+  },
+  "fireSoundTwo": "jc_sf_atklaser"
+}

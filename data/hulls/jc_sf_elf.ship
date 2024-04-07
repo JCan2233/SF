@@ -1,0 +1,153 @@
+{
+  "hullName": "jc_sf_elf",
+  "hullId": "jc_sf_elf",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_elf.png",
+  "style": "jc_sf",
+  "height": 69,
+  "width": 112,
+  "center": [56, 36],
+  "collisionRadius": 64.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 63,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "jc_sf_kerenzikov"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 90,
+      "locations": [-6, 22]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -90,
+      "locations": [-6, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [27, 17]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [27, -17]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [12.5, 35]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [12.5, -35]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16.5, 6],
+      "length": 10.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-16.5, -6],
+      "length": 10.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-16.5, -0],
+      "length": 14.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-20.5, 35],
+      "length": 10,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-20.5, -35],
+      "length": 10,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    }
+  ],
+  "bounds": [
+    -15.5, -11,
+    -35.5, -10.5,
+    -24.5, -18,
+    -15, -18.5,
+    -14.5, -25,
+    -21, -30.5,
+    -21, -38,
+    -8, -55.5,
+    1, -55.5,
+    5.5, -50.5,
+    20, -46,
+    22.5, -26,
+    28.5, -24.5,
+    31.5, -11,
+    16, -0,
+    31.5, 11,
+    28.5, 24.5,
+    22.5, 26,
+    20, 46,
+    5.5, 50.5,
+    1, 55.5,
+    -8, 55.5,
+    -21, 38,
+    -21, 30.5,
+    -14.5, 25,
+    -15, 18.5,
+    -24.5, 18,
+    -35.5, 10.5,
+    -15.5, 11
+  ]
+}

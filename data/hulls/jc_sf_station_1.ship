@@ -1,0 +1,144 @@
+{
+  "hullName": "jc_sf_station_1",
+  "hullId": "jc_sf_station_1",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/jc/ships/sf/station/base.png",
+  "style": "jc_sf",
+  "height": 332,
+  "width": 338,
+  "center": [169, 166],
+  "collisionRadius": 253,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 253,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "jc_sf_station",
+    "vastbulk",
+    "axialrotation",
+    "supercomputer",
+    "shared_flux_sink"
+  ],
+  "builtInWeapons": {
+    "WS0001": "jc_sf_station_light"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0]
+    },
+    {
+      "id": "FL",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [283, 99]
+    },
+    {
+      "id": "FR",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [283, -99]
+    },
+    {
+      "id": "BL",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-283, 99]
+    },
+    {
+      "id": "BR",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-283, -99]
+    },
+    {
+      "id": "FLC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [100, 126.5]
+    },
+    {
+      "id": "FRC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [100, -126.5]
+    },
+    {
+      "id": "BLC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-100, 126.5]
+    },
+    {
+      "id": "BRC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-100, -126.5]
+    },
+    {
+      "id": "FT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [216.5, 0]
+    },
+    {
+      "id": "BT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-216.5, 0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -137.5, -33,
+    -161.5, -57.5,
+    -50.5, -151,
+    0.5, -125.5,
+    50, -152,
+    163, -60.5,
+    143, -37,
+    143, 37,
+    163, 60.5,
+    50, 152,
+    0.5, 125.5,
+    -50.5, 151,
+    -161.5, 57.5,
+    -137.5, 33
+  ]
+}

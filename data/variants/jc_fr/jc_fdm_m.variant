@@ -1,0 +1,13 @@
+{
+  "variantId": "jc_fdm_m",
+  "hullId": "jc_fdm",
+  "displayName": "堡垒无人机",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

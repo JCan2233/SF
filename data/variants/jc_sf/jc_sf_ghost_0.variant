@@ -1,0 +1,38 @@
+{
+  "variantId": "jc_sf_ghost_0",
+  "hullId": "jc_sf_ghost",
+  "displayName": "客制",
+  "goalVariant": false,
+  "fluxCapacitors": 10,
+  "fluxVents": 9,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "jc_sf_noauto",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_emissile_s",
+        "WS0004": "jc_sf_emissile_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_pdlaser",
+        "WS0002": "jc_sf_pdlaser",
+        "WS0005": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "jc_sf_leech_wing",
+    "jc_sf_larva_wing"
+  ]
+}

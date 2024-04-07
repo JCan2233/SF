@@ -1,0 +1,298 @@
+{
+  "hullName": "jc_sf_station_4",
+  "hullId": "jc_sf_station_4",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/jc/ships/sf/station/base.png",
+  "style": "jc_sf",
+  "height": 332,
+  "width": 338,
+  "center": [169, 166],
+  "collisionRadius": 253,
+  "shieldCenter": [50, 0],
+  "shieldRadius": 253,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "jc_sf_station",
+    "jc_sf_fireSupport_station",
+    "jc_sf_movingbase",
+    "vastbulk",
+    "supercomputer",
+    "shared_flux_sink"
+  ],
+  "builtInWeapons": {
+    "WS0001": "jc_sf_station_light"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, 0]
+    },
+    {
+      "id": "RL",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [465, 82.5]
+    },
+    {
+      "id": "RR",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [465, -82.5]
+    },
+    {
+      "id": "FL",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [283, 99]
+    },
+    {
+      "id": "FR",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [283, -99]
+    },
+    {
+      "id": "BL",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-231, 92.5]
+    },
+    {
+      "id": "BR",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-231, -92.5]
+    },
+    {
+      "id": "FLC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [100, 126.5]
+    },
+    {
+      "id": "FRC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [100, -126.5]
+    },
+    {
+      "id": "BLC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-100, 126.5]
+    },
+    {
+      "id": "BRC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -180,
+      "locations": [-100, -126.5]
+    },
+    {
+      "id": "SL",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, 181]
+    },
+    {
+      "id": "SR",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, -181]
+    },
+    {
+      "id": "FT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [216.5, 0]
+    },
+    {
+      "id": "BT",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-216.5, 0]
+    },
+    {
+      "id": "FC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [288, 0]
+    },
+    {
+      "id": "BC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-296.5, 0]
+    },
+    {
+      "id": "AC",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [368, 0]
+    },
+    {
+      "id": "AL1",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [405, 144]
+    },
+    {
+      "id": "AR1",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [405, -144]
+    },
+    {
+      "id": "AL2",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [315, 174]
+    },
+    {
+      "id": "AR2",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [315, -174]
+    },
+    {
+      "id": "AL3",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [225, 201]
+    },
+    {
+      "id": "AR3",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [225, -201]
+    },
+    {
+      "id": "ASFL",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [80, 228]
+    },
+    {
+      "id": "ASFR",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [80, -228]
+    },
+    {
+      "id": "ASBL",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-86, 279]
+    },
+    {
+      "id": "ASBR",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-86, -279]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -137.5, -33,
+    -161.5, -57.5,
+    -50.5, -151,
+    0.5, -125.5,
+    50, -152,
+    163, -60.5,
+    143, -37,
+    143, 37,
+    163, 60.5,
+    50, 152,
+    0.5, 125.5,
+    -50.5, 151,
+    -161.5, 57.5,
+    -137.5, 33
+  ]
+}

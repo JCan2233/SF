@@ -1,0 +1,99 @@
+{
+  "hullName": "JKFASM_A3",
+  "hullId": "jc_jkfasm_armor_3",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/jc_jkfasm_armor_3.png",
+  "style": "HIGH_TECH",
+  "height": 210,
+  "width": 77,
+  "center": [38.5, 105],
+  "collisionRadius": 118.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 116,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_jkfasm_armor",
+    "jc_noop",
+    "jc_boss_buff",
+    "always_detaches",
+    "reduced_explosion",
+    "jc_modulemod",
+    "jc_jkfasm_tu"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [46, 6.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 135,
+      "locations": [-23, -20.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 90,
+      "locations": [-43, 36.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 90,
+      "locations": [47.5, 35.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-60.5, 11],
+      "length": 19.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "OMEGA"
+    },
+    {
+      "location": [-64.5, 3.5],
+      "length": 22.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    105, 13,
+    57, 37.5,
+    20.5, 38,
+    13, 30,
+    -16.5, 29.5,
+    -25, 38.5,
+    -62.5, 38.5,
+    -75.5, 25,
+    -60, 12,
+    -64, 0.5,
+    -103.5, -11.5,
+    -104, -21.5,
+    -90.5, -34.5,
+    -11, -34.5,
+    7.5, -14,
+    53, 3.5,
+    80, 3.5,
+    89, -6.5
+  ]
+}

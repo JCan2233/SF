@@ -1,0 +1,72 @@
+{
+  "variantId": "jc_radiant_omega_4",
+  "hullId": "jc_radiant_omega",
+  "displayName": "进攻",
+  "goalVariant": false,
+  "fluxCapacitors": 50,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "vpdriver",
+        "WS 001": "vpdriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "riftcascade",
+        "WS 003": "riftcascade",
+        "WS 004": "riftcascade"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "cryoblaster",
+        "WS 008": "cryoblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "minipulser",
+        "WS 017": "minipulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 013": "riftlance",
+        "WS 014": "riftlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "riftbeam",
+        "WS 007": "riftbeam",
+        "WS 009": "shockrepeater",
+        "WS 011": "shockrepeater",
+        "WS 012": "shockrepeater",
+        "WS 015": "shockrepeater",
+        "WS 016": "shockrepeater",
+        "WS 018": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

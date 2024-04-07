@@ -1,0 +1,48 @@
+{
+  "variantId": "jc_brilliant_omega_1",
+  "hullId": "jc_brilliant_omega",
+  "displayName": "进攻",
+  "goalVariant": false,
+  "fluxCapacitors": 30,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "riftcascade"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "cryoflux"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "cryoblaster",
+        "WS 006": "cryoblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "riftbeam",
+        "WS 002": "shockrepeater",
+        "WS 003": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

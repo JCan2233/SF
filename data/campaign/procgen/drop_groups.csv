@@ -1,0 +1,7 @@
+commodity,group,freq
+item_jc_autofleetport,rare_tech,10
+item_jc_autofleetport,rare_tech_low,10
+jc_sf1_core,ai_cores3,0.1
+jc_sf2_core,ai_cores3,0.3
+jc_sf2_core,ai_cores2,0.3
+jc_sf2_core,ai_cores1,0.3

@@ -1,0 +1,23 @@
+{
+	"id":"jc_wafs",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"data.scripts.shipsystems.Jc_wafs",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_wafs_ai",
+
+	"runScriptWhileIdle":true, # unapply() never gets called
+		
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_entropy",
+	"loopSound":"system_entropy_loop",
+	"deactivateSound":"system_entropy_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

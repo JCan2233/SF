@@ -1,0 +1,257 @@
+{
+  "hullName": "jc_sf_lich",
+  "hullId": "jc_sf_lich",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_lich.png",
+  "style": "jc_sf",
+  "height": 165,
+  "width": 222,
+  "center": [111, 82.5],
+  "collisionRadius": 125,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 123,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "jc_sf_kerenzikov"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 30,
+      "locations": [-1, 71.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": -30,
+      "locations": [-1, -71.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 60,
+      "locations": [9.5, 90]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -60,
+      "locations": [9.5, -90]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 120,
+      "locations": [-42.5, 78]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -120,
+      "locations": [-42.5, -78]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 180,
+      "locations": [-39, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [-3, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [35.5, -0]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [67, 21]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [67, -21]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-72, 13.5],
+      "length": 21.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-72, -13.5],
+      "length": 21.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-79, 20.5],
+      "length": 10.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-79, -20.5],
+      "length": 10.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-76, 7],
+      "length": 10.5,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-76, -7],
+      "length": 10.5,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-79, 2.5],
+      "length": 10.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-79, -2.5],
+      "length": 10.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-21.5, 104],
+      "length": 7.030909,
+      "width": 6.577637,
+      "angle": 130,
+      "contrailSize": 6.577637,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-21.5, -104],
+      "length": 7.030909,
+      "width": 6.577637,
+      "angle": -130,
+      "contrailSize": 6.577637,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-15.5, 107.5],
+      "length": 7.030909,
+      "width": 6.577637,
+      "angle": 130,
+      "contrailSize": 6.577637,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-15.5, -107.5],
+      "length": 7.030909,
+      "width": 6.577637,
+      "angle": -130,
+      "contrailSize": 6.577637,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    }
+  ],
+  "bounds": [
+    -71.5, -16,
+    -81.5, -25,
+    -34, -42.5,
+    -31, -49,
+    -67, -48,
+    -60.5, -58,
+    -67, -65,
+    -13, -110,
+    48.5, -65,
+    31, -53,
+    81, -22,
+    52.5, -15,
+    52.5, 15,
+    81, 22,
+    31, 53,
+    48.5, 65,
+    -13, 110,
+    -67, 65,
+    -60.5, 58,
+    -67, 48,
+    -31, 49,
+    -34, 42.5,
+    -81.5, 25,
+    -71.5, 16,
+    -79.5, -0
+  ]
+}

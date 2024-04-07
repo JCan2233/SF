@@ -1,0 +1,47 @@
+{
+  "variantId": "jc_scintilla_omega_3",
+  "hullId": "jc_scintilla_omega",
+  "displayName": "反护盾",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "resonatormrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "minipulser",
+        "WS 001": "minipulser",
+        "WS 007": "minipulser",
+        "WS 008": "minipulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "shockrepeater",
+        "WS 003": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "jc_spark_omega_wing",
+    "jc_lux_omega2_wing",
+    "jc_lux_omega2_wing",
+    "jc_lux_omega2_wing"
+  ]
+}

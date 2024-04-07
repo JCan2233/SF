@@ -1,0 +1,64 @@
+{
+  "variantId": "jc_sf_dragon_3",
+  "hullId": "jc_sf_dragon",
+  "displayName": "突击",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 16,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "jc_sf_attack"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "jc_sf_fusebeam_l"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0015": "jc_sf_ionlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "jc_sf_kmissile_s",
+        "WS0012": "jc_sf_kmissile_s",
+        "WS0013": "jc_sf_kmissile_s",
+        "WS0014": "jc_sf_kmissile_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_lrcannon_m",
+        "WS0002": "jc_sf_lrcannon_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_pdlaser",
+        "WS0004": "jc_sf_pdlaser",
+        "WS0005": "jc_sf_pdlaser",
+        "WS0006": "jc_sf_pdlaser",
+        "WS0007": "jc_sf_pdlaser",
+        "WS0008": "jc_sf_pdlaser",
+        "WS0009": "jc_sf_pdlaser",
+        "WS0010": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

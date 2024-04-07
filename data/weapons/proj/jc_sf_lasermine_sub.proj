@@ -1,0 +1,48 @@
+{
+	"id":"jc_sf_lasermine_sub",
+	"specClass":"missile",	
+	"missileType":"PHASE_MINE",
+	"onFireEffect":"data.scripts.weapons.Jc_sf_LaserMineEffect",
+	"sprite":"graphics/jc/weapons/sf/jc_sf_lasermine.png",
+	"glowSprite":"graphics/jc/weapons/sf/jc_sf_lasermine_glow.png",
+	"glowColor":[200,60,100,255],
+	"size":[44,44],	
+	"center":[22,22],	
+	"collisionRadius":20,
+	"armingTime":80,
+	"collisionClass":"MISSILE_NO_FF",
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"fadeTime":0.1, # fadeout duration
+	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
+	"explosionColor":[148,0,211,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual	
+	"maxFlightTime":20,
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":150,
+				  "maxSpeed":50,
+				  "acc":500,
+				  "dec":500},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":175,
+					"slowToMaxSpeed":true,
+					"delay":3,
+					"pingSound":"targeting_laser_burst",
+					"pingColor":[80,90,255,255],
+					"pingRadius":350,
+					"pingDuration":0.25,
+					"windupSound":"targeting_laser_burst",
+					"windupDelay":0.5,
+					"explosionSpec":{"duration":0.1f,
+									 "radius":1,
+									 "coreRadius":1, # full damage within core radius
+									 "collisionClass":NONE,
+									 "collisionClassByFighter":NONE,
+									 "particleSizeMin":1.0,
+									 "particleSizeRange":1.0,
+									 "particleDuration":0.1,
+									 "particleCount":1,
+									 "particleColor":[0,0,0,0],
+									 "explosionColor":[0,0,0,0],
+									 "useDetailedExplosion":false},
+					}	
+}

@@ -1,0 +1,49 @@
+{
+  "id": "jc_sf_asura_w2R",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_sf_asura_w2_shot",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "turretSprite": "graphics/jc/ships/sf/jc_sf_asura/w2_R.png",
+  "turretGlowSprite": "graphics/jc/ships/sf/jc_sf_asura/w2_R_glow.png",
+  "hardpointSprite": "graphics/jc/ships/sf/jc_sf_asura/w2_R.png",
+  "hardpointGlowSprite": "graphics/jc/ships/sf/jc_sf_asura/w2_R_glow.png",
+  "glowColor": [
+    255,
+    100,
+    100,
+    200
+  ],
+  "turretOffsets": [
+    104,
+    -1
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    156.5,
+    -1
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 45,
+    "spread": 15,
+    "particleSizeMin": 12,
+    "particleSizeRange": 8,
+    "particleDuration": 0.25,
+    "particleCount": 30,
+    "particleColor": [
+      200,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "plasma_cannon_fire"
+}

@@ -1,0 +1,47 @@
+{
+  "variantId": "jc_scintilla_omega_2",
+  "hullId": "jc_scintilla_omega",
+  "displayName": "打击",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "resonatormrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "amsrm",
+        "WS 008": "amsrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "shockrepeater",
+        "WS 001": "shockrepeater",
+        "WS 002": "shockrepeater",
+        "WS 003": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "jc_flash_omega_wing",
+    "jc_flash_omega_wing",
+    "jc_flash_omega_wing",
+    "jc_spark_omega_wing"
+  ]
+}

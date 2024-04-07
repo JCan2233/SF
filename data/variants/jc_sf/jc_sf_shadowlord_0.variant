@@ -1,0 +1,18 @@
+{
+    "displayName": "原型",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "jc_sf_shadowlord",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jc_sf_shadowlord_0",
+    "modules": [
+        {"MO01": "jc_sf_shadowlord_s_m"},
+        {"MO02": "jc_sf_shadowlord_s_m"},
+        {"MO03": "jc_sf_shadowlord_s_m"},
+        {"MO04": "jc_sf_shadowlord_s_m"}
+    ],
+    "weaponGroups": []
+}

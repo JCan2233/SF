@@ -1,0 +1,11 @@
+{
+	"id":"jc_sf_shadowlord_sys",
+	"type":"STAT_MOD",
+	"aiType":"ACAUSAL_DISRUPTOR",
+	
+	"statsScript":"data.scripts.shipsystems.Jc_sf_shadowlord_sys",
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_quantumdisruptor",
+	"outOfUsesSound":"gun_out_of_ammo"
+}

@@ -1,0 +1,100 @@
+{
+  "hullName": "jc_sf_frostwind",
+  "hullId": "jc_sf_frostwind",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/modified/jc_sf_frostwind.png",
+  "style": "jc_sf",
+  "height": 101,
+  "width": 62,
+  "center": [31, 50.5],
+  "collisionRadius": 60.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 59,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "jc_boss_buff"
+  ],
+  "builtInWings": [
+    "jc_sf_frostwind_drone_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 60,
+      "locations": [-3, 17.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 235,
+      "angle": 260,
+      "locations": [-27, -15.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [6, -15]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 20,
+      "angle": 147.5,
+      "locations": [-41.5, 22.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-48.5, 5],
+      "length": 14.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-48.5, -5],
+      "length": 14.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-48.5, -0],
+      "length": 14.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    }
+  ],
+  "bounds": [
+    42, 11,
+    -6, 29,
+    -35, 29.5,
+    -48, 11.5,
+    -47.5, -15,
+    -26.5, -32.5,
+    9.5, -19,
+    13, -10.5,
+    30, -5.5
+  ]
+}

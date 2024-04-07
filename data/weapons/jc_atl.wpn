@@ -1,0 +1,28 @@
+{
+	"id":"jc_atl",  # this id must match what's in the spreadsheet
+	"everyFrameEffect":"data.scripts.weapons.Jc_atleffect",
+	"specClass":"beam",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"turretSprite":"graphics/jc/weapons/jc_atl.png",
+	"turretGlowSprite":"graphics/weapons/guardian_turret_glow.png",
+	"hardpointSprite":"graphics/jc/weapons/jc_atlh.png",
+	"hardpointGlowSprite":"graphics/weapons/guardian_hardpoint_glow.png",	
+	"turretOffsets":[13, 0, 15, -19, 8, -13, 8, 13, 15, 19],
+	"turretAngleOffsets":[0, 0, 0, 0, 0],
+	"hardpointOffsets":[23, 0, 25, -19, 18, -13, 18, 13, 25, 19],
+	"hardpointAngleOffsets":[0, 0, 0, 0, 0],
+	"fringeColor":[0,255,0,225],
+	"coreColor":[255,255,255,255],
+	"glowColor":[155,255,155,255],
+	"convergeOnPoint":false,
+	"width":8.0,
+	"textureType":ROUGH,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER,MISSILE_FF,MISSILE_NO_FF],
+	"textureScrollSpeed":72.0,
+	"pixelsPerTexel":5.0,
+	"fireSoundOne":"laser_intro",
+	"fireSoundTwo":"laser_loop"	
+}

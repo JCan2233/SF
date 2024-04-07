@@ -1,0 +1,41 @@
+{
+  "variantId": "jc_sf_raven_2",
+  "hullId": "jc_sf_raven",
+  "displayName": "打击",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "missile_autoloader"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_needler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "jc_sf_torpedo_s",
+        "WS0005": "jc_sf_torpedo_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "jc_sf_pdlaser",
+        "WS0003": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

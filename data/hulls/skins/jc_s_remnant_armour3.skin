@@ -1,0 +1,7 @@
+{
+	"baseHullId":"remnant_armour3",
+	"skinHullId":"jc_s_remnant_armour3",
+	"tags":["restricted","no_sell","module_hull_bar_only"],
+	"removeBuiltInMods":[],
+	"builtInMods":["jc_shard_frms"]
+}

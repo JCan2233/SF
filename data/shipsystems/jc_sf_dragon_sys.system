@@ -1,0 +1,15 @@
+{
+	"id":"jc_sf_dragon_sys",
+	"type":"ENGINE_MOD",
+	"aiType":"CUSTOM",
+
+	"runScriptWhileIdle":true,
+	"statsScript":"data.scripts.shipsystems.Jc_sf_dragon_sys",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_dragon_sys_ai",
+
+	"useSound":"system_fast_missile_racks",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

@@ -1,0 +1,33 @@
+{
+  "hullName": "jc_sf_module_triangle_2",
+  "hullId": "jc_sf_module_triangle_2",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/station/triangle.png",
+  "style": "jc_sf",
+  "height": 228,
+  "width": 150,
+  "center": [75, 114],
+  "collisionRadius": 135.5,
+  "shieldCenter": [80.5, 0],
+  "shieldRadius": 240,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "never_detaches",
+    "supercomputer"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -92, -26.5,
+    -112, -50.5,
+    -70, -74,
+    104.5, -27.5,
+    104.5, 27.5,
+    -70, 74,
+    -112, 50.5,
+    -92, 26.5,
+    -112, -0
+  ]
+}

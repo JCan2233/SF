@@ -1,0 +1,61 @@
+{
+  "variantId": "jc_sf_scorpion_3",
+  "hullId": "jc_sf_scorpion",
+  "displayName": "护航",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "eccm",
+    "targetingunit",
+    "jc_sf_defence"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_scorpion_missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "jc_sf_mirv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_pdmissile_m",
+        "WS0004": "jc_sf_pdmissile_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "jc_sf_fusebeam_m",
+        "WS0006": "jc_sf_fusebeam_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "jc_sf_pdlaser",
+        "WS0008": "jc_sf_pdlaser",
+        "WS0009": "jc_sf_pdlaser",
+        "WS0010": "jc_sf_pdlaser",
+        "WS0011": "jc_sf_pdlaser",
+        "WS0012": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,110 @@
+{
+  "hullName": "Hyperion R",
+  "hullId": "jc_r_hyperion",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/jc_r_hyperion.png",
+  "style": "HIGH_TECH",
+  "height": 98,
+  "width": 112,
+  "center": [56, 34],
+  "collisionRadius": 80,
+  "shieldCenter": [10, -0],
+  "shieldRadius": 65,
+  "viewOffset": 0,
+  "builtInMods": [
+    "automated",
+    "delicate",
+    "jc_sfm",
+    "jc_boss_buff",
+    "jc_no_retreat"
+  ],
+  "builtInWeapons": {
+    "WS 003": "jc_sfmg"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [23, 32]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [29, -30]
+    },
+    {
+      "id": "WS 003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [17, -0]
+    },
+    {
+      "id": "SYS 001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-22, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23.5, 16],
+      "length": 64,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-26.5, 0],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-23.5, -16],
+      "length": 64,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    26.5, 42.5,
+    34, 23,
+    49.5, 12,
+    24.5, 11.5,
+    24.5, -10,
+    50, -11,
+    40, -19.5,
+    35.5, -38,
+    10, -47,
+    9.5, -38.5,
+    2.5, -32.5,
+    -13, -39.5,
+    -13.5, -27.5,
+    -19.5, -19.5,
+    -25, -0,
+    -20.5, 18.5,
+    -13, 25,
+    -9, 44,
+    2, 37,
+    7.5, 49
+  ]
+}

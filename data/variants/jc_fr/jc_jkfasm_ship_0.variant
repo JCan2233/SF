@@ -1,0 +1,30 @@
+{
+  "variantId": "jc_jkfasm_ship_0",
+  "hullId": "jc_jkfasm_ship",
+  "displayName": "原型",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "MB": "jc_jkfasm_blade_m"
+    },
+    {
+      "MA1": "jc_jkfasm_armor_1_m"
+    },
+    {
+      "MA2": "jc_jkfasm_armor_2_m"
+    },
+    {
+      "MA3": "jc_jkfasm_armor_3_m"
+    },
+    {
+      "MA4": "jc_jkfasm_armor_4_m"
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,20 @@
+{
+	"id":"jc_sf_damper",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.scripts.shipsystems.Jc_sf_damper",
+		
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper_omega",
+	"loopSound":"system_damper_omega_loop",
+	"deactivateSound":"system_damper_omega_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+
+}
+
+
+

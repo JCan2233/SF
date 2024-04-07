@@ -1,0 +1,21 @@
+{
+	"id":"jc_sf_railgun_shot",
+	"specClass":"projectile",
+	"onFireEffect":"data.scripts.weapons.Jc_specialWeaponOnfire",
+	"onHitEffect":"data.scripts.weapons.Jc_sf_railgun_OnHitEffect",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":50,
+	"width":20,
+	"hitGlowRadius":1,
+	"fadeTime":0.3,
+	"fringeColor":[150,200,250,255],
+	"coreColor":[100,150,250,200],
+	"glowColor":[150,200,250,75],
+	"glowRadius":60,
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"passThroughMissiles":true,
+	"bulletSprite":"graphics/jc/weapons/sf/jc_sf_railgun_shot.png"	
+}

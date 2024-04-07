@@ -1,0 +1,6 @@
+{
+	"baseHullId":"lux",
+	"skinHullId":"jc_s_lux",
+	"systemId":"",
+	"builtInMods":["jc_shieldShuntFighter"]
+}

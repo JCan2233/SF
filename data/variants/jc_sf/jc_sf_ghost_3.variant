@@ -1,0 +1,38 @@
+{
+  "variantId": "jc_sf_ghost_3",
+  "hullId": "jc_sf_ghost",
+  "displayName": "堡垒",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "expanded_deck_crew",
+    "jc_sf_defence"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_kmissile_s",
+        "WS0004": "jc_sf_kmissile_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_pdlaser",
+        "WS0002": "jc_sf_pdlaser",
+        "WS0005": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "jc_sf_leech_wing",
+    "jc_sf_larva_wing"
+  ]
+}

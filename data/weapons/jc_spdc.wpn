@@ -1,0 +1,39 @@
+{
+  "id": "jc_spdc",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_spdc_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/jc/weapons/jc_spdc_turret_base.png",
+  "turretGlowSprite": "graphics/jc/weapons/common/jc_lrpm_turret_base_glow.png",
+  "hardpointSprite": "graphics/jc/weapons/jc_spdc_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/jc/weapons/common/jc_lrpm_hardpoint_base_glow.png",
+  "glowColor": [100,150,255,255],
+  "turretOffsets": [
+    19.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    29,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 30,
+    "spread": 10,
+    "particleSizeMin": 15,
+    "particleSizeRange": 9,
+    "particleDuration": 0.15,
+    "particleCount": 10,
+    "particleColor": [100,150,255,255]
+  },
+  "fireSoundTwo": "cryoblaster_fire"
+}

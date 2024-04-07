@@ -1,0 +1,39 @@
+{
+  "variantId": "jc_reflection_2",
+  "hullId": "jc_reflection",
+  "displayName": "支援",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "nav_relay"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "irpulse",
+        "WS0002": "irpulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "SYS_00": "jc_emps"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

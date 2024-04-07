@@ -1,0 +1,279 @@
+{
+  "hullName": "JKFASM_S",
+  "hullId": "jc_jkfasm_ship",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/jc/ships/jc_jkfasm_ship.png",
+  "style": "HIGH_TECH",
+  "height": 378,
+  "width": 161,
+  "center": [80.5, 189],
+  "collisionRadius": 250,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 245,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_auto_scholar",
+    "jc_boss_buff",
+    "jc_jkfasm_armor_main",
+    "jc_no_retreat"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 80,
+      "angle": 0,
+      "locations": [84, 0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 0,
+      "locations": [28, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [180, 0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 90,
+      "locations": [-67, 36.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -90,
+      "locations": [-67, -36.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 180,
+      "locations": [-150, 14.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -180,
+      "locations": [-150, -14.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [-100, 40.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [-100, -40.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [-31, 41.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [-31, -41.5]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [146, -0]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [130, -0]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [113, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -50, 7,
+        -27.5, 7
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -50, -7,
+        -27.5, -7
+      ]
+    },
+    {
+      "id": "MA1",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [91.5, -41.5]
+    },
+    {
+      "id": "MA2",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [91.5, 41.5]
+    },
+    {
+      "id": "MA3",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-110.5, 68]
+    },
+    {
+      "id": "MA4",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-110.5, -68]
+    },
+    {
+      "id": "MB",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [100, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-183.5, 12],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-183.5, -12],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-187.5, 21.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-187.5, -21.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-186, -0],
+      "length": 42,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "OMEGA"
+    }
+  ],
+  "bounds": [
+    -183.5, -21,
+    -159.5, -43.5,
+    -105.5, -45,
+    -70, -78.5,
+    -29.5, -77.5,
+    6.5, -54.5,
+    62.5, -55.5,
+    83, -46.5,
+    171.5, -43,
+    171.5, 43,
+    83, 46.5,
+    62.5, 55.5,
+    6.5, 54.5,
+    -29.5, 77.5,
+    -70, 78.5,
+    -105.5, 45,
+    -159.5, 43.5,
+    -183.5, 21
+  ]
+}

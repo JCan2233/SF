@@ -1,0 +1,74 @@
+{
+  "variantId": "jc_r_onslaught_1",
+  "hullId": "jc_r_onslaught",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 47,
+  "fluxVents": 47,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor",
+    "fluxbreakers",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 016": "jc_tlp",
+        "WS 017": "jc_tlp"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "heavyblaster",
+        "WS 012": "hveldriver",
+        "WS 013": "hveldriver",
+        "WS 019": "plasma"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 021": "typhoon",
+        "WS 022": "typhoon",
+        "WS 023": "typhoon",
+        "WS 024": "typhoon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "sabot",
+        "WS 004": "sabot",
+        "WS 005": "sabot",
+        "WS 006": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "heavyburst",
+        "WS 003": "heavyburst",
+        "WS 008": "pdburst",
+        "WS 009": "pdburst",
+        "WS 010": "heavyburst",
+        "WS 011": "heavyburst",
+        "WS 014": "heavyburst",
+        "WS 015": "heavyburst",
+        "WS 018": "guardian",
+        "WS 020": "guardian"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,21 @@
+{
+  "variantId": "jc_spark_omega_wing",
+  "hullId": "jc_spark_omega",
+  "displayName": "惊骇",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "permaMods": [],
+  "hullMods": ["pointdefenseai"],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

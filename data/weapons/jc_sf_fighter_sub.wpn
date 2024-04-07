@@ -1,0 +1,35 @@
+{
+	"id":"jc_sf_fighter_sub",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"SMALL",
+	"turretSprite":"graphics/weapons/light_pulse_laser_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/light_pulse_laser_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/light_pulse_laser_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/weapons/light_pulse_laser_hardpoint_glow.png",
+	"glowColor":[255,100,100,255],
+	"turretOffsets":[10, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[15, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"MUZZLE_FLASH",
+	"muzzleFlashSpec":{
+	    "length": 15,
+	    "spread": 4,
+	    "particleSizeMin": 8,
+	    "particleSizeRange": 10,
+	    "particleDuration": 0.12,
+	    "particleCount": 10,
+	    "particleColor": [
+			255,
+			100,
+			100,
+			255
+	    ]
+	},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"requiresFullCharge":false,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
+	"projectileSpecId":"irpulse_shot",  # projectile that will be fired
+	"fireSoundTwo":"jc_sf_atklaser_fighter",
+}

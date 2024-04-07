@@ -1,0 +1,49 @@
+{
+  "variantId": "jc_sf_alien_2",
+  "hullId": "jc_sf_alien",
+  "displayName": "护航",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "jc_sf_defence",
+    "advancedoptics"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_alien_main"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WL": "jc_sf_alien_side",
+        "WR": "jc_sf_alien_side"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "jc_sf_fusebeam_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_pdlaser",
+        "WS0004": "jc_sf_pdlaser",
+        "WS0005": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

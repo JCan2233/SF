@@ -1,0 +1,49 @@
+{
+  "id": "jc_pdehs",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_pdeh_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "turretSprite": "graphics/jc/weapons/common/jc_pdehs_turret_base.png",
+  "turretGlowSprite": "graphics/jc/weapons/common/jc_pdehs_turret_base_glow.png",
+  "hardpointSprite": "graphics/jc/weapons/common/jc_pdehs_hardpoint_base.png",
+  "hardpointGlowSprite": "graphics/jc/weapons/common/jc_pdehs_hardpoint_base_glow.png",
+  "glowColor": [
+    100,
+    100,
+    255,
+    225
+  ],
+  "turretOffsets": [
+    10.5,
+    -0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    17.5,
+    -0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 7,
+    "spread": 0,
+    "particleSizeMin": 1,
+    "particleSizeRange": 1,
+    "particleDuration": 0.08,
+    "particleCount": 3,
+    "particleColor": [
+      100,
+      100,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "ir_pulse_laser_fire"
+}

@@ -1,0 +1,47 @@
+{
+  "variantId": "jc_fulgent_omega_3",
+  "hullId": "jc_fulgent_omega",
+  "displayName": "防御",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "riftlance",
+        "WS 001": "riftlance",
+        "WS 002": "riftlance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "amsrm",
+        "WS 010": "amsrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "riftbeam",
+        "WS 004": "riftbeam",
+        "WS 005": "shockrepeater",
+        "WS 006": "shockrepeater",
+        "WS 007": "shockrepeater",
+        "WS 008": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

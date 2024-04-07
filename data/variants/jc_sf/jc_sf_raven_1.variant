@@ -1,0 +1,40 @@
+{
+  "variantId": "jc_sf_raven_1",
+  "hullId": "jc_sf_raven",
+  "displayName": "标准",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 8,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_atklaser_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "jc_sf_emissile_s",
+        "WS0005": "jc_sf_emissile_s"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "jc_sf_pdlaser",
+        "WS0003": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

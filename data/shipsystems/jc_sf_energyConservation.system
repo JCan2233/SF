@@ -1,0 +1,15 @@
+{
+	"id":"jc_sf_energyConservation",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.scripts.shipsystems.Jc_sf_energyConservation",
+	
+	"weaponGlowColor":[50,50,192,255],
+	"weaponTypes":[ENERGY],
+	
+	"useSound":"system_high_energy_focus_activate",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_high_energy_focus_loop"
+}

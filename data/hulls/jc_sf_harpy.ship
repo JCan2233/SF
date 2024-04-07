@@ -1,0 +1,213 @@
+{
+  "hullName": "jc_sf_harpy",
+  "hullId": "jc_sf_harpy",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/jc/ships/sf/modified/jc_sf_harpy.png",
+  "style": "jc_sf",
+  "height": 212,
+  "width": 162,
+  "center": [81, 106],
+  "collisionRadius": 128,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 125,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "jc_sf_baseO",
+    "jc_boss_buff"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 65,
+      "locations": [66, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -65,
+      "locations": [66, -24]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 60,
+      "locations": [-19.5, 35.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -60,
+      "locations": [-19.5, -35.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": 155,
+      "locations": [-85, 25]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 190,
+      "angle": -155,
+      "locations": [-85, -25]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [91.5, 20.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [91.5, -20.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-46.5, 68]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-46.5, -68]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-104, 20.5],
+      "length": 21,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-104, -20.5],
+      "length": 21,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "jc_sf"
+    },
+    {
+      "location": [-103.5, 5],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-103.5, -5],
+      "length": 16,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-103.5, -0],
+      "length": 16,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-72, 61.5],
+      "length": 17.874355,
+      "width": 5.918584,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-72, -61.5],
+      "length": 17.874355,
+      "width": 5.918584,
+      "angle": -150,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-85.5, 48],
+      "length": 17.874355,
+      "width": 5.918584,
+      "angle": 150,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    },
+    {
+      "location": [-85.5, -48],
+      "length": 17.874355,
+      "width": 5.918584,
+      "angle": -150,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "jc_sf_notrail"
+    }
+  ],
+  "bounds": [
+    -102.5, -22.5,
+    -83, -37,
+    -89.5, -61.5,
+    -70.5, -61.5,
+    -57, -79.5,
+    -39, -64,
+    99, -27,
+    99.5, -14.5,
+    -17, -0,
+    99.5, 14.5,
+    99, 27,
+    -39, 64,
+    -57, 79.5,
+    -70.5, 61.5,
+    -89.5, 61.5,
+    -83, 37,
+    -102.5, 22.5
+  ]
+}

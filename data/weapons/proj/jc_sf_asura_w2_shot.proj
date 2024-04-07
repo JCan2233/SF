@@ -1,0 +1,12 @@
+{
+	"id":"jc_sf_asura_w2_shot",
+	"specClass":"projectile",
+	"spawnType":"PLASMA",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"width":38.0,
+	"fadeTime":0.25,
+	"fringeColor":[150,0,0,255],
+	"coreColor":[100,100,100,200],
+	"passThroughMissiles":true,	
+}

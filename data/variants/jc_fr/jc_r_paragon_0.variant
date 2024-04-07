@@ -1,0 +1,15 @@
+{
+    "displayName": "原型",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "jc_r_paragon",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jc_r_paragon_0",
+    "modules": [
+        {"MO": "jc_fdm_m"}
+    ],
+    "weaponGroups": []
+}

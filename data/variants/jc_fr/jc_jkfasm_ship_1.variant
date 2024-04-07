@@ -1,0 +1,74 @@
+{
+  "variantId": "jc_jkfasm_ship_1",
+  "hullId": "jc_jkfasm_ship",
+  "displayName": "独特",
+  "goalVariant": true,
+  "fluxCapacitors": 36,
+  "fluxVents": 37,
+  "quality": 1,
+  "permaMods": ["automated"],
+  "hullMods": [
+    "jc_auto_scholar_auto",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tachyonlance",
+        "WS0002": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sabotpod",
+        "WS0005": "sabotpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "pdlaser",
+        "WS0007": "pdlaser",
+        "WS0008": "pdlaser",
+        "WS0009": "pdlaser",
+        "WS0010": "pdlaser",
+        "WS0011": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "pdburst",
+        "WS0013": "pdburst",
+        "WS0014": "pdburst"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "MB": "jc_jkfasm_blade_m"
+    },
+    {
+      "MA1": "jc_jkfasm_armor_1_m"
+    },
+    {
+      "MA2": "jc_jkfasm_armor_2_m"
+    },
+    {
+      "MA3": "jc_jkfasm_armor_3_m"
+    },
+    {
+      "MA4": "jc_jkfasm_armor_4_m"
+    }
+  ],
+  "wings": [
+    "longbow_wing",
+    "xyphos_wing"
+  ]
+}

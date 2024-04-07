@@ -1,0 +1,6 @@
+{
+	"baseHullId":"spark",
+	"skinHullId":"jc_s_spark",
+	"systemId":"",
+	"builtInMods":["jc_shieldShuntFighter"]
+}

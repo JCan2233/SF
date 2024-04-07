@@ -1,0 +1,21 @@
+{
+  "variantId": "jc_lux_omega_wing",
+  "hullId": "jc_lux_omega",
+  "displayName": "进攻",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "riftlance"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

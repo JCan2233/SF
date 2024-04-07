@@ -1,0 +1,55 @@
+id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
+jc_orbitalstation_fr,轨道站 - 余辉,50,90,,3,,jc_battlestation_fr,"station, sub_item, unraidable, structure","{
+radius:70,
+variant:jc_frs_1_Standard,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,data.scripts.campaign.econ.Jc_fr_OrbitalStation,基于余辉母舰建造的小型空间站，它的存在将阻止任何轰炸行动的发生。,2020.1,
+jc_battlestation_fr,作战基地 - 余辉,100,120,,4,jc_orbitalstation_fr,jc_starfortress_fr,"station, battlestation, unraidable, structure","{
+radius:70,
+variant:jc_frs_2_Standard,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.Jc_fr_OrbitalStation,基于余辉母舰建造的作战基地，加装了护盾和更多作战平台，它的存在将阻止任何轰炸行动的发生。,2020.2,
+jc_starfortress_fr,星际要塞 - 余辉,200,180,,5,jc_battlestation_fr,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:jc_frs_3_Standard,
+fleetName:Star Fortress,
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.Jc_fr_OrbitalStation,基于余辉母舰建造的星际要塞，额外配备有防御无人机和感应雷区，它的存在将阻止任何轰炸行动的发生。,2020.3,
+jc_fr_mso,余辉母舰,1,180,,5,,jc_fr_ms,"station, sub_item, starfortress, unraidable, structure","{
+radius:70,
+variant:jc_frs_3_Standard,
+fleetName:Star Fortress,
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.Jc_fr_OrbitalStationMS,余辉AI在核心星域的行动中心，由于被其它势力接管而无法正常运行，所以战斗力有所下降。它的存在将阻止任何轰炸行动的发生。,2020.4,
+jc_fr_ms,余辉母舰,1,180,,5,jc_fr_mso,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:jc_frs_4_Standard,
+fleetName:Star Fortress,
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.Jc_fr_OrbitalStationMS,余辉AI在核心星域的行动中心，拥有强大的作战能力，它的存在将阻止任何轰炸行动的发生。,2020.5,
+jc_autociv_industry,赛博化改造中心,160,30,,6,,,"unraidable, structure",,graphics/jc/icons/industry/jc_autociv_industry.png,data.scripts.campaign.econ.Jc_autociv_industry,"这是一个疯狂的计划，在AI的帮助下为当地的所有居民进行强制性的赛博化改造，改造完成后这里将不再需要或依赖任何人口，消除相关的需求或产出并提高稳定性。
+
+赛博化改造需要一段时间，期间殖民地稳定性降低，若安装一个阿尔法级AI核心可以显著加快改造速度。改造完成后维护费减半，若拆除该设施则效果将在一段时间后消失。",1999.1,
+jc_orbitalstation_sf,轨道站 - 幽灵部队,50,90,,3,,jc_battlestation_sf,"station, sub_item, unraidable, structure","{
+radius:70,
+variant:jc_sf_station_1_Standard,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,data.scripts.campaign.econ.Jc_sf_OrbitalStation,"幽灵部队的基础链式单元。
+
+可以安装幽灵核心来提高战力，若拥有无人战舰技能则将船员和陆战队员需求降为零。它的存在将阻止任何轰炸行动的发生。",2020.6,
+jc_battlestation_sf,作战基地 - 幽灵部队,100,120,,4,jc_orbitalstation_sf,jc_starfortress_sf,"station, battlestation, unraidable, structure","{
+radius:70,
+variant:jc_sf_station_2_Standard,
+fleetName:Battlestation,
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.Jc_sf_OrbitalStation,"幽灵部队的标准链式单元，空间站的基础平台已经安装完备。
+
+可以安装幽灵核心来提高战力，若拥有无人战舰技能则将船员和陆战队员需求降为零。它的存在将阻止任何轰炸行动的发生。",2020.7,
+jc_starfortress_sf,星际要塞 - 幽灵部队,200,180,,5,jc_battlestation_sf,,"station, starfortress, unraidable, structure","{
+radius:70,
+variant:jc_sf_station_3_Standard,
+fleetName:Star Fortress,
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.Jc_sf_OrbitalStation,"幽灵部队的升级链式单元，要塞的所有平台全部升级完成且运作良好，还加装了堡垒护盾和导弹发射系统。
+
+可以安装幽灵核心来提高战力，若拥有无人战舰技能则将船员和陆战队员需求降为零。它的存在将阻止任何轰炸行动的发生。",2020.8,
+jc_sf_mb,深空自律单元,1,180,,5,,,"station, sub_item, starfortress, unraidable, structure","{
+radius:70,
+variant:jc_sf_station_4_Standard,
+fleetName:Star Fortress,
+}",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.Jc_sf_OrbitalStationMS,幽灵部队的机动自律单元，是幽灵计划时期的遗留之物，一座移动的星际要塞。它的存在将阻止任何轰炸行动的发生。,2020.9,

@@ -1,0 +1,42 @@
+{
+  "id": "jc_sf_harpy_mis",
+  "specClass": "projectile",
+  "projectileSpecId": "jc_sf_harpy_mis_m",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/jc/weapons/jc_empty.png",
+  "hardpointSprite": "",
+  "renderHints": [],
+  "turretOffsets": [
+    0, 0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0, 0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "cloudParticleCount": 2,
+    "cloudDuration": 0.5,
+    "cloudRadius": 7,
+    "blowbackParticleCount": 2,
+    "blowbackDuration": 1,
+    "blowbackLength": 20,
+    "blowbackSpread": 7,
+    "particleColor": [
+      100,
+      100,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "harpoon_fire"
+}

@@ -1,0 +1,21 @@
+{
+  "variantId": "jc_lux_omega2_wing",
+  "hullId": "jc_lux_omega",
+  "displayName": "反护盾",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "permaMods": [],
+  "hullMods": ["magazines"],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "minipulser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

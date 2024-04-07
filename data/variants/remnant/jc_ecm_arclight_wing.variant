@@ -1,0 +1,23 @@
+{
+  "variantId": "jc_ecm_arclight_wing",
+  "hullId": "jc_ecm_arclight",
+  "displayName": "电子战预警机",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "IMS_1": "ioncannon_fighter",
+        "IMS_2": "ioncannon_fighter"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

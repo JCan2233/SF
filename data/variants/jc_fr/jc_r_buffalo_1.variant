@@ -1,0 +1,15 @@
+{
+    "displayName": "标准",
+    "fluxCapacitors": 6,
+    "fluxVents": 6,
+    "goalVariant": true,
+    "hullId": "jc_r_buffalo",
+    "hullMods": ["auxiliarythrusters","jc_auto_crew"],
+    "permaMods": [],
+    "variantId": "jc_r_buffalo_1",
+    "weaponGroups": [{
+        "autofire": true,
+        "mode": "LINKED",
+        "weapons": {"WS 001": "lrpdlaser"}
+    }]
+}

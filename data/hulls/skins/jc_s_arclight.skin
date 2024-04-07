@@ -1,0 +1,6 @@
+{
+	"baseHullId":"jc_arclight",
+	"skinHullId":"jc_s_arclight",
+	"systemId":"",
+	"builtInMods":["jc_shieldShuntFighter"]
+}
