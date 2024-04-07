@@ -2,7 +2,7 @@
     "id": "jc_sf",
     "name": "幽灵部队",
     "author": "主创：JC，美术：JJACK，恶魔",
-    "version": "0.6.2",
+    "version": "0.6.1",
     "description": "添加了势力幽灵部队，还包括一些余辉相关的扩展内容",
     "dependencies": [
         {
