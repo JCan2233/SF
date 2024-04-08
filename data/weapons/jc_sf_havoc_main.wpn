@@ -4,6 +4,7 @@
   "type": "SYSTEM",
   "size": "SMALL",
   "everyFrameEffect": "data.scripts.weapons.Jc_sf_bloodmoon_BeamEffect",
+  "beamEffect": "data.scripts.weapons.Jc_DecoBeamRemove",
   "collisionClass": "NONE",
   "collisionClassByFighter": "NONE",
   "autocharge":true,
