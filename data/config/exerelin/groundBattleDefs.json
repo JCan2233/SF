@@ -5,7 +5,7 @@
 			"icon":"graphics/icons/cargo/planetkiller.png",
 			"plugin":"data.scripts.campaign.misc.Jc_sf_starDestroyerGB",
 			"sound":"nex_sfx_deciv_bomb",
-			"cooldown":2,
+			"cooldown":3,
 			"cooldownGlobal":1,
 			"color":[255,64,64,255],
 			"order":5
