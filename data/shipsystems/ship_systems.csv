@@ -39,7 +39,7 @@ F,jc_sf_shadowlord_sys,,,,,,0.1,,,,0.5,,0.5,20,,,,,,,,,,,,restricted,graphics/ic
 堡垒无人机,jc_fd_system,,,,,,,,1,0.1,0,,0,0,,,,,,,,,,,,restricted,graphics/icons/hullsys/drone_pd_high.png
 相位反转,jc_wars,,,,,,,,,,0.5,4,0.5,5,TRUE,,,,TRUE,,,,TRUE,,TRUE,restricted,graphics/icons/hullsys/phase_cloak.png
 时空剥离,jc_wafs,,,,,,,,,,1.25,,0.25,10,,,,,,,,,,,,restricted,graphics/icons/hullsys/entropy_amplifier.png
-等离子推进器,jc_gs_plasmajets,,,,,,,,1,0.05,1,3,1,2,,,,,,,,,,,,restricted,graphics/icons/hullsys/infernium_injector.png
+等离子推进器,jc_gs_plasmajets,,,,,,,,1,0.05,1,3,1,1,,,,,,,,,,,,restricted,graphics/icons/hullsys/infernium_injector.png
 破军驱动,jc_temporalshell_jkfasm,1,,,,,,,,,2,15,2,15,,,,,,,,,,,,restricted,graphics/icons/hullsys/temporal_shell.png
 骇入系统,jc_ecmhack,1,,,,,,,,,0.5,20,1,20,,,,,,,,,,TRUE,,restricted,graphics/icons/hullsys/interdictor_array.png
 POD爆发,jc_pod_system,,,,,,,,,,1,3,1,20,,,,,,,,,TRUE,,,"restricted, uses_damper_ai",graphics/icons/hullsys/damper_field.png
