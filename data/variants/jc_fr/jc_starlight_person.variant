@@ -3,8 +3,8 @@
   "hullId": "jc_starlight",
   "displayName": "人员投送",
   "goalVariant": true,
-  "fluxCapacitors": 16,
-  "fluxVents": 17,
+  "fluxCapacitors": 19,
+  "fluxVents": 19,
   "quality": 1,
   "permaMods": [
     "jc_auto_supply_f_person"

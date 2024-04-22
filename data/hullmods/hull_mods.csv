@@ -98,7 +98,6 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 ,,,,,,,,,,,,,,,,,,,
 #幽灵-常规内置,,,,,,,,,,,,,,,,,,,
 幽灵武装,jc_sf_base,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_base,该舰的设计理念具有鲜明的特色，从而能更好地适应幽灵部队的整体作战风格。,幽灵部队基础模组,,graphics/jc/hullmods/jc_sf_base.png
-幽灵装配,jc_sf_baseO,,,幽灵部队,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sf_baseO,装配点修正,装配点修正,,graphics/jc/hullmods/jc_sf_base.png
 幽灵综合改装,jc_chm_sf,,,幽灵部队,no_build_in,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_chm_sf,"智能系统的引入提高了舰船防御效率，根据舰船的基础护盾幅能伤害比，分配总计}%s}的伤害减免额度，护盾效率越高则越倾向于分配给护盾，反之则倾向于分配给装甲与结构。
 
 幽灵计划最初的目标便是摧毁行星与文明，因此这些无人战争兵器自然有着丰富的经验，根据舰船规模使轰炸所需燃料减少了}%s}。
