@@ -5,8 +5,6 @@
 	
 	"statsScript":"data.scripts.shipsystems.Jc_wafs",
 	"aiScript":"data.scripts.shipsystems.ai.Jc_wafs_ai",
-
-	"runScriptWhileIdle":true, # unapply() never gets called
 		
 	"fadeActivationSoundOnChargedown":true,
 	"useSound":"system_entropy",

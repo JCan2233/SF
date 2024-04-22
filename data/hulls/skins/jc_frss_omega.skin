@@ -1,0 +1,8 @@
+{
+	"baseHullId":"remnant_shield2",
+	"skinHullId":"jc_frss_omega",
+	"systemId":"jc_fortressshield2",
+	"tags":["restricted"],
+	"removeBuiltInMods":[],
+	"builtInMods":["jc_shard_frms"]
+}

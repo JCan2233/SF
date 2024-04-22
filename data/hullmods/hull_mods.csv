@@ -152,9 +152,8 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 纳米纤维护盾,jc_sf_armorShield,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_armorShield,一种特殊的护盾系统，在护盾表面喷洒纳米纤维使护盾同时拥有重装甲的部分特性。,额外提高护盾性能,,graphics/hullmods/omni_shield_emitter.png
 ,,,,,,,,,,,,,,,,,,,
 #其它内置,,,,,,,,,,,,,,,,,,,
-分形合击S,jc_shard_special,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_shard_special,来源于}欧米伽}的特殊技术，舰船停机后会分裂成更小的单位继续作战。,停机时生成碎片,,graphics/hullmods/shared_flux_sink.png
-分形合击M,jc_shard_frms,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_shard_frms,来源于}欧米伽}的特殊技术，舰船停机后会分裂成更小的单位继续作战。,停机时生成碎片,,graphics/hullmods/shared_flux_sink.png
-启动引擎,jc_shard_frmse,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_shard_frmse,启动引擎,启动引擎,,graphics/hullmods/shared_flux_sink.png
+分形合击,jc_shard_special,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_shard_special,来源于}欧米伽}的特殊技术，舰船停机后会分裂成更小的单位继续作战。,停机时生成碎片,,graphics/hullmods/shared_flux_sink.png
+分形合击,jc_shard_frms,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_shard_frms,来源于}欧米伽}的特殊技术，舰船停机后会分裂成更小的单位继续作战。,停机时生成碎片,,graphics/hullmods/shared_flux_sink.png
 永不撤退,jc_no_retreat,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_no_retreat,永不撤退,永不撤退,,graphics/hullmods/automated.png
 友军模式,jc_always_ally,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_always_ally,在玩家方时始终设为友军,设为友军,,graphics/hullmods/automated.png
 始终自动开火,jc_always_autofire,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_always_autofire,始终自动开火，武器组7必须空置,始终自动开火,,graphics/hullmods/automated.png
@@ -163,7 +162,6 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 至高威压,jc_boss,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_empty,优先部署,优先部署,,graphics/hullmods/automated.png
 免疫伤害,jc_no_hurt,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.VastBulk,免疫伤害,免疫伤害,,graphics/hullmods/vast_bulk.png
 余辉母舰,jc_frms,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_frms,余辉母舰内置系统,余辉母舰内置系统,,graphics/hullmods/automated.png
-余辉母舰(机动),jc_frmse,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_frmse,余辉母舰内置系统,余辉母舰内置系统,,graphics/hullmods/automated.png
 量子锁定,jc_wam,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_wam,"该舰带有特殊的量子锁防御系统。当被任意敌舰观察时，该舰将处于量子锁定状态，无法移动、无法攻击且不会受到伤害。
 
 激活相位系统时，舰船处于P空间无法被观察因而可以自由移动，相位系统结束时产生的时空畸变会在短时间内反转量子锁，使得舰船可以攻击并会受到伤害。",量子锁防御系统,,graphics/hullmods/shared_flux_sink.png

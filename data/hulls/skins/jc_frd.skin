@@ -1,12 +1,12 @@
 {
 	"baseHullId":"gargoyle",
-	"skinHullId":"jc_frd_omega",
+	"skinHullId":"jc_frd",
 	"hullName":"光棱",
 	"spriteName":"graphics/jc/ships/jc_frd.png",
 	"addHints":[HIDE_IN_CODEX],
 	"tags":["restricted","no_dealer"],
 	"removeBuiltInMods":[],
-	"builtInMods":["jc_shard_frms"],
+	"builtInMods":[],
 	"weaponSlotChanges":{
 	   "WS 000":{
 		  "type": "BUILT_IN",
