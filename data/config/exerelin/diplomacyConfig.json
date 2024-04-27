@@ -1,0 +1,14 @@
+{
+	"events":[
+		{
+			"name":"协议重启",
+			"stage":"jc_ttProtocol",
+			"random":false,
+			"chance":0,
+			"minRepChange":0.4,
+			"maxRepChange":0.6,
+			"repEnsureAtWorst":"neutral",
+			"desc":"为应对当前复杂的政治局势，速子科技尝试重启了部分余辉自动防御协议，但这也导致它们与某些势力的关系彻底陷入了死局."
+		}
+	]
+}

@@ -5,7 +5,8 @@
             "jc_alpha": "graphics/portraits/portrait_ai2b.png",
             "jc_commander_author": "graphics/jc/portraits/characters/jc_commander_author.png",
             "jc_sf1_core": "graphics/jc/portraits/jc_sf_ai1.png",
-            "jc_sf2_core": "graphics/jc/portraits/jc_sf_ai2.png"
+            "jc_sf2_core": "graphics/jc/portraits/jc_sf_ai2.png",
+            "jc_sf3_core": "graphics/jc/portraits/jc_sf_ai3.png"
         },
         "blueprint_packages": {
             "jc_autobp_package": "graphics/jc/icons/cargo/jc_autobp.png",
@@ -118,7 +119,20 @@
             "jc_sfsldec_fl": "graphics/jc/ships/sf/jc_sf_shadowlord/wing_FL.png",
             "jc_sfsldec_fr": "graphics/jc/ships/sf/jc_sf_shadowlord/wing_FR.png",
             "jc_sfsldec_bl": "graphics/jc/ships/sf/jc_sf_shadowlord/wing_BL.png",
-            "jc_sfsldec_br": "graphics/jc/ships/sf/jc_sf_shadowlord/wing_BR.png"
+            "jc_sfsldec_br": "graphics/jc/ships/sf/jc_sf_shadowlord/wing_BR.png",
+            "jc_sf_slm_0": "graphics/jc/fx/jc_sf_slm/slm_0.png",
+            "jc_sf_slm_1": "graphics/jc/fx/jc_sf_slm/slm_1.png",
+            "jc_sf_slm_2": "graphics/jc/fx/jc_sf_slm/slm_2.png",
+            "jc_sf_slm_3": "graphics/jc/fx/jc_sf_slm/slm_3.png",
+            "jc_sf_slm_4": "graphics/jc/fx/jc_sf_slm/slm_4.png",
+            "jc_sf_slm_5": "graphics/jc/fx/jc_sf_slm/slm_5.png",
+            "jc_sf_slm_6": "graphics/jc/fx/jc_sf_slm/slm_6.png",
+            "jc_sf_slm_7": "graphics/jc/fx/jc_sf_slm/slm_7.png",
+            "jc_sf_slm_8": "graphics/jc/fx/jc_sf_slm/slm_8.png",
+            "jc_sf_slm_9": "graphics/jc/fx/jc_sf_slm/slm_9.png",
+            "jc_sf_slm_10": "graphics/jc/fx/jc_sf_slm/slm_10.png",
+            "jc_sf_slm_proj": "graphics/jc/weapons/sf/jc_sf_shadowlord/missile_proj.png",
+            "jc_sf_slm_proj_glow": "graphics/jc/weapons/sf/jc_sf_shadowlord/missile_proj_glow.png"
         }
     },
     "designTypeColors": {
