@@ -92,8 +92,7 @@ jc_sf_greetingHostile_2,DialogOptionSelected,$option == jc_sf_greetingHostile_2,
 ""正如死去的浮游生物养育了肥美的蓝龙虾，您的死亡也是宇宙发展的必由之路。由此可见，死亡并不会抹杀个体的价值，因而无需恐惧，无需担忧。""
 什么狗屁不通的，你暗想。",cutCommLink:切断通讯链接,
 jc_sf_greeting_2,DialogOptionSelected,$option == jc_sf_greeting_2,"$menuState = fleetConvMain 0 
-FireAll PopulateOptions","你收到了一份关于幽灵计划的文件，详细描述了幽灵计划的起源、目的和现状，描绘了构建美丽宇宙、至高文明的宏大构想，以及为了达到这种伟大的目标所必须付出的微小的代价。
-不过文件末尾有个仅仅一行的备忘，上面写着幽灵计划已经结束了。",,
+FireAll PopulateOptions",你收到了一份关于幽灵计划的文件，详细描述了幽灵计划的起源、目的和现状，描绘了构建美丽宇宙、至高文明的宏大构想，以及为了达到这种伟大的目标所必须付出的微小的代价。,,
 ,,,,,,
 #默认对话,,,,,,
 jc_defaultdialog,PickGreeting,$jc_defaultdialog == true score:10,"ShowPersonVisual
@@ -155,7 +154,7 @@ SetShortcut defaultLeave ""ESCAPE""",一座运作中的星冕分流器，为附�
 jc_sfmb_tradeText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $id == jc_sf_mb","AddText ""这是一座幽灵计划时期建造的超级移动要塞，它既配备有充足的后勤生活设施，也能跨星域投送军事力量。移动要塞内部空间庞大，商店货物种类繁多，且全都配备有网络支付等便捷的交易设施，你注意到这里的燃料价格很高，也许是因为要塞进行星际旅行时需要消耗大量燃料。穿着高科技人形机械的AI们在街上走过，有的对你报以微笑，有的则好奇地打量着你，毕竟来这里的人类并不多。这里各项生活和娱乐设施（包括给有机生命体使用的设施）一应俱全，而巨大的舰体可以完全无视超空间风暴或小行星带的影响，运行十分平稳，因此似乎是个旅游度假的好地方。"" marketFlavorTextColor",,,
 jc_frms_tradeText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
-$id == jc_frs_s","AddText ""母舰内部的交易中心狭小而拥挤，四面八方被各种杂乱的装有各式各样安保系统的金属结构包围，手持武器的巡逻机器人站在高处的瞭望台上扫视着人群，应该是在寻找可能的左径分子。这里的商店普遍采用电子交易模式，只需要在店里的终端付款，货物就会由后勤无人机自动运送到舰船上，因此很多店铺往往非常小，不过毕竟是在这样一个高度军事化和集成化的环境下，这也不足为奇了。不过令人不快的是这里的食品店非常少，而且出售的大都是真空包装的压缩口粮。"" marketFlavorTextColor",,,
+$id == jc_frs_s","AddText ""母舰内部的交易中心狭小而拥挤，四面八方被各种杂乱的装有各式各样安保系统的金属结构包围，手持武器的巡逻机器人站在高处的瞭望台上扫视着人群，应该是在寻找可能的左径分子。这里的商店普遍采用电子交易模式，只需要在店里的终端付款，货物就会由后勤无人机自动运送到舰船上，因此很多店铺往往非常小，毕竟是在这样一个高度军事化和集成化的环境下，这也不足为奇了。不过令人不快的是这里的食品店非常少，而且出售的大都是真空包装的压缩口粮。"" marketFlavorTextColor",,,
 jc_frts_tradeText,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $id == jc_frs_2_1_s","AddText ""穿过码头，你来到了一片繁华的商业街，这里的繁华程度与外表破破烂烂的空间站形成了鲜明的对比。在这里人类与AI能够和谐共存，你可以看到人类和AI在一起谈笑风生，在这里种族、身份的隔阂被全部消去，人们能以他们内心深处最真实的面貌生活。路边上各式商铺应有尽有，这里的居民们热情地向你打招呼，并向你推销他们的商品，你自顾自地独自在街上走着，仿佛时间已经暂停于此刻。真想不到在星域的一角还有这样一个世外桃源。"" marketFlavorTextColor",,,
 jc_frssf_tradeText,TradePanelFlavorText,"$global.tradePanelMode == MARKET

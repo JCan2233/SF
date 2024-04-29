@@ -3,9 +3,10 @@
   "specClass": "beam",
   "type": "ENERGY",
   "size": "MEDIUM",
-  #"everyFrameEffect": "data.scripts.weapons.Jc_sf_asura_c_Effect",
-  #"beamEffect": "data.scripts.weapons.Jc_sf_asura_c_BeamEffect",
-  "beamFireOnlyOnFullCharge": true,
+  "beamEffect": "data.scripts.weapons.Jc_sf_shadowlord_LaserEffect",
+  "beamFireOnlyOnFullCharge": false,
+  "skipIdleFrameIfZeroBurstDelay":true,
+  "hitGlowBrightenDuration":0.25,
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/laser_L.png",
@@ -13,12 +14,12 @@
   "turretGlowSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/laser_L_glow.png",
   "hardpointGlowSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/laser_L_glow.png",
   "glowColor": [
-    248,
-    129,
+    200,
     0,
+    200,
     200
   ],
-  "hitGlowRadius": 35,
+  "hitGlowRadius": 32,
   "turretOffsets": [
     0,
     0
@@ -34,23 +35,24 @@
     0
   ],
   "fringeColor": [
-    248,
-    129,
-    0,
-    200
+    100,
+    120,
+    150,
+    150
   ],
   "coreColor": [
-    127,
+    255,
     0,
     255,
-    170
+    255
   ],
-  "width": 60,
+  "darkCore":true,
+  "width": 32,
   "textureType": [
-    "graphics/jc/fx/jc_beam_1.png",
-    "graphics/jc/fx/jc_beam_2.png"
+    "graphics/fx/beam_pulsar2.png",
+    "graphics/fx/beam_dark_core.png"
   ],
-  "textureScrollSpeed": 150,
+  "textureScrollSpeed": 160,
   "pixelsPerTexel": 1,
   "pierceSet": [
     PROJECTILE_FF,
@@ -59,5 +61,5 @@
     MISSILE_FF,
     MISSILE_NO_FF
   ],
-  "fireSoundTwo": "tachyon_lance_fire"
+  "fireSoundTwo": "jc_sf_fusebeam"
 }

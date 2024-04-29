@@ -9,6 +9,16 @@
 			"maxRepChange":0.6,
 			"repEnsureAtWorst":"neutral",
 			"desc":"为应对当前复杂的政治局势，速子科技尝试重启了部分余辉自动防御协议，但这也导致它们与某些势力的关系彻底陷入了死局."
+		},
+		{
+			"name":"灭绝计划",
+			"stage":"jc_sfeaw",
+			"random":false,
+			"chance":0,
+			"minRepChange":-0.3,
+			"maxRepChange":-0.2,
+			"repEnsureAtBest":"hostile",
+			"desc":"依据幽灵计划相关条款，$otherFaction的存在已构成不可忽视的威胁，因此幽灵部队决定对其启动全面军事行动，从而最终将其抹除."
 		}
 	]
 }

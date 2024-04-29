@@ -1,9 +1,10 @@
 {
 	"id":"jc_sf_shadowlord_sys",
 	"type":"STAT_MOD",
-	"aiType":"ACAUSAL_DISRUPTOR",
+	"aiType":"CUSTOM",
 	
 	"statsScript":"data.scripts.shipsystems.Jc_sf_shadowlord_sys",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_shadowlord_sys_ai",
 
 	"fadeActivationSoundOnChargedown":true,
 	"useSound":"system_quantumdisruptor",

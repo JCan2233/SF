@@ -209,11 +209,12 @@
 		"exerelinInvasionSupportFleet":"先锋",
 		"exerelinResponseFleet":"监守",
 		"exerelinDefenceFleet":"护卫",
-		"nex_defenseFleet":"护卫",
 		"exerelinMiningFleet":"资源开采舰队",
 		
 		"nex_colonyFleet":"远征舰队",
 		"nex_reliefFleet":"救援舰队",
 		"nex_specialForces":"幽灵机动队",
+		"nex_defenseFleet":"护卫",
+		"nex_satBombFleet":"毁灭",
 	}
 },
