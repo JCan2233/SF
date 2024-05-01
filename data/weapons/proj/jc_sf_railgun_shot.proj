@@ -1,7 +1,6 @@
 {
 	"id":"jc_sf_railgun_shot",
 	"specClass":"projectile",
-	"onFireEffect":"data.scripts.weapons.Jc_specialWeaponOnfire",
 	"onHitEffect":"data.scripts.weapons.Jc_sf_railgun_OnHitEffect",
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_FF",

@@ -1,7 +1,6 @@
 {
 	"id":"jc_sf7e_shot",
 	"specClass":"projectile",
-	"onFireEffect":"data.scripts.weapons.Jc_sf7e_OnFireEffect",
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",

@@ -9,10 +9,10 @@
   "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/pulse.png",
   "hardpointGlowSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/pulse_glow.png",
   "glowColor": [
+    100,
+    130,
     200,
-    100,
-    100,
-    255
+    200
   ],
   "turretOffsets": [
     13.5,
@@ -69,11 +69,11 @@
     "particleDuration": 0.12,
     "particleCount": 10,
     "particleColor": [
+      100,
+      130,
       200,
-      100,
-      100,
-      255
+      200
     ]
   },
-  "fireSoundTwo": "jc_sf_atklaser"
+  "fireSoundTwo": "autopulse_laser_fire"
 }

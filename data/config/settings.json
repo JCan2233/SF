@@ -132,7 +132,8 @@
             "jc_sf_slm_9": "graphics/jc/fx/jc_sf_slm/slm_9.png",
             "jc_sf_slm_10": "graphics/jc/fx/jc_sf_slm/slm_10.png",
             "jc_sf_slm_proj": "graphics/jc/weapons/sf/jc_sf_shadowlord/missile_proj.png",
-            "jc_sf_slm_proj_glow": "graphics/jc/weapons/sf/jc_sf_shadowlord/missile_proj_glow.png"
+            "jc_sf_slm_proj_glow": "graphics/jc/weapons/sf/jc_sf_shadowlord/missile_proj_glow.png",
+            "jc_sf_slb_fx": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade_fx.png"
         }
     },
     "designTypeColors": {

@@ -3,6 +3,7 @@
   "specClass": "beam",
   "type": "ENERGY",
   "size": "LARGE",
+  "beamEffect": "data.scripts.weapons.Jc_sf_shadowlord_BladeEffect",
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade.png",
@@ -10,10 +11,10 @@
   "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade.png",
   "hardpointGlowSprite": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade_glow.png",
   "glowColor": [
-    35,
-    85,
-    165,
-    235
+    100,
+    130,
+    200,
+    200
   ],
   "hitGlowRadius": 0,
   "turretOffsets": [
@@ -31,21 +32,21 @@
     0
   ],
   "fringeColor": [
-    0,
-    25,
-    125,
+    100,
+    130,
+    200,
     255
   ],
   "coreColor": [
-    200,
-    0,
-    0,
+    170,
+    210,
+    250,
     200
   ],
-  "width": 36,
-  "textureType": SMOOTH,
+  "width": 48,
+  "textureType": LASER,
   "textureScrollSpeed": 256,
-  "pixelsPerTexel": 4,
+  "pixelsPerTexel": 8,
   "pierceSet": [
     PROJECTILE_FF,
     PROJECTILE_NO_FF,

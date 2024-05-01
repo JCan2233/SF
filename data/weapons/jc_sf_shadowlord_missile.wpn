@@ -1,7 +1,7 @@
 {
   "id": "jc_sf_shadowlord_missile",
   "specClass": "projectile",
-  "projectileSpecId": "jc_sf_mirv",
+  "projectileSpecId": "jc_sf_shadowlord_missile",
   "everyFrameEffect": "data.scripts.weapons.Jc_sf_shadowlord_missileEffect",
   "type": "MISSILE",
   "size": "LARGE",

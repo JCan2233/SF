@@ -6,12 +6,13 @@
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_NO_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
-	"length":100.0,
-	"width":20.0,
+	"length":10.0,
+	"width":10.0,
 	"fadeTime":0.25,
-	"fringeColor":[50,50,255,255],
-	"coreColor":[235,235,255,255],
+	"fringeColor":[150,190,230,200],
+	"coreColor":[170,210,250,200],
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":1.0,
-	"bulletSprite":""
+	"bulletSprite":"",
+	"hitGlowRadius":1
 }
