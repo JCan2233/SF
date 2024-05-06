@@ -4,5 +4,5 @@
 	"systemId":"jc_fortressshield2",
 	"tags":["restricted"],
 	"removeBuiltInMods":[],
-	"builtInMods":[]
+	"builtInMods":["jc_frs_extshi"]
 }

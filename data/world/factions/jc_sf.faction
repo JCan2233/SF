@@ -206,7 +206,9 @@
 		"vengeanceFleet":"复仇",
 
 		"exerelinInvasionFleet":"同化",
+		"exerelinRespawnFleet":"复兴",
 		"exerelinInvasionSupportFleet":"先锋",
+		"exerelinStrikeFleet":"先锋",
 		"exerelinResponseFleet":"监守",
 		"exerelinDefenceFleet":"护卫",
 		"exerelinMiningFleet":"资源开采舰队",
@@ -216,5 +218,6 @@
 		"nex_specialForces":"幽灵机动队",
 		"nex_defenseFleet":"护卫",
 		"nex_satBombFleet":"毁灭",
+		"nex_suppressionFleet":"镇压",
 	}
 },

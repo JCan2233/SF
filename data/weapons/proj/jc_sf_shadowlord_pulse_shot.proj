@@ -2,7 +2,7 @@
 	"id":"jc_sf_shadowlord_pulse_shot",
 	"specClass":"projectile",
 	"onFireEffect":"data.scripts.weapons.Jc_sf_shadowlord_trackingEffect",
-	#"onHitEffect":"data.scripts.weapons.Jc_sf_shadowlord_trackingEffect",
+	"onHitEffect":"data.scripts.weapons.Jc_sf_shadowlord_trackingEffect",
 	"spawnType":"BALLISTIC",
 	"collisionClass":"PROJECTILE_NO_FF",
 	"collisionClassByFighter":"PROJECTILE_FIGHTER",
