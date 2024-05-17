@@ -1,7 +1,7 @@
 {
 	"id":"jc_sf_fac_l_shot",
 	"specClass":"projectile",
-	"onHitEffect":"data.scripts.weapons.Jc_sf_fuse_DTOnHitEffect",
+	"onHitEffect":"data.scripts.weapons.Jc_sf_fuseac_onHit",
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY",
 	"collisionClassByFighter":"RAY_FIGHTER",

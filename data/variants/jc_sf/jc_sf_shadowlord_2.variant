@@ -1,0 +1,97 @@
+{
+  "variantId": "jc_sf_shadowlord_2",
+  "hullId": "jc_sf_shadowlord",
+  "displayName": "守望",
+  "goalVariant": false,
+  "fluxCapacitors": 47,
+  "fluxVents": 46,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "sMods": ["targetingunit","autorepair","fluxbreakers","adaptive_coils","eccm"],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_shadowlord_laser_L",
+        "WS0002": "jc_sf_shadowlord_laser_R"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_shadowlord_pulse_L",
+        "WS0004": "jc_sf_shadowlord_pulse_R"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "jc_sf_shadowlord_blade"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "jc_sf_shadowlord_missile",
+        "WS0014": "resonatormrm",
+        "WS0015": "resonatormrm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "rifttorpedo"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "cryoblaster",
+        "WS0011": "cryoblaster",
+        "WS0012": "disintegrator",
+        "WS0013": "disintegrator",
+        "WS0016": "cryoflux"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "jc_sf_shadowlord_pd_L",
+        "WS0006": "jc_sf_shadowlord_pd_R",
+        "WS0017": "shockrepeater",
+        "WS0018": "shockrepeater",
+        "WS0019": "shockrepeater",
+        "WS0020": "shockrepeater",
+        "WS0021": "shockrepeater",
+        "WS0022": "shockrepeater",
+        "WS0023": "shockrepeater",
+        "WS0024": "shockrepeater",
+        "WS0025": "shockrepeater",
+        "WS0026": "shockrepeater"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "MO01": "jc_sf_shadowlord_s_m"
+    },
+    {
+      "MO02": "jc_sf_shadowlord_s_m"
+    },
+    {
+      "MO03": "jc_sf_shadowlord_s_m"
+    },
+    {
+      "MO04": "jc_sf_shadowlord_s_m"
+    }
+  ],
+  "wings": []
+}

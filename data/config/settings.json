@@ -6,7 +6,8 @@
             "jc_commander_author": "graphics/jc/portraits/characters/jc_commander_author.png",
             "jc_sf1_core": "graphics/jc/portraits/jc_sf_ai1.png",
             "jc_sf2_core": "graphics/jc/portraits/jc_sf_ai2.png",
-            "jc_sf3_core": "graphics/jc/portraits/jc_sf_ai3.png"
+            "jc_sf3_core": "graphics/jc/portraits/jc_sf_ai3.png",
+            "jc_sf_agent": "graphics/jc/portraits/characters/jc_sf_agent.png"
         },
         "blueprint_packages": {
             "jc_autobp_package": "graphics/jc/icons/cargo/jc_autobp.png",
@@ -133,7 +134,8 @@
             "jc_sf_slm_10": "graphics/jc/fx/jc_sf_slm/slm_10.png",
             "jc_sf_slm_proj": "graphics/jc/weapons/sf/jc_sf_shadowlord/missile_proj.png",
             "jc_sf_slm_proj_glow": "graphics/jc/weapons/sf/jc_sf_shadowlord/missile_proj_glow.png",
-            "jc_sf_slb_fx": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade_fx.png"
+            "jc_sf_slb_fx": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade_fx.png",
+            "jc_fuseDistortion": "graphics/jc/fx/jc_fuseDistortion.png"
         }
     },
     "designTypeColors": {

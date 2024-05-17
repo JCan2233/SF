@@ -1,0 +1,100 @@
+{
+  "variantId": "jc_sf_shadowlord_1",
+  "hullId": "jc_sf_shadowlord",
+  "displayName": "裁决",
+  "goalVariant": true,
+  "fluxCapacitors": 38,
+  "fluxVents": 37,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "adaptive_coils",
+    "targetingunit",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_shadowlord_laser_L",
+        "WS0002": "jc_sf_shadowlord_laser_R"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "jc_sf_shadowlord_pulse_L",
+        "WS0004": "jc_sf_shadowlord_pulse_R",
+        "WS0014": "jc_sf_emissile_m",
+        "WS0015": "jc_sf_emissile_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "jc_sf_shadowlord_blade"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "jc_sf_shadowlord_missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "jc_sf_mirv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "jc_sf_needler",
+        "WS0011": "jc_sf_needler",
+        "WS0012": "jc_sf_needler",
+        "WS0013": "jc_sf_needler",
+        "WS0016": "jc_sf_atklaser_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "jc_sf_shadowlord_pd_L",
+        "WS0006": "jc_sf_shadowlord_pd_R",
+        "WS0017": "jc_sf_pdlaser",
+        "WS0018": "jc_sf_pdlaser",
+        "WS0019": "jc_sf_pdlaser",
+        "WS0020": "jc_sf_pdlaser",
+        "WS0021": "jc_sf_pdlaser",
+        "WS0022": "jc_sf_pdlaser",
+        "WS0023": "jc_sf_pdlaser",
+        "WS0024": "jc_sf_pdlaser",
+        "WS0025": "jc_sf_pdlaser",
+        "WS0026": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "MO01": "jc_sf_shadowlord_s_m"
+    },
+    {
+      "MO02": "jc_sf_shadowlord_s_m"
+    },
+    {
+      "MO03": "jc_sf_shadowlord_s_m"
+    },
+    {
+      "MO04": "jc_sf_shadowlord_s_m"
+    }
+  ],
+  "wings": []
+}

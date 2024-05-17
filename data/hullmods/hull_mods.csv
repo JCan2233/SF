@@ -91,7 +91,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 当舰船的软幅能比例过高时开始额外排散软幅能，速率等同于舰船幅能耗散，同时使舰船护盾产生基于额外耗散量}%s}伤害的硬幅能。这部分硬幅能会同时计入特殊寄存器，特殊寄存器的最大记录量为舰船幅能容量的}%s}，当舰船开启护盾时允许以正常速度排散这部分幅能。
 
 当舰船过载或强制排幅时上述效果暂停，同时清空特殊寄存器。",提高软幅能排散能力,上述效果中护盾产生硬幅能的倍率降至{%s}。,graphics/jc/hullmods/jc_sf_fluxbreakers.png
-扰动重定向,jc_sf_advancedFuse,2,,幽灵部队,"jc_sf, offensive",武器,8000,,,,3,6,9,15,data.scripts.hullmods.Jc_sf_advancedFuse,升级舰船的火控系统使其能更好地适应融合武器。融合累积速率提高{%s}，消散速率降低{%s}。若安装于幽灵部队的舰船，则还会使融合临界值降低{%s}。,提高融合武器性能,非内置的实弹或能量融合武器基础射程提高{%s}。,graphics/jc/hullmods/jc_sf_advancedFuse.png
+扰动重定向,jc_sf_advancedFuse,2,,幽灵部队,"jc_sf, offensive",武器,8000,,,,3,6,9,15,data.scripts.hullmods.Jc_sf_advancedFuse,升级舰船的火控系统使其能更好地适应融合武器，提高{%s}融合效率。若安装于幽灵部队的舰船，则还会提高{%s}融合抗性。,提高融合武器性能,非内置的实弹或能量融合武器基础射程提高{%s}。,graphics/jc/hullmods/jc_sf_advancedFuse.png
 通用装甲镀层,jc_sf_universalArmor,2,,幽灵部队,"jc_sf, defensive",防御,8000,,,,4,8,12,20,data.scripts.hullmods.Jc_sf_universalArmor,"拆除舰船表面的部分装甲并用幽灵部队的特殊装甲镀层替代，提高{%s}/{%s}/{%s}/{%s}装甲减伤的计算强度，同时减少等量的最大装甲值。
 
 但由于其它的装甲改造可能会破坏镀层完整性，因此所有额外的装甲值增益效果减半。",提供额外的装甲减伤强度,不再减少最大装甲值。,graphics/jc/hullmods/jc_sf_universalArmor.png

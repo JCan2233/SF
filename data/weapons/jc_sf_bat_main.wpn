@@ -5,7 +5,7 @@
 	"size":"MEDIUM",
 	"collisionClass": "RAY",
   	"collisionClassByFighter": "RAY_FIGHTER",
-	"beamEffect":"data.scripts.weapons.Jc_sf_fuse_BaseBeamEffect",
+	"beamEffect":"data.scripts.weapons.Jc_sf_batMainBeamEffect",
 	"turretSprite":"graphics/weapons/phase_beam_turret.png",
 	"turretGlowSprite":"graphics/weapons/phase_beam_turret_glow.png",
 	"hardpointSprite":"graphics/weapons/phase_beam_hardpoint.png",
