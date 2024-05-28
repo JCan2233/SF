@@ -9,3 +9,4 @@ jc_sfmg_shot_2,jc_sfmg_shot,base_trail_heavySmoke,12,0,0.2,0.2,72,36,"[127,127,1
 jc_sf_ringwraith_rsw_shot,jc_sf_ringwraith_rsw_shot,base_trail_zapWithCore,4,0,0.1,0.2,50,25,"[200,0,20]","[200,0,180]",0.4,64,32,TRUE,10,0,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,100,TRUE,TRUE
 jc_sf_shadowlord_pulse_shot,jc_sf_shadowlord_pulse_shot,base_trail_smooth,8,0,0.6,0.3,20,10,"[170,210,250]","[150,190,230]",1,64,64,TRUE,10,0,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,100,TRUE,TRUE
 jc_sf_shadowlord_missile,jc_sf_shadowlord_missile,base_trail_smooth,8,0,1,0.5,32,16,"[170,210,250]","[150,190,230]",1,64,64,TRUE,-60,0,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,100,TRUE,TRUE
+jc_sf_slsys_fa_shot,jc_sf_slsys_fa_shot,base_trail_smooth,8,0,0.6,0.3,20,10,"[250,170,210]","[230,150,190]",1,64,64,TRUE,10,0,0,0,TRUE,FALSE,TRUE,0,0,0,0,0,100,TRUE,TRUE

@@ -2,9 +2,9 @@ id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,att
 jc_sf_leech_wing,jc_sf_leech_wing,"auto_fighter, jc_sf, jc_sf_bp, fighter, fighter3",1,,5,12,V,4000,500,,2,FIGHTER,无人战斗机,15,6000,25.01
 jc_sf_larva_wing,jc_sf_larva_wing,"auto_fighter, jc_sf, jc_sf_bp, bomber, bomber4",2,,6,15,V,4000,1000,,2,BOMBER,无人轰炸机,20,8000,25.02
 jc_sf_bat_wing,jc_sf_bat_wing,"auto_fighter, jc_sf, jc_sfs_bp, fighter, fighter5",3,,7,18,V,4000,1000,,2,FIGHTER,无人攻击机,20,10000,25.03
-jc_sf_havoc_L_wing,jc_sf_havoc_L_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5",3,,7,0,V,3000,500,,1,FIGHTER,无人炮艇,25,0,25.04
-jc_sf_havoc_R_wing,jc_sf_havoc_R_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5",3,,7,0,V,3000,500,,1,FIGHTER,无人炮艇,25,0,25.05
-#jc_sf_shade_wing,jc_sf_shade_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5",3,,8,0,BOX,4000,500,,4,FIGHTER,无人战斗机,10,0,25.06
+jc_sf_havoc_L_wing,jc_sf_havoc_L_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5",3,,6,0,V,3000,500,,1,FIGHTER,无人炮艇,25,0,25.04
+jc_sf_havoc_R_wing,jc_sf_havoc_R_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5",3,,6,0,V,3000,500,,1,FIGHTER,无人炮艇,25,0,25.05
+jc_sf_shade_wing,jc_sf_shade_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5, leader_no_swarm, wingmen_no_swarm, attack_at_an_angle",3,,8,0,BOX,4000,500,100,4,FIGHTER,无人战斗机,10,0,25.06
 jc_sf_frostwind_drone_wing,jc_sf_frostwind_drone,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter4, high",3,,6,0,V,0,200,,3,SUPPORT,自杀式无人机,20,6000,25.07
 ,,,,,,,,,,,,,,,,
 jc_r_mining_drone_wing,jc_r_mining_drone_wing,"auto_fighter, stay_in_front_of_ship, support0, drone, jc_fr, jc_auto_bp",0,,5,0,BOX,0,500,,4,FIGHTER,无人机,10,1600,17.26

@@ -6,7 +6,8 @@
 	"statsScript":"data.scripts.shipsystems.Jc_sf_shadowlord_sys",
 	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_shadowlord_sys_ai",
 
-	"fadeActivationSoundOnChargedown":true,
-	"useSound":"system_quantumdisruptor",
+	"canUseWhileRightClickSystemOn":true,
+	#"fadeActivationSoundOnChargedown":true,
+	#"useSound":"system_quantumdisruptor",
 	"outOfUsesSound":"gun_out_of_ammo"
 }

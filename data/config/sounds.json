@@ -62,6 +62,35 @@
       "volume": 1
     }
   ],
+  "jc_sf_slsys_pre": [
+    {
+      "file": "sounds/jc/sfx/jc_sf_slsys_0.ogg",
+      "pitch": 1,
+      "volume": 1
+    }
+  ],
+  "jc_sf_slsys_act": [
+    {
+      "file": "sounds/jc/sfx/jc_sf_slsys_1.ogg",
+      "pitch": 1,
+      "volume": 1
+    },
+    {
+      "file": "sounds/jc/sfx/jc_sf_slsys_2.ogg",
+      "pitch": 1,
+      "volume": 1
+    },
+    {
+      "file": "sounds/jc/sfx/jc_sf_slsys_3.ogg",
+      "pitch": 1,
+      "volume": 1
+    },
+    {
+      "file": "sounds/jc/sfx/jc_sf_slsys_4.ogg",
+      "pitch": 1,
+      "volume": 1
+    }
+  ],
   "jc_tlp_fire": [
     {
       "file": "sounds/sfx_wpn_energy/ion_pulser_fire_01.ogg",

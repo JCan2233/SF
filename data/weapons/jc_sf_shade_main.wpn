@@ -1,0 +1,54 @@
+{
+  "id": "jc_sf_shade_main",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.Jc_sf_ShadeMainEffect",
+  "collisionClass": "RAY_FIGHTER",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/jc/weapons/jc_empty.png",
+  "hardpointSprite": "",
+  "turretGlowSprite": "",
+  "hardpointGlowSprite": "",
+  "glowColor": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hitGlowRadius": 20,
+  "turretOffsets": [
+    0,0,
+    0,0,
+    0,0,
+    0,0,
+    0,0,
+    0,0,
+    0,0
+  ],
+  "turretAngleOffsets": [
+    0,0,0,0,0,0,0
+  ],
+  "hardpointOffsets": [
+    0,0,
+    0,0,
+    0,0,
+    0,0,
+    0,0,
+    0,0,
+    0,0
+  ],
+  "hardpointAngleOffsets": [
+    0,0,0,0,0,0,0
+  ],
+  "fringeColor": [150,0,100,150],
+  "coreColor": [100,100,100,100],
+  "width": 20,
+  "textureType": [
+    "graphics/jc/fx/jc_halflaser_f.png",
+    "graphics/jc/fx/jc_halflaser_c.png"
+  ],
+  "textureScrollSpeed": 64,
+  "pixelsPerTexel": 5,
+  "fireSoundTwo": "laser_loop"
+}

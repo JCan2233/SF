@@ -1,0 +1,18 @@
+{
+	"id":"jc_sf_slsys_fa_shot",
+	"specClass":"projectile",
+	"onFireEffect":"data.scripts.weapons.Jc_sf_shadowlord_trackingEffectNoFlux",
+	"onHitEffect":"data.scripts.weapons.Jc_sf_shadowlord_trackingEffectNoFlux",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_NO_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":10.0,
+	"width":10.0,
+	"fadeTime":0.25,
+	"fringeColor":[230,150,190,200],
+	"coreColor":[250,170,210,200],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":1.0,
+	"bulletSprite":"",
+	"hitGlowRadius":1
+}

@@ -22,8 +22,8 @@
     "jc_sf_sleffect"
   ],
   "builtInWings": [
-    "jc_sf_leech_wing",
-    "jc_sf_leech_wing"
+    "jc_sf_shade_wing",
+    "jc_sf_shade_wing"
   ],
   "builtInWeapons": {
     "WS0001": "jc_sf_shadowlord_laser_L",

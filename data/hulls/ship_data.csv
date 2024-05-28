@@ -5,7 +5,7 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 血蝠,jc_sf_bat,,幽灵部队,jc_sf_flarelauncher_fighter,,600,30,600,80,0,,200,300,300,90,200,50,OMNI,,180,0,1.0,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,105.03
 浩劫,jc_sf_havoc_L,,幽灵部队,,,800,40,800,80,0,,180,240,240,90,180,100,OMNI,,180,0,1.0,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,105.05
 浩劫,jc_sf_havoc_R,,幽灵部队,,,800,40,800,80,0,,180,240,240,90,180,100,OMNI,,180,0,1.0,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,105.04
-#魔物,jc_sf_shade,,幽灵部队,,,,,,,0,,,,,,,50,OMNI,,180,0,1.0,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,105.06
+魔物,jc_sf_shade,,幽灵部队,,,500,50,1000,150,0,,200,400,400,90,200,50,PHASE,phasecloak,,,,0,0.05,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,105.06
 霜刃,jc_sf_frostwind_drone,,幽灵部队,,,600,30,200,80,0,,300,400,400,200,400,20,NONE,,180,0,1.0,,,0,0,,,,,,,,,,,,,,,,,,,,,,0,,,,105.07
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #护卫,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -38,9 +38,9 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #特殊,,,,jc_sf_shadowlord_sys,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 戒灵,jc_sf_ringwraith,歼星舰,幽灵部队,jc_sf_ringwraith_fs,40,18000,800,15000,1000,240,,40,30,30,10,10,3000,PHASE,jc_sf_ringwraith_rs,,,,,,0,0,400,400,16,30,8,1000000,3,20,840,0.25,80,80,,,,,,,"HIDE_IN_CODEX, SHIP_WITH_MODULES",,,0.7,2,5,,507.01
-魔王,jc_sf_shadowlord,无畏舰,幽灵部队,jc_sf_shadowlord_sys,45,20000,800,20000,1500,300,2,40,30,30,10,10,3500,PHASE,phasecloak,,,,0.05,0.05,0,0,500,500,20,40,7,1200000,3,20,840,0.25,100,100,,,,,,,"HIDE_IN_CODEX, SHIP_WITH_MODULES, PHASE",no_autofit,,0.7,2,5,,507.02
+魔王,jc_sf_shadowlord,无畏舰,幽灵部队,jc_sf_shadowlord_sys,45,20000,800,20000,1500,300,2,40,30,30,10,10,3500,PHASE,phasecloak,,,,0.03,0.03,0,0,500,500,20,40,7,1200000,3,20,840,0.25,100,100,,,,,,,"HIDE_IN_CODEX, SHIP_WITH_MODULES, PHASE",,,0.7,2,5,,507.02
 ,jc_sf_ringwraith_s,护盾生成器,幽灵部队,,1,1000,0,10000,500,0,,1,1,1,1,1,1,FRONT,,90,0,1.0,,,0,0,0,0,0,0,10,1,50,0,840,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","restricted, jc_module, module_unselectable, module_no_status_bar",,0,,,,5.01
-,jc_sf_shadowlord_s,护盾生成器,幽灵部队,,1,1000,0,8000,400,0,,1,1,1,1,1,1,FRONT,,90,0,1.0,,,0,0,0,0,0,0,10,1,50,0,840,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","restricted, jc_module, module_unselectable, module_no_status_bar",,0,,,,5.02
+,jc_sf_shadowlord_s,护盾生成器,幽灵部队,,1,1000,0,10000,500,0,,1,1,1,1,1,1,FRONT,,90,0,1.0,,,0,0,0,0,0,0,10,1,50,0,840,0.25,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","restricted, jc_module, module_unselectable, module_no_status_bar",,0,,,,5.02
 修罗,jc_sf_asura,终结者,幽灵部队,jc_sf_asura_sys,25,10000,450,10000,700,60,,75,60,60,30,30,1000,FRONT,,180,0.5,0.5,,,0,0,175,175,7,40,9,500000,3,20,720,0.25,35,35,,,,,,,HIDE_IN_CODEX,no_autofit,,0.5,2,3,,407.01
 ,jc_sf_asura_backpack,背包模块,幽灵部队,jc_sf_asura_drone,,1000,0,1000,100,0,,1,1,1,1,1,1,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,"restricted, module_unselectable, module_no_status_bar",,0,,,,5.03
 魔仆,jc_sf_asura_drone,,幽灵部队,,,700,30,700,80,0,,250,350,350,100,240,80,OMNI,,180,0,1.0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,restricted,,0,,,,107.01
