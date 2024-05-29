@@ -135,6 +135,8 @@
             "jc_sf_slm_proj": "graphics/jc/weapons/sf/jc_sf_shadowlord/missile_proj.png",
             "jc_sf_slm_proj_glow": "graphics/jc/weapons/sf/jc_sf_shadowlord/missile_proj_glow.png",
             "jc_sf_slb_fx": "graphics/jc/weapons/sf/jc_sf_shadowlord/blade_fx.png",
+            "jc_sf_slpd_1": "graphics/jc/weapons/sf/jc_sf_shadowlord/pd_shot_1.png",
+            "jc_sf_slpd_2": "graphics/jc/weapons/sf/jc_sf_shadowlord/pd_shot_2.png",
             "jc_fuseDistortion": "graphics/jc/fx/jc_fuseDistortion.png",
             "jc_sf_slsys_0": "graphics/jc/ships/sf/jc_sf_shadowlord/sys/0.png",
             "jc_sf_slsys_1": "graphics/jc/ships/sf/jc_sf_shadowlord/sys/1.png",

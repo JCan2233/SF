@@ -54,6 +54,6 @@
     MISSILE_FF,
     MISSILE_NO_FF
   ],
-  "fireSoundOne": "laser_intro",
-  "fireSoundTwo": "tachyon_lance_fire"
+  #"fireSoundOne": "laser_intro",
+  "fireSoundTwo": "riftcascade_loop"
 }
