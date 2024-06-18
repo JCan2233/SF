@@ -1,0 +1,73 @@
+{
+  "hullName": "jc_sf_shadowlord_drone_2",
+  "hullId": "jc_sf_shadowlord_drone_2",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_shadowlord/drone_large.png",
+  "style": "jc_sf",
+  "height": 142,
+  "width": 142,
+  "center": [71, 71],
+  "collisionRadius": 75.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 74,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "supercomputer",
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 0,
+      "locations": [33, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [0, 34]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [0, -34]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 180,
+      "locations": [-33, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    0, -67,
+    67, -0,
+    0, 67,
+    -67, -0
+  ]
+}

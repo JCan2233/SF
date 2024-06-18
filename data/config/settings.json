@@ -145,7 +145,10 @@
             "jc_sf_slsys_4": "graphics/jc/ships/sf/jc_sf_shadowlord/sys/4.png",
             "jc_sf_slsys_5": "graphics/jc/ships/sf/jc_sf_shadowlord/sys/5.png",
             "jc_sf_slsys_6": "graphics/jc/ships/sf/jc_sf_shadowlord/sys/6.png",
-            "jc_sf_story": "graphics/jc/icons/missions/jc_sf_story.png"
+            "jc_sf_story": "graphics/jc/icons/missions/jc_sf_story.png",
+            "jc_fx_edge_1": "graphics/jc/fx/jc_edge_1.png",
+            "jc_fx_edge_2": "graphics/jc/fx/jc_edge_2.png",
+            "jc_fx_edge_3": "graphics/jc/fx/jc_edge_3.png"
         }
     },
     "designTypeColors": {

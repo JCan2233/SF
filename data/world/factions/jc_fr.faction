@@ -207,7 +207,7 @@
 		},
 	},
 	"custom":{
-		"allowsTransponderOffTrade":true, 
+		"allowsTransponderOffTrade":true,
 		"fightToTheLast":true, 
 		"offersCommissions":true,
 		"engagesInHostilities":true,

@@ -1,0 +1,17 @@
+{
+	"id":"jc_sf_slboss_fire_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY_FIGHTER",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":150.0,
+	"width":60.0,
+	"hitGlowRadius":150,
+	"fadeTime":0.25,
+	"fringeColor":[255,0,0,255],
+	"coreColor":[70,255,235,200],
+	"textureType":"SMOOTH",  # only needed for BEAM spawnType
+	"textureScrollSpeed":-256.0,
+	"pixelsPerTexel":1.0,
+	"passThroughMissiles":true,
+}

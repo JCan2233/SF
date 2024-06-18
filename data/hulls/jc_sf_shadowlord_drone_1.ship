@@ -1,0 +1,48 @@
+{
+  "hullName": "jc_sf_shadowlord_drone_1",
+  "hullId": "jc_sf_shadowlord_drone_1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_shadowlord/drone_small.png",
+  "style": "jc_sf",
+  "height": 112,
+  "width": 142,
+  "center": [71, 56],
+  "collisionRadius": 78,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 76,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "supercomputer",
+    "no_weapon_flux"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 90,
+      "locations": [0, 24]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -90,
+      "locations": [0, -24]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -39, -33.5,
+    0, -67,
+    38.5, -32.5,
+    38.5, 32.5,
+    0, 67,
+    -39, 33.5
+  ]
+}
