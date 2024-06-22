@@ -148,7 +148,8 @@
             "jc_sf_story": "graphics/jc/icons/missions/jc_sf_story.png",
             "jc_fx_edge_1": "graphics/jc/fx/jc_edge_1.png",
             "jc_fx_edge_2": "graphics/jc/fx/jc_edge_2.png",
-            "jc_fx_edge_3": "graphics/jc/fx/jc_edge_3.png"
+            "jc_fx_edge_3": "graphics/jc/fx/jc_edge_3.png",
+            "jc_fx_edge_4": "graphics/jc/fx/jc_edge_4.png"
         }
     },
     "designTypeColors": {

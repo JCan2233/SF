@@ -5,7 +5,7 @@
 	"size":"MEDIUM",
 	"collisionClass": "RAY_FIGHTER",
   	"collisionClassByFighter": "RAY_FIGHTER",
-	#"beamEffect":"data.scripts.weapons.Jc_sf_fuse_BeamEffectDEM",
+	"beamEffect":"data.scripts.weapons.Jc_sf_fuseDemBeamEffect",
 	"turretSprite":"graphics/fx/empty.png",
 	"turretGlowSprite":"graphics/fx/empty.png",
 	"hardpointSprite":"graphics/fx/empty.png",

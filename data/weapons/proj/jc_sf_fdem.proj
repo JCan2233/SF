@@ -1,0 +1,54 @@
+{
+	"id":"jc_sf_fdem",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"onFireEffect":"data.scripts.weapons.Jc_DemOnFireSoftFlux",
+	"behaviorSpec":{
+		"behavior":"CUSTOM",
+		"minDelayBeforeTriggering":0,
+		"triggerDistance":[500,550],
+		"preferredMinFireDistance":[500,550],
+		"turnRateBoost":100,
+		"targetingTime":0,
+		"firingTime":2.25,
+		"payloadWeaponId":"jc_sf_fdem_payload",
+		"bombPumped":false,
+		"snapFacingToTargetIfCloseEnough":true,
+		"fadeOutEngineWhenFiring":false;
+		"destroyMissleWhenDoneFiring":true,
+		"destroyedExplosionColor":[150,255,150,255],
+		"targetingLaserId":"jc_sf_frostwind_ds_tl",
+		"targetingLaserRange":0,
+		"targetingLaserArc":10,
+	},
+	"sprite":"graphics/missiles/missile_gorgon_dem.png",
+	"size":[11,20],	
+	"center":[5.5,10],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[150,255,150,200],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":120, # purely visual	
+	"engineSpec":{"turnAcc":420,
+				  "turnRate":140,
+				  "acc":1000,
+				  "dec":100},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-10, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[80,90,255,255],
+						"contrailDuration":1.5,
+						"contrailWidthMult":0.67,
+						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":15, # min segment length, in pixels
+						"contrailMaxSpeedMult":0,
+						"contrailAngularVelocityMult":0.5,
+						"contrailSpawnDistMult":0, # how far away from engine it starts
+						"contrailColor":[255,19,60,125],
+						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":8.0,
+				    "length":60.0,
+				    "angle":180.0}]
+}

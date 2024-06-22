@@ -9,7 +9,7 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 空洞-反舰导弹,jc_sf_torpedo_s,1,,400,1200,,3000,,50,20,2,1,,,HIGH_EXPLOSIVE,0,,0,15,1,,0,0,0,0,,300,0,6,500,,,"STRIKE, GUIDED_POOR","jc_sf, jc_sf_bp, strike8, missile1",,幽灵部队,,鱼雷,普通,普通,,,鱼雷会造成范围爆炸伤害，若摧毁了任意敌方舰船或战机，则在{%s}秒后再触发一次爆炸，每触发一次都会使伤害减半。,2,,,TRUE,5.05
 荧光-高速发射系统,jc_sf_emissile_s,1,,500,2000,,200,,0,20,6,1,0.25,1,ENERGY,0,,0,4,1,,0,0,0,0,,300,300,10,150,,,"DO_NOT_AIM, DO_NOT_CONSERVE, GROUP_LINKED","jc_sf, jc_sf_bp, utility7, missile3",jc_sf_emissile,幽灵部队,,饱和打击,普通,良好,,,若安装有{%s}或{%s}则导弹还会附加{%s}EMP伤害。,扩展发射架 | 自动装填机 | 200,,,,5.06
 漩涡-动能导弹,jc_sf_kmissile_s,2,,500,1500,,500,,20,20,3,3,,,KINETIC,0,,0,10,1,,0,0,0,0,,300,100,6,300,,,GUIDED_POOR,"jc_sf, jc_sfw_bp, missile7, strike2",,幽灵部队,,反护盾,普通,普通,,,当导弹接近目标时会进入激活状态，大幅提高飞行速度。处于激活状态的导弹，命中护盾时会追加{%s}动能伤害，命中船体或装甲时发射者排散{%s}幅能。,500 | 800,,,TRUE,5.07
-#B-融合导弹,jc_sf_fdem_s,3,,600,2000,,1,,0,20,4,3,,,ENERGY,0,,0,10,1,,0,0,0,0,,,,,,,,DO_NOT_AIM,"jc_sf, jc_sfw_bp, missile8, strike4, damage_special, damage_soft_flux",,幽灵部队,,,,,,,,,,,TRUE,5.08
+#B-融合导弹,jc_sf_fdem_s,3,,600,2000,,1000,,0,20,4,3,,,ENERGY,0,,0,10,1,,0,0,0,0,,,,,,,,DO_NOT_AIM,"jc_sf, jc_sfw_bp, missile8, strike4, damage_special, damage_soft_flux",,幽灵部队,,,,,,,导弹会在接近目标时发射激光，在{%s}秒内造成总计{%s}能量伤害，并施加融合效果。,2 | 1000,[{%s}-{%s}],融合 | 3%,TRUE,5.08
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #中,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 阴影-激光速射炮,jc_sf_atklaser_m,0,,1200,650,,80,,0,20,10,,,,ENERGY,64,,0.16,0.16,1,,0,0,0,0,,1000,,,,,,,"jc_sf, jc_sf_bp, energy12",,幽灵部队,,普通,,,,,"舰船上每安装有一个不具有额外效果描述的中型/大型非导弹武器，使造成的伤害提高{%s}/{%s}。
@@ -28,7 +28,7 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 洞穿-正电子射流,jc_sf_needler,3,,2500,700,,36,1,1,15,14,,,,ENERGY,30,,0,2.3,15,0.05,10,10,0,0,,1000,,,,,,,"jc_sf, jc_sfw_bp, energy13, kinetic5",,幽灵部队,,"反护盾, 瘫痪",,,,,"该武器视为仅具有伤害值{%s}的穿甲强度。
 
 命中船体或装甲时有{%s}概率产生电弧造成{%s}EMP伤害。每当命中但未产生电弧时都会使下一次命中产生电弧的概率提高{%s，若成功产生了电弧则累积的概率清零。",20% | 1.0% | 100 | 0.5%,,,,6.13
-#B-融合导弹,jc_sf_fdem_m,3,,2500,2000,,1,,0,20,12,15,,,ENERGY,0,,0,8,1,,0,0,0,0,,,,,,,,DO_NOT_AIM,"jc_sf, jc_sfw_bp, missile8, strike4, damage_special, damage_soft_flux",,幽灵部队,,,,,,,,,,,TRUE,6.14
+#B-融合导弹,jc_sf_fdem_m,3,,2500,2000,,1000,,0,20,12,15,,,ENERGY,0,,0,8,1,,0,0,0,0,,,,,,,,DO_NOT_AIM,"jc_sf, jc_sfw_bp, missile8, strike4, damage_special, damage_soft_flux",,幽灵部队,,,,,,,导弹会在接近目标时发射激光，在{%s}秒内造成总计{%s}能量伤害，并施加融合效果。,2 | 1000,[{%s}-{%s}],融合 | 3%,TRUE,6.14
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #大,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 幽冥-激光速射炮,jc_sf_atklaser_l,0,,4500,700,,90,,0,15,20,,,,ENERGY,72,,0.1,0.1,1,,0,0,0,0,,1000,,,,,,,"jc_sf, jc_sf_bp, energy17",,幽灵部队,,普通,,,,,"舰船上每安装有一个不具有额外效果描述的中型/大型非导弹武器，使造成的伤害提高{%s}/{%s}。
@@ -59,8 +59,8 @@ name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn r
 命中护盾时依据目标的硬幅能水平有至多{%s}概率产生穿盾电弧造成{%s}EMP伤害。每当命中但未产生电弧时，依据目标的硬幅能水平使下一次命中产生电弧的概率提高至多{%s，若成功产生了电弧则累积的概率清零。
 
 命中装甲或船体时不会产生电弧。",5 | 60% | 5% | 500 | 5%,,,,7.13
-侵染-集束激光空雷,jc_sf_lasermine,2,,6000,3000,,1000,,0,10,25,10,,,ENERGY,0,,0,15,1,,0,0,0,0,,200,50,20,1000,,,"DO_NOT_AIM, CONSERVE_3","jc_sf, jc_sfw_bp, missile13, utility24, damage_special, damage_soft_flux",,幽灵部队,,区域封锁,较慢,普通,,,接近目标时向四周投射{%s}枚空雷，空雷会在接近目标时向三个方向发射激光切割周围的敌舰，每道光束每秒造成{%s}能量伤害，持续{%s}秒。空雷不受导弹飞行速度增益的影响。,12 | 400 | 3,,,TRUE,7.15
-#B-融合导弹,jc_sf_fdem_l,3,,7500,2000,,1,,0,20,24,40,,,ENERGY,0,,0,7,2,1,0,0,0,0,,,,,,,,DO_NOT_AIM,"jc_sf, jc_sfw_bp, missile8, strike4, damage_special, damage_soft_flux",,幽灵部队,,,,,,,,,,,TRUE,7.16
+侵染-集束激光空雷,jc_sf_lasermine,2,,6000,3000,,1000,,0,10,25,10,,,ENERGY,0,,0,15,1,,0,0,0,0,,200,50,20,1000,,,"DO_NOT_AIM, CONSERVE_3","jc_sf, jc_sfw_bp, missile13, utility24, damage_special, damage_soft_flux",,幽灵部队,,区域封锁,较慢,普通,,,接近目标时向四周投射{%s}枚空雷，空雷会在接近目标时向三个方向发射激光切割周围的敌舰，每道光束会在{%s}秒内造成总计{%s}能量伤害。空雷不受导弹飞行速度增益的影响。,12 | 3 | 1200,,,TRUE,7.15
+#B-融合导弹,jc_sf_fdem_l,3,,7500,2000,,1000,,0,20,24,40,,,ENERGY,0,,0,7,2,1,0,0,0,0,,,,,,,,DO_NOT_AIM,"jc_sf, jc_sfw_bp, missile8, strike4, damage_special, damage_soft_flux",,幽灵部队,,,,,,,导弹会在接近目标时发射激光，在{%s}秒内造成总计{%s}能量伤害，并施加融合效果。,2 | 1000,[{%s}-{%s}],融合 | 3%,TRUE,7.16
 熵寂-宏原子投射器,jc_sf_macroatom,3,0.5,10000,800,,600,,500,7,36,,,,ENERGY,500,,0.6,0.6,1,,0,0,0,0,,700,,,,,,"STRIKE, USE_VS_FRIGATES","jc_sf, jc_sfw_bp, energy21",,幽灵部队,,通用,,,,,"开火时若武器处于护盾保护下则有{%s}概率激发射弹，使自身护盾产生等同于{%s}伤害的软幅能。
 
 处于激发状态的射弹会使目标附加一层熵增效果，每层使目标的最大幅能容量额外降低，降低数值等同于射弹实际造成的伤害值且不超过目标当前幅能容量的{%s，至多持续{%s}秒。
@@ -188,7 +188,7 @@ TDM-07-因果稳定矛,jc_sf_shadowlord_missile,0,,0,3000,,2000,,1000,360,,1,0.0
 尖啸能量弹,jc_sf_ringwraith_rsw,0,,0,1000,,300,,100,0,,,,,ENERGY,0,,0,1,1,,0,0,0,0,,2000,,,,,,SYSTEM,restricted,,幽灵部队,,普通,,,,,,,,,,55.49
 守望-整合PD系统,jc_sf_pdl_station,0,,0,800,1000,,,0,80,,,,,ENERGY,,0,0,0,0.2,0.1,,,,,1000000,,,,,,,"SYSTEM, PD, PD_ONLY, ANTI_FTR, IGNORES_FLARES",restricted,,幽灵部队,,点防御,,,,,对范围内的其它目标造成{%s}破片伤害。,100,仅攻击导弹和战机。,,,55.51
 保卫者PD系统,jc_guardian_r,0,,0,750,1000,,,0,75,,20,1,,ENERGY,,750,0,0,0.2,0.1,,,,,1000000,,,,,,,"SYSTEM, PD, ANTI_FTR",restricted,,余辉,,点防御,,,,,当该武器的每一道光束都命中同一点附近时，会因剥离效应而对附近的其它目标造成最多{%s}的{%s。,100 | 破片伤害,,,,55.52
-融合DEM载荷,jc_sf_fdem_payload,0,,0,700,800,,,0,30,,,,,ENERGY,,0,0.05,0.25,0.9,0.5,,,,,1000,,,,,,,"SYSTEM, DANGEROUS","restricted, fires_one_burst",,幽灵部队,,,,,,,TODO,,,,,55.53
+融合DEM载荷,jc_sf_fdem_payload,0,,0,700,500,,,0,30,,,,,ENERGY,,0,0.1,0.2,1.9,10,,,,,1000,,,,,,,"SYSTEM, DANGEROUS","restricted, fires_one_burst",,幽灵部队,,,,,,,,,,,,55.53
 激光空雷载荷,jc_sf_lasermine_payload,0,,0,350,1200,,,0,30,,,,,ENERGY,,0,0,0,,,,,,,1000,,,,,,,"SYSTEM, DANGEROUS",restricted,,幽灵部队,,,,,,,,,,,,55.54
 死亡蛰刺,jc_sf_scorpion_missile,0,,0,5000,,6000,,1000,0,,1,,,HIGH_EXPLOSIVE,0,,1,99,1,,0,0,0,0,,150,50,60,2000,,,"SYSTEM, STRIKE, DO_NOT_AIM, CONSERVE_1",restricted,only,幽灵部队,,战略打击,较慢,良好,,,"导弹会造成大范围爆炸伤害，并立即触发已被施加的融合效果。
 
