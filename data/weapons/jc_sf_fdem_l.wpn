@@ -1,27 +1,33 @@
 {
-  "id": "jc_sf_kmissile_s",
+  "id": "jc_sf_fdem_l",
   "specClass": "projectile",
-  "projectileSpecId": "jc_sf_kmissile",
+  "projectileSpecId": "jc_sf_fdem",
   "type": "MISSILE",
-  "size": "SMALL",
+  "size": "LARGE",
   "displayArcRadius": 300,
-  "turretSprite": "graphics/jc/weapons/sf/jc_sf_kmissile_s_turret.png",
-  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_kmissile_s_hardpoint.png",
+  "turretSprite": "graphics/jc/weapons/sf/jc_sf_fdem_l_turret.png",
+  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_fdem_l_hardpoint.png",
   "renderHints": [
     RENDER_LOADED_MISSILES
   ],
   "turretOffsets": [
+    9,
     7.5,
-    0
+    9,
+    -7.5
   ],
   "turretAngleOffsets": [
+    0,
     0
   ],
   "hardpointOffsets": [
-    10,
-    0
+    14.5,
+    7.5,
+    14.5,
+    -7.5
   ],
   "hardpointAngleOffsets": [
+    0,
     0
   ],
   "barrelMode": "ALTERNATING",
@@ -43,5 +49,5 @@
       200
     ]
   },
-  "fireSoundTwo": "sabot_srm_fire"
+  "fireSoundTwo": "gorgon_fire"
 }

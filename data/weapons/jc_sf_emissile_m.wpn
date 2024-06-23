@@ -1,24 +1,24 @@
 {
   "id": "jc_sf_emissile_m",
   "specClass": "projectile",
-  "everyFrameEffect":"data.scripts.weapons.Jc_sf_emissile_EveryFrameEffect",
   "projectileSpecId": "jc_sf_emissile",
   "type": "MISSILE",
   "size": "MEDIUM",
+  "everyFrameEffect": "data.scripts.weapons.Jc_sf_emissile_EveryFrameEffect",
   "turretSprite": "graphics/jc/weapons/sf/jc_sf_emissile_m_turret.png",
   "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_emissile_m_hardpoint.png",
   "renderHints": [
     RENDER_LOADED_MISSILES
   ],
   "turretOffsets": [
-    18.5,
+    15.5,
     0
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    21.5,
+    18.5,
     0
   ],
   "hardpointAngleOffsets": [
