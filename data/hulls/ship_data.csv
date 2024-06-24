@@ -44,8 +44,8 @@ name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating
 修罗,jc_sf_asura,终结者,幽灵部队,jc_sf_asura_sys,25,10000,450,10000,700,60,,75,60,60,30,30,1000,FRONT,,180,0.5,0.5,,,0,0,175,175,7,40,9,500000,3,20,720,0.25,35,35,,,,,,,HIDE_IN_CODEX,no_autofit,,0.5,2,3,,407.01
 ,jc_sf_asura_backpack,背包模块,幽灵部队,jc_sf_asura_drone,,1000,0,1000,100,0,,1,1,1,1,1,1,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,"restricted, module_unselectable, module_no_status_bar",,0,,,,5.03
 魔仆,jc_sf_asura_drone,,幽灵部队,,,700,30,700,80,0,,250,350,350,100,240,80,OMNI,,180,0,1.0,,,0,0,,,,,,,,,,,,,,,,,,,HIDE_IN_CODEX,restricted,,0,,,,107.01
-,jc_sf_shadowlord_drone_1,能量节点,幽灵部队,,1,2000,100,2000,200,0,,1,1,1,1,1,500,NONE,,,,,,,0,0,0,0,0,0,1,1,50,0,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_dealer, restricted, module_hull_bar_only",,0,2,3,,207.01
-,jc_sf_shadowlord_drone_2,能量节点,幽灵部队,,1,2000,100,2000,200,0,,1,1,1,1,1,500,NONE,,,,,,,0,0,0,0,0,0,1,1,50,0,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_dealer, restricted, module_hull_bar_only",,0,2,3,,207.01
+,jc_sf_shadowlord_drone_1,能量节点,幽灵部队,,1,3000,100,2000,200,0,,1,1,1,1,1,500,NONE,,,,,,,0,0,0,0,0,0,1,1,50,0,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_dealer, restricted, module_hull_bar_only",,0,2,3,,207.01
+,jc_sf_shadowlord_drone_2,能量节点,幽灵部队,,1,3000,100,2000,200,0,,1,1,1,1,1,500,NONE,,,,,,,0,0,0,0,0,0,1,1,50,0,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX","no_dealer, restricted, module_hull_bar_only",,0,2,3,,207.01
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #空间站,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 轨道站,jc_sf_station_1,轨道站,幽灵部队,,100,40000,600,1000,100,0,,30,200,200,4,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE, HIDE_IN_CODEX",restricted,,0,,,,2050.01

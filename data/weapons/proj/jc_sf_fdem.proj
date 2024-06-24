@@ -16,7 +16,7 @@
 		"snapFacingToTargetIfCloseEnough":true,
 		"fadeOutEngineWhenFiring":false;
 		"destroyMissleWhenDoneFiring":true,
-		"destroyedExplosionColor":[127,0,255,150],
+		"destroyedExplosionColor":[127,0,255,100],
 		"targetingLaserId":"jc_sf_frostwind_ds_tl",
 		"targetingLaserRange":0,
 		"targetingLaserArc":10,
