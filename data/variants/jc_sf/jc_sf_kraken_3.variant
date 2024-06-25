@@ -3,8 +3,8 @@
   "hullId": "jc_sf_kraken",
   "displayName": "压制",
   "goalVariant": true,
-  "fluxCapacitors": 13,
-  "fluxVents": 14,
+  "fluxCapacitors": 14,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -16,23 +16,17 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "jc_sf_kmissile_m"
+        "WS0001": "jc_sf_fdem_m",
+        "WS0002": "jc_sf_fdem_m",
+        "WS0011": "jc_sf_fdem_m"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "jc_sf_fusebeam_l",
-        "WS0004": "jc_sf_fusebeam_l"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0001": "jc_sf_lrcannon_m",
-        "WS0002": "jc_sf_lrcannon_m"
+        "WS0003": "jc_sf_lrcannon_l",
+        "WS0004": "jc_sf_lrcannon_l"
       }
     },
     {

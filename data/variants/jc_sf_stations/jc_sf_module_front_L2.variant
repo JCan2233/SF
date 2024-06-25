@@ -53,7 +53,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "jc_sf_kmissile_m"
+        "WS0003": "jc_sf_fdem_m"
       }
     },
     {

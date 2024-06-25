@@ -76,8 +76,8 @@
         ],
         [
             "jc_sf_dragon_0",
-            "jc_sf_lich_0",
-            "jc_sf_elf_0"
+            "jc_sf_warg_0",
+            "jc_sf_raven_0"
         ],
         [
             "jc_sf_dragon_0",
@@ -87,13 +87,15 @@
         [
             "jc_sf_swarm_0",
             "jc_sf_ghost_0",
-            "jc_sf_elf_0"
+            "jc_sf_raven_0"
         ],
         [
             "jc_sf_worm_0"
         ],
         [
-            "jc_sf_bloodmoon_0"
+            "jc_sf_bloodmoon_0",
+            "jc_sf_elf_0",
+            "jc_sf_raven_0"
         ]
     ],
     "bonusSeeds": [

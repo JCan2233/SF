@@ -14,4 +14,5 @@
 	"textureScrollSpeed":-256.0,
 	"pixelsPerTexel":1.0,
 	"passThroughMissiles":true,
+	"passThroughFighters":true,
 }

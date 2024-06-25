@@ -3,13 +3,12 @@
   "hullId": "jc_sf_scorpion",
   "displayName": "标准",
   "goalVariant": true,
-  "fluxCapacitors": 5,
-  "fluxVents": 5,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "missleracks",
-    "eccm",
     "converted_hangar"
   ],
   "weaponGroups": [
@@ -24,7 +23,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "jc_sf_lasermine"
+        "WS0002": "jc_sf_mirv"
       }
     },
     {

@@ -3,8 +3,8 @@
   "hullId": "jc_sf_bloodmoon",
   "displayName": "压制",
   "goalVariant": true,
-  "fluxCapacitors": 27,
-  "fluxVents": 28,
+  "fluxCapacitors": 33,
+  "fluxVents": 34,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -23,32 +23,32 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "jc_sf_fusecannon_l",
-        "WS0002": "jc_sf_fusecannon_l"
+        "WS0001": "jc_sf_fdem_l",
+        "WS0002": "jc_sf_fdem_l"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "jc_sf_fusebeam_l",
-        "WS0004": "jc_sf_fusebeam_l"
+        "WS0008": "jc_sf_fdem_m",
+        "WS0009": "jc_sf_fdem_m"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "jc_sf_ionlaser",
-        "WS0007": "jc_sf_ionlaser"
+        "WS0003": "jc_sf_fac_l",
+        "WS0004": "jc_sf_fac_l"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "jc_sf_lrcannon_m",
-        "WS0009": "jc_sf_lrcannon_m"
+        "WS0006": "jc_sf_fusebeam_m",
+        "WS0007": "jc_sf_fusebeam_m"
       }
     },
     {

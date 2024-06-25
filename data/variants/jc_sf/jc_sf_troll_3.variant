@@ -3,8 +3,8 @@
   "hullId": "jc_sf_troll",
   "displayName": "压制",
   "goalVariant": true,
-  "fluxCapacitors": 18,
-  "fluxVents": 19,
+  "fluxCapacitors": 16,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -31,8 +31,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "jc_sf_kmissile_m",
-        "WS0005": "jc_sf_kmissile_m"
+        "WS0004": "jc_sf_fdem_m",
+        "WS0005": "jc_sf_fdem_m"
       }
     },
     {

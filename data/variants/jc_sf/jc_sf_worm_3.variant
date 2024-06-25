@@ -3,8 +3,8 @@
   "hullId": "jc_sf_worm",
   "displayName": "突击",
   "goalVariant": true,
-  "fluxCapacitors": 23,
-  "fluxVents": 24,
+  "fluxCapacitors": 22,
+  "fluxVents": 23,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -16,8 +16,8 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0015": "jc_sf_emissile_m",
-        "WS0016": "jc_sf_emissile_m"
+        "WS0015": "jc_sf_fdem_m",
+        "WS0016": "jc_sf_fdem_m"
       }
     },
     {
@@ -39,16 +39,22 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0013": "jc_sf_fusebeam_l",
-        "WS0014": "jc_sf_fusebeam_l"
+        "WS0013": "jc_sf_fac_l",
+        "WS0014": "jc_sf_fac_l"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "jc_sf_atklaser_m",
-        "WS0010": "jc_sf_atklaser_m",
+        "WS0009": "jc_sf_fac_m",
+        "WS0010": "jc_sf_fac_m"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0011": "jc_sf_atklaser_m",
         "WS0012": "jc_sf_atklaser_m"
       }

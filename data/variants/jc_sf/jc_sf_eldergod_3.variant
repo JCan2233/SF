@@ -3,8 +3,8 @@
   "hullId": "jc_sf_eldergod",
   "displayName": "护航",
   "goalVariant": true,
-  "fluxCapacitors": 18,
-  "fluxVents": 19,
+  "fluxCapacitors": 19,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -17,15 +17,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "jc_sf_mirv"
+        "WS0005": "jc_sf_fdem_l"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0019": "jc_sf_kmissile_m",
-        "WS0020": "jc_sf_kmissile_m"
+        "WS0019": "jc_sf_fdem_m",
+        "WS0020": "jc_sf_fdem_m"
       }
     },
     {

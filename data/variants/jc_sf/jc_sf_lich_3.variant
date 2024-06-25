@@ -39,7 +39,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0007": "jc_sf_emissile_m"
+        "WS0007": "jc_sf_fdem_m"
       }
     },
     {
