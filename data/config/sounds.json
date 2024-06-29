@@ -239,74 +239,74 @@
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 1.01,
-      "volume": 0.8
+      "volume": 0.4
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 1.02,
-      "volume": 0.8
+      "volume": 0.4
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 1.03,
-      "volume": 0.8
+      "volume": 0.4
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 1,
-      "volume": 0.8
+      "volume": 0.4
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 0.99,
-      "volume": 0.8
+      "volume": 0.4
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 0.98,
-      "volume": 0.8
+      "volume": 0.4
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 0.97,
-      "volume": 0.8
+      "volume": 0.4
     }
   ],
   "jc_sf_atklaser_fighter": [
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 1.01,
-      "volume": 0.4
+      "volume": 0.2
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 1.02,
-      "volume": 0.4
+      "volume": 0.2
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 1.03,
-      "volume": 0.4
+      "volume": 0.2
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 1,
-      "volume": 0.4
+      "volume": 0.2
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 0.99,
-      "volume": 0.4
+      "volume": 0.2
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 0.98,
-      "volume": 0.4
+      "volume": 0.2
     },
     {
       "file": "sounds/jc/sfx/jc_sf_atklaser.ogg",
       "pitch": 0.97,
-      "volume": 0.4
+      "volume": 0.2
     }
   ],
   "jc_sf_chaingun": [
