@@ -1,0 +1,9 @@
+{
+	"id":"jc_sf_larva_sys",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"statsScript":"com.fs.starfarer.api.impl.combat.BaseShipSystemScript",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_asm_BaseShipSystemAI",
+
+}

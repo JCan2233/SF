@@ -1,5 +1,6 @@
 {
 	"id":"jc_sf_motebomb",
+	"everyFrameEffect":"data.scripts.weapons.Jc_sf_LarvaBombEffect",
 	"specClass":"projectile",
 	"type":"MISSILE",
 	"size":"MEDIUM",

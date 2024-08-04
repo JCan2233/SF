@@ -1,7 +1,7 @@
 {
 	"id":"jc_sf_motebomb_b",
 	"specClass":"missile",
-	"onFireEffect":"data.scripts.weapons.Jc_sf_LarvaBombEffect",
+	#"onFireEffect":"data.scripts.weapons.Jc_sf_LarvaBombEffect",
 	"onHitEffect":"data.scripts.weapons.Jc_sf_LarvaBombEffect",
 	"missileType":"MISSILE",
 	"sprite":"graphics/missiles/phase_charge_base.png",
