@@ -7,7 +7,7 @@ Modder调查工具,jc_asm_test,0,,,,特殊,,TRUE,,,0,0,0,0,data.scripts.hullmods
 跨越种族的友谊,jc_auto_friend,0,,余辉,"no_build_in, req_spaceport",特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_auto_friend,也许人类与AI也可以成为朋友....,见证你们的友谊,,graphics/jc/hullmods/jc_auto_friend.png
 欧米伽级虚空连接体,jc_auto_omega,3,,余辉,"no_build_in, req_spaceport, no_sell, no_drop, no_drop_salvage, restricted",特殊,250000,,,,1,1,1,1,data.scripts.hullmods.Jc_auto_omega,"来源于欧米伽的特殊技术，对自动化舰船进行全方位的升级，其超越人类认知的神秘科技将舰船的战斗力提高到难以想象的地步。
 
-将一个{阿尔法AI核心}完全集成于该舰船，并点击安装该船插，此时会从货舱中消耗{%s}个{阿尔法AI核心}，如果数量足够即可完成升级。注意，该升级完成后不可逆转。
+将一个{阿尔法(或同级的)AI核心}完全集成于该舰船，并点击安装该船插，此时会从货舱中消耗{%s}个{阿尔法AI核心}，如果数量足够即可完成升级。注意，该升级完成后不可逆转。
 
 要启用这项能力，玩家必须拥有无人战舰技能，且舰队中最多只能有一艘舰船安装该升级。",对自动化舰船进行完全的改造,,graphics/jc/hullmods/jc_auto_omega.png
 骇入系统,jc_auto_hack,0,,余辉,no_build_in,特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_auto_hack,消耗AI核心入侵舰船系统并格式化其中的特定分区，安装后将立即清除所有的内置(S-)船插，且不会返还故事点。优先消耗等级较低且数量较多的AI核心，过量的算力会存储为点数以备后用。,清除内置船插,,graphics/jc/hullmods/jc_auto_hack.png

@@ -16,7 +16,7 @@
 	"noEngineGlowTime":0.05, # time spent without the engine glow being rendered
 	"explosionColor":[148,0,211,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":100, # purely visual	
-	"maxFlightTime":20,
+	"maxFlightTime":25,
 	"engineSpec":{"turnAcc":500,
 				  "turnRate":150,
 				  "maxSpeed":50,
@@ -25,7 +25,7 @@
 	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
 					"range":175,
 					"slowToMaxSpeed":true,
-					"delay":3,
+					"delay":3.25,
 					"pingSound":"targeting_laser_burst",
 					"pingColor":[80,90,255,255],
 					"pingRadius":350,
