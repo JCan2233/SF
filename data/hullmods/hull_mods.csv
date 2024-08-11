@@ -3,32 +3,32 @@ name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hid
 Modder调查工具,jc_asm_test,0,,,,特殊,,TRUE,,,0,0,0,0,data.scripts.hullmods.Jc_asm_test,这是一个提供给Modder的调查工具，用于统计所有MOD的相关数据。,Modder调查工具,,graphics/jc/hullmods/jc_auto_hack.png
 ,,,,,,,,,,,,,,,,,,,
 #无人舰基础扩展,,,,,,,,,,,,,,,,,,,
-智能协同系统,jc_auto_coremod,0,,余辉,,特殊,,TRUE,,,5,10,15,30,data.scripts.hullmods.Jc_auto_CoreMod,为舰船提供一定的自主作战能力，自动舰船点数计算倍率减少{%s}，点数至多降至零。但每月维护所需补给提高{%s}。,为自动化舰船提供自主作战能力,抵消维护补给提高的负面效果，同时使舰船始终可以在战后被修复。,graphics/jc/hullmods/jc_auto_coremod.png
+智能协同系统,jc_auto_coremod,0,,余辉,,特殊,,TRUE,,,5,10,15,30,data.scripts.hullmods.Jc_auto_CoreMod,为舰船提供一定的自主作战能力，自动舰船点数计算倍率减少{%s，点数至多降至零。但每月维护所需补给提高{%s。,为自动化舰船提供自主作战能力,抵消维护补给提高的负面效果，同时使舰船始终可以在战后被修复。,graphics/jc/hullmods/jc_auto_coremod.png
 跨越种族的友谊,jc_auto_friend,0,,余辉,"no_build_in, req_spaceport",特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_auto_friend,也许人类与AI也可以成为朋友....,见证你们的友谊,,graphics/jc/hullmods/jc_auto_friend.png
 欧米伽级虚空连接体,jc_auto_omega,3,,余辉,"no_build_in, req_spaceport, no_sell, no_drop, no_drop_salvage, restricted",特殊,250000,,,,1,1,1,1,data.scripts.hullmods.Jc_auto_omega,"来源于欧米伽的特殊技术，对自动化舰船进行全方位的升级，其超越人类认知的神秘科技将舰船的战斗力提高到难以想象的地步。
 
-将一个{阿尔法(或同级的)AI核心}完全集成于该舰船，并点击安装该船插，此时会从货舱中消耗{%s}个{阿尔法AI核心}，如果数量足够即可完成升级。注意，该升级完成后不可逆转。
+将一个{阿尔法(或同级的)AI核心}完全集成于该舰船，并点击安装该船插，此时会从货舱中消耗{%s}个{阿尔法AI核心，如果数量足够即可完成升级。注意，该升级完成后不可逆转。
 
 要启用这项能力，玩家必须拥有无人战舰技能，且舰队中最多只能有一艘舰船安装该升级。",对自动化舰船进行完全的改造,,graphics/jc/hullmods/jc_auto_omega.png
 骇入系统,jc_auto_hack,0,,余辉,no_build_in,特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_auto_hack,消耗AI核心入侵舰船系统并格式化其中的特定分区，安装后将立即清除所有的内置(S-)船插，且不会返还故事点。优先消耗等级较低且数量较多的AI核心，过量的算力会存储为点数以备后用。,清除内置船插,,graphics/jc/hullmods/jc_auto_hack.png
-智能辅助机,jc_autociv_mod,0,,余辉,"no_build_in, req_spaceport","特殊, 需要船坞",,TRUE,,,8,12,16,20,data.scripts.hullmods.Jc_auto_civ_mod,"当你的殖民地赛博化达到一定程度时，可以呼叫一架辅助机为旗舰提供增援，辅助机战斗力取决于赛博化改造的殖民地规模之和，在总规模达到}%s}时战斗力到达上限，目前的规模为}%s}。
+智能辅助机,jc_autociv_mod,0,,余辉,"no_build_in, req_spaceport","特殊, 需要船坞",,TRUE,,,8,12,16,20,data.scripts.hullmods.Jc_auto_civ_mod,"当你的殖民地赛博化达到一定程度时，可以呼叫一架辅助机为旗舰提供增援，辅助机战斗力取决于赛博化改造的殖民地规模之和，在总规模达到}%s}时战斗力到达上限，目前的规模为}%s。
 
 战斗中辅助机会跟随旗舰提供火力支援，若被摧毁则会在}%s}秒后重新召唤。只有安装于旗舰时才会生效，若在战斗中转移指挥则辅助机也会在一段时间后跟随新的旗舰。",召唤辅助机协同作战,,graphics/jc/hullmods/jc_autociv_mod.png
 载员舱改造,jc_auto_crew,0,,余辉,"jc_fr, no_build_in, req_spaceport","后勤, 需要船坞",6000,,,,2,4,6,8,data.scripts.hullmods.Jc_auto_crew,为自动化舰船安装一个额外的载员船舱，增加其最大船员数量。具体效果取决于该舰载货量和燃料容量的基础值。,改造载员舱,,graphics/jc/hullmods/jc_auto_crew.png
-自动化改造,jc_auto_nocrew,0,,余辉,"jc_fr, no_build_in, req_spaceport","后勤, 需要船坞",6000,,,,8,16,24,32,data.scripts.hullmods.Jc_auto_nocrew,"利用无人战舰技术为常规舰船安装自动化系统，最低船员需求降至零，因此也不会因为舰船损伤或舰载机战损而导致人员伤亡，但战机整备时间会根据非无人战机联队的比例提高最多}%s}。若安装于民用级舰体，则最大载员量也会相应地降低。
+自动化改造,jc_auto_nocrew,0,,余辉,"jc_fr, no_build_in, req_spaceport","后勤, 需要船坞",6000,,,,8,16,24,32,data.scripts.hullmods.Jc_auto_nocrew,"利用无人战舰技术为常规舰船安装自动化系统，最低船员需求降至零，因此也不会因为舰船损伤或舰载机战损而导致人员伤亡，但战机整备时间会根据非无人战机联队的比例提高最多}%s。若安装于民用级舰体，则最大载员量也会相应地降低。
 
-船插的基础装配点为}8/16/24/32}，基于完成赛博化改造的殖民地规模之和，每一点规模使装配点降低}2.5%%}，至多在规模达到}30}时降低}75%%}。目前完成改造的总规模为}%s}。",安装自动系统,,graphics/jc/hullmods/jc_auto_nocrew.png
+船插的基础装配点为}8/16/24/32，基于完成赛博化改造的殖民地规模之和，每一点规模使装配点降低}2.5%%，至多在规模达到}30}时降低}75%%。目前完成改造的总规模为}%s。",安装自动系统,,graphics/jc/hullmods/jc_auto_nocrew.png
 ,,,,,,,,,,,,,,,,,,,
 #额外船插-无人舰,,,,,,,,,,,,,,,,,,,
 智能增压定位核心,jc_auto_itu,2,,余辉,"remnant, offensive",武器,10000,,,,4,8,12,20,data.scripts.hullmods.Jc_auto_itu,"通过一套额外的方案加强重点武器的输出功率，从而有效地提高武器射程，可以配合其它定位系统插件使用。
 
-按照实弹与能量武器射程关于装配点的加权平均值，提高平均射程较低的一类武器的射程}%s}，计算均值时不考虑点防御武器，若没有装备实弹或能量中的任一类武器则直接提高另一类武器的射程。
+按照实弹与能量武器射程关于装配点的加权平均值，提高平均射程较低的一类武器的射程}%s，计算均值时不考虑点防御武器，若没有装备实弹或能量中的任一类武器则直接提高另一类武器的射程。
 
-此外，提高所有射弹和导弹的飞行速度}%s}。
+此外，提高所有射弹和导弹的飞行速度}%s。
 
 只有安装于自动化舰船时才能生效。",提高武器射程,炮塔转向速度提高{%s}。,graphics/jc/hullmods/jc_auto_itu.png
-激进护盾优化模组,jc_auto_hse,2,,余辉,"remnant, shields, defensive",护盾,10000,,,,3,5,7,10,data.scripts.hullmods.Jc_auto_hse,一套激进的护盾升级方案，在原有的强化护盾基础上，拆除部分装甲以进一步升级护盾效能。降低{%s}护盾受到的伤害，但舰船装甲值降低{%s}。只有安装于自动化舰船并安装强化护盾时才能生效。,额外提高护盾性能,护盾维持所需幅能降低{%s}，护盾展开和转向速度提高{%s}。,graphics/jc/hullmods/jc_auto_hse.png
-重构引擎能源系统,jc_auto_ats,2,,余辉,"remnant, engines",引擎,10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_ats,重新调整舰船的引擎能源系统，机动性提高}%s}，最大航速提高}%s}，战术系统的回复与冷却速度提高}%s}。只有安装于自动化舰船时才能生效，不兼容于辅助推进器插件。,提高引擎性能,,graphics/jc/hullmods/jc_auto_ats.png
+激进护盾优化模组,jc_auto_hse,2,,余辉,"remnant, shields, defensive",护盾,10000,,,,3,5,7,10,data.scripts.hullmods.Jc_auto_hse,一套激进的护盾升级方案，在原有的强化护盾基础上，拆除部分装甲以进一步升级护盾效能。降低{%s}护盾受到的伤害，但舰船装甲值降低{%s。只有安装于自动化舰船并安装强化护盾时才能生效。,额外提高护盾性能,护盾维持所需幅能降低{%s}，护盾展开和转向速度提高{%s}。,graphics/jc/hullmods/jc_auto_hse.png
+重构引擎能源系统,jc_auto_ats,2,,余辉,"remnant, engines",引擎,10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_ats,重新调整舰船的引擎能源系统，机动性提高}%s，最大航速提高}%s，战术系统的回复与冷却速度提高}%s。只有安装于自动化舰船时才能生效，不兼容于辅助推进器插件。,提高引擎性能,,graphics/jc/hullmods/jc_auto_ats.png
 综合电子作战模块,jc_auto_ecm,2,,余辉,"remnant, defensive","防御, 特殊",10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_ecm,全面升级电子战系统，降低}%s}电子战失利时的负面影响，提升导弹的制导性能(但不会提升机动性)，降低}%s}受到的EMP伤害，如果安装在巡洋舰/主力舰上，还会提高}1%%/2%%}电子战强度。只有安装于自动化舰船时才能生效。,综合提升电子战性能,,graphics/jc/hullmods/jc_auto_ecm.png
 扩容无人机库平台,jc_auto_mch,1,,余辉,"remnant, special",战机,8000,,,,8,12,16,20,data.scripts.hullmods.Jc_auto_mch,"通过改造机库结构的空间占用来提高飞行甲板数量，如果该舰有非内置的飞行甲板，则额外增加一个飞行甲板。只有安装于自动化舰船时才能生效。
 
@@ -40,12 +40,12 @@ Modder调查工具,jc_asm_test,0,,,,特殊,,TRUE,,,0,0,0,0,data.scripts.hullmods
 如果主体未安装安全协议超驰，那么该效果不会对安装有安全协议超驰的模块生效。任何能使舰船峰值时间降低一半及以上的永久性效果均视为安装有安全协议超驰。
 
 注意，部分舰船可能已经带有类似的效果而无需重复安装，请以战斗中的实际效果为准。",同步模块战备,舰船峰值时间提高{%s}，若同时安装有硬化子系统则增益值降至{%s}。,graphics/jc/hullmods/jc_auto_modulecr.png
-专精化点防御改造,jc_auto_pds,1,,余辉,"remnant, no_sell, defensive","武器, 防御",8000,,,,4,8,12,20,data.scripts.hullmods.Jc_auto_pds,"使用更为专精的点防御系统，使点防御武器能更有效地拦截导弹或战机。所有点防御武器射程提高}%s}。
+专精化点防御改造,jc_auto_pds,1,,余辉,"remnant, no_sell, defensive","武器, 防御",8000,,,,4,8,12,20,data.scripts.hullmods.Jc_auto_pds,"使用更为专精的点防御系统，使点防御武器能更有效地拦截导弹或战机。所有点防御武器射程提高}%s。
 
-此外，点防御武器对战机与导弹造成的伤害提高}%s}，对其它目标造成的伤害减少}%s}。这个效果仅影响常规的射弹或光束类点防御武器，不影响电弧等特殊效果。",专精的点防御方案,无论战备处于何种水平，所有点防御武器均可保持最佳精准度。,graphics/jc/hullmods/jc_auto_pds.png
-激光测距雷达阵列,jc_auto_brf,2,,余辉,"remnant, no_sell, offensive",武器,10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_brf,"利用舰载激光武器辅助弹道测距，当舰船上有光束武器时，提升非光束的实弹与能量武器的基础射程，提升数值相当于射程最长的光束武器基础射程的}%s}。
+此外，点防御武器对战机与导弹造成的伤害提高}%s，对其它目标造成的伤害减少}%s。这个效果仅影响常规的射弹或光束类点防御武器，不影响电弧等特殊效果。",专精的点防御方案,无论战备处于何种水平，所有点防御武器均可保持最佳精准度。,graphics/jc/hullmods/jc_auto_pds.png
+激光测距雷达阵列,jc_auto_brf,2,,余辉,"remnant, no_sell, offensive",武器,10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_brf,"利用舰载激光武器辅助弹道测距，当舰船上有光束武器时，提升非光束的实弹与能量武器的基础射程，提升数值相当于射程最长的光束武器基础射程的}%s。
 
-在计算光束武器射程时，小型武器射程视为在原基础上减少}%s}，大型武器射程视为增加}%s}，(不影响实际射程)。射程提升效果对}PD}武器减半。此外该提升效果不会使得受影响的武器射程超过光束武器最大射程，但对于本身基础射程已经超过光束武器最大射程的武器也不会产生负面影响。
+在计算光束武器射程时，小型武器射程视为在原基础上减少}%s，大型武器射程视为增加}%s，(不影响实际射程)。射程提升效果对}PD}武器减半。此外该提升效果不会使得受影响的武器射程超过光束武器最大射程，但对于本身基础射程已经超过光束武器最大射程的武器也不会产生负面影响。
 
 不兼容于弹道测距仪。",提高武器射程,,graphics/jc/hullmods/jc_auto_brf.png
 过载缓冲保护装置,jc_auto_soc,2,,余辉,"remnant, no_sell, defensive","防御, 特殊",10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_soc,"为护盾安装过载保护系统，在受到超过}%s}秒的过载时，舰船将在短的时间内结束过载。这个效果有}%s}秒的冷却时间。
@@ -65,18 +65,18 @@ Modder调查工具,jc_asm_test,0,,,,特殊,,TRUE,,,0,0,0,0,data.scripts.hullmods
 当舰船进行机动且不处于零幅能加速状态时，启动风帆使舰船的速度在瞬间大幅提升，效果强度取决于舰船的最大速度和加速度。效果触发后，本次加速方向的维度落差将被消耗殆尽，直到维度腔体完成再充能前该效果将不可用。
 
 当舰船的速度方向与上一次加速效果触发时的方向夹角大于}%s}度时，维度腔体开始重新充能，充能所需时间为}%s}秒。与高维空间连接时记录的加速方向以星域的绝对坐标为基准，而非相对舰船的方向。",提供爆发性机动能力,,graphics/jc/hullmods/jc_auto_ds.png
-应急回避机动系统,jc_auto_retreat,1,,余辉,"remnant, no_sell, engines",引擎,8000,,,,3,6,9,15,data.scripts.hullmods.Jc_auto_retreat,"增加用于应急机动的备用引擎。当舰船撤退时，提高{%s}机动性和{%s}撤退方向上的航速。若下令直接撤退，则上述效果额外提高至多{%s}，且受到的所有伤害降低{%s}，禁用武器并强制令战机集结。
+应急回避机动系统,jc_auto_retreat,1,,余辉,"remnant, no_sell, engines",引擎,8000,,,,3,6,9,15,data.scripts.hullmods.Jc_auto_retreat,"增加用于应急机动的备用引擎。当舰船撤退时，提高{%s}机动性和{%s}撤退方向上的航速。若下令直接撤退，则上述效果额外提高至多{%s，且受到的所有伤害降低{%s，禁用武器并强制令战机集结。
 
 上述效果只在自动控制时生效，玩家手动操控时无效。",提高撤退时的机动性,引擎熄火后的修复时间降低{%s}，低战备时引擎的故障概率降低{%s}。,graphics/jc/hullmods/jc_auto_retreat.png
-实用装配组件A型,jc_useAllOp_1,0,,余辉,no_build_in,特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_useOP,一套用于填补装配空缺的实用组件，使舰船幅能容量提高{%s}，幅能耗散提高{%s}。该效果增益数值低于幅能加点和其它同类船插，因此仅适合用于填补空缺的装配点。,利用剩余装配点,,graphics/jc/hullmods/jc_useAllOp.png
-实用装配组件B型,jc_useAllOp_2,0,,余辉,no_build_in,特殊,,TRUE,,,1,1,2,2,data.scripts.hullmods.Jc_useOP,一套用于填补装配空缺的实用组件，使舰船幅能容量提高{%s}，幅能耗散提高{%s}。该效果增益数值低于幅能加点和其它同类船插，因此仅适合用于填补空缺的装配点。,利用剩余装配点,,graphics/jc/hullmods/jc_useAllOp.png
-实用装配组件C型,jc_useAllOp_3,0,,余辉,no_build_in,特殊,,TRUE,,,0,2,3,3,data.scripts.hullmods.Jc_useOP,一套用于填补装配空缺的实用组件，使舰船幅能容量提高{%s}，幅能耗散提高{%s}。该效果增益数值低于幅能加点和其它同类船插，因此仅适合用于填补空缺的装配点。,利用剩余装配点,,graphics/jc/hullmods/jc_useAllOp.png
-实用装配组件D型,jc_useAllOp_4,0,,余辉,no_build_in,特殊,,TRUE,,,0,0,0,4,data.scripts.hullmods.Jc_useOP,一套用于填补装配空缺的实用组件，使舰船幅能容量提高{%s}，幅能耗散提高{%s}。该效果增益数值低于幅能加点和其它同类船插，因此仅适合用于填补空缺的装配点。,利用剩余装配点,,graphics/jc/hullmods/jc_useAllOp.png
+实用装配组件A型,jc_useAllOp_1,0,,余辉,no_build_in,特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_useOP,一套用于填补装配空缺的实用组件，使舰船幅能容量提高{%s，幅能耗散提高{%s。该效果增益数值低于幅能加点和其它同类船插，因此仅适合用于填补空缺的装配点。,利用剩余装配点,,graphics/jc/hullmods/jc_useAllOp.png
+实用装配组件B型,jc_useAllOp_2,0,,余辉,no_build_in,特殊,,TRUE,,,1,1,2,2,data.scripts.hullmods.Jc_useOP,一套用于填补装配空缺的实用组件，使舰船幅能容量提高{%s，幅能耗散提高{%s。该效果增益数值低于幅能加点和其它同类船插，因此仅适合用于填补空缺的装配点。,利用剩余装配点,,graphics/jc/hullmods/jc_useAllOp.png
+实用装配组件C型,jc_useAllOp_3,0,,余辉,no_build_in,特殊,,TRUE,,,0,2,3,3,data.scripts.hullmods.Jc_useOP,一套用于填补装配空缺的实用组件，使舰船幅能容量提高{%s，幅能耗散提高{%s。该效果增益数值低于幅能加点和其它同类船插，因此仅适合用于填补空缺的装配点。,利用剩余装配点,,graphics/jc/hullmods/jc_useAllOp.png
+实用装配组件D型,jc_useAllOp_4,0,,余辉,no_build_in,特殊,,TRUE,,,0,0,0,4,data.scripts.hullmods.Jc_useOP,一套用于填补装配空缺的实用组件，使舰船幅能容量提高{%s，幅能耗散提高{%s。该效果增益数值低于幅能加点和其它同类船插，因此仅适合用于填补空缺的装配点。,利用剩余装配点,,graphics/jc/hullmods/jc_useAllOp.png
 ,,,,,,,,,,,,,,,,,,,
 #幽灵-可安装,,,,,,,,,,,,,,,,,,,
-强制性载员改造,jc_sf_noauto,0,,幽灵部队,"no_build_in, req_spaceport","特殊, 后勤, 需要船坞",,TRUE,,,0,0,0,0,data.scripts.hullmods.Jc_sf_noauto,"强制性地将舰船改造为由人类船员操控的模式，该舰将不再视为自动化舰船。基于舰船的基础部署点，每一点部署点会使得船员需求提高}%s}。
+强制性载员改造,jc_sf_noauto,0,,幽灵部队,"no_build_in, req_spaceport","特殊, 后勤, 需要船坞",,TRUE,,,0,0,0,0,data.scripts.hullmods.Jc_sf_noauto,"强制性地将舰船改造为由人类船员操控的模式，该舰将不再视为自动化舰船。基于舰船的基础部署点，每一点部署点会使得船员需求提高}%s。
 
-然而这种改造需要大量的船体空间，且会与舰船自身的安全协议产生冲突，因而会导致舰船性能大幅下降。舰船的幅能容量降低}%s}，实弹与能量武器射程降低}%s}，峰值时间降低}%s}。
+然而这种改造需要大量的船体空间，且会与舰船自身的安全协议产生冲突，因而会导致舰船性能大幅下降。舰船的幅能容量降低}%s，实弹与能量武器射程降低}%s，峰值时间降低}%s。
 
 安装后需重新进入该舰的装配页面以刷新状态。",禁用自动模式,,graphics/jc/hullmods/jc_sf_noauto.png
 SF-突击协议,jc_sf_attack,3,,幽灵部队,"jc_sf, req_spaceport, engines","引擎, 需要船坞",10000,,,,6,12,18,30,data.scripts.hullmods.Jc_sf_attack,突击协议旨在通过一系列升级，赋予幽灵部队舰船快速接近并歼灭目标的能力。,SF-突击协议,,graphics/jc/hullmods/jc_sf_attack.png
@@ -85,10 +85,10 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 备用弹药库,jc_sf_extraammo,1,,幽灵部队,"jc_sf, offensive",武器,6000,,,,3,6,9,15,data.scripts.hullmods.Jc_sf_extraammo,在每场战斗开始时，为所有实弹与能量武器一次性装填等同于基础备弹量的弹药。补充后的弹药量可以超过最大备弹量，但不会超过基础备弹量的两倍。,提高初始弹药量,上述效果也会对导弹武器生效，但装填的导弹量为基础备弹量的一半。,graphics/jc/hullmods/jc_sf_extraammo.png
 护盾反应镀层,jc_sf_shieldstabilizer,2,,幽灵部队,"jc_sf, shields, defensive",护盾,8000,,,,4,8,12,20,data.scripts.hullmods.Jc_sf_shieldstabilizer,"重构幽灵部队舰船护盾的空间结构，使其对潜在的大规模冲击做出反应。
 
-护盾受到的动能伤害减少}%s}，舰船过载时间减少}%s}，且在过载开始后的至多}%s}秒内船体和装甲获得等同于护盾幅伤比数值的承伤倍率。",提高护盾抗冲击性,过载后的伤害减免不再有时间限制。,graphics/jc/hullmods/jc_sf_shieldstabilizer.png
+护盾受到的动能伤害减少}%s，舰船过载时间减少}%s，且在过载开始后的至多}%s}秒内船体和装甲获得等同于护盾幅伤比数值的承伤倍率。",提高护盾抗冲击性,过载后的伤害减免不再有时间限制。,graphics/jc/hullmods/jc_sf_shieldstabilizer.png
 幅能重叠网络,jc_sf_fluxbreakers,2,,幽灵部队,"jc_sf, special",特殊,8000,,,,4,8,12,20,data.scripts.hullmods.Jc_sf_fluxbreakers,"重构幽灵部队舰船的幅能系统，使其能在短时间内高效处理大量软幅能。
 
-当舰船的软幅能比例过高时开始额外排散软幅能，速率等同于舰船幅能耗散，同时使舰船护盾产生基于额外耗散量}%s}伤害的硬幅能。这部分硬幅能会同时计入特殊寄存器，特殊寄存器的最大记录量为舰船幅能容量的}%s}，当舰船开启护盾时允许以正常速度排散这部分幅能。
+当舰船的软幅能比例过高时开始额外排散软幅能，速率等同于舰船幅能耗散，同时使舰船护盾产生基于额外耗散量}%s}伤害的硬幅能。这部分硬幅能会同时计入特殊寄存器，特殊寄存器的最大记录量为舰船幅能容量的}%s，当舰船开启护盾时允许以正常速度排散这部分幅能。
 
 当舰船过载或强制排幅时上述效果暂停，同时清空特殊寄存器。",提高软幅能排散能力,上述效果中护盾产生硬幅能的倍率降至{%s}。,graphics/jc/hullmods/jc_sf_fluxbreakers.png
 扰动重定向,jc_sf_advancedFuse,2,,幽灵部队,"jc_sf, offensive",武器,8000,,,,3,6,9,15,data.scripts.hullmods.Jc_sf_advancedFuse,升级舰船的火控系统使其能更好地适应融合武器，提高{%s}融合效率。若安装于幽灵部队的舰船，则还会提高{%s}融合抗性。,提高融合武器性能,非内置的实弹或能量融合武器基础射程提高{%s}。,graphics/jc/hullmods/jc_sf_advancedFuse.png
@@ -100,13 +100,13 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 幽灵武装,jc_sf_base,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_base,该舰的设计理念具有鲜明的特色，从而能更好地适应幽灵部队的整体作战风格。,幽灵部队基础模组,,graphics/jc/hullmods/jc_sf_base.png
 幽灵综合改装,jc_chm_sf,,,幽灵部队,no_build_in,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_chm_sf,"智能系统的引入提高了舰船防御效率，根据舰船的基础护盾幅能伤害比，分配总计}%s}的伤害减免额度，护盾效率越高则越倾向于分配给护盾，反之则倾向于分配给装甲与结构。
 
-幽灵计划最初的目标便是摧毁行星与文明，因此这些无人战争兵器自然有着丰富的经验，根据舰船规模使轰炸所需燃料减少了}%s}。
+幽灵计划最初的目标便是摧毁行星与文明，因此这些无人战争兵器自然有着丰富的经验，根据舰船规模使轰炸所需燃料减少了}%s。
 
 此外，如果是进行了载员改造的幽灵部队舰船，则使改造产生的负面效果减半。",提高防御能力和轰炸效率,,graphics/jc/hullmods/jc_chm_sf.png
-行星歼灭者,jc_sf_stardestroyer,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_stardestroyer,"该舰的轴炮实际上是一个集成的行星杀手装置，地面突袭战力提高{%s}但不超过陆战队员人数，轰炸所需燃料{%s}。
+行星歼灭者,jc_sf_stardestroyer,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_stardestroyer,"该舰的轴炮实际上是一个集成的行星杀手装置，地面突袭战力提高{%s}但不超过陆战队员人数，轰炸所需燃料{%s。
 
 由于激光武器可以灵活地调节功率，该行星杀手也可用于战术轰炸。轰炸后会依据采取的轰炸模式额外降低殖民地的稳定性和地面防御，该效果不可叠加。",行星杀手装置,,graphics/hullmods/ground_support_adv.png
-行星歼灭者,jc_sf_stardestroyerM,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_stardestroyerM,"该舰能搭载一枚行星杀手级战略导弹，地面突袭战力提高{%s}但不超过陆战队员人数，轰炸所需燃料减少{%s}。
+行星歼灭者,jc_sf_stardestroyerM,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_stardestroyerM,"该舰能搭载一枚行星杀手级战略导弹，地面突袭战力提高{%s}但不超过陆战队员人数，轰炸所需燃料减少{%s。
 
 由于导弹可换装常规战斗部，该行星杀手也可用于战术轰炸。轰炸后会依据采取的轰炸模式额外降低殖民地的稳定性和地面防御，该效果不可叠加。
 
@@ -122,13 +122,13 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 模块化护盾,jc_sf_shieldmodule,,,幽灵部队,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sf_shieldmodule,该舰的护盾系统由多个护盾生成器模块构成，每个护盾的基础幅能容量可以吸收}%s}伤害，在战斗中护盾会始终保持开启，除非因受到过量伤害而过载。,模块化护盾,,graphics/hullmods/front_shield_emitter.png
 旗舰指挥系统,jc_sf_ctu,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_ctu,"幽灵部队的旗舰级舰载系统，武器定位系统与指挥系统得到了额外的升级。实弹与能量武器射程额外提高}%s}或}%s}单位，以较低者计，不影响点防御武器和内置武器。
 
-此外，若该舰为舰队旗舰，则使命令点恢复速率提高}%s}。",提高旗舰的武器射程与指挥能力,,graphics/hullmods/advanced_targeting_core.png
+此外，若该舰为舰队旗舰，则使命令点恢复速率提高}%s。",提高旗舰的武器射程与指挥能力,,graphics/hullmods/advanced_targeting_core.png
 战机调度系统,jc_sf_carrier,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_carrier,"经过专门改造并适应于幽灵部队航母的舰载系统，当战机联队出现损失时，若剩余整备速率充足，则消耗大量的整备速率并立即完成一架战机的整备。该效果有{%s}秒的冷却时间，每个飞行甲板分别计算冷却时间和整备速率，且仅在当前甲板的战机全部整备完毕时才会计算冷却进度。不影响仅有一架战机的联队。
 
-此外，若安装有任意幽灵部队舰船协议，则会使战机更换时间降低{%s}。若进行了载员化改造，安装的载人战机联队的人员战损翻倍。若舰船遭到永久性损坏(D-插)，则除飞行甲板类型的损坏外，每个其它损坏都会使战机受到的伤害提高{%s}。",幽灵部队航母专用舰载系统,,graphics/jc/hullmods/jc_sf_carrier.png
+此外，若安装有任意幽灵部队舰船协议，则会使战机更换时间降低{%s。若进行了载员化改造，安装的载人战机联队的人员战损翻倍。若舰船遭到永久性损坏(D-插)，则除飞行甲板类型的损坏外，每个其它损坏都会使战机受到的伤害提高{%s。",幽灵部队航母专用舰载系统,,graphics/jc/hullmods/jc_sf_carrier.png
 突触整合,jc_sf_kerenzikov,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_kerenzikov,"将操控者的神经系统整合入飞船控制中枢，在危急情况下提升驾驶者的感知能力，减慢感官中周遭的时间流速，从而躲避潜在的危险。
 
-允许舰船在过载或强制排幅时使用武器和护盾。在这种情况下，若安装有神经接口则使自身时间流速加快}%s}，若安装有神经集成器或由幽灵部队控制则改为加快}%s}。该效果有}%s}秒的冷却时间。
+允许舰船在过载或强制排幅时使用武器和护盾。在这种情况下，若安装有神经接口则使自身时间流速加快}%s，若安装有神经集成器或由幽灵部队控制则改为加快}%s。该效果有}%s}秒的冷却时间。
 
 上述时间流速增益也会在战术系统激活时生效。",可以在过载或排幅时正常开火,,graphics/jc/hullmods/jc_sf_kerenzikov.png
 人员运输模块,jc_sf_supply_p,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_supplyShip,该舰安装了高度集成的运输与补给模块，因此不兼容于任何同类的扩容改造。,人员运输模块及后勤辅助系统,,graphics/hullmods/berthing.png
@@ -148,7 +148,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 不影响视为导弹类型的协同或通用武器。",提高挂载点武器射程,,graphics/hullmods/distributed_fire_control.png
 集成电子战系统,jc_sf_ecm,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_ecm,"该舰安装有强大的电子战设备，提高{%s}电子战强度，降低{%s}电子战失利时的惩罚。
 
-当战术系统命中时会干扰目标的舰载系统，使目标的电子战强度降低{%s}，持续{%s}秒，效果不可叠加。
+当战术系统命中时会干扰目标的舰载系统，使目标的电子战强度降低{%s，持续{%s}秒，效果不可叠加。
 
 不兼容于电子对抗组件。",提高电子战能力,,graphics/hullmods/ecm_package.png
 纳米纤维护盾,jc_sf_armorShield,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_armorShield,一种特殊的护盾系统，在护盾表面喷洒纳米纤维使护盾同时拥有重装甲的部分特性。,额外提高护盾性能,,graphics/hullmods/omni_shield_emitter.png
@@ -190,7 +190,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 
 当舰船的战术系统激活时，护盾会触发短时间的极性反转，角度大于}45}度的部分的护盾效率会随着夹角增大而线性提高。且会基于护盾受到的伤害为舰体恢复结构值。
 
-该舰的最大护盾角度不会受到任何其它效果的影响，幅能耗散降为原本的五分之一。强制排幅速率变为}5}倍，且排幅时受到的伤害降低。不兼容于}安全协议超驰}。",独特超级护卫舰护盾改造,,graphics/hullmods/quantum_disruptor.png
+该舰的最大护盾角度不会受到任何其它效果的影响，幅能耗散降为原本的五分之一。强制排幅速率变为}5}倍，且排幅时受到的伤害降低。不兼容于}安全协议超驰。",独特超级护卫舰护盾改造,,graphics/hullmods/quantum_disruptor.png
 聚能相位线圈,jc_pmr,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_pmr,"该舰的相位线圈进行过深度改造，能够从P空间汲取并利用散逸的能量。
 
 相位线圈维持所需幅能减半。当相位线圈激活时，软幅能的耗散速度翻倍，且会缓慢地为所有舰首武器挂载点上的武器装填弹药，装填速率取决于武器基础弹药容量和装配点。当相位线圈正在冷却时，发射的导弹与射弹的飞行速度提高。
@@ -231,11 +231,11 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 电磁风暴：在目标位置产生强大的力场持续吸引附近的敌人并造成少量EMP伤害，效果结束时引发电磁脉冲造成大范围EMP伤害并令目标减速。",战术系统功能接口,,graphics/hullmods/reduced_explosion.png
 次主力舰,jc_sc,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sc,"该舰虽然是巡洋舰，但部分子系统使用了主力舰级别的部件，一定程度上提高了舰船性能，但也会同时受到一些额外限制。
 
-定位系统：实弹与能量武器射程提高}%s}，但战场上每有一艘友方主力舰，该效果数值便降低}%s}，至多降至零。
+定位系统：实弹与能量武器射程提高}%s，但战场上每有一艘友方主力舰，该效果数值便降低}%s，至多降至零。
 
-飞行甲板：整备下降速率降低}%s}，恢复速率提高}%s}，但基础整备时间提高}%s}，若安装有扩编飞行人员甲板则这些效果均减半。
+飞行甲板：整备下降速率降低}%s，恢复速率提高}%s，但基础整备时间提高}%s，若安装有扩编飞行人员甲板则这些效果均减半。
 
-护盾生成器：若护盾角度超过基础角度，每超出一度便会使护盾维持幅能提高}%s}。
+护盾生成器：若护盾角度超过基础角度，每超出一度便会使护盾维持幅能提高}%s。
 
 不兼容于安全协议超驰。",主力巡洋舰改造,,graphics/hullmods/militarized_subsystems.png
 支援火控系统,jc_sws,,,余辉,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sws,支援型火控升级,支援型火控升级,,graphics/hullmods/escort_package.png
@@ -243,7 +243,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 自动模式,jc_auto_scholar_auto,,,,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar_switch,该舰可以通过自定义指派人类船员或AI驾驶，当前为：自动模式。点击移除该船插即可切换模式，切换后需重新进入该舰的装配页面以刷新状态。,切换模式,,graphics/hullmods/axial_rotation.png
 载人模式,jc_auto_scholar_manned,,,,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar_switch,该舰可以通过自定义指派人类船员或AI驾驶，当前为：载人模式。点击移除该船插即可切换模式，切换后需重新进入该舰的装配页面以刷新状态。,切换模式,,graphics/hullmods/axial_rotation.png
 协作模式,jc_ttdm,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ttdm,该舰非常适合配合友军协同作战，当附近一定距离内存在更大的友方舰船时，自身的护盾性能将得到不同程度的提升，且会为内置的EMP发生器充能。,与附近友军协同作战,,graphics/hullmods/escort_package.png
-支援型幅能改造,jc_ssm,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ssm,该舰的幅能系统旨在为队友提供短时间内的支援，幅能容量提高}%s}，幅能耗散降低}%s}，且当舰船过载或强制排幅时幅能耗散降低的负面效果将被抵消。,支援型幅能设计,,graphics/hullmods/flux_shunt.png
+支援型幅能改造,jc_ssm,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ssm,该舰的幅能系统旨在为队友提供短时间内的支援，幅能容量提高}%s，幅能耗散降低}%s，且当舰船过载或强制排幅时幅能耗散降低的负面效果将被抵消。,支援型幅能设计,,graphics/hullmods/flux_shunt.png
 守护者核心,jc_gs_core,,,开拓者,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_gs_core,该舰支持自定义升级，进入任意殖民地空港即可进行改造。共8个可升级选项，每个选项均可提升至2级，且可以将至多}%s}项升至3级，学习技能或完成赏金以获得额外升级机会。,可升级的守护者核心系统,,graphics/jc/hullmods/jc_gs_core.png
 导弹工厂(损坏),jc_gs_mf1,,,开拓者,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_gs_mf1,损坏的导弹工厂，能够有限地补充导弹。当有任意导弹备弹量低于一半时激活，在}%s}秒后为所有导弹武器补充等同于初始导弹数一半的弹药，向上取整，在每场战斗中只能触发一次。,可以补充一次导弹,,graphics/hullmods/missile_autofactory.png
 导弹工厂,jc_gs_mf2,,,开拓者,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_gs_mf2,修复的导弹工厂，能够缓慢地持续补充导弹。补满导弹初始弹药所需平均时间为}%s}秒。,可以缓慢补充导弹,,graphics/hullmods/missile_autofactory.png
