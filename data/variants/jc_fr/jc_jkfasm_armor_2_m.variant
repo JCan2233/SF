@@ -13,7 +13,13 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "pdburst",
+        "WS0001": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0002": "pdburst",
         "WS0003": "pdburst"
       }

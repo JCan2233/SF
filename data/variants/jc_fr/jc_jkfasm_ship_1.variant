@@ -6,7 +6,9 @@
   "fluxCapacitors": 36,
   "fluxVents": 37,
   "quality": 1,
-  "permaMods": ["automated"],
+  "permaMods": [
+    "automated"
+  ],
   "hullMods": [
     "jc_auto_scholar_auto",
     "targetingunit"
@@ -21,7 +23,7 @@
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0004": "sabotpod",
@@ -32,21 +34,27 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "pdlaser",
-        "WS0007": "pdlaser",
-        "WS0008": "pdlaser",
-        "WS0009": "pdlaser",
-        "WS0010": "pdlaser",
-        "WS0011": "pdlaser"
+        "WS0012": "railgun",
+        "WS0013": "railgun"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0012": "pdburst",
-        "WS0013": "pdburst",
-        "WS0014": "pdburst"
+        "WS0010": "taclaser",
+        "WS0011": "taclaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "lrpdlaser",
+        "WS0007": "lrpdlaser",
+        "WS0008": "lrpdlaser",
+        "WS0009": "lrpdlaser",
+        "WS0014": "lrpdlaser"
       }
     }
   ],
