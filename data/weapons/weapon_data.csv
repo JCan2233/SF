@@ -1,6 +1,6 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
 #小,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-信标-PD光束,jc_sf_pdlaser,0,,400,400,80,,,0,90,4,,,,ENERGY,,40,0,0,0.5,0,,,,,1000000,,,,,,,"PD, ANTI_FTR","jc_sf, jc_sf_bp, pd7, beam5, SR",,幽灵部队,,点防御,,,,,武器开火时无法转向，发射的光束会贯穿导弹，且不会伤害友军。对导弹和战机造成{%s}倍伤害。,2,,,,5.01
+信标-PD光束,jc_sf_pdlaser,0,,400,400,80,,,0,90,4,,,,ENERGY,,40,0,0,0.5,0,,,,,1000000,,,,,,,"PD, ANTI_FTR","jc_sf, jc_sf_bp, pd7, beam5, SR",,幽灵部队,,点防御,,,,,武器开火过程中方向锁定，发射的光束会贯穿导弹，且不会伤害友军。对导弹和战机造成{%s}倍伤害。,2,,,,5.01
 沙暴-防空炮,jc_sf_pdflak,0,,300,400,,25,,2,80,1,200,,,FRAGMENTATION,5,,0,0.25,1,,0,10,2,10,,700,,,30,,,"PD, PD_ONLY, ANTI_FTR","jc_sf, jc_sf_bp, pd5, SR",,幽灵部队,,点防御 (范围),,,,,"仅会攻击导弹和战机，不会主动攻击舰艇，炮弹带有近炸引信会造成范围的高爆伤害。
 
 弹药耗尽时启用后备装填机，每{%s}秒装填一发弹药，至多储存{%s}发，该效果不受相关加成影响，且装填的弹药仅造成破片伤害。",1 | 4,安装于空间站时武器弹药会无限补充。,,,5.02
