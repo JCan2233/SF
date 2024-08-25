@@ -76,9 +76,7 @@ Modder调查工具,jc_asm_test,0,,,,特殊,,TRUE,,,0,0,0,0,data.scripts.hullmods
 #幽灵-可安装,,,,,,,,,,,,,,,,,,,
 强制性载员改造,jc_sf_noauto,0,,幽灵部队,"no_build_in, req_spaceport","特殊, 后勤, 需要船坞",,TRUE,,,0,0,0,0,data.scripts.hullmods.Jc_sf_noauto,"强制性地将舰船改造为由人类船员操控的模式，该舰将不再视为自动化舰船。基于舰船的基础部署点，每一点部署点会使得船员需求提高}%s。
 
-然而这种改造需要大量的船体空间，且会与舰船自身的安全协议产生冲突，因而会导致舰船性能大幅下降。舰船的幅能容量降低}%s，实弹与能量武器射程降低}%s，峰值时间降低}%s。
-
-安装后需重新进入该舰的装配页面以刷新状态。",禁用自动模式,,graphics/jc/hullmods/jc_sf_noauto.png
+然而这种改造需要大量的船体空间，且会与舰船自身的安全协议产生冲突，因而会导致舰船性能大幅下降。舰船的幅能容量降低}%s，实弹与能量武器射程降低}%s，峰值时间降低}%s。",禁用自动模式,,graphics/jc/hullmods/jc_sf_noauto.png
 SF-突击协议,jc_sf_attack,3,,幽灵部队,"jc_sf, req_spaceport, engines","引擎, 需要船坞",10000,,,,6,12,18,30,data.scripts.hullmods.Jc_sf_attack,突击协议旨在通过一系列升级，赋予幽灵部队舰船快速接近并歼灭目标的能力。,SF-突击协议,,graphics/jc/hullmods/jc_sf_attack.png
 SF-堡垒协议,jc_sf_defence,3,,幽灵部队,"jc_sf, req_spaceport, defensive","防御, 需要船坞",10000,,,,6,12,18,30,data.scripts.hullmods.Jc_sf_defence,堡垒协议旨在通过一系列升级，赋予幽灵部队舰船强大的防御能力，减缓敌人的攻势并为友军创造输出环境。,SF-堡垒协议,,graphics/jc/hullmods/jc_sf_defence.png
 SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive","武器, 需要船坞",10000,,,,6,12,18,30,data.scripts.hullmods.Jc_sf_balance,火炮协议旨在通过一系列升级，赋予幽灵部队舰船远距离倾泻火力、掩护友军的能力。,SF-火炮协议,,graphics/jc/hullmods/jc_sf_balance.png
@@ -240,8 +238,8 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 不兼容于安全协议超驰。",主力巡洋舰改造,,graphics/hullmods/militarized_subsystems.png
 支援火控系统,jc_sws,,,余辉,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sws,支援型火控升级,支援型火控升级,,graphics/hullmods/escort_package.png
 兼容性接口,jc_auto_scholar,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar,该舰可以自定义由人类船员或AI驾驶。由AI驾驶时，该舰视为全自动舰船，可以由AI核心操控。由人类驾驶时视为普通船只，但额外的安全限制协议会使该舰的幅能性能降低5%%。,兼容性接口,,graphics/hullmods/terminator_core.png
-自动模式,jc_auto_scholar_auto,,,,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar_switch,该舰可以通过自定义指派人类船员或AI驾驶，当前为：自动模式。点击移除该船插即可切换模式，切换后需重新进入该舰的装配页面以刷新状态。,切换模式,,graphics/hullmods/axial_rotation.png
-载人模式,jc_auto_scholar_manned,,,,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar_switch,该舰可以通过自定义指派人类船员或AI驾驶，当前为：载人模式。点击移除该船插即可切换模式，切换后需重新进入该舰的装配页面以刷新状态。,切换模式,,graphics/hullmods/axial_rotation.png
+自动模式,jc_auto_scholar_auto,,,,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar_switch,该舰可以自定义指派人类船员或AI驾驶，当前为：自动模式，点击移除该船插即可切换模式。,切换模式,,graphics/hullmods/axial_rotation.png
+载人模式,jc_auto_scholar_manned,,,,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar_switch,该舰可以自定义指派人类船员或AI驾驶，当前为：载人模式，点击移除该船插即可切换模式。,切换模式,,graphics/hullmods/axial_rotation.png
 协作模式,jc_ttdm,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ttdm,该舰非常适合配合友军协同作战，当附近一定距离内存在更大的友方舰船时，自身的护盾性能将得到不同程度的提升，且会为内置的EMP发生器充能。,与附近友军协同作战,,graphics/hullmods/escort_package.png
 支援型幅能改造,jc_ssm,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ssm,该舰的幅能系统旨在为队友提供短时间内的支援，幅能容量提高}%s，幅能耗散降低}%s，且当舰船过载或强制排幅时幅能耗散降低的负面效果将被抵消。,支援型幅能设计,,graphics/hullmods/flux_shunt.png
 守护者核心,jc_gs_core,,,开拓者,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_gs_core,该舰支持自定义升级，进入任意殖民地空港即可进行改造。共8个可升级选项，每个选项均可提升至2级，且可以将至多}%s}项升至3级，学习技能或完成赏金以获得额外升级机会。,可升级的守护者核心系统,,graphics/jc/hullmods/jc_gs_core.png
