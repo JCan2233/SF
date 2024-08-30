@@ -156,6 +156,8 @@
 	],
 	"music":{
 		"encounter_hostile":"music_tritach_encounter_hostile",
+		"encounter_neutral":"music_tritach_encounter_hostile",
+		"encounter_friendly":"music_tritach_encounter_hostile",
 	},
 	"portraits":{
 		"standard_male":[

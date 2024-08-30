@@ -97,13 +97,13 @@
 		"carriers":2,
 		"phaseShips":1,
 		
-		"officerQuality":4,
-		"shipQuality":2,
-		"numShips":2,
+		"officerQuality":3,
+		"shipQuality":3,
+		"numShips":1,
 		
 		"shipSize":4,
 		
-		"aggression":3, # doesn't matter since automated ships are super aggressive regardless
+		"aggression":3, # doesn't matter even though automated ships aren't super aggressive regardless
 		
 		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":0,				# as part of the normal combat lineup
@@ -127,7 +127,7 @@
 		"encounter_neutral":"jc_sf_encounter_neutral",
 		"encounter_hostile":"jc_sf_encounter_hostile",
 		"encounter_friendly":"jc_sf_encounter_friendly",
-	},	
+	},
 	"portraits":{
 		"standard_male":[
 			"graphics/jc/portraits/jc_sf_ai1.png",
