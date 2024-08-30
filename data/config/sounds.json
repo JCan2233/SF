@@ -4,7 +4,7 @@
             {
                 "file": "jc_sf_neutral.ogg",
                 "source": "sounds/jc/music/",
-                "volume": 0.9,
+                "volume": 1.0,
                 "randomStart": false
             }
         ],
@@ -12,7 +12,7 @@
             {
                 "file": "jc_sf_hostile.ogg",
                 "source": "sounds/jc/music/",
-                "volume": 0.9,
+                "volume": 1.0,
                 "randomStart": true
             }
         ],
@@ -20,7 +20,7 @@
             {
                 "file": "jc_sf_neutral.ogg",
                 "source": "sounds/jc/music/",
-                "volume": 0.9,
+                "volume": 1.0,
                 "randomStart": true
             }
         ],
@@ -28,7 +28,7 @@
             {
                 "file": "jc_sf_friendly.ogg",
                 "source": "sounds/jc/music/",
-                "volume": 0.9,
+                "volume": 1.0,
                 "randomStart": true
             }
         ],
@@ -36,7 +36,7 @@
             {
                 "file": "jc_sf_hostile.ogg",
                 "source": "sounds/jc/music/",
-                "volume": 0.8,
+                "volume": 1.0,
                 "randomStart": true
             }
         ],
@@ -44,7 +44,7 @@
             {
                 "file": "jc_sf_neutral.ogg",
                 "source": "sounds/jc/music/",
-                "volume": 0.8,
+                "volume": 1.0,
                 "randomStart": true
             }
         ],
@@ -52,7 +52,7 @@
             {
                 "file": "jc_sf_friendly.ogg",
                 "source": "sounds/jc/music/",
-                "volume": 0.8,
+                "volume": 1.0,
                 "randomStart": true
             }
         ]
