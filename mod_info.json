@@ -3,7 +3,7 @@
     "name": "幽灵部队",
     "author": "    \n    主创：JC\n    美术：恶魔，JJACK\n    音乐：影之光",
     "version": "0.7.0",
-    "description": "来自异星文明的智能生命体组成的势力，附带一些余辉相关的扩展内容",
+    "description": "来自异星文明的智能生命体组成的势力，附带一些余辉相关的扩展内容。",
     "dependencies": [
         {
             "id": "lw_lazylib",

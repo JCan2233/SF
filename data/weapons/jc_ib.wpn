@@ -16,7 +16,7 @@
 	"coreColor":[255,255,255,200],
 	"glowColor":[255,255,255,0],
 	"width":11.0,
-	"hitGlowRadius":75,
+	"hitGlowRadius":22,
 	"textureType":LASER,
 	"textureScrollSpeed":260.0,
 	"pixelsPerTexel":5.0,

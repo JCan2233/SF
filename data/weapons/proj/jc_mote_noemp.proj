@@ -19,6 +19,7 @@
 				  "dec":0},
 	"alwaysAccelerate":true,
 	"useHitGlowWhenDestroyed":true,
+	"hitGlowRadius":30,
 	"engineSlots":[
 					{"id":"ES1",
 					"loc":[0, 0],

@@ -4,6 +4,7 @@
   "type": "ENERGY",
   "size": "SMALL",
   "everyFrameEffect": "data.scripts.weapons.Jc_sf_beaconPDEffect",
+  "beamEffect": "data.scripts.weapons.Jc_sf_beaconPDEffect",
   "collisionClass": "RAY_FIGHTER",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/jc/weapons/sf/jc_sf_pdlaser_turret.png",
@@ -16,7 +17,7 @@
     100,
     160
   ],
-  "hitGlowRadius": 0,
+  "hitGlowRadius": 10,
   "turretOffsets": [
     11.5,
     0

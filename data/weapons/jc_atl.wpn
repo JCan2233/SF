@@ -17,6 +17,7 @@
 	"fringeColor":[0,255,0,225],
 	"coreColor":[255,255,255,255],
 	"glowColor":[155,255,155,255],
+	"hitGlowRadius": 16,
 	"convergeOnPoint":false,
 	"width":8.0,
 	"textureType":ROUGH,
