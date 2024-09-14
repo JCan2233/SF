@@ -3,6 +3,7 @@
 	"id":"jc_sf_slboss_lock",
 	"type":"ENERGY",
 	"size":"MEDIUM",
+	"beamEffect": "data.scripts.weapons.Jc_sf_slboss_beamEffect",
 	"collisionClass":"RAY_FIGHTER",
 	"collisionClassByFighter":"RAY_FIGHTER",
 	"turretSprite":"graphics/fx/empty.png",

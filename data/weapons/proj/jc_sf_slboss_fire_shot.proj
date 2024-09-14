@@ -1,6 +1,7 @@
 {
 	"id":"jc_sf_slboss_fire_shot",
 	"specClass":"projectile",
+	"onHitEffect":"data.scripts.weapons.Jc_sf_slboss_onHitEffect",
 	"spawnType":"BALLISTIC_AS_BEAM",
 	"collisionClass":"RAY_FIGHTER",
 	"collisionClassByFighter":"RAY_FIGHTER",
