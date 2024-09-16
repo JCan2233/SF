@@ -109,7 +109,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 由于导弹可换装常规战斗部，该行星杀手也可用于战术轰炸。轰炸后会依据采取的轰炸模式额外降低殖民地的稳定性和地面防御，该效果不可叠加。
 
 搭载导弹的巨大空间也可以改装为通用飞行甲板。当安装改装机库时，抵消改装机库的全部负面效果，但同时禁用战略导弹和地面支援功能。",可改装的行星杀手装置,,graphics/hullmods/ground_support.png
-亡者复生,jc_sf_respawn,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_respawn,在舰船被摧毁后会复活一次。复活的舰船不占用部署点，且在战术系统激活时会缓慢恢复结构值。,被摧毁后复活一次,,graphics/jc/hullmods/jc_sf_respawn.png
+亡者复生,jc_sf_respawn,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_respawn,在舰船被摧毁后会复活一次。复活的舰船无法操控或下达指令，不占用部署点，且在战术系统激活时会缓慢恢复结构值。,被摧毁后复活一次,,graphics/jc/hullmods/jc_sf_respawn.png
 灵魂献祭,jc_sf_sacrifice,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_sacrifice,"该舰能吸收利用周围友军残骸中的散溢能量。当有其它友方舰船被摧毁时，根据被摧毁的舰船等级获得}%s}枚灵魂能量。
 
 每当舰船获得一枚灵魂能量时进入}%s}秒的注能状态，以每秒}%s}的速率修复结构并排散硬幅能，持续时间可以叠加。
