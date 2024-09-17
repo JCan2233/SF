@@ -26,7 +26,7 @@ name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u 
 狩猎时刻,jc_sf_harpy_sys,,,,,,,,,,1,3.25,1,10,,,,,,,,,,,,restricted,graphics/icons/hullsys/infernium_injector.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #余辉/欧米伽,,,,,,,,,,,,,,,,,,,,,,,,,,,
-防守传送,jc_tptodefend,1,,,,,,,,,0.25,30,0.75,8,,,,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/displacer.png
+防守传送,jc_tptodefend,1,,,,,,,,,0.25,,0.25,8,,,,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/displacer.png
 护盾桥连器,jc_shieldshare,1,,,,,,,,,0.25,8,0.25,8,TRUE,,TRUE,,TRUE,,,,,,,,graphics/icons/hullsys/fortress_shield.png
 机动战队,jc_fightersupport,,,,,,0.1,,,,0.25,,0.25,60,,,,,,,,,,TRUE,,,graphics/icons/hullsys/reserve_deployment.png
 战术驱动,jc_sl_maneuveringjets,,,,,,,,,,0.5,5,0.5,6,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
