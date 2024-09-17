@@ -3,7 +3,7 @@ name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u 
 活体微光,jc_sf_flarelauncher_fighter,,,,,,,,2,0.1,,,,0.5,,,,,,,,,,,,restricted,graphics/icons/hullsys/flare_launcher.png
 瘟疫散播,jc_sf_larva_sys,,,,,,,,,,,,,10,,,,,,,,,,,,restricted,graphics/icons/hullsys/flare_launcher.png
 亡灵契约,jc_sf_damper,1,,,,,,,,,0.25,3.5,0.25,15,,,,,,,,,TRUE,TRUE,,uses_damper_ai,graphics/icons/hullsys/damper_field.png
-污染信道,jc_sf_emp,1,,,,,0.1,,,,0.25,4.5,0.25,5,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+深渊凝视,jc_sf_emp,1,,,,,0.1,,,,0.25,4.5,0.25,5,,,,,TRUE,,,,,,,,graphics/icons/hullsys/emp_emitter.png
 认知功放,jc_sf_sandevistan,1,,,,,,,,,0.25,9.5,0.25,15,,,,,,,,,,TRUE,,,graphics/icons/hullsys/temporal_shell.png
 逆熵武备,jc_sf_energyConservation,1,,,,,,,,,0.25,3.5,0.25,15,,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png
 角质壳层,jc_sf_alien_sys,,0.1,,,,,,,,0.5,,0.5,0,TRUE,,,TRUE,,,,,,,,,graphics/icons/hullsys/fortress_shield.png
