@@ -17,7 +17,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "jc_sf_chaingun"
+        "WS0008": "jc_sf_chaingun_m"
       }
     },
     {

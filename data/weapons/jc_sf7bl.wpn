@@ -1,11 +1,11 @@
 {
-  "id": "jc_sf7b",
+  "id": "jc_sf7bl",
   "specClass": "projectile",
   "projectileSpecId": "jc_sf7b_rocket",
   "type": "MISSILE",
   "size": "LARGE",
-  "turretSprite": "graphics/jc/weapons/common/jc_sf7b_turret_base.png",
-  "hardpointSprite": "graphics/jc/weapons/common/jc_sf7b_hardpoint_base.png",
+  "turretSprite": "graphics/jc/weapons/common/jc_sf7bl_turret_base.png",
+  "hardpointSprite": "graphics/jc/weapons/common/jc_sf7bl_hardpoint_base.png",
   "turretOffsets": [
     30.5,
     5,

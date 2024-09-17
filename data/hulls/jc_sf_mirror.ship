@@ -1,8 +1,8 @@
 {
-  "hullName": "jc_sf_raven",
-  "hullId": "jc_sf_raven",
+  "hullName": "jc_sf_mirror",
+  "hullId": "jc_sf_mirror",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/jc/ships/sf/jc_sf_raven.png",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_mirror.png",
   "style": "jc_sf",
   "height": 88,
   "width": 100,

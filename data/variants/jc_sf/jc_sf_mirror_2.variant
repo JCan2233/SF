@@ -1,29 +1,30 @@
 {
-  "variantId": "jc_sf_raven_1",
-  "hullId": "jc_sf_raven",
-  "displayName": "标准",
+  "variantId": "jc_sf_mirror_2",
+  "hullId": "jc_sf_mirror",
+  "displayName": "打击",
   "goalVariant": true,
-  "fluxCapacitors": 7,
-  "fluxVents": 8,
+  "fluxCapacitors": 6,
+  "fluxVents": 6,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "hardenedshieldemitter"
+    "targetingunit",
+    "missile_autoloader"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "jc_sf_atklaser_m"
+        "WS0001": "jc_sf_needler"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "jc_sf_emissile_s",
-        "WS0005": "jc_sf_emissile_s"
+        "WS0004": "jc_sf_torpedo_s",
+        "WS0005": "jc_sf_torpedo_s"
       }
     },
     {

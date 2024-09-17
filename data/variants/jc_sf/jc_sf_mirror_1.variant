@@ -1,14 +1,13 @@
 {
-  "variantId": "jc_sf_raven_0",
-  "hullId": "jc_sf_raven",
-  "displayName": "客制",
-  "goalVariant": false,
+  "variantId": "jc_sf_mirror_1",
+  "hullId": "jc_sf_mirror",
+  "displayName": "标准",
+  "goalVariant": true,
   "fluxCapacitors": 7,
   "fluxVents": 8,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "jc_sf_noauto",
     "hardenedshieldemitter"
   ],
   "weaponGroups": [

@@ -1,12 +1,12 @@
 {
-  "id": "jc_sf_chaingun",
+  "id": "jc_sf_chaingun_m",
   "specClass": "projectile",
   "projectileSpecId": "jc_sf_chaingun_shot",
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "everyFrameEffect": "data.scripts.weapons.Jc_sf_chaingunEffect",
-  "turretSprite": "graphics/jc/weapons/sf/jc_sf_chaingun/turret_00.png",
-  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_chaingun/hardpoint_00.png",
+  "turretSprite": "graphics/jc/weapons/sf/jc_sf_chaingun/m_turret_00.png",
+  "hardpointSprite": "graphics/jc/weapons/sf/jc_sf_chaingun/m_hardpoint_00.png",
   "turretOffsets": [
     23.5,
     0

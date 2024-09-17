@@ -1,30 +1,30 @@
 {
-  "variantId": "jc_sf_raven_3",
-  "hullId": "jc_sf_raven",
-  "displayName": "压制",
-  "goalVariant": true,
-  "fluxCapacitors": 5,
-  "fluxVents": 6,
+  "variantId": "jc_sf_mirror_0",
+  "hullId": "jc_sf_mirror",
+  "displayName": "客制",
+  "goalVariant": false,
+  "fluxCapacitors": 7,
+  "fluxVents": 8,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "advancedoptics",
-    "jc_sf_balance"
+    "jc_sf_noauto",
+    "hardenedshieldemitter"
   ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "jc_sf_fdem_s",
-        "WS0005": "jc_sf_fdem_s"
+        "WS0001": "jc_sf_atklaser_m"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "jc_sf_lrcannon_m"
+        "WS0004": "jc_sf_emissile_s",
+        "WS0005": "jc_sf_emissile_s"
       }
     },
     {
