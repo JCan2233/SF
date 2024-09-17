@@ -1,7 +1,7 @@
 id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon
 jc_cm_shield,极化护盾,7,1,0,,"是什么阻止了卢德的阴谋? (护盾!)
 是什么被霸主忘在脑后? (护盾!)
-是什么我们有而他们没有? (更快，更厚，更高效的护盾!)",余辉AI内部最近流行的说法,TRUE,,,"npc_only, deprecated",graphics/icons/skills/special_modifications.png
+是什么我们有而他们没有? (更快，更厚，更高效的护盾!)",余辉{AI}内部最近流行的说法,TRUE,,,"npc_only, deprecated",graphics/icons/skills/special_modifications.png
 jc_cm_balance,宇宙均衡,8,1,0,,当一切都变得缓慢，你就能听到宇宙的心跳。,被封存的档案,TRUE,,,"npc_only, deprecated",graphics/icons/skills/power_grid_manipulation.png
 jc_sf_core,限制解除,9,1,0,,"使文明驱散蒙昧
 用理性净化寰宇

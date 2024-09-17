@@ -4,7 +4,7 @@
     "startingFaction": true,
     "dropPrisoners": false,
     "allowPrisonerActions": false,
-    "ngcTooltip": "藏匿在星域边缘的余辉舰队占领了一个星系并向世人宣告它们的存在，星域中的各大势力虎视眈眈，这难道是第三次AI战争的前兆？",
+    "ngcTooltip": "藏匿在星域边缘的余辉舰队占领了一个星系并向世人宣告它们的存在，星域中的各大势力虎视眈眈，这难道是第三次{AI}战争的前兆？",
     "invasionSupportFleetName": "军团",
     "miningVariantsOrWings": [
         "jc_starlight_mine"

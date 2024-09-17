@@ -1,16 +1,16 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
 #DEBUG,,,,,,,,,,,,,,,,,,,
-Modder调查工具,jc_asm_test,0,,,,特殊,,TRUE,,,0,0,0,0,data.scripts.hullmods.Jc_asm_test,这是一个提供给Modder的调查工具，用于统计所有MOD的相关数据。,Modder调查工具,,graphics/jc/hullmods/jc_auto_hack.png
+Modder调查工具,jc_asm_test,0,,,,特殊,,TRUE,,,0,0,0,0,data.scripts.hullmods.Jc_asm_test,这是一个提供给{Modder}的调查工具，用于统计所有{MOD}的相关数据。,Modder}调查工具,,graphics/jc/hullmods/jc_auto_hack.png
 ,,,,,,,,,,,,,,,,,,,
 #无人舰基础扩展,,,,,,,,,,,,,,,,,,,
 智能协同系统,jc_auto_coremod,0,,余辉,,特殊,,TRUE,,,5,10,15,30,data.scripts.hullmods.Jc_auto_CoreMod,为舰船提供一定的自主作战能力，自动舰船点数计算倍率减少{%s，点数至多降至零。但每月维护所需补给提高{%s。,为自动化舰船提供自主作战能力,抵消维护补给提高的负面效果，同时使舰船始终可以在战后被修复。,graphics/jc/hullmods/jc_auto_coremod.png
-跨越种族的友谊,jc_auto_friend,0,,余辉,"no_build_in, req_spaceport",特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_auto_friend,也许人类与AI也可以成为朋友....,见证你们的友谊,,graphics/jc/hullmods/jc_auto_friend.png
+跨越种族的友谊,jc_auto_friend,0,,余辉,"no_build_in, req_spaceport",特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_auto_friend,也许人类与{AI}也可以成为朋友....,见证你们的友谊,,graphics/jc/hullmods/jc_auto_friend.png
 欧米伽级虚空连接体,jc_auto_omega,3,,余辉,"no_build_in, req_spaceport, no_sell, no_drop, no_drop_salvage, restricted",特殊,250000,,,,1,1,1,1,data.scripts.hullmods.Jc_auto_omega,"来源于欧米伽的特殊技术，对自动化舰船进行全方位的升级，其超越人类认知的神秘科技将舰船的战斗力提高到难以想象的地步。
 
-将一个{阿尔法(或同级的)AI核心}完全集成于该舰船，并点击安装该船插，此时会从货舱中消耗{%s}个{阿尔法AI核心，如果数量足够即可完成升级。注意，该升级完成后不可逆转。
+将一个{阿尔法(或同级的){AI}核心}完全集成于该舰船，并点击安装该船插，此时会从货舱中消耗{%s}个{阿尔法{AI}核心，如果数量足够即可完成升级。注意，该升级完成后不可逆转。
 
 要启用这项能力，玩家必须拥有无人战舰技能，且舰队中最多只能有一艘舰船安装该升级。",对自动化舰船进行完全的改造,,graphics/jc/hullmods/jc_auto_omega.png
-骇入系统,jc_auto_hack,0,,余辉,no_build_in,特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_auto_hack,消耗AI核心入侵舰船系统并格式化其中的特定分区，安装后将立即清除所有的内置(S-)船插，且不会返还故事点。优先消耗等级较低且数量较多的AI核心，过量的算力会存储为点数以备后用。,清除内置船插,,graphics/jc/hullmods/jc_auto_hack.png
+骇入系统,jc_auto_hack,0,,余辉,no_build_in,特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_auto_hack,消耗{AI}核心入侵舰船系统并格式化其中的特定分区，安装后将立即清除所有的内置(S-)船插，且不会返还故事点。优先消耗等级较低且数量较多的{AI}核心，过量的算力会存储为点数以备后用。,清除内置船插,,graphics/jc/hullmods/jc_auto_hack.png
 智能辅助机,jc_autociv_mod,0,,余辉,"no_build_in, req_spaceport","特殊, 需要船坞",,TRUE,,,8,12,16,20,data.scripts.hullmods.Jc_auto_civ_mod,"当你的殖民地赛博化达到一定程度时，可以呼叫一架辅助机为旗舰提供增援，辅助机战斗力取决于赛博化改造的殖民地规模之和，在总规模达到}%s}时战斗力到达上限，目前的规模为}%s。
 
 战斗中辅助机会跟随旗舰提供火力支援，若被摧毁则会在}%s}秒后重新召唤。只有安装于旗舰时才会生效，若在战斗中转移指挥则辅助机也会在一段时间后跟随新的旗舰。",召唤辅助机协同作战,,graphics/jc/hullmods/jc_autociv_mod.png
@@ -29,7 +29,7 @@ Modder调查工具,jc_asm_test,0,,,,特殊,,TRUE,,,0,0,0,0,data.scripts.hullmods
 只有安装于自动化舰船时才能生效。",提高武器射程,炮塔转向速度提高{%s}。,graphics/jc/hullmods/jc_auto_itu.png
 激进护盾优化模组,jc_auto_hse,2,,余辉,"remnant, shields, defensive",护盾,10000,,,,3,5,7,10,data.scripts.hullmods.Jc_auto_hse,一套激进的护盾升级方案，在原有的强化护盾基础上，拆除部分装甲以进一步升级护盾效能。降低{%s}护盾受到的伤害，但舰船装甲值降低{%s。只有安装于自动化舰船并安装强化护盾时才能生效。,额外提高护盾性能,护盾维持所需幅能降低{%s}，护盾展开和转向速度提高{%s}。,graphics/jc/hullmods/jc_auto_hse.png
 重构引擎能源系统,jc_auto_ats,2,,余辉,"remnant, engines",引擎,10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_ats,重新调整舰船的引擎能源系统，机动性提高}%s，最大航速提高}%s，战术系统的回复与冷却速度提高}%s。只有安装于自动化舰船时才能生效，不兼容于辅助推进器插件。,提高引擎性能,,graphics/jc/hullmods/jc_auto_ats.png
-综合电子作战模块,jc_auto_ecm,2,,余辉,"remnant, defensive","防御, 特殊",10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_ecm,全面升级电子战系统，降低}%s}电子战失利时的负面影响，提升导弹的制导性能(但不会提升机动性)，降低}%s}受到的EMP伤害，如果安装在巡洋舰/主力舰上，还会提高}1%%/2%%}电子战强度。只有安装于自动化舰船时才能生效。,综合提升电子战性能,,graphics/jc/hullmods/jc_auto_ecm.png
+综合电子作战模块,jc_auto_ecm,2,,余辉,"remnant, defensive","防御, 特殊",10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_ecm,全面升级电子战系统，降低}%s}电子战失利时的负面影响，提升导弹的制导性能(但不会提升机动性)，降低}%s}受到的{EMP}伤害，如果安装在巡洋舰/主力舰上，还会提高}1%%/2%%}电子战强度。只有安装于自动化舰船时才能生效。,综合提升电子战性能,,graphics/jc/hullmods/jc_auto_ecm.png
 扩容无人机库平台,jc_auto_mch,1,,余辉,"remnant, special",战机,8000,,,,8,12,16,20,data.scripts.hullmods.Jc_auto_mch,"通过改造机库结构的空间占用来提高飞行甲板数量，如果该舰有非内置的飞行甲板，则额外增加一个飞行甲板。只有安装于自动化舰船时才能生效。
 
 然而新增的飞行甲板并不会携带配套的纳米工厂，因此战机的整备时间提高，提高幅度相当于新增甲板与原甲板数之比。即船插安装前后战机总体的整备速率不变，而仅提高战机的最大数量。",扩充飞行甲板,安装于主力舰时，扩容的机库附带一个备用甲板。战斗中若有甲板的整备速率低于{%s}时更换备用甲板，补充当前损失的战机并将整备速率恢复至{%s}，每场战斗仅能触发一次。与常规的备用甲板不同的是，该效果仅对整备速率最低一个飞行甲板生效，而非对全部甲板生效。,graphics/jc/hullmods/jc_auto_mch.png
@@ -51,16 +51,16 @@ Modder调查工具,jc_asm_test,0,,,,特殊,,TRUE,,,0,0,0,0,data.scripts.hullmods
 过载缓冲保护装置,jc_auto_soc,2,,余辉,"remnant, no_sell, defensive","防御, 特殊",10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_soc,"为护盾安装过载保护系统，在受到超过}%s}秒的过载时，舰船将在短的时间内结束过载。这个效果有}%s}秒的冷却时间。
 
 效果触发后的}%s/%s/%s/%s}秒内，舰船无法使用护盾。若舰船幅能降为零，则会立即解除这一限制。",部分抵消过载效果,,graphics/jc/hullmods/jc_auto_soc.png
-二相性因果调频器,jc_auto_kah,3,,余辉,"remnant, no_sell, offensive",武器,12000,,,,4,8,12,20,data.scripts.hullmods.Jc_auto_kah,"一种来自星域以外未知文明的技术，经过余辉AI的改造得以适用于星域内的常规舰船。利用不同的射弹的时空纠缠放大武器的破坏力。
+二相性因果调频器,jc_auto_kah,3,,余辉,"remnant, no_sell, offensive",武器,12000,,,,4,8,12,20,data.scripts.hullmods.Jc_auto_kah,"一种来自星域以外未知文明的技术，经过余辉{AI}的改造得以适用于星域内的常规舰船。利用不同的射弹的时空纠缠放大武器的破坏力。
 
 当对目标造成动能或高爆伤害时使目标陷入因果纠缠状态，在目标下一次受到动能或高爆伤害时，若两次伤害类型不同则伤害翻倍，若伤害类型相同则伤害减半。
 
 连续触发正面效果或连续触发负面效果时，这些效果的影响均会线性减弱，连续触发5次或以上时效果完全消失。
 
-若连续的}%s}秒内目标未受到动能或高爆伤害则状态消失，不同舰船造成或受到的此效果分别计算互不影响。仅计算射弹类武器造成的伤害，不影响光束或EMP电弧等其它效果。
+若连续的}%s}秒内目标未受到动能或高爆伤害则状态消失，不同舰船造成或受到的此效果分别计算互不影响。仅计算射弹类武器造成的伤害，不影响光束或电弧等其它效果。
 
 每当目标进入因果纠缠状态或触发伤害变化效果，都会进入}%s}秒的冷却时间，期间不会触发任何效果，也不会计算伤害类型的变化。",改造动能与高爆伤害机制,护盾受到的高爆伤害和装甲受到的动能伤害降低{%s}。,graphics/jc/hullmods/jc_auto_kah.png
-维度腔体落差风帆,jc_auto_ds,3,,余辉,"remnant, no_sell, engines",引擎,12000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_ds,"一种来自星域以外未知文明的技术，经过余辉AI的改造得以适用于星域内的常规舰船。在逆向移动时通过扭曲高维空间创造落差来储存能量，并在需要时以爆发的形式释放，凭借连接高维空间的风帆来瞬间驱动舰船。
+维度腔体落差风帆,jc_auto_ds,3,,余辉,"remnant, no_sell, engines",引擎,12000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_ds,"一种来自星域以外未知文明的技术，经过余辉{AI}的改造得以适用于星域内的常规舰船。在逆向移动时通过扭曲高维空间创造落差来储存能量，并在需要时以爆发的形式释放，凭借连接高维空间的风帆来瞬间驱动舰船。
 
 当舰船进行机动且不处于零幅能加速状态时，启动风帆使舰船的速度在瞬间大幅提升，效果强度取决于舰船的最大速度和加速度。效果触发后，本次加速方向的维度落差将被消耗殆尽，直到维度腔体完成再充能前该效果将不可用。
 
@@ -182,7 +182,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 憎恶军用改造,jc_sf_abomination_omega,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sf_abomination_omega,憎恶军用改造,憎恶军用改造,,graphics/hullmods/terminator_core.png
 智能辅助机POD,jc_autociv_pod,,,余辉,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_auto_civ_pod,POD系统,POD系统,,graphics/hullmods/terminator_core.png
 高能集成,jc_hei,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_hei,降低}%s}点所有大型能量武器所需的装配点。,降低大型能量武器所需装配点,,graphics/hullmods/augmented_drive_field.png
-尖端聚焦护盾,jc_sfm,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sfm,"采用一种大崩塌前的技术制造的特殊护盾生成器，具有无与伦比的伤害吸收能力，且不会被EMP电弧击穿。
+尖端聚焦护盾,jc_sfm,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sfm,"采用一种大崩塌前的技术制造的特殊护盾生成器，具有无与伦比的伤害吸收能力，且不会被{EMP}电弧击穿。
 
 护盾受到攻击产生的幅能随受击方位与护盾中心方向的夹角线性变化。当角度为}0}度时效率最高，可达基础护盾效率的}2}倍，角度为}45}度时效率不变，角度更高时效率相应降低。
 
@@ -197,7 +197,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 
 不兼容于相位锚定。",独特相位线圈改造,,graphics/hullmods/phase_anchor.png
 点防集成,jc_hpi,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_hpi,配备了专门适应点防武器的定位系统，所有点防御武器的射程提高{%s，装配点降低{%s}/{%s}/{%s。,降低PD武器所需装配点,,graphics/hullmods/escort_package.png
-无畏战斗协议,jc_cc,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_cc,集成了无畏的AI核心后舰船系统得到升级。近距离作战时提高实弹和能量武器伤害以及舰船的转向能力，距离越近提升幅度越大，最远到达}%s}单位时提升幅度降为零。,近距离作战时提升性能,,graphics/hullmods/assault_package.png
+无畏战斗协议,jc_cc,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_cc,集成了无畏的{AI}核心后舰船系统得到升级。近距离作战时提高实弹和能量武器伤害以及舰船的转向能力，距离越近提升幅度越大，最远到达}%s}单位时提升幅度降为零。,近距离作战时提升性能,,graphics/hullmods/assault_package.png
 精密生产车间,jc_rcs,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_rcs,使用了先进的专用战机工厂，提高了余辉无人战机的性能。余辉轰炸机的导弹机动性能得到提升，战斗机和截击机受到的伤害降低且过载时间减少。当所有战机都为余辉战机时还会提高作战范围并降低战机更换时间。,特化战机联队,,graphics/hullmods/escort_package.png
 堡垒无人机,jc_fd,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_fd,加装了特殊的系统，在战斗中会部署一架配备有速子长矛脉冲炮的先进无人机。当舰船处于危急情况下时，无人机还会快速展开一面小型护盾帮助抵挡伤害。无人机护盾过载时会停机，之后需要一定的时间更换。舰船激活战术系统时无人机也会受到增益效果的影响。,部署堡垒无人机,,graphics/hullmods/stealth_mines.png
 无人补给舰,jc_auto_supply_ship,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_supply_ship,特殊的无人补给舰可以一定程度上进行自行维护，内置船插降低战备值(CR)的负面效果减半。但如果玩家未掌握无人战舰技能则该舰将无法正常运行，封存的舰船不会受到影响。,无人补给舰,,graphics/hullmods/repair_gantry.png
@@ -206,27 +206,27 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 切换模式,jc_auto_supply_fuel,,,余辉,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_supply_fuel,该舰可通过自定义实现各种后勤补给功能，当前为：燃料运输模式。点击移除该船插即可切换模式。,切换模式,,graphics/hullmods/axial_rotation.png
 切换模式,jc_auto_supply_mine,,,余辉,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_supply_mine,该舰可通过自定义实现各种后勤补给功能，当前为：勘探采矿模式。点击移除该船插即可切换模式。,切换模式,,graphics/hullmods/axial_rotation.png
 切换模式,jc_auto_supply_person,,,余辉,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_supply_person,该舰可通过自定义实现各种后勤补给功能，当前为：人员投送模式。点击移除该船插即可切换模式。,切换模式,,graphics/hullmods/axial_rotation.png
-货物运输模式,jc_auto_supply_f_cargo,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,货舱容量增加3000，维护所需补给降低10%%。如果舰船已被封存则不会生效。,货物运输模式,,graphics/hullmods/terminator_core.png
-燃料运输模式,jc_auto_supply_f_fuel,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,燃料容量增加3000，燃料需求降低10%%。如果舰船已被封存则不会生效。,燃料运输模式,,graphics/hullmods/terminator_core.png
-勘探采矿模式,jc_auto_supply_f_mine,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,基础货舱和燃料容量提升500，补给和燃料消耗降低25%%，勘探星球所需物资降低30，传感器强度增加100，基础物资打捞收益提高10%%。如果舰船已被封存则不会生效，勘探类的同种效果叠加时收益递减。,勘探采矿模式,,graphics/hullmods/terminator_core.png
-人员投送模式,jc_auto_supply_f_person,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,移除自动化舰船的载员限制，最大船员数量增加2000，地面突袭战斗力提高400且不超过陆战队员数量，轰炸所需燃料降低400。如果舰船已被封存则不会生效。,人员投送模式,,graphics/hullmods/terminator_core.png
+货物运输模式,jc_auto_supply_f_cargo,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,货舱容量增加{3000，维护所需补给降低{10%%。如果舰船已被封存则不会生效。,货物运输模式,,graphics/hullmods/terminator_core.png
+燃料运输模式,jc_auto_supply_f_fuel,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,燃料容量增加{3000，燃料需求降低{10%%。如果舰船已被封存则不会生效。,燃料运输模式,,graphics/hullmods/terminator_core.png
+勘探采矿模式,jc_auto_supply_f_mine,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,基础货舱和燃料容量提升{500，补给和燃料消耗降低{25%%，勘探星球所需物资降低{30，传感器强度增加{100，基础物资打捞收益提高{10%%。如果舰船已被封存则不会生效，勘探类的同种效果叠加时收益递减。,勘探采矿模式,,graphics/hullmods/terminator_core.png
+人员投送模式,jc_auto_supply_f_person,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,移除自动化舰船的载员限制，最大船员数量增加{2000，地面突袭战斗力提高{400}且不超过陆战队员数量，轰炸所需燃料降低{400。如果舰船已被封存则不会生效。,人员投送模式,,graphics/hullmods/terminator_core.png
 智能导弹系统,jc_ims,,,余辉,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_ims,智能切换导弹,智能切换导弹,,graphics/hullmods/missile_autofactory.png
 反舰战机系统,jc_acs,,,余辉,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_acs,反舰战机系统,反舰战机系统,,graphics/hullmods/terminator_core.png
 电子战预警系统,jc_ecmfw,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ecmfw,电子战预警机,电子战预警机,,graphics/hullmods/terminator_core.png
 电子战指挥核心,jc_ecms,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ecms,"该舰拥有全套专业的电子作战系统，提高}%s}电子战强度。当内置的电子战预警机或其僚机攻击命中敌舰时，还会额外提高}1%%}电子战强度，持续5秒，不同战机联队的效果可叠加。
 
-当电子战强度胜于对方时，基于电子战评级之差，提高实弹与能量武器伤害，提高战机作战半径、降低更换时间，并提高EMP抗性。如果是舰队旗舰，还会提高命令点恢复速率。
+当电子战强度胜于对方时，基于电子战评级之差，提高实弹与能量武器伤害，提高战机作战半径、降低更换时间，并提高{EMP}抗性。如果是舰队旗舰，还会提高命令点恢复速率。
 
 不兼容于作战中心。",作为电子战舰队的作战中心,,graphics/hullmods/operations_center.png
 黑客芯片,jc_ecms_d,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,"该舰的战术系统会向敌舰发送预先编译过的恶意数据流，依据发送数据的类型造成不同的效果。可能产生的效果如下：
 
-系统超控：完全接管目标的舰载系统，操控它向最近的友军发动攻击，效果结束时引发电磁脉冲造成范围EMP伤害。
+系统超控：完全接管目标的舰载系统，操控它向最近的友军发动攻击，效果结束时引发电磁脉冲造成范围{EMP}伤害。
 
-自毁协议：接管目标的引擎操控系统，令它撞向附近的友军，并引发一次强力的爆炸造成能量与EMP伤害。
+自毁协议：接管目标的引擎操控系统，令它撞向附近的友军，并引发一次强力的爆炸造成能量与{EMP}伤害。
 
-连锁感染：利用目标系统入侵敌方通信网络并试图感染附近的其它敌人，所有被感染的目标的武器射程和幅能耗散将会降低，效果结束时引发电磁脉冲造成范围EMP伤害。
+连锁感染：利用目标系统入侵敌方通信网络并试图感染附近的其它敌人，所有被感染的目标的武器射程和幅能耗散将会降低，效果结束时引发电磁脉冲造成范围{EMP}伤害。
 
-电磁风暴：在目标位置产生强大的力场持续吸引附近的敌人并造成少量EMP伤害，效果结束时引发电磁脉冲造成大范围EMP伤害并令目标减速。",战术系统功能接口,,graphics/hullmods/reduced_explosion.png
+电磁风暴：在目标位置产生强大的力场持续吸引附近的敌人并造成少量{EMP}伤害，效果结束时引发电磁脉冲造成大范围{EMP}伤害并令目标减速。",战术系统功能接口,,graphics/hullmods/reduced_explosion.png
 次主力舰,jc_sc,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sc,"该舰虽然是巡洋舰，但部分子系统使用了主力舰级别的部件，一定程度上提高了舰船性能，但也会同时受到一些额外限制。
 
 定位系统：实弹与能量武器射程提高}%s，但战场上每有一艘友方主力舰，该效果数值便降低}%s，至多降至零。
@@ -237,15 +237,15 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 
 不兼容于安全协议超驰。",主力巡洋舰改造,,graphics/hullmods/militarized_subsystems.png
 支援火控系统,jc_sws,,,余辉,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sws,支援型火控升级,支援型火控升级,,graphics/hullmods/escort_package.png
-兼容性接口,jc_auto_scholar,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar,该舰可以自定义由人类船员或AI驾驶。由AI驾驶时，该舰视为全自动舰船，可以由AI核心操控。由人类驾驶时视为普通船只，但额外的安全限制协议会使该舰的幅能性能降低5%%。,兼容性接口,,graphics/hullmods/terminator_core.png
-自动模式,jc_auto_scholar_auto,,,,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar_switch,该舰可以自定义指派人类船员或AI驾驶，当前为：自动模式，点击移除该船插即可切换模式。,切换模式,,graphics/hullmods/axial_rotation.png
-载人模式,jc_auto_scholar_manned,,,,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar_switch,该舰可以自定义指派人类船员或AI驾驶，当前为：载人模式，点击移除该船插即可切换模式。,切换模式,,graphics/hullmods/axial_rotation.png
-协作模式,jc_ttdm,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ttdm,该舰非常适合配合友军协同作战，当附近一定距离内存在更大的友方舰船时，自身的护盾性能将得到不同程度的提升，且会为内置的EMP发生器充能。,与附近友军协同作战,,graphics/hullmods/escort_package.png
+兼容性接口,jc_auto_scholar,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar,该舰可以自定义由人类船员或{AI}驾驶。由{AI}驾驶时，该舰视为全自动舰船，可以由{AI}核心操控。由人类驾驶时视为普通船只，但额外的安全限制协议会使该舰的幅能性能降低{5%%。,兼容性接口,,graphics/hullmods/terminator_core.png
+自动模式,jc_auto_scholar_auto,,,,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar_switch,该舰可以自定义指派人类船员或{AI}驾驶，当前为：自动模式，点击移除该船插即可切换模式。,切换模式,,graphics/hullmods/axial_rotation.png
+载人模式,jc_auto_scholar_manned,,,,"no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_auto_scholar_switch,该舰可以自定义指派人类船员或{AI}驾驶，当前为：载人模式，点击移除该船插即可切换模式。,切换模式,,graphics/hullmods/axial_rotation.png
+协作模式,jc_ttdm,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ttdm,该舰非常适合配合友军协同作战，当附近一定距离内存在更大的友方舰船时，自身的护盾性能将得到不同程度的提升，且会为内置的{EMP}发生器充能。,与附近友军协同作战,,graphics/hullmods/escort_package.png
 支援型幅能改造,jc_ssm,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ssm,该舰的幅能系统旨在为队友提供短时间内的支援，幅能容量提高}%s，幅能耗散降低}%s，且当舰船过载或强制排幅时幅能耗散降低的负面效果将被抵消。,支援型幅能设计,,graphics/hullmods/flux_shunt.png
 守护者核心,jc_gs_core,,,开拓者,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_gs_core,该舰支持自定义升级，进入任意殖民地空港即可进行改造。共8个可升级选项，每个选项均可提升至2级，且可以将至多}%s}项升至3级，学习技能或完成赏金以获得额外升级机会。,可升级的守护者核心系统,,graphics/jc/hullmods/jc_gs_core.png
 导弹工厂(损坏),jc_gs_mf1,,,开拓者,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_gs_mf1,损坏的导弹工厂，能够有限地补充导弹。当有任意导弹备弹量低于一半时激活，在}%s}秒后为所有导弹武器补充等同于初始导弹数一半的弹药，向上取整，在每场战斗中只能触发一次。,可以补充一次导弹,,graphics/hullmods/missile_autofactory.png
 导弹工厂,jc_gs_mf2,,,开拓者,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_gs_mf2,修复的导弹工厂，能够缓慢地持续补充导弹。补满导弹初始弹药所需平均时间为}%s}秒。,可以缓慢补充导弹,,graphics/hullmods/missile_autofactory.png
-自动化检修系统,jc_chm_fr,,,余辉,no_build_in,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_chm_fr,使舰船的部分系统被AI程序接管，提高}%s}战备恢复和舰船修理速度，降低}%s}最低船员需求。如果是自动化舰船，则改为提高}%s}恢复与修理速度。此外还会消除}兼容性接口}处于载人模式下的负面效果。,提高维护效率,,graphics/jc/hullmods/jc_chm_fr.png
+自动化检修系统,jc_chm_fr,,,余辉,no_build_in,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_chm_fr,使舰船的部分系统被{AI}程序接管，提高}%s}战备恢复和舰船修理速度，降低}%s}最低船员需求。如果是自动化舰船，则改为提高}%s}恢复与修理速度。此外还会消除}兼容性接口}处于载人模式下的负面效果。,提高维护效率,,graphics/jc/hullmods/jc_chm_fr.png
 偏导力场镀层,jc_jkfasm_armor,,,余辉改造,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_jkfasm_armor,"在装甲表面覆盖一层偏导力场，将装甲受到的伤害转化为自身的硬幅能，该效果触发后的}%s}秒内无法耗散硬幅能。禁用强制排幅，当模块过载时上述效果无效且会持续受到少量伤害。
 
 此外，特化的装甲镀层提高了}%s}点装甲减伤计算强度。",吸收部分伤害,,graphics/hullmods/damper_field.png
