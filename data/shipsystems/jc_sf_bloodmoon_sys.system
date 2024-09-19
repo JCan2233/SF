@@ -2,12 +2,14 @@
 	"id":"jc_sf_bloodmoon_sys",
 	"type":"STAT_MOD",
 	"aiType":"CUSTOM",
-	
-	"runScriptWhileIdle":true,
+
 	"statsScript":"data.scripts.shipsystems.Jc_sf_bloodmoon_sys",
 	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_bloodmoon_sys_ai",
 
-	"useSound":"system_recall_device",
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_entropy",
+	"loopSound":"system_entropy_loop",
+	"deactivateSound":"system_entropy_off",
 	"outOfUsesSound":"gun_out_of_ammo",
 	
 	"aiHints":{
