@@ -123,7 +123,7 @@ EMP发生器,jc_emps,0,,0,1000,,100,500,0,360,,0,0,,ENERGY,0,,0,0.5,1,,0,0,0,0,,
 诱饵发射器 (战机型),jc_sf_flarelauncher_fighter,0,,0,200,,10,10,0,20,,,,,ENERGY,0,,0,1,1,,20,20,0,0,,200,100,5,500,,,"SYSTEM, PD, PD_ONLY",restricted,,幽灵部队,,热诱弹,,,,,,,,,,54.99
 诱饵发射器 (追踪),jc_sf_flarelauncher_active,0,,0,500,,10,400,0,20,,,,,ENERGY,0,,0,1,1,,20,20,0,0,,400,100,7,1,,,"SYSTEM, PD, PD_ONLY, DO_NOT_AIM",restricted,,幽灵部队,,热诱弹,,,,,,,,,,54.98
 支援飞弹,jc_sf_station_missile,0,,0,10000,,500,,25,0,,,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,400,400,120,300,,,SYSTEM,restricted,,幽灵部队,,空雷,,,,,,,,,,54.97
-深红之兆,jc_sf_bloodmoon_main,0,,0,1000,1500,,,0,0,,,,,ENERGY,,720,3,2,3,22,,,,,5000,,,,,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, FIRE_WHEN_INEFFICIENT",restricted,only,幽灵部队,,战略打击,,,,,开火时令所有炮艇归位于对接口，并启动增压器为主炮充能，每艘协助充能的炮艇都会使造成的伤害提高{%s。,25%,射程额外提高{%s，不与其它射程增益叠加。,500,TRUE,55.01
+深红之兆,jc_sf_bloodmoon_main,0,,0,1000,1500,,,0,0,,,,,ENERGY,,720,3,2,3,32,,,,,5000,,,,,,,"SYSTEM, STRIKE, USE_VS_FRIGATES, FIRE_WHEN_INEFFICIENT",restricted,only,幽灵部队,,战略打击,,,,,开火时组合于对接口的炮艇会启动增压器为主炮充能，每艘协助充能的炮艇都会使造成的伤害提高{%s。,25%,射程额外提高{%s，不与其它射程增益叠加。,500,TRUE,55.01
 聚能增压器,jc_sf_havoc_main,0,,0,1000,1,,,0,3,,,,,ENERGY,,0,2,2,4,2,,,,,500,,,,,,,SYSTEM,"restricted, lidar",,幽灵部队,,聚能,,,,,用于辅助母舰的主炮积聚能量，本身不具有杀伤力。,,,,TRUE,55.02
 浩劫机炮,jc_sf_havoc_sub,0,,0,500,,40,,0,30,,,,,ENERGY,40,,0.25,0.25,1,,0,0,0,0,,1000,,,,,,SYSTEM,restricted,,幽灵部队,,普通,,,,,,,,,,55.03
 撕咬速射炮,jc_sf_leech_turret,0,,0,400,,40,,0,90,,,,,ENERGY,40,,0,0.4,1,,0,0,0,0,,1000,,,,,,"SYSTEM, PD, PD_ALSO, ANTI_FTR",restricted,,幽灵部队,,普通,,,,,射程内没有其它目标时会瞄准导弹。,,,,,55.04

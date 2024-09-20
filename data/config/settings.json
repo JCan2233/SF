@@ -97,7 +97,8 @@
             "jc_fx_edge_2": "graphics/jc/fx/jc_edge_2.png",
             "jc_fx_edge_3": "graphics/jc/fx/jc_edge_3.png",
             "jc_fx_edge_4": "graphics/jc/fx/jc_edge_4.png",
-            "jc_sf_sl_mine": "graphics/jc/weapons/sf/jc_sf_shadowlord/boss_mine.png"
+            "jc_sf_sl_mine": "graphics/jc/weapons/sf/jc_sf_shadowlord/boss_mine.png",
+            "jc_sf_bloodmoon_eye": "graphics/jc/fx/jc_sf_bloodmoon_eye.png"
         }
     },
     "designTypeColors": {
