@@ -173,7 +173,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 无畏舰系统,jc_sf_sleffect,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sf_sleffect,无畏舰系统,无畏舰系统,,graphics/hullmods/automated.png
 镜中谜因,jc_sf_sllock,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_sllock,"这艘舰船充满了未解的谜团，它是何人为了何种目的而建造的？建造时为何会使用如此多的超乎想象的科技？又为何从未见过任何资料的记载？恐怕这些问题的答案早已随着它之前的主人烟消云散了。这些复杂的技术也给你的船员们带来了诸多不便。
 
-舰船战术系统冷却时间提高，武器离线后的修复时间提高。",未知的系统,,graphics/hullmods/high_volition_attractor.png
+提高战术系统冷却时间，提高船体或装甲受到攻击时内置武器损坏的概率。",未知的系统,,graphics/hullmods/high_volition_attractor.png
 修罗关节系统,jc_sf_asura_mod,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sf_asura,连动控制,连动控制,,graphics/hullmods/automated.png
 切换:左手武器,jc_sf_asura_switch_L,,,幽灵部队,no_build_in,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_asura_switch,支持自定义的模块化武器系统，点击移除此船插来进行切换.,切换部件,,graphics/jc/hullmods/jc_sf_asura_switch_L.png
 切换:右手武器,jc_sf_asura_switch_R,,,幽灵部队,no_build_in,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_asura_switch,支持自定义的模块化武器系统，点击移除此船插来进行切换.,切换部件,,graphics/jc/hullmods/jc_sf_asura_switch_R.png
