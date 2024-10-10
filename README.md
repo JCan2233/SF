@@ -39,35 +39,35 @@
 
 ### 前置模组
 
-> LazyLib
-> GraphicsLib
-> MagicLib
-> Lunalib
+> LazyLib  
+> GraphicsLib  
+> MagicLib  
+> Lunalib  
 
 ### 联动或有关联内容的模组
 
-> 极客联盟
-> 势力争霸
-> 重生
-> 工业革命
-> 战斗骚话
-> 六边形护盾
-> 雇主加成
+> 极客联盟  
+> 势力争霸  
+> 重生  
+> 工业革命  
+> 战斗骚话  
+> 六边形护盾  
+> 雇主加成  
 
 ## 写给模组作者
 
 ### 自定义星图数据
 
-> 接口类型：csv文件
-> 接口名称：data/config/modFiles/jc_SFMapLocations.csv
+> 接口类型：csv文件  
+> 接口名称：data/config/modFiles/jc_SFMapLocations.csv  
 
 幽灵部队的深空自律单元会出售包含可探索兴趣点信息的星图，例如采矿站、研究站、星球废墟等，模组作者可以在各自模组的`data/config/modFiles/jc_SFMapLocations.csv`中配置相关信息，从而使模组添加的探索内容能被该星图功能搜索到，范例见本模组的同名文件。
 
 ### 兼容性军官标签
 
-> 接口类型：PersonAPI的MemoryFlag
-> 接口名称：$jc_sf_aiCompatibleForOfficer
-> 参数类型：Boolean
+> 接口类型：PersonAPI的MemoryFlag  
+> 接口名称：$jc_sf_aiCompatibleForOfficer  
+> 参数类型：Boolean  
 
 幽灵部队和余辉的部分兼容性（可以切换载人或全自动模式）舰船，会依据分配的军官或AI核心刷新舰船的状态，分配军官后强制切换到载人模式，分配AI核心后强制切换到全自动模式（一般而言这些舰船在全自动模式下性能更强力）。且分配有军官或AI核心时无法主动切换模式，直到取消分配。
 
