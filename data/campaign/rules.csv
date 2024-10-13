@@ -204,7 +204,8 @@ $faction.id == jc_sf
 AICores personCanAcceptCores
 RepIsAtBest jc_sf HOSTILE",SetEnabled jc_sf_ce_menu false,,,
 jc_sf_ce_back,DialogOptionSelected,$option == jc_sf_ce_back,FireAll PopulateOptions,,,
-jc_sf_ce_menu,DialogOptionSelected,$option == jc_sf_ce_menu,"FireAll jc_sf_ce_menu_disable
+jc_sf_ce_menu,DialogOptionSelected,$option == jc_sf_ce_menu,"Jc_updateCargoMem sfce
+FireAll jc_sf_ce_menu_disable
 SetShortcut jc_sf_ce_back ""ESCAPE""",,"1:jc_sf_ce_menu_1:用伽马{AI}核心兑换幽灵次级核心
 2:jc_sf_ce_menu_2:用阿尔法{AI}核心兑换幽灵核心
 3:jc_sf_ce_menu_3:用幽灵次级核心兑换伽马{AI}核心
