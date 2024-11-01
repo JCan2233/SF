@@ -165,7 +165,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 扩展护盾,jc_frs_extshi,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_extendedShield,30,扩展护盾,,graphics/hullmods/automated.png
 量子锁定,jc_wam,,,,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_wam,"该舰带有特殊的量子锁防御系统。当被任意敌舰观察时，该舰将处于量子锁定状态，无法移动、无法攻击且不会受到伤害。
 
-激活相位系统时，舰船处于P空间无法被观察因而可以自由移动，相位系统结束时产生的时空畸变会在短时间内反转量子锁，使得舰船可以攻击并会受到伤害。",量子锁防御系统,,graphics/hullmods/shared_flux_sink.png
+激活相位系统时，舰船处于{P}空间无法被观察因而可以自由移动，相位系统结束时产生的时空畸变会在短时间内反转量子锁，使得舰船可以攻击并会受到伤害。",量子锁防御系统,,graphics/hullmods/shared_flux_sink.png
 模块同步,jc_modulemod,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_modulemod,模块船的子模块使用。,模块同步,,graphics/hullmods/shared_flux_sink.png
 测试船体,jc_testhull,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_testhull,测试船体,测试船体,,graphics/hullmods/high_volition_attractor.png
 椭圆护盾,jc_shieldE,,,,,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_shieldE,椭圆护盾,椭圆护盾,,graphics/hullmods/shared_flux_sink.png
@@ -188,12 +188,12 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 
 当舰船的战术系统激活时，护盾会触发短时间的极性反转，角度大于}45}度的部分的护盾效率会随着夹角增大而线性提高。且会基于护盾受到的伤害为舰体恢复结构值。
 
-该舰的最大护盾角度不会受到任何其它效果的影响，幅能耗散降为原本的五分之一。强制排幅速率变为}5}倍，且排幅时受到的伤害降低。不兼容于}安全协议超驰。",独特超级护卫舰护盾改造,,graphics/hullmods/quantum_disruptor.png
-聚能相位线圈,jc_pmr,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_pmr,"该舰的相位线圈进行过深度改造，能够从P空间汲取并利用散逸的能量。
+该舰的最大护盾角度不会受到任何其它效果的影响。幅能耗散降至原本的{20%%，强制排幅速率提高至原本的{250%%，且排幅时受到的伤害降低。不兼容于}安全协议超驰。",独特超级护卫舰护盾改造,,graphics/hullmods/quantum_disruptor.png
+聚能相位线圈,jc_pmr,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_pmr,"该舰的相位线圈进行过深度改造，能够从{P}空间汲取并利用散逸的能量。
 
-相位线圈维持所需幅能减半。当相位线圈激活时，软幅能的耗散速度翻倍，且会缓慢地为所有舰首武器挂载点上的武器装填弹药，装填速率取决于武器基础弹药容量和装配点。当相位线圈正在冷却时，发射的导弹与射弹的飞行速度提高。
+当相位线圈激活时，软幅能的耗散速度翻倍，且会缓慢地为所有舰首武器挂载点上的武器装填弹药，装填速率取决于武器基础弹药容量和装配点。当相位线圈正在冷却时，发射的导弹与射弹的飞行速度提高。
 
-然而，这种精密的系统需要在每次下潜时对P空间进行区域扫描，因而使相位线圈的冷却时间翻倍。
+然而，这种精密的系统需要在每次下潜时对{P}空间进行区域扫描，因而使相位线圈的冷却时间翻倍。
 
 不兼容于相位锚定。",独特相位线圈改造,,graphics/hullmods/phase_anchor.png
 点防集成,jc_hpi,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_hpi,配备了专门适应点防武器的定位系统，所有点防御武器的射程提高{%s，装配点降低{%s}/{%s}/{%s。,降低PD武器所需装配点,,graphics/hullmods/escort_package.png
@@ -229,7 +229,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 电磁风暴：在目标位置产生强大的力场持续吸引附近的敌人并造成少量{EMP}伤害，效果结束时引发电磁脉冲造成大范围{EMP}伤害并令目标减速。",战术系统功能接口,,graphics/hullmods/reduced_explosion.png
 次主力舰,jc_sc,,,余辉,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sc,"该舰虽然是巡洋舰，但部分子系统使用了主力舰级别的部件，一定程度上提高了舰船性能，但也会同时受到一些额外限制。
 
-定位系统：实弹与能量武器射程提高}%s，但战场上每有一艘友方主力舰，该效果数值便降低}%s，至多降至零。
+定位系统：实弹与能量武器射程提高}%s，但战场上每有一艘其它友方主力舰或同类舰船，该效果数值便降低}%s，至多降至零。
 
 飞行甲板：整备下降速率降低}%s，恢复速率提高}%s，但基础整备时间提高}%s，若安装有扩编飞行人员甲板则这些效果均减半。
 
