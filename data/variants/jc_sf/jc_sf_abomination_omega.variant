@@ -8,7 +8,7 @@
         "autorepair",
         "fluxbreakers"
     ],
-    "sMods": ["jc_sf_defence","jc_sf_shieldstabilizer","targetingunit"],
+    "sMods": ["advancedoptics","jc_sf_shieldstabilizer","targetingunit"],
     "variantId": "jc_sf_abomination_omega",
     "weaponGroups": [
         {
