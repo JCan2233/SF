@@ -128,7 +128,7 @@ jc_sfmb_func_chat,DialogOptionSelected,$option == jc_sfmb_func_chat,"Jc_sfmb_cha
 SetShortcut jc_sfmb_func_misc_back ""ESCAPE""",,"1:jc_sfmb_func_chat:还想了解更多
 9:jc_sfmb_func_misc_back:暂时没什么想问的了",
 jc_sfmb_func_mission,DialogOptionSelected,$option == jc_sfmb_func_mission,"Jc_sfmb_mission
-SetShortcut jc_sfmb_func_misc_back ""ESCAPE""",不愧是}$playerName}舰长，还是一如既往的可靠。他的头像开始微微闪动起来，似乎是在检索待办事项清单。,,
+SetShortcut jc_sfmb_func_misc_back ""ESCAPE""",,,
 jc_sfmb_func_chatdis,jc_sfmb_func_disable,$jc_sf_missionEnding_talkType != C,"SetEnabled jc_sfmb_func_chat false
 SetEnabled jc_sfmb_func_mission false",,,
 ,,,,,,
