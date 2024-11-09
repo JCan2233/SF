@@ -28,7 +28,7 @@ name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u 
 #余辉/欧米伽,,,,,,,,,,,,,,,,,,,,,,,,,,,
 防守传送,jc_tptodefend,1,,,,,,,,,0.25,,0.25,8,,,,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/displacer.png
 护盾桥连器,jc_shieldshare,1,,,,,,,,,0.25,8,0.25,8,TRUE,,TRUE,,TRUE,,,,,,,,graphics/icons/hullsys/fortress_shield.png
-机动战队,jc_fightersupport,,,,,,0.1,,,,0.25,,0.25,60,,,,,,,,,,TRUE,,,graphics/icons/hullsys/reserve_deployment.png
+机动战队,jc_fightersupport,,,,,,0.2,,,,0.25,,0.25,60,,,,,,,,,,TRUE,,,graphics/icons/hullsys/reserve_deployment.png
 战术驱动,jc_sl_maneuveringjets,,,,,,,,,,0.5,5,0.5,6,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
 时空稳定器,jc_temporalshell_c,1,,,,,,,,,4,10,4,8,,,,,,,,,,,,restricted,graphics/icons/hullsys/temporal_shell.png
 超新星耀发,jc_novaburstomega,,,,,,,,2,0.1,0.5,0.001,0,1,,,,,,,,,,,,restricted,graphics/icons/hullsys/infernium_injector.png

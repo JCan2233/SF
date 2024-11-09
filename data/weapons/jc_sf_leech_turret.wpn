@@ -4,6 +4,7 @@
   "projectileSpecId": "irpulse_shot",
   "type": "ENERGY",
   "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.Jc_sf_leechTurretEffect",
   "turretSprite": "graphics/jc/ships/sf/jc_sf_leech_turret.png",
   "hardpointSprite": "",
   "turretOffsets": [
