@@ -54,7 +54,6 @@
     },
     "diplomacyTraits": [
         "likes_ai",
-        "helps_allies",
         "irredentist"
     ],
     "freeMarket": true,

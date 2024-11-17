@@ -49,8 +49,7 @@
     "diplomacyTraits": [
         "likes_ai",
         "pacifist",
-        "helps_allies",
-        "irredentist"
+        "helps_allies"
     ],
     "freeMarket": true,
     "startSpecialItems": [
