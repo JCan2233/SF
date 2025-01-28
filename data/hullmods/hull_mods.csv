@@ -126,9 +126,7 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 若安装有任意幽灵部队舰船协议，则会使战机更换时间降低{%s。若进行了载员化改造，安装的载人战机联队的人员战损翻倍。若舰船遭到永久性损坏(D-插)，则除飞行甲板类型的损坏外，每个其它损坏都会使战机受到的伤害提高{%s。",幽灵部队航母专用舰载系统,,graphics/jc/hullmods/jc_sf_carrier.png
 突触整合,jc_sf_kerenzikov,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_kerenzikov,"将操控者的神经系统整合入飞船控制中枢，在危急情况下提升驾驶者的感知能力，减慢感官中周遭的时间流速，从而躲避潜在的危险。
 
-允许舰船在过载或强制排幅时使用武器和护盾。在这种情况下，若安装有神经接口则使自身时间流速加快}%s，若安装有神经集成器或由幽灵部队控制则改为加快}%s。该效果有}%s}秒的冷却时间。
-
-上述时间流速增益也会在战术系统激活时生效。",可以在过载或排幅时正常开火,,graphics/jc/hullmods/jc_sf_kerenzikov.png
+允许舰船在过载或强制排幅时使用武器和护盾，期间自身时间流速加快}%s。该效果有}%s}秒的冷却时间。",可以在过载或排幅时正常开火,,graphics/jc/hullmods/jc_sf_kerenzikov.png
 人员运输模块,jc_sf_supply_p,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_supplyShip,该舰安装了高度集成的运输与补给模块，因此不兼容于任何同类的扩容改造。,人员运输模块及后勤辅助系统,,graphics/hullmods/berthing.png
 货物运输模块,jc_sf_supply_c,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_supplyShip,该舰安装了高度集成的运输与补给模块，因此不兼容于任何同类的扩容改造。,货物运输模块及后勤辅助系统,,graphics/hullmods/expanded_cargo.png
 燃料运输模块,jc_sf_supply_f,,,幽灵部队,,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_supplyShip,该舰安装了高度集成的运输与补给模块，因此不兼容于任何同类的扩容改造。,燃料运输模块及后勤辅助系统,,graphics/hullmods/fuel_tanks.png
