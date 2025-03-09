@@ -34,9 +34,6 @@
         "luddic_church"
     ],
     "startRelationships": {
-        "luddic_path": -1,
-        "luddic_church": -0.6,
-        "hegemony": -0.6,
         "remnant": 0.25,
         "jc_fr": 0.25
     },
