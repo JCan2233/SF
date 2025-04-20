@@ -5,10 +5,10 @@
     "description": "来自异星文明的智能生命体组成的势力，附带一些余辉相关的扩展内容。",
     "version": {
         "major": 1,
-        "minor": 0,
-        "patch": 7
+        "minor": 1,
+        "patch": 0
     },
-    "gameVersion": "0.97a-RC11",
+    "gameVersion": "0.98a-RC8",
     "dependencies": [
         {
             "id": "lw_lazylib",

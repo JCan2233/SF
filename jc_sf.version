@@ -3,8 +3,8 @@
     "modName": "幽灵部队",
     "modVersion": {
         "major": 1,
-        "minor": 0,
-        "patch": 7
+        "minor": 1,
+        "patch": 0
     },
-    "starsectorVersion": "0.97a-RC11"
+    "starsectorVersion": "0.98a-RC8"
 }

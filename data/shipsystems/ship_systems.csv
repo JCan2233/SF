@@ -16,36 +16,36 @@ name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u 
 深空震颤,jc_sf_worm_sys,,,,,,,,,,0.5,,0.5,5,TRUE,,TRUE,TRUE,TRUE,,TRUE,,TRUE,,TRUE,,graphics/icons/hullsys/phase_cloak.png
 混沌之源,jc_sf_sacrifice_sys,1,,,,,,,,,1,5,1,20,,,,,,,,,,,,,graphics/icons/hullsys/damper_field.png
 日暮西沉,jc_sf_bloodmoon_sys,1,,,,,,,,,0.5,5,0.5,20,,,,,,,,,,,,,graphics/icons/hullsys/entropy_amplifier.png
-现实侵染,jc_sf_ringwraith_fs,,,,,,0.1,,2,0.05,1,,1,2,,,,,TRUE,,,,TRUE,,,restricted,graphics/icons/hullsys/displacer.png
-心灵尖啸,jc_sf_ringwraith_rs,1,,,,,,,,,1,5,1,20,,,,,,,,,,,,restricted,graphics/icons/hullsys/damper_field.png
-犹在镜中,jc_sf_shadowlord_sys,,,,,,0.1,,,,0.25,15,0.25,20,,,,,,,,,,,,restricted,graphics/icons/hullsys/quantum_disruptor.png
-非天之力,jc_sf_asura_sys,1,,,,,,,,,0.5,10,0.5,15,,,,,,,,,,TRUE,,restricted,graphics/icons/hullsys/temporal_shell.png
-补给无人机,jc_sf_asura_drone,,,,,,,,2,0.04,0,,0,0,,,,,,,,,,,,restricted,graphics/icons/hullsys/drone_pd_high.png
-月光廊桥,jc_sf_fullmoon_sys,1,,,,,,,,,2,2.5,0.5,20,,,,,,,,,,,,restricted,graphics/icons/hullsys/lidar_barrage.png
-霜刃突袭,jc_sf_frostwind_sys,,,,500,,,,,,0,0.05,0.2,0,,,,,,,,,,,,restricted,graphics/icons/hullsys/drone_pd_high.png
-狩猎时刻,jc_sf_harpy_sys,,,,,,,,,,1,3.25,1,10,,,,,,,,,,,,restricted,graphics/icons/hullsys/infernium_injector.png
+现实侵染,jc_sf_ringwraith_fs,,,,,,0.1,,2,0.05,1,,1,2,,,,,TRUE,,,,TRUE,,,"restricted, codex_unlockable",graphics/icons/hullsys/displacer.png
+心灵尖啸,jc_sf_ringwraith_rs,1,,,,,,,,,1,5,1,20,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/damper_field.png
+犹在镜中,jc_sf_shadowlord_sys,,,,,,0.1,,,,0.25,15,0.25,20,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/quantum_disruptor.png
+非天之力,jc_sf_asura_sys,1,,,,,,,,,0.5,10,0.5,15,,,,,,,,,,TRUE,,"restricted, codex_unlockable",graphics/icons/hullsys/temporal_shell.png
+补给无人机,jc_sf_asura_drone,,,,,,,,2,0.04,0,,0,0,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/drone_pd_high.png
+月光廊桥,jc_sf_fullmoon_sys,1,,,,,,,,,2,2.5,0.5,20,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/lidar_barrage.png
+霜刃突袭,jc_sf_frostwind_sys,,,,500,,,,,,0,0.05,0.2,0,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/drone_pd_high.png
+狩猎时刻,jc_sf_harpy_sys,,,,,,,,,,1,3.25,1,10,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/infernium_injector.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #余辉/欧米伽,,,,,,,,,,,,,,,,,,,,,,,,,,,
-防守传送,jc_tptodefend,1,,,,,,,,,0.25,,0.25,8,,,,,TRUE,,,,,TRUE,,,graphics/icons/hullsys/displacer.png
-护盾桥连器,jc_shieldshare,1,,,,,,,,,0.25,8,0.25,8,TRUE,,TRUE,,TRUE,,,,,,,,graphics/icons/hullsys/fortress_shield.png
-机动战队,jc_fightersupport,,,,,,0.2,,,,0.25,,0.25,60,,,,,,,,,,TRUE,,,graphics/icons/hullsys/reserve_deployment.png
-战术驱动,jc_sl_maneuveringjets,,,,,,,,,,0.5,5,0.5,6,,,,,,,,,,,,,graphics/icons/hullsys/maneuvering_jets.png
-时空稳定器,jc_temporalshell_c,1,,,,,,,,,4,10,4,8,,,,,,,,,,,,restricted,graphics/icons/hullsys/temporal_shell.png
-超新星耀发,jc_novaburstomega,,,,,,,,2,0.1,0.5,0.001,0,1,,,,,,,,,,,,restricted,graphics/icons/hullsys/infernium_injector.png
-圣星降世,jc_r_mote,1,,,,,,,,,0.5,5,0.5,10,,,,,,,,,,,,restricted,graphics/icons/hullsys/active_flare_launcher.png
-双相力场,jc_r_damper,1,,,,,,,2,0.04,0.15,3,0.15,0.2,,,,,TRUE,,,,,TRUE,,restricted,graphics/icons/hullsys/damper_field.png
-爆裂突进,jc_r_microburn,1,,,,,,,2,0.12,0.5,0.5,0.5,1,,,,,,,,,,,,restricted,graphics/icons/hullsys/burn_drive.png
-协同机动,jc_r_maneuveringjets,,,,,,,,2,0.08,0.5,5,0.5,2,,,,,,,,,,,,restricted,graphics/icons/hullsys/maneuvering_jets.png
-堡垒协议,jc_r_fortressshield,1,,,,,,,2,0.04,1.0,5,1.0,3,TRUE,,,,,,,,,,,restricted,graphics/icons/hullsys/fortress_shield.png
-堡垒无人机,jc_fd_system,,,,,,,,1,0.1,0,,0,0,,,,,,,,,,,,restricted,graphics/icons/hullsys/drone_pd_high.png
-相位反转,jc_wars,,,,,,,,,,0.5,4,0.5,5,TRUE,,,,TRUE,,,,TRUE,,TRUE,restricted,graphics/icons/hullsys/phase_cloak.png
-时空剥离,jc_wafs,,,,,,,,,,1.25,,0.25,10,,,,,,,,,,,,restricted,graphics/icons/hullsys/entropy_amplifier.png
-等离子推进器,jc_gs_plasmajets,,,,,,,,1,0.05,1,3,1,1,,,,,,,,,,,,restricted,graphics/icons/hullsys/infernium_injector.png
-破军驱动,jc_temporalshell_jkfasm,1,,,,,,,,,2,15,2,15,,,,,,,,,,,,restricted,graphics/icons/hullsys/temporal_shell.png
-骇入系统,jc_ecmhack,1,,,,,,,,,0.5,20,1,20,,,,,,,,,,TRUE,,restricted,graphics/icons/hullsys/interdictor_array.png
-POD爆发,jc_pod_system,,,,,,,,,,1,3,1,20,,,,,,,,,TRUE,,,"restricted, uses_damper_ai",graphics/icons/hullsys/damper_field.png
+防守传送,jc_tptodefend,1,,,,,,,,,0.25,,0.25,8,,,,,TRUE,,,,,TRUE,,codex_unlockable,graphics/icons/hullsys/displacer.png
+护盾桥连器,jc_shieldshare,1,,,,,,,,,0.25,8,0.25,8,TRUE,,TRUE,,TRUE,,,,,,,codex_unlockable,graphics/icons/hullsys/fortress_shield.png
+机动战队,jc_fightersupport,,,,,,0.2,,,,0.25,,0.25,60,,,,,,,,,,TRUE,,codex_unlockable,graphics/icons/hullsys/reserve_deployment.png
+战术驱动,jc_sl_maneuveringjets,,,,,,,,,,0.5,5,0.5,6,,,,,,,,,,,,codex_unlockable,graphics/icons/hullsys/maneuvering_jets.png
+时空稳定器,jc_temporalshell_c,1,,,,,,,,,4,10,4,8,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/temporal_shell.png
+超新星耀发,jc_novaburstomega,,,,,,,,2,0.1,0.5,0.001,0,1,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/infernium_injector.png
+圣星降世,jc_r_mote,1,,,,,,,,,0.5,5,0.5,10,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/active_flare_launcher.png
+双相力场,jc_r_damper,1,,,,,,,2,0.04,0.15,3,0.15,0.2,,,,,TRUE,,,,,TRUE,,"restricted, codex_unlockable",graphics/icons/hullsys/damper_field.png
+爆裂突进,jc_r_microburn,1,,,,,,,2,0.12,0.5,0.5,0.5,1,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/burn_drive.png
+协同机动,jc_r_maneuveringjets,,,,,,,,2,0.08,0.5,5,0.5,2,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/maneuvering_jets.png
+堡垒协议,jc_r_fortressshield,1,,,,,,,2,0.04,1.0,5,1.0,3,TRUE,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/fortress_shield.png
+堡垒无人机,jc_fd_system,,,,,,,,1,0.1,0,,0,0,,,,,,,,,,,,"restricted, hide_in_codex",graphics/icons/hullsys/drone_pd_high.png
+相位反转,jc_wars,,,,,,,,,,0.5,4,0.5,5,TRUE,,,,TRUE,,,,TRUE,,TRUE,"restricted, codex_unlockable",graphics/icons/hullsys/phase_cloak.png
+时空剥离,jc_wafs,,,,,,,,,,1.25,,0.25,10,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/entropy_amplifier.png
+等离子推进器,jc_gs_plasmajets,,,,,,,,1,0.05,1,3,1,1,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/infernium_injector.png
+破军驱动,jc_temporalshell_jkfasm,1,,,,,,,,,2,15,2,15,,,,,,,,,,,,"restricted, codex_unlockable",graphics/icons/hullsys/temporal_shell.png
+骇入系统,jc_ecmhack,1,,,,,,,,,0.5,20,1,20,,,,,,,,,,TRUE,,"restricted, codex_unlockable",graphics/icons/hullsys/interdictor_array.png
+POD爆发,jc_pod_system,,,,,,,,,,1,3,1,20,,,,,,,,,TRUE,,,"restricted, hide_in_codex, uses_damper_ai",graphics/icons/hullsys/damper_field.png
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #空间站,,,,,,,,,,,,,,,,,,,,,,,,,,,
-光棱无人机,jc_frd_system,,,,,,,,4,,0,,0,0,,,,,,,,,,,,restricted,graphics/icons/hullsys/drone_pd_high.png
-光棱无人机,jc_frd_system_omega,,,,,,,,6,,0,,0,0,,,,,,,,,,,,restricted,graphics/icons/hullsys/drone_pd_high.png
-堡垒护盾(瞬发),jc_fortressshield2,,,,,,,,,,0.25,2.5,0.25,20,TRUE,,,,TRUE,,,,,,,,graphics/icons/hullsys/fortress_shield.png
+光棱无人机,jc_frd_system,,,,,,,,4,,0,,0,0,,,,,,,,,,,,"restricted, hide_in_codex",graphics/icons/hullsys/drone_pd_high.png
+光棱无人机,jc_frd_system_omega,,,,,,,,6,,0,,0,0,,,,,,,,,,,,"restricted, hide_in_codex",graphics/icons/hullsys/drone_pd_high.png
+堡垒护盾(瞬发),jc_fortressshield2,,,,,,,,,,0.25,2.5,0.25,20,TRUE,,,,TRUE,,,,,,,codex_unlockable,graphics/icons/hullsys/fortress_shield.png

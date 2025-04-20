@@ -3,16 +3,16 @@ jc_sf_leech_wing,jc_sf_leech_wing,"auto_fighter, jc_sf, jc_sf_bp, fighter, fight
 jc_sf_larva_wing,jc_sf_larva_wing,"auto_fighter, jc_sf, jc_sf_bp, bomber, bomber4",2,,6,15,V,4000,1000,,2,BOMBER,无人轰炸机,20,8000,25.02
 jc_sf_bat_wing,jc_sf_bat_wing,"auto_fighter, jc_sf, jc_sfs_bp, fighter, fighter5",3,,7,18,V,4000,1000,,2,FIGHTER,无人攻击机,20,10000,25.03
 jc_sf_havoc_L_wing,jc_sf_havoc_L_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5",3,,6,0,V,3000,500,,1,FIGHTER,无人炮艇,25,0,25.04
-jc_sf_havoc_R_wing,jc_sf_havoc_R_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5",3,,6,0,V,3000,500,,1,FIGHTER,无人炮艇,25,0,25.05
-jc_sf_shade_wing,jc_sf_shade_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5, leader_no_swarm, wingmen_no_swarm, attack_at_an_angle",3,,8,0,BOX,4000,500,100,4,FIGHTER,无人战斗机,10,0,25.06
-jc_sf_frostwind_drone_wing,jc_sf_frostwind_drone,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter4, high",3,,6,0,V,0,200,,3,SUPPORT,自杀式无人机,20,0,25.07
+jc_sf_havoc_R_wing,jc_sf_havoc_R_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5, hide_in_codex",3,,6,0,V,3000,500,,1,FIGHTER,无人炮艇,25,0,25.05
+jc_sf_shade_wing,jc_sf_shade_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5, leader_no_swarm, wingmen_no_swarm, attack_at_an_angle, codex_unlockable",3,,8,0,BOX,4000,500,100,4,FIGHTER,无人战斗机,10,0,25.06
+jc_sf_frostwind_drone_wing,jc_sf_frostwind_drone,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter4, high, codex_unlockable",3,,6,0,V,0,200,,3,SUPPORT,自杀式无人机,20,0,25.07
 ,,,,,,,,,,,,,,,,
 jc_r_mining_drone_wing,jc_r_mining_drone_wing,"auto_fighter, stay_in_front_of_ship, support0, drone, jc_fr, jc_auto_bp",0,,5,0,BOX,0,500,,4,FIGHTER,无人机,10,1600,17.26
-jc_moonlight_wing,jc_moonlight_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5",3,,2,0,V,4000,500,,1,FIGHTER,战斗护航无人机,30,0,20.26
-jc_firefly_wing,jc_firefly_wing,"auto_fighter, fighter, support3, remnant, no_bp_drop",3,,6,12,V,0,500,,1,SUPPORT,无人支援战斗机,20,7000,21.23
-jc_arclight_wing,jc_arclight_wing,"auto_fighter, fighter, fighter5, remnant, no_bp_drop",3,,8,15,V,4000,2000,,1,FIGHTER,无人反舰战斗机,25,10000,21.24
-jc_neon_wing,jc_neon_wing,"auto_fighter, bomber, bomber5, remnant, no_bp_drop",3,,6,16,V,4000,2000,500,2,BOMBER,无人重型轰炸机,20,10000,21.25
-jc_ecm_arclight_wing,jc_ecm_arclight_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter4",3,,8,0,V,5000,1000,,1,FIGHTER,无人预警机,20,0,21.24
+jc_moonlight_wing,jc_moonlight_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5, codex_unlockable",3,,2,0,V,4000,500,,1,FIGHTER,战斗护航无人机,30,0,20.26
+jc_firefly_wing,jc_firefly_wing,"auto_fighter, fighter, support3, remnant, no_bp_drop, codex_unlockable",3,,6,12,V,0,500,,1,SUPPORT,无人支援战斗机,20,7000,21.23
+jc_arclight_wing,jc_arclight_wing,"auto_fighter, fighter, fighter5, remnant, no_bp_drop, codex_unlockable",3,,8,15,V,4000,2000,,1,FIGHTER,无人反舰战斗机,25,10000,21.24
+jc_neon_wing,jc_neon_wing,"auto_fighter, bomber, bomber5, remnant, no_bp_drop, codex_unlockable",3,,6,16,V,4000,2000,500,2,BOMBER,无人重型轰炸机,20,10000,21.25
+jc_ecm_arclight_wing,jc_ecm_arclight_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter4, codex_unlockable",3,,8,0,V,5000,1000,,1,FIGHTER,无人预警机,20,0,21.24
 ,,,,,,,,,,,,,,,,
 jc_lux_omega2_wing,jc_lux_omega2_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, independent_of_carrier, restricted",3,,6,0,CLAW,100000,600,0,4,FIGHTER,反护盾,12,0,24.26
 jc_flash_omega_wing,jc_flash_omega_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted",3,,6,0,CLAW,100000,600,600,2,BOMBER,打击,24,0,21.26

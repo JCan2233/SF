@@ -44,9 +44,9 @@
       "weapons": {
         "WS0001": "lrpdlaser",
         "WS0002": "lrpdlaser",
-        "WS0003": "pdlaser",
-        "WS0004": "pdlaser",
-        "WS0005": "pdlaser"
+        "WS0003": "lrpdlaser",
+        "WS0004": "lrpdlaser",
+        "WS0005": "lrpdlaser"
       }
     }
   ],

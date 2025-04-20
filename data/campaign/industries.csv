@@ -20,12 +20,12 @@ fleetName:Star Fortress,
 }",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.Jc_fr_OrbitalStation,"基于余辉母舰建造的星际要塞，额外配备有防御无人机、感应雷区和堡垒护盾。
 
 若拥有无人战舰技能则将船员和陆战队员需求降为零。它的存在将阻止任何轰炸行动的发生。",2020.3,
-jc_fr_mso,余辉母舰,1,180,,5,,jc_fr_ms,"station, sub_item, starfortress, unraidable, structure","{
+jc_fr_mso,余辉母舰,1,180,,5,,jc_fr_ms,"station, sub_item, starfortress, unraidable, structure, hide_in_codex","{
 radius:70,
 variant:jc_frs_3_Standard,
 fleetName:Star Fortress,
 }",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.Jc_fr_OrbitalStationMS,余辉AI在核心星域的行动中心，由于被其它势力接管而无法正常运行，所以战斗力有所下降。它的存在将阻止任何轰炸行动的发生。,2020.4,
-jc_fr_ms,余辉母舰,1,180,,5,jc_fr_mso,,"station, starfortress, unraidable, structure","{
+jc_fr_ms,余辉母舰,1,180,,5,jc_fr_mso,,"station, starfortress, unraidable, structure, hide_in_codex","{
 radius:70,
 variant:jc_frs_4_Standard,
 fleetName:Star Fortress,
@@ -54,7 +54,7 @@ fleetName:Star Fortress,
 }",graphics/icons/industry/battlestation.png,data.scripts.campaign.econ.Jc_sf_OrbitalStation,"幽灵部队的升级链式单元，要塞的所有平台全部升级完成且运作良好，还加装了堡垒护盾和导弹发射系统。
 
 可以安装幽灵核心来提高战力，若拥有无人战舰技能则将船员和陆战队员需求降为零。它的存在将阻止任何轰炸行动的发生。",2020.8,
-jc_sf_mb,深空自律单元,1,180,,5,,,"station, sub_item, starfortress, unraidable, structure","{
+jc_sf_mb,深空自律单元,1,180,,5,,,"station, sub_item, starfortress, unraidable, structure, hide_in_codex","{
 radius:70,
 variant:jc_sf_station_4_Standard,
 fleetName:Star Fortress,

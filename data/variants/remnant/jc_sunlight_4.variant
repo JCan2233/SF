@@ -3,8 +3,8 @@
   "hullId": "jc_sunlight",
   "displayName": "支援",
   "goalVariant": true,
-  "fluxCapacitors": 22,
-  "fluxVents": 22,
+  "fluxCapacitors": 24,
+  "fluxVents": 24,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
