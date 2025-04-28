@@ -170,6 +170,9 @@
 			"canBombard":true,
 			"territorial":false,
 		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
 	},
 	"ranks":{
 		"ranks":{
