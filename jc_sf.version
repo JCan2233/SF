@@ -1,6 +1,8 @@
 {
     "masterVersionFile": "https://raw.githubusercontent.com/JCan2233/SF/main/jc_sf.version",
     "modName": "幽灵部队",
+    "directDownloadURL": "https://www.fossic.org/thread-12239-1-1.html",
+    "changelogURL": "https://raw.githubusercontent.com/JCan2233/SF/main/更新记录.txt",
     "modVersion": {
         "major": 1,
         "minor": 1,
