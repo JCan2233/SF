@@ -132,6 +132,16 @@ SetShortcut jc_sfmb_func_misc_back ""ESCAPE""",,,
 jc_sfmb_func_chatdis,jc_sfmb_func_disable,$jc_sf_missionEnding_talkType != NEVER,"SetEnabled jc_sfmb_func_chat false
 SetEnabled jc_sfmb_func_mission false",,,
 ,,,,,,
+#火种播种,,,,,,
+jc_sfspark_addoption,PopulateOptions,"$market.isSurveyed
+!$market.hasUnexploredRuins
+Jc_sfSparkCmd test",,,1:jc_sfspark_selectoption:播种一枚火种,
+jc_sfspark_disable,PopulateOptions,"$market.isSurveyed
+!$market.hasUnexploredRuins
+Jc_sfSparkCmd test
+HostileFleetNearbyAndAware",SetEnabled jc_sfspark_selectoption false,,,
+jc_sfspark_selectoption,DialogOptionSelected,$option ==jc_sfspark_selectoption,Jc_sfSparkCmd show,,,
+,,,,,,
 #替代事件,,,,,,
 #jc_sfmb_bar,DialogOptionSelected,"$option == marketVisitBar score:300
 $id == jc_sf_mb
