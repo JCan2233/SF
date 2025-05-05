@@ -1,0 +1,19 @@
+{
+    "questChains": {
+        "jc_sf_mission": {
+            "name": "幽灵部队",
+            "image": "graphics/jc/icons/missions/jc_sf_story.png",
+            "sortKey": "AAZZ_jc_sf_mission",
+            "quests": [
+                "jc_sf_mission_fullskip"
+            ],
+            "plugin": "data.scripts.campaign.intel.Jc_sf_missionSkip"
+        }
+    },
+    "quests": {
+        "jc_sf_mission_fullskip": {
+            "name": "完整的轮回",
+            "tooltip": "历经无数次的轮回，幽灵部队结束了漫长的战争与杀戮，并与创造者握手言和，他们终于迎来了黎明的曙光.\n\n任务相关奖励可以在自律单元的中枢核心处获取."
+        }
+    }
+}
