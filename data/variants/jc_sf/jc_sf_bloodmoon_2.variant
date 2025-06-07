@@ -3,8 +3,8 @@
   "hullId": "jc_sf_bloodmoon",
   "displayName": "打击",
   "goalVariant": true,
-  "fluxCapacitors": 31,
-  "fluxVents": 32,
+  "fluxCapacitors": 36,
+  "fluxVents": 37,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

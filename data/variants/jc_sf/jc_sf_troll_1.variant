@@ -3,8 +3,8 @@
   "hullId": "jc_sf_troll",
   "displayName": "标准",
   "goalVariant": true,
-  "fluxCapacitors": 21,
-  "fluxVents": 21,
+  "fluxCapacitors": 24,
+  "fluxVents": 24,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

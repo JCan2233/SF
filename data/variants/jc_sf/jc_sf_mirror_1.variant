@@ -3,8 +3,8 @@
   "hullId": "jc_sf_mirror",
   "displayName": "标准",
   "goalVariant": true,
-  "fluxCapacitors": 7,
-  "fluxVents": 8,
+  "fluxCapacitors": 8,
+  "fluxVents": 9,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

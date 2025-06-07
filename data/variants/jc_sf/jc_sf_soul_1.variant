@@ -3,7 +3,7 @@
   "hullId": "jc_sf_soul",
   "displayName": "标准",
   "goalVariant": true,
-  "fluxCapacitors": 6,
+  "fluxCapacitors": 8,
   "fluxVents": 7,
   "quality": 1,
   "permaMods": [],

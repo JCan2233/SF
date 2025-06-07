@@ -3,8 +3,8 @@
   "hullId": "jc_sf_mirror",
   "displayName": "打击",
   "goalVariant": true,
-  "fluxCapacitors": 6,
-  "fluxVents": 6,
+  "fluxCapacitors": 7,
+  "fluxVents": 7,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

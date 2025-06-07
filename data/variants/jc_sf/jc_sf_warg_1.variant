@@ -3,8 +3,8 @@
   "hullId": "jc_sf_warg",
   "displayName": "标准",
   "goalVariant": true,
-  "fluxCapacitors": 12,
-  "fluxVents": 12,
+  "fluxCapacitors": 14,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

@@ -3,8 +3,8 @@
   "hullId": "jc_sf_worm",
   "displayName": "突击",
   "goalVariant": true,
-  "fluxCapacitors": 22,
-  "fluxVents": 23,
+  "fluxCapacitors": 26,
+  "fluxVents": 27,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

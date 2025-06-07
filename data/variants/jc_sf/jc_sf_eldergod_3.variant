@@ -3,8 +3,8 @@
   "hullId": "jc_sf_eldergod",
   "displayName": "护航",
   "goalVariant": true,
-  "fluxCapacitors": 21,
-  "fluxVents": 22,
+  "fluxCapacitors": 25,
+  "fluxVents": 26,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

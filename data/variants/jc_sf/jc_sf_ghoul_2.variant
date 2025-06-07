@@ -3,8 +3,8 @@
   "hullId": "jc_sf_ghoul",
   "displayName": "打击",
   "goalVariant": true,
-  "fluxCapacitors": 7,
-  "fluxVents": 7,
+  "fluxCapacitors": 9,
+  "fluxVents": 9,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

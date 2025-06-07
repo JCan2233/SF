@@ -3,7 +3,7 @@
   "hullId": "jc_sf_soul",
   "displayName": "护航",
   "goalVariant": true,
-  "fluxCapacitors": 4,
+  "fluxCapacitors": 6,
   "fluxVents": 5,
   "quality": 1,
   "permaMods": [],

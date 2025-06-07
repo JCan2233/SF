@@ -3,8 +3,8 @@
   "hullId": "jc_sf_troll",
   "displayName": "打击",
   "goalVariant": true,
-  "fluxCapacitors": 13,
-  "fluxVents": 14,
+  "fluxCapacitors": 16,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
