@@ -36,8 +36,8 @@
     },
     "maxRelationships": {
         "luddic_path": -0.5,
-        "luddic_church": 0.0,
-        "hegemony": 0.0
+        "luddic_church": 0,
+        "hegemony": 0
     },
     "alignments": {
         "diplomatic": 1,
@@ -63,43 +63,46 @@
             ]
         ]
     ],
-    "startShipsSuper": [
+    "startShipsSolo": [
         [
             "wolf_Starting"
-        ],
+        ]
+    ],
+    "startShipsCarrierSmall": [
         [
-            "jc_r_scholar_0"
-        ],
-        [
-            "jc_r_scholar_0",
+            "scintilla_Support",
             "glimmer_Assault",
             "lumen_Standard"
-        ],
+        ]
+    ],
+    "startShipsCombatSmall": [
         [
-            "jc_r_scholar_0",
             "fulgent_Assault",
             "glimmer_Support",
-            "jc_r_buffalo_1"
+            "lumen_Standard"
+        ]
+    ],
+    "startShipsTradeLarge": [
+        [
+            "jc_r_colossus_1",
+            "jc_r_buffalo_1",
+            "glimmer_Assault"
+        ]
+    ],
+    "startShipsCombatLarge": [
+        [
+            "jc_r_scholar_1",
+            "fulgent_Support",
+            "glimmer_Support"
         ],
         [
-            "jc_r_scholar_0",
-            "scintilla_Strike",
-            "scintilla_Strike",
-            "jc_r_buffalo_1"
-        ],
+            "apex_Standard",
+            "fulgent_Support",
+            "lumen_Standard"
+        ]
+    ],
+    "startShipsSuper": [
         [
-            "jc_r_scholar_0",
-            "brilliant_Standard",
-            "glimmer_Support",
-            "jc_r_colossus_1"
-        ],
-        [
-            "jc_r_scholar_0",
-            "jc_starlight_mine",
-            "fulgent_Assault"
-        ],
-        [
-            "jc_r_scholar_0",
             "radiant_Standard"
         ]
     ],

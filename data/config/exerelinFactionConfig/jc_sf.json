@@ -39,7 +39,7 @@
     },
     "maxRelationships": {
         "luddic_path": -0.5,
-        "luddic_church": 0.0,
+        "luddic_church": 0,
         "hegemony": 0.5
     },
     "alignments": {
@@ -62,36 +62,47 @@
             ]
         ]
     ],
+    "startShipsSolo": [
+        [
+            "jc_sf_elf_1"
+        ]
+    ],
+    "startShipsCarrierSmall": [
+        [
+            "jc_sf_ghost_1",
+            "jc_sf_mirror_1",
+            "jc_sf_soul_1"
+        ]
+    ],
+    "startShipsCombatSmall": [
+        [
+            "jc_sf_warg_1",
+            "jc_sf_mirror_1",
+            "jc_sf_soul_1"
+        ]
+    ],
+    "startShipsTradeLarge": [
+        [
+            "jc_sf_abomination_c",
+            "jc_sf_ghoul_1",
+            "jc_sf_soul_1"
+        ]
+    ],
+    "startShipsCombatLarge": [
+        [
+            "jc_sf_dragon_1",
+            "jc_sf_warg_1",
+            "jc_sf_mirror_1"
+        ],
+        [
+            "jc_sf_lich_1",
+            "jc_sf_elf_1",
+            "jc_sf_elf_1"
+        ]
+    ],
     "startShipsSuper": [
         [
-            "jc_sf_elf_0"
-        ],
-        [
-            "jc_sf_lich_0",
-            "jc_sf_elf_0"
-        ],
-        [
-            "jc_sf_dragon_0",
-            "jc_sf_warg_0",
-            "jc_sf_mirror_0"
-        ],
-        [
-            "jc_sf_dragon_0",
-            "jc_sf_ghost_0",
-            "jc_sf_elf_0"
-        ],
-        [
-            "jc_sf_swarm_0",
-            "jc_sf_ghost_0",
-            "jc_sf_mirror_0"
-        ],
-        [
-            "jc_sf_worm_0"
-        ],
-        [
-            "jc_sf_bloodmoon_0",
-            "jc_sf_elf_0",
-            "jc_sf_mirror_0"
+            "jc_sf_bloodmoon_1"
         ]
     ],
     "bonusSeeds": [
