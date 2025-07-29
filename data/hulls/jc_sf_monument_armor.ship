@@ -1,0 +1,34 @@
+{
+  "hullName": "jc_sf_monument_armor",
+  "hullId": "jc_sf_monument_armor",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_monument/jc_sf_monument_armor.png",
+  "style": "jc_sf",
+  "height": 115,
+  "width": 142,
+  "center": [71, 57.5],
+  "collisionRadius": 98,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 95,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "always_detaches"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    1.5, -14.5,
+    -43.5, -45.5,
+    -54.5, -64,
+    -26, -66.5,
+    25, -46,
+    54.5, -14,
+    54.5, 14,
+    25, 46,
+    -26, 66.5,
+    -54.5, 64,
+    -43.5, 45.5,
+    1.5, 14.5
+  ]
+}

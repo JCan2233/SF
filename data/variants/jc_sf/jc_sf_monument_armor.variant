@@ -1,0 +1,14 @@
+{
+  "variantId": "jc_sf_monument_armor",
+  "hullId": "jc_sf_monument_armor",
+  "displayName": "标准",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,20 @@
+{
+    "displayName": "原型",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "jc_sf_monument",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "jc_sf_monument_0",
+    "modules": [
+        {"MA": "jc_sf_monument_armor"},
+        {"MT1": "jc_sf_monument_turret_4m_Hull"},
+        {"MT2": "jc_sf_monument_turret_2l_Hull"},
+        {"MT3": "jc_sf_monument_turret_4m_Hull"},
+        {"MT4": "jc_sf_monument_turret_2l_Hull"},
+        {"MT5": "jc_sf_monument_turret_4m_Hull"}
+    ],
+    "weaponGroups": []
+}

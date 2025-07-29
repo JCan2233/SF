@@ -1,0 +1,72 @@
+{
+  "hullName": "jc_sf_monument_turret_4m",
+  "hullId": "jc_sf_monument_turret_4m",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/jc/ships/sf/jc_sf_monument/jc_sf_monument_turret_4m.png",
+  "style": "jc_sf",
+  "height": 101,
+  "width": 102,
+  "center": [51, 50.5],
+  "collisionRadius": 75,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 73.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "jc_sf_base",
+    "never_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [39.5, 17]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [39.5, -17]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-4, 45]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-4, -45]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -37.5, -20,
+    -22.5, -25,
+    -14.5, -49,
+    6, -48.5,
+    8, -33,
+    41, -28,
+    41, 28,
+    8, 33,
+    6, 48.5,
+    -14.5, 49,
+    -22.5, 25,
+    -37.5, 20,
+    -46, -0
+  ]
+}
