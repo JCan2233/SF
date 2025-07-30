@@ -148,6 +148,8 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 
 不兼容于电子对抗组件。",提高电子战能力,,graphics/hullmods/ecm_package.png
 纳米纤维护盾,jc_sf_armorShield,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_armorShield,一种特殊的护盾系统，在护盾表面喷洒纳米纤维使护盾同时拥有重装甲的部分特性。,额外提高护盾性能,,graphics/hullmods/omni_shield_emitter.png
+旗舰指挥系统,jc_sf_monument,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument,,无畏舰专用指挥系统,,graphics/hullmods/advanced_targeting_core.png
+集成炮塔系统,jc_sf_monument_turret,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_turret,,集成炮塔火控系统,,graphics/hullmods/advanced_targeting_core.png
 ,,,,,,,,,,,,,,,,,,,
 #其它内置,,,,,,,,,,,,,,,,,,,
 分形合击,jc_shard_special,,,,hide_in_codex,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_shard_special,来源于}欧米伽}的特殊技术，舰船停机后会分裂成更小的单位继续作战。,停机时生成碎片,,graphics/hullmods/shared_flux_sink.png

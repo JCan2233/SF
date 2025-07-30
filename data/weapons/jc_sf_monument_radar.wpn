@@ -1,0 +1,44 @@
+{
+  "id": "jc_sf_monument_radar",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/jc/weapons/jc_empty.png",
+  "hardpointSprite": "",
+  "turretGlowSprite": "",
+  "hardpointGlowSprite": "",
+  "hitGlowBrightenDuration":0.1,
+  "turretOffsets": [
+    34,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    34,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor":[155,0,0,200],
+  "coreColor":[255,255,255,200],
+  "glowColor":[255,100,100,200],
+  "width": 15,
+  "textureType": SMOOTH,
+  "textureScrollSpeed": 128,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF,
+    FIGHTER,
+    ASTEROID
+  ],
+  #"fireSoundTwo": "targeting_laser_loop"
+}
