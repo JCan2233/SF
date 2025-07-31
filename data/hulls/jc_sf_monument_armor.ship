@@ -14,7 +14,8 @@
   "builtInMods": [
     "jc_sf_base",
     "always_detaches",
-    "reduced_explosion"
+    "reduced_explosion",
+    "jc_sf_monument_armor"
   ],
   "weaponSlots": [],
   "engineSlots": [],

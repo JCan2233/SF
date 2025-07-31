@@ -148,8 +148,13 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 
 不兼容于电子对抗组件。",提高电子战能力,,graphics/hullmods/ecm_package.png
 纳米纤维护盾,jc_sf_armorShield,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_armorShield,一种特殊的护盾系统，在护盾表面喷洒纳米纤维使护盾同时拥有重装甲的部分特性。,额外提高护盾性能,,graphics/hullmods/omni_shield_emitter.png
-旗舰指挥系统,jc_sf_monument,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument,,无畏舰专用指挥系统,,graphics/hullmods/advanced_targeting_core.png
-集成炮塔系统,jc_sf_monument_turret,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_turret,,集成炮塔火控系统,,graphics/hullmods/advanced_targeting_core.png
+旗舰指挥系统,jc_sf_monument,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument,"冥碑-级无畏舰的旗舰级舰载系统，针对其巨大的舰体作出了专门的适配。点防御武器射程提高{%s，作为舰队旗舰时命令点恢复速率提高{%s。
+
+舰船安装有五座超重型模块化炮塔，炮塔由各自对应的火控雷达控制，且会跟随舰体同步进入过载或强制排幅状态，火控雷达损坏时炮塔武器亦会离线。
+
+舰船搭载反舰导弹的弹舱拥有巨大的空间，足以改装为通用飞行甲板。当安装改装机库时，抵消改装机库的全部负面效果，并额外增加{%s}个飞行甲板，但同时禁用导弹系统。",无畏舰专用指挥系统,,graphics/hullmods/advanced_targeting_core.png
+集成炮塔系统,jc_sf_monument_turret,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_turret,冥碑-级无畏舰搭载的模块化炮塔，拥有足以摧毁主力舰的火力投射能力。实弹与能量武器射程提高{%s，射弹飞行速度和光束行进速度提高{%s，武器修复耗时降低{%s。,集成炮塔火控系统,,graphics/hullmods/advanced_targeting_core.png
+集成装甲系统,jc_sf_monument_armor,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_armor,集成装甲系统,集成装甲系统,,graphics/hullmods/damper_field.png
 ,,,,,,,,,,,,,,,,,,,
 #其它内置,,,,,,,,,,,,,,,,,,,
 分形合击,jc_shard_special,,,,hide_in_codex,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_shard_special,来源于}欧米伽}的特殊技术，舰船停机后会分裂成更小的单位继续作战。,停机时生成碎片,,graphics/hullmods/shared_flux_sink.png

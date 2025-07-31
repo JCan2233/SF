@@ -21,7 +21,10 @@
     "MT2_C": "jc_sf_monument_radar",
     "MT3_C": "jc_sf_monument_radar",
     "MT4_C": "jc_sf_monument_radar",
-    "MT5_C": "jc_sf_monument_radar"
+    "MT5_C": "jc_sf_monument_radar",
+    "WSM1": "jc_sf_monument_missile",
+    "WSM2": "jc_sf_monument_missile",
+    "WS0015": "jc_sf_monument_bay"
   },
   "weaponSlots": [
     {
@@ -85,7 +88,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [144.5, 80.5]
+      "locations": [156, 79.5]
     },
     {
       "id": "WSM2",
@@ -94,7 +97,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": -0,
-      "locations": [144.5, -80.5]
+      "locations": [156, -79.5]
     },
     {
       "id": "MT1_C",
@@ -266,6 +269,16 @@
       "arc": 150,
       "angle": 180,
       "locations": [-181, -0]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-11, 0],
+      "renderOrderMod": -1
     },
     {
       "id": "LB 1",

@@ -1,0 +1,109 @@
+{
+	"id":"jc_sf_monument_missile",
+	"specClass":"missile",
+	"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
+	"sprite":"graphics/jc/ships/sf/jc_sf_monument/jc_sf_monument_missile.png",
+	#"onFireEffect":"data.scripts.weapons.Jc_sf_monumentMissileEffect",
+	#"onHitEffect":"data.scripts.weapons.Jc_sf_monumentMissileEffect",
+	"size":[28,86],	
+	"center":[14,43],
+	"collisionRadius":46,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[0,100,150,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":200, # purely visual
+	"alwaysAccelerate":true,
+	"armingTime":0.5,
+	"noEngineGlowTime":0.4, # time spent without the engine glow being rendered
+	"fadeTime":0.5, # fadeout duration
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"applyOnHitEffectWhenPassThrough":false,
+	"engineSpec":{"turnAcc":120,
+				  "turnRate":60,
+				  "acc":1200,
+				  "dec":0},
+	"engineSlots":[
+		{
+			"id":"ES1",
+			"loc":[-17, 11],
+		    "style":"CUSTOM",
+			"styleId":"jc_sf_notrail",
+		    "width":6.0,
+		    "length":20.0,
+		    "angle":140.0,
+        	"contrailSize":6
+	    },
+		{
+			"id":"ES2",
+			"loc":[-17, -11],
+		    "style":"CUSTOM",
+			"styleId":"jc_sf_notrail",
+		    "width":6.0,
+		    "length":20.0,
+		    "angle":-140.0,
+        	"contrailSize":6
+	    },
+	    {
+			"id":"ES3",
+			"loc":[-27, 10],
+		    "style":"CUSTOM",
+			"styleId":"jc_sf_notrail",
+		    "width":6.0,
+		    "length":40.0,
+		    "angle":160.0,
+        	"contrailSize":6
+	    },
+		{
+			"id":"ES4",
+			"loc":[-27, -10],
+		    "style":"CUSTOM",
+			"styleId":"jc_sf_notrail",
+		    "width":6.0,
+		    "length":40.0,
+		    "angle":-160.0,
+        	"contrailSize":6
+	    },
+	    {
+			"id":"ES5",
+			"loc":[-33, 5],
+		    "style":"CUSTOM",
+			"styleSpec":{
+				"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+				"engineColor":[80,90,255,255],
+				"contrailDuration":1.5,
+				"contrailWidthMult":0.67,
+				"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+				"contrailMinSeg":10, # min segment length, in pixels
+				"contrailMaxSpeedMult":1,
+				"contrailAngularVelocityMult":0,
+				"contrailSpawnDistMult":0, # how far away from engine it starts
+				"contrailColor":[0,150,200,125],
+				"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+			},
+		    "width":14.0,
+		    "length":70.0,
+		    "angle":180.0
+	    },
+		{
+			"id":"ES6",
+			"loc":[-33, -5],
+		    "style":"CUSTOM",
+			"styleSpec":{
+				"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+				"engineColor":[80,90,255,255],
+				"contrailDuration":1.5,
+				"contrailWidthMult":0.67,
+				"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+				"contrailMinSeg":10, # min segment length, in pixels
+				"contrailMaxSpeedMult":1,
+				"contrailAngularVelocityMult":0,
+				"contrailSpawnDistMult":0, # how far away from engine it starts
+				"contrailColor":[0,150,200,125],
+				"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+			},
+		    "width":14.0,
+		    "length":70.0,
+		    "angle":-180.0
+	    }
+	]
+}
