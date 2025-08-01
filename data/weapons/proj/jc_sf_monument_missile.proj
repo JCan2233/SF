@@ -18,8 +18,8 @@
 	"passThroughMissiles":true,
 	"passThroughFighters":true,
 	"applyOnHitEffectWhenPassThrough":false,
-	"engineSpec":{"turnAcc":120,
-				  "turnRate":60,
+	"engineSpec":{"turnAcc":240,
+				  "turnRate":30,
 				  "acc":1200,
 				  "dec":0},
 	"engineSlots":[

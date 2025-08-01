@@ -168,5 +168,84 @@
         "dHullOverlayLight": "graphics/damage/dmod_overlay_hightech_light.png",
         "dHullOverlayMedium": "graphics/damage/dmod_overlay_hightech_medium.png",
         "dHullOverlayHeavy": "graphics/damage/dmod_overlay_hightech_heavy.png"
+    },
+    "jc_sf_turret": {
+        "hyperspaceJitterColor": [
+            120,
+            120,
+            255,
+            200
+        ],
+        "baseCampaignExplosionColor": [
+            120,
+            120,
+            255,
+            255
+        ],
+        "baseCombatExplosionColor": [
+            120,
+            120,
+            255,
+            255
+        ],
+        "fighterRepairFlickerColor": [
+            70,
+            255,
+            235,
+            255
+        ],
+        "fighterChipIconColor": [
+            122,
+            138,
+            192,
+            255
+        ],
+        "weaponDisabledExplosionColor": [
+            120,
+            120,
+            255,
+            255
+        ],
+        "shieldRingColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "shieldInnerColor": [
+            100,
+            100,
+            200,
+            75
+        ],
+        "fluxVentCoreColor": [
+            255,
+            255,
+            255,
+            255
+        ],
+        "fluxVentFringeColor": [
+            50,
+            50,
+            192,
+            255
+        ],
+        "engineLoopSet": "engine_loop",
+        "engineAccelerateSet": "engine_accelerate",
+        "empLoopSet": "emp_loop",
+        "fluxLoopSet": "flux_loop",
+        "ventFluxSet": "vent_flux",
+        "shieldBurnoutSet": "shield_burnout",
+        "shieldLowerSet": "shield_lower",
+        "shieldRaiseSet": "shield_raise",
+        "explosionShipSet": "explosion_ship",
+        "damageDecalSheet": "graphics/damage/damage_decal_sheet_base.png",
+        "damageDecalGlowSheet": "graphics/damage/damage_decal_sheet_glow.png",
+        "colorShiftCovers": true,
+        "coversColorShiftAmount": 1,
+        "coversMatchShipBrightness": true,
+        "dHullOverlayLight": "graphics/damage/dmod_overlay_hightech_light.png",
+        "dHullOverlayMedium": "graphics/damage/dmod_overlay_hightech_medium.png",
+        "dHullOverlayHeavy": "graphics/damage/dmod_overlay_hightech_heavy.png"
     }
 }

@@ -150,10 +150,12 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 纳米纤维护盾,jc_sf_armorShield,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_armorShield,一种特殊的护盾系统，在护盾表面喷洒纳米纤维使护盾同时拥有重装甲的部分特性。,额外提高护盾性能,,graphics/hullmods/omni_shield_emitter.png
 旗舰指挥系统,jc_sf_monument,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument,"冥碑-级无畏舰的旗舰级舰载系统，针对其巨大的舰体作出了专门的适配。点防御武器射程提高{%s，作为舰队旗舰时命令点恢复速率提高{%s。
 
-舰船安装有五座超重型模块化炮塔，炮塔由各自对应的火控雷达控制，且会跟随舰体同步进入过载或强制排幅状态，火控雷达损坏时炮塔武器亦会离线。
+舰船安装有五座超重型模块化炮塔，炮塔由各自对应的火控雷达控制，且会跟随舰体同步进入过载或强制排幅状态，火控雷达损坏时炮塔武器亦会离线。炮塔拥有大口径二联装和中口径四联装两种规格可供切换。
 
 舰船搭载反舰导弹的弹舱拥有巨大的空间，足以改装为通用飞行甲板。当安装改装机库时，抵消改装机库的全部负面效果，并额外增加{%s}个飞行甲板，但同时禁用导弹系统。",无畏舰专用指挥系统,,graphics/hullmods/advanced_targeting_core.png
-集成炮塔系统,jc_sf_monument_turret,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_turret,冥碑-级无畏舰搭载的模块化炮塔，拥有足以摧毁主力舰的火力投射能力。实弹与能量武器射程提高{%s，射弹飞行速度和光束行进速度提高{%s，武器修复耗时降低{%s。,集成炮塔火控系统,,graphics/hullmods/advanced_targeting_core.png
+集成炮塔系统,jc_sf_monument_turret,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_turret,"冥碑-级无畏舰搭载的模块化炮塔，拥有足以摧毁主力舰的火力投射能力。实弹与能量武器射程提高{%s，射弹飞行速度和光束行进速度提高{%s，武器修复耗时降低{%s。
+
+特殊的炮塔模块仅能安装武器或配置幅能加点，无法安装其它船插。",集成炮塔火控系统,,graphics/hullmods/advanced_targeting_core.png
 集成装甲系统,jc_sf_monument_armor,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_armor,集成装甲系统,集成装甲系统,,graphics/hullmods/damper_field.png
 ,,,,,,,,,,,,,,,,,,,
 #其它内置,,,,,,,,,,,,,,,,,,,
@@ -260,3 +262,8 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 此外，特化的装甲镀层提高了}%s}点装甲减伤计算强度。",模块化装甲,,graphics/hullmods/damper_field.png
 模块定位系统,jc_jkfasm_tu,,,,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_jkfasm_tu,安装于舰船主体的定位系统也会为舰船模块上的武器提供定位功能。若主体安装有目标定位系统或专注型目标锁定核心，则该模块的实弹与能量武器射程提高}%s}或}%s}单位，以较低者计。,提高武器射程,,graphics/hullmods/integrated_targeting_unit.png
 取消护盾,jc_shieldShuntFighter,,,,hide_in_codex,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_shieldShuntFighter,取消护盾,取消护盾,,graphics/hullmods/damper_field.png
+切换:正前方炮塔,jc_sf_monument_switch_1,,,幽灵部队,"hide_in_codex, no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_switch,支持自定义的模块化武器系统，点击移除此船插来进行切换.,切换部件,,graphics/jc/hullmods/jc_sf_monument_switch_1.png
+切换:左前方炮塔,jc_sf_monument_switch_2,,,幽灵部队,"hide_in_codex, no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_switch,支持自定义的模块化武器系统，点击移除此船插来进行切换.,切换部件,,graphics/jc/hullmods/jc_sf_monument_switch_2.png
+切换:右前方炮塔,jc_sf_monument_switch_3,,,幽灵部队,"hide_in_codex, no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_switch,支持自定义的模块化武器系统，点击移除此船插来进行切换.,切换部件,,graphics/jc/hullmods/jc_sf_monument_switch_3.png
+切换:左后方炮塔,jc_sf_monument_switch_4,,,幽灵部队,"hide_in_codex, no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_switch,支持自定义的模块化武器系统，点击移除此船插来进行切换.,切换部件,,graphics/jc/hullmods/jc_sf_monument_switch_4.png
+切换:右后方炮塔,jc_sf_monument_switch_5,,,幽灵部队,"hide_in_codex, no_build_in, req_spaceport",,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_monument_switch,支持自定义的模块化武器系统，点击移除此船插来进行切换.,切换部件,,graphics/jc/hullmods/jc_sf_monument_switch_5.png

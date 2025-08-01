@@ -3,7 +3,7 @@
   "hullId": "jc_sf_monument_turret_4m",
   "hullSize": "FRIGATE",
   "spriteName": "graphics/jc/ships/sf/jc_sf_monument/jc_sf_monument_turret_4m.png",
-  "style": "jc_sf",
+  "style": "jc_sf_turret",
   "height": 101,
   "width": 102,
   "center": [51, 50.5],
