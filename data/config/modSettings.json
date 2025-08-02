@@ -1,5 +1,8 @@
 {
     "nexerelin": {
+        "agent_steal_ship_mults": {
+            "jc_sf_monument": -1
+        },
         "mining_ship_strengths": {
             "jc_moonlight": 1,
             "jc_starlight": 20,
