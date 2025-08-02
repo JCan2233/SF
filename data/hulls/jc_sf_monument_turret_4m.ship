@@ -16,27 +16,31 @@
     "never_detaches",
     "jc_sf_monument_turret"
   ],
+  "builtInWeapons": {
+    "CS_L_S": "jc_sf_monument_turret_4m_CL",
+    "CS_R_S": "jc_sf_monument_turret_4m_CR"
+  },
   "weaponSlots": [
     {
-      "id": "WS0001",
+      "id": "TS_L_F",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": 0,
-      "locations": [39.5, 17]
+      "locations": [39, 17]
     },
     {
-      "id": "WS0002",
+      "id": "TS_R_F",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": -0,
-      "locations": [39.5, -17]
+      "locations": [39, -17]
     },
     {
-      "id": "WS0003",
+      "id": "TS_L_S",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HARDPOINT",
@@ -45,13 +49,33 @@
       "locations": [-4, 45]
     },
     {
-      "id": "WS0004",
+      "id": "TS_R_S",
       "size": "MEDIUM",
       "type": "ENERGY",
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": -0,
       "locations": [-4, -45]
+    },
+    {
+      "id": "CS_L_S",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [-4, 45],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "CS_R_S",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": -0,
+      "locations": [-4, -45],
+      "renderOrderMod": 1
     }
   ],
   "engineSlots": [],
