@@ -1,0 +1,23 @@
+{
+  "variantId": "jc_sf_monument_turret_2l_5",
+  "hullId": "jc_sf_monument_turret_2l",
+  "displayName": "突击",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TS_L_S": "jc_sf_fac_l",
+        "TS_R_S": "jc_sf_fac_l"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

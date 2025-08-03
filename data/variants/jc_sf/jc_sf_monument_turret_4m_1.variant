@@ -1,0 +1,25 @@
+{
+  "variantId": "jc_sf_monument_turret_4m_1",
+  "hullId": "jc_sf_monument_turret_4m",
+  "displayName": "重火力",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TS_L_F": "jc_sf_fusecannon_m",
+        "TS_L_S": "jc_sf_fusecannon_m",
+        "TS_R_F": "jc_sf_fusecannon_m",
+        "TS_R_S": "jc_sf_fusecannon_m"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

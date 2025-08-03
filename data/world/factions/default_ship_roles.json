@@ -57,6 +57,9 @@
         "jc_sf_scorpion_3": 4
     },
     "combatCapital": {
+        "jc_sf_monument_1": 2,
+        "jc_sf_monument_2": 3,
+        "jc_sf_monument_3": 5,
         "jc_sf_bloodmoon_1": 3,
         "jc_sf_bloodmoon_2": 2,
         "jc_sf_bloodmoon_3": 5,

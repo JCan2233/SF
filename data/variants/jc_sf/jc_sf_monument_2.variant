@@ -1,0 +1,91 @@
+{
+  "variantId": "jc_sf_monument_2",
+  "hullId": "jc_sf_monument",
+  "displayName": "支援",
+  "goalVariant": true,
+  "fluxCapacitors": 50,
+  "fluxVents": 14,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "jc_sf_monument_switch_1",
+    "jc_sf_monument_switch_2",
+    "jc_sf_monument_switch_3",
+    "jc_sf_monument_switch_4",
+    "jc_sf_monument_switch_5",
+    "hardenedshieldemitter",
+    "fluxbreakers",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WSM1": "jc_sf_monument_missile",
+        "WSM2": "jc_sf_monument_missile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MT1_C": "jc_sf_monument_radar",
+        "MT2_C": "jc_sf_monument_radar",
+        "MT3_C": "jc_sf_monument_radar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "MT4_C": "jc_sf_monument_radar",
+        "MT5_C": "jc_sf_monument_radar"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "jc_sf_pdlaser",
+        "WS0002": "jc_sf_pdlaser",
+        "WS0003": "jc_sf_pdlaser",
+        "WS0004": "jc_sf_pdlaser",
+        "WS0005": "jc_sf_pdlaser",
+        "WS0006": "jc_sf_pdlaser",
+        "WS0007": "jc_sf_pdlaser",
+        "WS0008": "jc_sf_pdlaser",
+        "WS0009": "jc_sf_pdlaser",
+        "WS0010": "jc_sf_pdlaser",
+        "WS0011": "jc_sf_pdlaser",
+        "WS0012": "jc_sf_pdlaser",
+        "WS0013": "jc_sf_pdlaser",
+        "WS0014": "jc_sf_pdlaser"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "MA": "jc_sf_monument_armor"
+    },
+    {
+      "MT1": "jc_sf_monument_turret_2l_5"
+    },
+    {
+      "MT2": "jc_sf_monument_turret_4m_3"
+    },
+    {
+      "MT3": "jc_sf_monument_turret_4m_4"
+    },
+    {
+      "MT4": "jc_sf_monument_turret_2l_2"
+    },
+    {
+      "MT5": "jc_sf_monument_turret_2l_3"
+    }
+  ],
+  "wings": [
+    "jc_sf_leech_wing",
+    "jc_sf_leech_wing"
+  ]
+}
