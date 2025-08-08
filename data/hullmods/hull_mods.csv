@@ -76,7 +76,9 @@ Modder调查工具,jc_asm_test,0,,,hide_in_codex,特殊,,TRUE,,,0,0,0,0,data.scr
 #幽灵-可安装,,,,,,,,,,,,,,,,,,,
 强制性载员改造,jc_sf_noauto,0,,幽灵部队,"no_build_in, req_spaceport","特殊, 后勤, 需要船坞",,TRUE,,,0,0,0,0,data.scripts.hullmods.Jc_sf_noauto,"强制性地将舰船改造为由人类船员操控的模式，该舰将不再视为自动化舰船。基于舰船的基础部署点，每一点部署点会使得船员需求提高}%s。
 
-然而这种改造需要大量的船体空间，且会与舰船自身的安全协议产生冲突，因而会导致舰船性能大幅下降。舰船的幅能容量降低}%s，实弹与能量武器射程降低}%s，峰值时间降低}%s。",禁用自动模式,,graphics/jc/hullmods/jc_sf_noauto.png
+然而这种改造需要大量的船体空间，且会与舰船自身的安全协议产生冲突，因而会导致舰船性能大幅下降。舰船的幅能容量降低}%s，实弹与能量武器射程降低}%s，峰值时间降低}%s。
+
+安装于模块化舰船时，该效果也会同时对所有模块生效。",禁用自动模式,,graphics/jc/hullmods/jc_sf_noauto.png
 SF-突击协议,jc_sf_attack,3,,幽灵部队,"jc_sf, req_spaceport, engines","引擎, 需要船坞",10000,,,,6,12,18,30,data.scripts.hullmods.Jc_sf_attack,突击协议旨在通过一系列升级，赋予幽灵部队舰船快速接近并歼灭目标的能力。,SF-突击协议,,graphics/jc/hullmods/jc_sf_attack.png
 SF-堡垒协议,jc_sf_defence,3,,幽灵部队,"jc_sf, req_spaceport, defensive","防御, 需要船坞",10000,,,,6,12,18,30,data.scripts.hullmods.Jc_sf_defence,堡垒协议旨在通过一系列升级，赋予幽灵部队舰船强大的防御能力，减缓敌人的攻势并为友军创造输出环境。,SF-堡垒协议,,graphics/jc/hullmods/jc_sf_defence.png
 SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive","武器, 需要船坞",10000,,,,6,12,18,30,data.scripts.hullmods.Jc_sf_balance,火炮协议旨在通过一系列升级，赋予幽灵部队舰船远距离倾泻火力、掩护友军的能力。,SF-火炮协议,,graphics/jc/hullmods/jc_sf_balance.png
