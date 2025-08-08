@@ -30,6 +30,7 @@
 		"tags":{
 		},
 		"hulls":{
+			"jc_sf_monument": 0.25,
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction

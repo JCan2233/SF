@@ -9,7 +9,7 @@
 	"center":[14,43],
 	"collisionRadius":46,
 	"collisionClass":"MISSILE_NO_FF",
-	"explosionColor":[0,100,150,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionColor":[230,19,90,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":200, # purely visual
 	"alwaysAccelerate":true,
 	"armingTime":0.5,
@@ -23,87 +23,46 @@
 				  "acc":1200,
 				  "dec":0},
 	"engineSlots":[
-		{
+	    {
 			"id":"ES1",
-			"loc":[-17, 11],
+			"loc":[-40, 4],
 		    "style":"CUSTOM",
 			"styleId":"jc_sf_notrail",
 		    "width":6.0,
-		    "length":20.0,
-		    "angle":140.0,
-        	"contrailSize":6
+		    "length":30.0,
+		    "angle":-170.0,
+        	"contrailSize":5
 	    },
 		{
 			"id":"ES2",
-			"loc":[-17, -11],
+			"loc":[-40, -4],
 		    "style":"CUSTOM",
 			"styleId":"jc_sf_notrail",
 		    "width":6.0,
-		    "length":20.0,
-		    "angle":-140.0,
-        	"contrailSize":6
+		    "length":30.0,
+		    "angle":170.0,
+        	"contrailSize":5
 	    },
 	    {
 			"id":"ES3",
-			"loc":[-27, 10],
-		    "style":"CUSTOM",
-			"styleId":"jc_sf_notrail",
-		    "width":6.0,
-		    "length":40.0,
-		    "angle":160.0,
-        	"contrailSize":6
-	    },
-		{
-			"id":"ES4",
-			"loc":[-27, -10],
-		    "style":"CUSTOM",
-			"styleId":"jc_sf_notrail",
-		    "width":6.0,
-		    "length":40.0,
-		    "angle":-160.0,
-        	"contrailSize":6
-	    },
-	    {
-			"id":"ES5",
-			"loc":[-33, 5],
+			"loc":[-35, 0],
 		    "style":"CUSTOM",
 			"styleSpec":{
 				"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
 				"engineColor":[80,90,255,255],
-				"contrailDuration":1.5,
+				"contrailDuration":1.25,
 				"contrailWidthMult":0.67,
-				"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+				"contrailWidthAddedFractionAtEnd":2,  # can be negative. makes trail spread out/narrow at the end
 				"contrailMinSeg":10, # min segment length, in pixels
-				"contrailMaxSpeedMult":1,
-				"contrailAngularVelocityMult":0,
-				"contrailSpawnDistMult":0, # how far away from engine it starts
-				"contrailColor":[0,150,200,125],
-				"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+				"contrailMaxSpeedMult":0,
+				"contrailAngularVelocityMult":0.5,
+				"contrailSpawnDistMult":0.5, # how far away from engine it starts
+				"contrailColor":[230,19,90,125],
+				"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
 			},
 		    "width":14.0,
-		    "length":70.0,
+		    "length":80.0,
 		    "angle":180.0
-	    },
-		{
-			"id":"ES6",
-			"loc":[-33, -5],
-		    "style":"CUSTOM",
-			"styleSpec":{
-				"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-				"engineColor":[80,90,255,255],
-				"contrailDuration":1.5,
-				"contrailWidthMult":0.67,
-				"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
-				"contrailMinSeg":10, # min segment length, in pixels
-				"contrailMaxSpeedMult":1,
-				"contrailAngularVelocityMult":0,
-				"contrailSpawnDistMult":0, # how far away from engine it starts
-				"contrailColor":[0,150,200,125],
-				"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
-			},
-		    "width":14.0,
-		    "length":70.0,
-		    "angle":-180.0
 	    }
 	]
 }
