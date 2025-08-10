@@ -4,7 +4,7 @@
 	"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
 	"sprite":"graphics/jc/ships/sf/jc_sf_monument/jc_sf_monument_missile.png",
 	#"onFireEffect":"data.scripts.weapons.Jc_sf_monumentMissileEffect",
-	#"onHitEffect":"data.scripts.weapons.Jc_sf_monumentMissileEffect",
+	"onHitEffect":"data.scripts.weapons.Jc_sf_monumentMissileEffect",
 	"size":[28,86],	
 	"center":[14,43],
 	"collisionRadius":46,
