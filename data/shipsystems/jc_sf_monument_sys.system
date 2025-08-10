@@ -1,0 +1,15 @@
+{
+	"id":"jc_sf_monument_sys",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+
+	"statsScript":"data.scripts.shipsystems.Jc_sf_monument_sys",
+	"aiScript":"data.scripts.shipsystems.ai.Jc_sf_monument_sys_ai",
+
+	"useSound":"system_entropy",
+	"deactivateSound":"system_darkened_gaze_activate",
+	"outOfUsesSound":"gun_out_of_ammo",
+
+	"aiHints":{
+	}
+}
