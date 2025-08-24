@@ -3,7 +3,7 @@ jc_sf_leech_wing,jc_sf_leech_wing,"auto_fighter, jc_sf, jc_sf_bp, fighter, fight
 jc_sf_larva_wing,jc_sf_larva_wing,"auto_fighter, jc_sf, jc_sf_bp, bomber, bomber4",2,,6,15,V,4000,1000,,2,BOMBER,无人轰炸机,20,8000,25.02
 #,,"auto_fighter, jc_sf, jc_sf_bp, bomber, bomber4",2,,6,15,V,4000,1000,,2,BOMBER,无人轰炸机,20,8000,25.03
 jc_sf_bat_wing,jc_sf_bat_wing,"auto_fighter, jc_sf, jc_sfs_bp, fighter, fighter5",3,,7,18,V,4000,1000,,2,FIGHTER,无人攻击机,20,10000,25.04
-jc_sf_havoc_L_wing,jc_sf_havoc_L_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5",3,,6,0,V,3000,500,,1,FIGHTER,无人炮艇,25,0,26.01
+jc_sf_havoc_L_wing,jc_sf_havoc_L_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5, codex_unlockable",3,,6,0,V,3000,500,,1,FIGHTER,无人炮艇,25,0,26.01
 jc_sf_havoc_R_wing,jc_sf_havoc_R_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5, hide_in_codex",3,,6,0,V,3000,500,,1,FIGHTER,无人炮艇,25,0,26.02
 jc_sf_shade_wing,jc_sf_shade_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter5, leader_no_swarm, wingmen_no_swarm, attack_at_an_angle, codex_unlockable",3,,8,0,BOX,4000,500,100,4,FIGHTER,无人战斗机,10,0,26.03
 jc_sf_frostwind_drone_wing,jc_sf_frostwind_drone,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter4, high, codex_unlockable",3,,6,0,V,0,200,,3,SUPPORT,自杀式无人机,20,0,26.04
@@ -15,17 +15,17 @@ jc_arclight_wing,jc_arclight_wing,"auto_fighter, fighter, fighter5, remnant, no_
 jc_neon_wing,jc_neon_wing,"auto_fighter, bomber, bomber5, remnant, no_bp_drop, codex_unlockable",3,,6,16,V,4000,2000,500,2,BOMBER,无人重型轰炸机,20,10000,21.25
 jc_ecm_arclight_wing,jc_ecm_arclight_wing,"auto_fighter, no_drop, no_sell, restricted, fighter, fighter4, codex_unlockable",3,,8,0,V,5000,1000,,1,FIGHTER,无人预警机,20,0,21.24
 ,,,,,,,,,,,,,,,,
-jc_lux_omega2_wing,jc_lux_omega2_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, independent_of_carrier, restricted",3,,6,0,CLAW,100000,600,0,4,FIGHTER,反护盾,12,0,24.26
-jc_flash_omega_wing,jc_flash_omega_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted",3,,6,0,CLAW,100000,600,600,2,BOMBER,打击,24,0,21.26
-jc_spark_omega_wing,jc_spark_omega_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted",3,,6,0,BOX,100000,600,100,6,INTERCEPTOR,点防御,8,0,22.26
-jc_lux_omega_wing,jc_lux_omega_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, independent_of_carrier, restricted",3,,6,0,V,100000,600,300,3,FIGHTER,进攻,16,0,23.26
-jc_s_spark_wing,jc_s_spark_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier, restricted",3,,6,0,CLAW,4000,200,750,5,INTERCEPTOR,机动支援截击机,60,0,19.99
-jc_s_lux_wing,jc_s_lux_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier, restricted",3,,6,0,V,4000,500,,4,FIGHTER,机动支援战斗机,60,0,19.98
-jc_s_arclight_wing,jc_s_arclight_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier, restricted",3,,6,0,V,4000,500,,1,FIGHTER,机动支援战斗机,60,0,19.97
-jc_autocivpod_0_wing,jc_autocivpod_0_wing,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted",3,,6,0,V,0,0,,1,SUPPORT,辅助机,60,0,9.01
-jc_autocivpod_1_wing,jc_autocivpod_1_wing,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted",3,,6,0,V,0,0,,1,SUPPORT,辅助机,60,0,9.02
-jc_autocivpod_2_wing,jc_autocivpod_2_wing,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted",3,,6,0,V,0,0,,1,SUPPORT,辅助机,60,0,9.03
-jc_autocivpod_3_wing,jc_autocivpod_3_wing,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted",3,,6,0,V,0,0,,1,SUPPORT,辅助机,60,0,9.04
-jc_sf_asura_backpack_1_wing,jc_sf_asura_backpack_1,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted",3,,6,0,V,0,0,,1,SUPPORT,补给支援机,60,0,9.05
-jc_sf_asura_backpack_2_wing,jc_sf_asura_backpack_2,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted",3,,6,0,V,0,0,,1,SUPPORT,补给支援机,60,0,9.06
-jc_sf_asura_backpack_3_wing,jc_sf_asura_backpack_3,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted",3,,6,0,V,0,0,,1,SUPPORT,补给支援机,60,0,9.07
+jc_lux_omega2_wing,jc_lux_omega2_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, independent_of_carrier, restricted, hide_in_codex",3,,6,0,CLAW,100000,600,0,4,FIGHTER,反护盾,12,0,24.26
+jc_flash_omega_wing,jc_flash_omega_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted, hide_in_codex",3,,6,0,CLAW,100000,600,600,2,BOMBER,打击,24,0,21.26
+jc_spark_omega_wing,jc_spark_omega_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, attack_at_an_angle, independent_of_carrier, restricted, hide_in_codex",3,,6,0,BOX,100000,600,100,6,INTERCEPTOR,点防御,8,0,22.26
+jc_lux_omega_wing,jc_lux_omega_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, match_leader_facing, independent_of_carrier, restricted, hide_in_codex",3,,6,0,V,100000,600,300,3,FIGHTER,进攻,16,0,23.26
+jc_s_spark_wing,jc_s_spark_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier, restricted, hide_in_codex",3,,6,0,CLAW,4000,200,750,5,INTERCEPTOR,机动支援截击机,60,0,19.99
+jc_s_lux_wing,jc_s_lux_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier, restricted, hide_in_codex",3,,6,0,V,4000,500,,4,FIGHTER,机动支援战斗机,60,0,19.98
+jc_s_arclight_wing,jc_s_arclight_wing,"auto_fighter, no_drop, no_sell, rapid_reform, leader_no_swarm, wingmen_no_swarm, independent_of_carrier, restricted, hide_in_codex",3,,6,0,V,4000,500,,1,FIGHTER,机动支援战斗机,60,0,19.97
+jc_autocivpod_0_wing,jc_autocivpod_0_wing,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted, hide_in_codex",3,,6,0,V,0,0,,1,SUPPORT,辅助机,60,0,9.01
+jc_autocivpod_1_wing,jc_autocivpod_1_wing,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted, hide_in_codex",3,,6,0,V,0,0,,1,SUPPORT,辅助机,60,0,9.02
+jc_autocivpod_2_wing,jc_autocivpod_2_wing,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted, hide_in_codex",3,,6,0,V,0,0,,1,SUPPORT,辅助机,60,0,9.03
+jc_autocivpod_3_wing,jc_autocivpod_3_wing,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted, hide_in_codex",3,,6,0,V,0,0,,1,SUPPORT,辅助机,60,0,9.04
+jc_sf_asura_backpack_1_wing,jc_sf_asura_backpack_1,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted, hide_in_codex",3,,6,0,V,0,0,,1,SUPPORT,补给支援机,60,0,9.05
+jc_sf_asura_backpack_2_wing,jc_sf_asura_backpack_2,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted, hide_in_codex",3,,6,0,V,0,0,,1,SUPPORT,补给支援机,60,0,9.06
+jc_sf_asura_backpack_3_wing,jc_sf_asura_backpack_3,"auto_fighter, no_drop, no_sell, independent_of_carrier, restricted, hide_in_codex",3,,6,0,V,0,0,,1,SUPPORT,补给支援机,60,0,9.07
