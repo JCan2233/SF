@@ -95,6 +95,11 @@ SF-火炮协议,jc_sf_balance,3,,幽灵部队,"jc_sf, req_spaceport, offensive",
 通用装甲镀层,jc_sf_universalArmor,2,,幽灵部队,"jc_sf, defensive",防御,8000,,,,4,8,12,20,data.scripts.hullmods.Jc_sf_universalArmor,"拆除舰船表面的部分装甲并用幽灵部队的特殊装甲镀层替代，提高{%s}/{%s}/{%s}/{%s}装甲减伤的计算强度，同时减少等量的最大装甲值。
 
 但由于其它的装甲改造可能会破坏镀层完整性，因此所有额外的装甲值增益效果减半。",提供额外的装甲减伤强度,不再减少最大装甲值。,graphics/jc/hullmods/jc_sf_universalArmor.png
+SF-超控密钥,jc_sf_sukey,3,,幽灵部队,"req_spaceport, no_sell, no_drop, no_drop_salvage, restricted, codex_unlockable",特殊,10000,,,,5,10,15,30,data.scripts.hullmods.Jc_sf_sukey,"为舰船安装幽灵部队的限制级密钥，解除所有额外的安全协议。
+
+当进行了载员化改造时，抵消改造的全部负面效果且使最低船员需求减半。抵消航母的战机调度系统的人员战损惩罚。
+
+当拥有{无人战舰}技能时，抵消全自动模式下的战备值(CR)惩罚，且使舰船不再占用无人舰点数。",抵消舰船的自动化惩罚,使舰船始终可以在战后被修复。,graphics/jc/hullmods/jc_sf_sukey.png
 ,,,,,,,,,,,,,,,,,,,
 #幽灵-常规内置,,,,,,,,,,,,,,,,,,,
 幽灵武装,jc_sf_base,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_base,该舰的设计理念具有鲜明的特色，从而能更好地适应幽灵部队的整体作战风格。,幽灵部队基础模组,,graphics/jc/hullmods/jc_sf_base.png
