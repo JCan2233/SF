@@ -60,6 +60,12 @@
                 "jc_sf_package",
                 ""
             ]
+        ],
+        [
+            [
+                "jc_sf_sukey_item",
+                ""
+            ]
         ]
     ],
     "startShipsSolo": [

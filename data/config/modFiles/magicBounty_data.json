@@ -732,7 +732,8 @@
     "job_forFaction": "jc_sf",
     "job_reputation_reward": 20,
     "job_item_reward": {
-      "jc_rt_2": 1
+      "jc_rt_2": 1,
+      "jc_sf_sukey_item": 1
     },
     "job_type": "neutralisation",
     "job_show_type": true,
@@ -800,6 +801,9 @@
     "job_credit_reward": 200000,
     "job_forFaction": "jc_sf",
     "job_reputation_reward": 20,
+    "job_item_reward": {
+      "jc_sf_sukey_item": 1
+    },
     "job_type": "neutralisation",
     "job_show_type": true,
     "job_show_captain": false,
@@ -865,6 +869,9 @@
     "job_credit_reward": 400000,
     "job_forFaction": "jc_sf",
     "job_reputation_reward": 10,
+    "job_item_reward": {
+      "jc_sf_sukey_item": 1
+    },
     "job_type": "assassination",
     "job_show_type": true,
     "job_show_captain": false,
@@ -930,6 +937,9 @@
     "job_credit_reward": 600000,
     "job_forFaction": "jc_sf",
     "job_reputation_reward": 15,
+    "job_item_reward": {
+      "jc_sf_sukey_item": 1
+    },
     "job_type": "assassination",
     "job_show_type": true,
     "job_show_captain": false,
@@ -996,7 +1006,8 @@
     "job_forFaction": "jc_sf",
     "job_reputation_reward": 20,
     "job_item_reward": {
-      "jc_sf_package": 1
+      "jc_sf_package": 1,
+      "jc_sf_sukey_item": 1
     },
     "job_type": "assassination",
     "job_show_type": true,
