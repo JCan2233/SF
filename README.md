@@ -64,6 +64,13 @@
 
 幽灵部队的深空自律单元会出售包含可探索兴趣点信息的星图，例如采矿站、研究站、星球废墟等，模组作者可以在各自模组的`data/config/modFiles/jc_SFMapLocations.csv`中配置相关信息，从而使模组添加的探索内容能被该星图功能搜索到，范例见本模组的同名文件。
 
+### 自律单元殖民目标黑名单
+
+> 接口类型：csv文件  
+> 接口名称：data/config/modFiles/jc_SFColonizeBlacklist.csv  
+
+幽灵部队的深空自律单元会在全星域范围内随机航行，并在游戏开始后的一段时间内随机殖民数个无主的星球，模组作者可以在各自模组的`data/config/modFiles/jc_SFColonizeBlacklist.csv`中配置相关信息，从而令特定的星系不会被自律单元访问，或者使特定的星球无法被该机制殖民，范例见本模组的同名文件。
+
 ### 兼容性军官标签
 
 > 接口类型：PersonAPI的MemoryFlag  

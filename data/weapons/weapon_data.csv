@@ -199,7 +199,7 @@ TDM-07-因果稳定矛,jc_sf_shadowlord_missile,0,,0,3000,,2000,,1000,360,,1,0.0
 每触发一次都会使下一次爆炸的触发概率和伤害减半。",50% | 2 | 50% | 200%,备弹量不受其它增益影响。,,TRUE,55.55
 死亡蛰刺-标记,jc_sf_scorpion_missile_hint,0,,0,500,,3000,,0,0,,,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,0,0,60,2000,,,"SYSTEM, DANGEROUS, DO_NOT_AIM","restricted, damage_special",,幽灵部队,,标记,,,,,,,,,,55.56
 空洞-标记,jc_sf_torpedo_hint,0,,0,500,,1500,,0,0,,,,,HIGH_EXPLOSIVE,0,,0,10,1,,0,0,0,0,,0,0,60,500,,,"SYSTEM, DANGEROUS, DO_NOT_AIM","restricted, damage_special",,幽灵部队,,标记,,,,,,,,,,55.57
-突刺颚基,jc_sf_alien_main,0,,0,450,300,,,0,0,,,,,KINETIC,,233.3333,0.5,0.5,1,6,,,,,2000,,,,,,,"SYSTEM, STRIKE, USE_VS_FRIGATES",restricted,main_only,幽灵部队,,打击,,,,,命中时对目标施加远离光束方向的推力。首次命中时依据目标朝向光束方向的动量造成最多{%s}的硬幅能动能伤害，并额外施加一次更强的推力。,1000,不受光束射程增益效果影响，例如先进光学器件船插。,,,55.58
+突刺颚基,jc_sf_alien_main,0,,0,450,300,,,500,0,,,,,KINETIC,,233.3333,0.5,0.5,1,6,,,,,2000,,,,,,,"SYSTEM, STRIKE, USE_VS_FRIGATES",restricted,main_only,幽灵部队,,打击,,,,,命中时对目标施加远离光束方向的推力。首次命中时依据目标朝向光束方向的动量造成最多{%s}的硬幅能动能伤害，并额外施加一次更强的推力。,1000,不受光束射程增益效果影响，例如先进光学器件船插。,,,55.58
 镰状螯足,jc_sf_alien_side,0,,0,1200,10,,,0,15,,,,,FRAGMENTATION,,10,0.1,0.1,,,,,,,5000,,,,,,,"SYSTEM, FIRE_WHEN_INEFFICIENT",restricted,side_only,幽灵部队,,牵引,,,,,命中时对目标施加朝向光束方向的牵引力。,,,,,55.59
 魔王-打击弹幕,jc_sf_slsys_fa,0,,0,1000,,200,,0,0,,,,,ENERGY,0,,0,1,1,,0,0,0,0,,300,,,,,,"SYSTEM, DO_NOT_AIM",restricted,,幽灵部队,,通用,,优秀,,,,,射弹拥有优秀的追踪能力，且不会击中友军。,,,55.61
 裂痕,jc_sf_shade_main,0,,0,600,200,,,0,360,,,,,ENERGY,,200,0,0,,,,,,,10000,,,,,,,"SYSTEM, PD, ANTI_FTR",restricted,,幽灵部队,,"通用, 点防御",,,,,"分散为至多{%s}道光束攻击不同的目标，分散后光束的装甲穿透力不变。

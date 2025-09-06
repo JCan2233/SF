@@ -1,0 +1,14 @@
+id,type
+#自定义id,类型，可选值 PLANET_TYPE、PLANET_ID、PLANET_TAG、PLANET_CONDITION、SYSTEM_NAME、SYSTEM_TAG，若为星系属性则自律单元不会驶入该星系
+,
+#AOTD,
+aotd_coronal_market_cond,PLANET_CONDITION
+aotd_nidavelir_complex,PLANET_CONDITION
+aotd_pluto_station,PLANET_CONDITION
+,
+#蓝海渔业,
+Refuge World,SYSTEM_NAME
+,
+#工业革命,
+IndEvo_RuinsCondition,PLANET_CONDITION
+IndEvo_ArtilleryStationCondition,PLANET_CONDITION
