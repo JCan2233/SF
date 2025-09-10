@@ -20,5 +20,3 @@ modifyRemnantSellDrop,出售可掉落的战机和武器,Boolean,true,,对于所�
 header2-2,标题,Header,漏洞修复,,,,,高级
 bugfixMagicTrailClear,修复MagicLib生涯尾迹数据残留,Boolean,true,,MagicLib提供的在生涯显示尾迹特效的数据类有残留，会导致每次读档生成重复的实体，且永远无法清除。,,,高级
 bugfixUngpCollector,修复收集者重生规则崩溃问题,Boolean,true,,重生规则收集者对具有高额免伤等效果的目标生效时，斩杀伤害可再次触发本身的效果，因此可能导致堆栈溢出，游戏崩溃。,,,高级
-bugfixIxParagonSkill,修复第九战斗群导致光耀之誓-级战术系统错误,Boolean,true,,第九战斗群将所有id带有典范字段的舰船默认战术系统设置为堡垒护盾，导致光耀之誓-级战术系统被错误地改变，且无法还原。,,,高级
-bugfixNexStartItemData,修复势力争霸初始物品无法叠加问题,Boolean,true,,势力争霸开局特殊物品的自定义字段不支持设为null，导致该途径获取的蓝图、制品与正常途径获取的无法叠加。,,,高级
