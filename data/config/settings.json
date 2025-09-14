@@ -126,6 +126,6 @@
         "data.scripts.campaign.rules"
     ],
     "plugins": {
-        "jc_asm_BossCombatPlugin": "data.scripts.combat.Jc_asm_BossCombatPlugin"
+        "jc_asm_GlobalCombatPlugin": "data.scripts.combat.plugins.Jc_asm_GlobalCombatPlugin"
     }
 }
