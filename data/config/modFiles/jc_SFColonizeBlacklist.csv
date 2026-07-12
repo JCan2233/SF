@@ -1,9 +1,17 @@
 id,type
 #自定义id,类型，可选值 PLANET_TYPE、PLANET_ID、PLANET_TAG、PLANET_CONDITION、SYSTEM_NAME、SYSTEM_TAG，若为星系属性则自律单元不会驶入该星系
 ,
+#原版,
+Duzahk,SYSTEM_NAME
+Penelope's Star,SYSTEM_NAME
+,
 #蓝海渔业,
 Refuge World,SYSTEM_NAME
 ,
 #工业革命,
 IndEvo_RuinsCondition,PLANET_CONDITION
 IndEvo_ArtilleryStationCondition,PLANET_CONDITION
+,
+#伽马军团,
+West Village,SYSTEM_NAME
+Gamma Camp,SYSTEM_NAME
