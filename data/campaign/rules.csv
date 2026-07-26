@@ -290,7 +290,7 @@ jc_gs_menu_upgrade,DialogOptionSelected,$option == jc_gs_menu_upgrade,"SetShortc
 3:jc_gs_menu_3:改造战术系统-当前等级{$global.jc_asm_guardianstart_upgrade_3
 4:jc_gs_menu_4:改造护盾核心-当前等级{$global.jc_asm_guardianstart_upgrade_4
 5:jc_gs_menu_5:改装武器槽位-当前等级{$global.jc_asm_guardianstart_upgrade_5
-6:jc_gs_menu_6:改装飞行甲板-当前等级{$global.jc_asm_guardianstart_upgrade_6
+6:jc_gs_menu_6:改装战机甲板-当前等级{$global.jc_asm_guardianstart_upgrade_6
 7:jc_gs_menu_7:改造幅能管道-当前等级{$global.jc_asm_guardianstart_upgrade_7
 8:jc_gs_menu_8:改造船体结构-当前等级{$global.jc_asm_guardianstart_upgrade_8
 9:jc_gs_menu:返回",
@@ -504,20 +504,20 @@ $global.jc_asm_guardianstart_upgrade_6 = 2
 $global.jc_asm_guardianstart_needupdate = true",升级完成：将内置无人机升级为萤火联队。,2:jc_gs_menu_upgrade:确认,
 jc_gs_menu_6_2_t,DialogOptionSelected,"$option == jc_gs_menu_6
 $global.jc_asm_guardianstart_upgrade_6 == 2
-$global.jc_asm_guardianstart_canupgrade_3 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费{1,000,000}星币进行升级：额外添加{2}个飞行甲板并提高{20}装配点。","1:jc_gs_menu_6_2_up:确定升级
+$global.jc_asm_guardianstart_canupgrade_3 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费{1,000,000}星币进行升级：额外添加{2}个战机甲板并提高{20}装配点。","1:jc_gs_menu_6_2_up:确定升级
 2:jc_gs_menu_upgrade:返回",
 jc_gs_menu_6_2_f,DialogOptionSelected,"$option == jc_gs_menu_6
 $global.jc_asm_guardianstart_upgrade_6 == 2
-$global.jc_asm_guardianstart_canupgrade_3 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费{1,000,000}星币进行升级：额外添加{2}个飞行甲板并提高{20}装配点。没有足够的星币或升级数量达到上限，无法升级。",2:jc_gs_menu_upgrade:返回,
+$global.jc_asm_guardianstart_canupgrade_3 == false","SetShortcut jc_gs_menu ""ESCAPE""","花费{1,000,000}星币进行升级：额外添加{2}个战机甲板并提高{20}装配点。没有足够的星币或升级数量达到上限，无法升级。",2:jc_gs_menu_upgrade:返回,
 jc_gs_menu_6_2_up,DialogOptionSelected,$option == jc_gs_menu_6_2_up,"SetShortcut jc_gs_menu ""ESCAPE""
 $global.jc_asm_guardianstart_upgrade_6 = 3
-$global.jc_asm_guardianstart_needupdate = true",升级完成：额外添加{2}个飞行甲板并提高{20}装配点。,2:jc_gs_menu_upgrade:确认,
+$global.jc_asm_guardianstart_needupdate = true",升级完成：额外添加{2}个战机甲板并提高{20}装配点。,2:jc_gs_menu_upgrade:确认,
 jc_gs_menu_6_3,DialogOptionSelected,"$option == jc_gs_menu_6
-$global.jc_asm_guardianstart_upgrade_6 == 3","SetShortcut jc_gs_menu ""ESCAPE""",移除升级：额外添加{2}个飞行甲板并提高{20}装配点。警告：移除后若重新安装需要另外花费星币！,"1:jc_gs_menu_6_3_down:移除升级
+$global.jc_asm_guardianstart_upgrade_6 == 3","SetShortcut jc_gs_menu ""ESCAPE""",移除升级：额外添加{2}个战机甲板并提高{20}装配点。警告：移除后若重新安装需要另外花费星币！,"1:jc_gs_menu_6_3_down:移除升级
 2:jc_gs_menu_upgrade:取消",
 jc_gs_menu_6_3_down,DialogOptionSelected,$option == jc_gs_menu_6_3_down,"SetShortcut jc_gs_menu ""ESCAPE""
 $global.jc_asm_guardianstart_upgrade_6 = 2
-$global.jc_asm_guardianstart_needupdate = true",移除升级完成：额外添加{2}个飞行甲板并提高{20}装配点。,2:jc_gs_menu_upgrade:确认,
+$global.jc_asm_guardianstart_needupdate = true",移除升级完成：额外添加{2}个战机甲板并提高{20}装配点。,2:jc_gs_menu_upgrade:确认,
 jc_gs_menu_7_0_t,DialogOptionSelected,"$option == jc_gs_menu_7
 $global.jc_asm_guardianstart_upgrade_7 == 0
 $global.jc_asm_guardianstart_canupgrade_1 == true","SetShortcut jc_gs_menu ""ESCAPE""","花费{50,000}星币进行升级：部分修复幅能管道。","1:jc_gs_menu_7_0_up:确定升级
