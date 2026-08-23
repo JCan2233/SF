@@ -12,8 +12,7 @@
   "shieldRadius": 33.5,
   "viewOffset": 0,
   "builtInMods": [
-    "jc_sf_base",
-    "no_weapon_flux"
+    "jc_sf_base"
   ],
   "builtInWeapons": {
     "WS0001": "jc_sf_motebomb"

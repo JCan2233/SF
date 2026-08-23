@@ -225,7 +225,7 @@ SF-超控密钥,jc_sf_sukey,3,,幽灵部队,"req_spaceport, no_sell, no_drop, no
 勘探采矿模式,jc_auto_supply_f_mine,,,余辉,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,基础货舱和燃料容量提升{500，补给和燃料消耗降低{25%%，勘探星球所需物资降低{30，传感器强度增加{100，基础物资打捞收益提高{10%%。如果舰船已被封存则不会生效，勘探类的同种效果叠加时收益递减。,勘探采矿模式,,graphics/hullmods/terminator_core.png
 人员投送模式,jc_auto_supply_f_person,,,余辉,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_empty,移除自动化舰船的载员限制，最大船员数量增加{2000，地面突袭战斗力提高{400}且不超过陆战队员数量，轰炸所需燃料降低{400。如果舰船已被封存则不会生效。,人员投送模式,,graphics/hullmods/terminator_core.png
 智能导弹系统,jc_ims,,,余辉,hide_in_codex,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_ims,智能切换导弹,智能切换导弹,,graphics/hullmods/missile_autofactory.png
-反舰战机系统,jc_acs,,,余辉,hide_in_codex,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_acs,反舰战机系统,反舰战机系统,,graphics/hullmods/terminator_core.png
+超载稳定器,jc_acs,,,余辉,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_acs,超载稳定器,超载稳定器,,graphics/hullmods/terminator_core.png
 电子战预警系统,jc_ecmfw,,,余辉,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ecmfw,电子战预警机,电子战预警机,,graphics/hullmods/terminator_core.png
 电子战指挥核心,jc_ecms,,,余辉,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_ecms,"该舰拥有全套专业的电子作战系统，提高}%s}电子战强度。当内置的电子战预警机或其僚机攻击命中敌舰时，还会额外提高}1%%}电子战强度，持续5秒，不同战机联队的效果可叠加。
 

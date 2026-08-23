@@ -12,7 +12,6 @@
   "shieldRadius": 25.5,
   "viewOffset": 0,
   "builtInMods": [
-    "no_weapon_flux",
     "jc_ims"
   ],
   "weaponSlots": [
