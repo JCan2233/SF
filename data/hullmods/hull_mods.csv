@@ -11,20 +11,12 @@ Modder调查工具,jc_asm_test,0,,,hide_in_codex,特殊,,TRUE,,,0,0,0,0,data.scr
 
 要启用这项能力，玩家必须拥有无人战舰技能，且舰队中最多只能有一艘舰船安装该升级。",对自动化舰船进行完全的改造,,graphics/jc/hullmods/jc_auto_omega.png
 骇入系统,jc_auto_hack,0,,余辉,no_build_in,特殊,,TRUE,,,1,1,1,1,data.scripts.hullmods.Jc_auto_hack,消耗{AI}核心入侵舰船系统并格式化其中的特定分区，安装后将立即清除所有的内置(S-)船插，且不会返还故事点。优先消耗等级较低且数量较多的{AI}核心，过量的算力会存储为点数以备后用。,清除内置船插,,graphics/jc/hullmods/jc_auto_hack.png
-智能辅助机,jc_autociv_mod,0,,余辉,"no_build_in, req_spaceport","特殊, 需要船坞",,TRUE,,,8,12,16,20,data.scripts.hullmods.Jc_auto_civ_mod,"当你的殖民地赛博化达到一定程度时，可以呼叫一架辅助机为旗舰提供增援，辅助机战斗力取决于赛博化改造的殖民地规模之和，在总规模达到}%s}时战斗力到达上限，目前的规模为}%s。
-
-战斗中辅助机会跟随旗舰提供火力支援，若被摧毁则会在}%s}秒后重新召唤。只有安装于旗舰时才会生效，若在战斗中转移指挥则辅助机也会在一段时间后跟随新的旗舰。",召唤辅助机协同作战,,graphics/jc/hullmods/jc_autociv_mod.png
+智能辅助机,jc_autociv_mod,0,,余辉,"no_build_in, req_spaceport","特殊, 需要船坞",,TRUE,,,8,12,16,20,data.scripts.hullmods.Jc_auto_civ_mod,呼叫一架辅助机跟随旗舰提供火力支援。只有安装于旗舰时才会生效，若在战斗中转移指挥则辅助机也会在一段时间后跟随新的旗舰，若被摧毁则会在}%s}秒后重新召唤。,召唤辅助机协同作战,,graphics/jc/hullmods/jc_autociv_mod.png
 载员舱改造,jc_auto_crew,0,,余辉,"jc_fr, no_build_in, req_spaceport","后勤, 需要船坞",6000,,,,2,4,6,8,data.scripts.hullmods.Jc_auto_crew,为自动化舰船安装一个额外的载员船舱，增加其最大船员数量。具体效果取决于该舰载货量和燃料容量的基础值。,改造载员舱,,graphics/jc/hullmods/jc_auto_crew.png
-自动化改造,jc_auto_nocrew,0,,余辉,"jc_fr, no_build_in, req_spaceport","后勤, 需要船坞",6000,,,,8,16,24,32,data.scripts.hullmods.Jc_auto_nocrew,"利用无人战舰技术为常规舰船安装自动化系统，最低船员需求降至零，因此也不会因为舰船损伤或舰载机战损而导致人员伤亡，但战机整备时间会根据非无人战机联队的比例提高最多}%s。若安装于民用级舰体，则最大载员量也会相应地降低。
-
-船插的基础装配点为}8/16/24/32，基于完成赛博化改造的殖民地规模之和，每一点规模使装配点降低}2.5%%，至多在规模达到}30}时降低}75%%。目前完成改造的总规模为}%s。",安装自动系统,,graphics/jc/hullmods/jc_auto_nocrew.png
+自动化改造,jc_auto_nocrew,0,,余辉,"jc_fr, no_build_in, req_spaceport","后勤, 需要船坞",6000,,,,8,16,24,32,data.scripts.hullmods.Jc_auto_nocrew,利用无人战舰技术为常规舰船安装自动化系统，将最低船员需求降至零，但安装的载人战机联队将受到整备时间惩罚。本船插的装配点会基于完成赛博化改造的殖民地规模而降低。,安装自动系统,,graphics/jc/hullmods/jc_auto_nocrew.png
 ,,,,,,,,,,,,,,,,,,,
 #额外船插-无人舰,,,,,,,,,,,,,,,,,,,
-智能增压定位核心,jc_auto_itu,2,,余辉,"remnant, offensive",武器,10000,,,,4,8,12,20,data.scripts.hullmods.Jc_auto_itu,"通过一套额外的方案加强重点武器的输出功率，从而有效地提高武器射程，可以配合其它定位系统插件使用。
-
-按照实弹与能量武器射程关于装配点的加权平均值，提高平均射程较低的一类武器的射程}%s，计算均值时不考虑点防御武器，若没有装备实弹或能量中的任一类武器则直接提高另一类武器的射程。
-
-此外，提高所有射弹和导弹的飞行速度}%s。
+智能增压定位核心,jc_auto_itu,2,,余辉,"remnant, offensive",武器,10000,,,,4,8,12,20,data.scripts.hullmods.Jc_auto_itu,"通过一套额外的方案加强重点武器的输出功率，实弹与能量武器中平均射程较低的一类武器射程提高}%s，所有射弹和导弹的飞行速度提高}%s。
 
 只有安装于自动化舰船时才能生效。",提高武器射程,炮塔转向速度提高{%s}。,graphics/jc/hullmods/jc_auto_itu.png
 激进护盾优化模组,jc_auto_hse,2,,余辉,"remnant, shields, defensive",护盾,10000,,,,3,5,7,10,data.scripts.hullmods.Jc_auto_hse,一套激进的护盾升级方案，在原有的强化护盾基础上，拆除部分装甲以进一步升级护盾效能。降低{%s}护盾受到的伤害，但舰船装甲值降低{%s。只有安装于自动化舰船并安装强化护盾时才能生效。,额外提高护盾性能,护盾维持所需幅能降低{%s}，护盾展开和转向速度提高{%s}。,graphics/jc/hullmods/jc_auto_hse.png
@@ -43,9 +35,7 @@ Modder调查工具,jc_asm_test,0,,,hide_in_codex,特殊,,TRUE,,,0,0,0,0,data.scr
 专精化点防御改造,jc_auto_pds,1,,余辉,"remnant, no_sell, defensive","武器, 防御",8000,,,,4,8,12,20,data.scripts.hullmods.Jc_auto_pds,"使用更为专精的点防御系统，使点防御武器能更有效地拦截导弹或战机。所有点防御武器射程提高}%s。
 
 此外，点防御武器对战机与导弹造成的伤害提高}%s，对其它目标造成的伤害减少}%s。这个效果仅影响常规的射弹或光束类点防御武器，不影响电弧等特殊效果。",专精的点防御方案,无论战备处于何种水平，所有点防御武器均可保持最佳精准度。,graphics/jc/hullmods/jc_auto_pds.png
-激光测距雷达阵列,jc_auto_brf,2,,余辉,"remnant, no_sell, offensive",武器,10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_brf,"利用舰载激光武器辅助弹道测距，当舰船上有光束武器时，提升非光束的实弹与能量武器的基础射程，提升数值相当于射程最长的光束武器基础射程的}%s。
-
-在计算光束武器射程时，小型武器射程视为在原基础上减少}%s，大型武器射程视为增加}%s，(不影响实际射程)。射程提升效果对}PD}武器减半。此外该提升效果不会使得受影响的武器射程超过光束武器最大射程，但对于本身基础射程已经超过光束武器最大射程的武器也不会产生负面影响。
+激光测距雷达阵列,jc_auto_brf,2,,余辉,"remnant, no_sell, offensive",武器,10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_brf,"利用舰载激光武器辅助弹道测距，基于射程最长的光束武器基础射程的}%s，提高非光束的实弹与能量武器的基础射程。
 
 不兼容于弹道测距仪。",提高武器射程,,graphics/jc/hullmods/jc_auto_brf.png
 过载缓冲保护装置,jc_auto_soc,2,,余辉,"remnant, no_sell, defensive","防御, 特殊",10000,,,,5,10,15,25,data.scripts.hullmods.Jc_auto_soc,"为护盾安装过载保护系统，在受到超过}%s}秒的过载时，舰船将在短的时间内结束过载。这个效果有}%s}秒的冷却时间。
@@ -140,9 +130,7 @@ SF-超控密钥,jc_sf_sukey,3,,幽灵部队,"req_spaceport, no_sell, no_drop, no
 解除自动化限制,jc_sf_supply_unlock,,,幽灵部队,hide_in_codex,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sf_supplyShipUnlock,解除自动化限制,解除自动化限制,,graphics/jc/hullmods/jc_sf_noauto.png
 支援弹幕,jc_sf_fireSupport,,,幽灵部队,hide_in_codex,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sf_fireSupport,支援弹幕,支援弹幕,,graphics/hullmods/stealth_mines.png
 支援弹幕,jc_sf_fireSupport_station,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_fireSupport,支援弹幕,支援弹幕,,graphics/hullmods/stealth_mines.png
-龙息煅炉,jc_sf_dragonForge,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_dragonForge,"该舰配备有导弹纳米工厂，可以在战术系统激活时补充导弹，但额外补充的弹药规格会受到限制。
-
-基于所有小型导弹挂载点上基础载弹量最低的武器的基础载弹量，当补充次数超过载弹量数值时，所有导弹武器造成的伤害按比例降低为载弹量除以四，若载弹量大于等于四则无影响。计算载弹量时，无备弹量的武器视为载弹量为一枚，每次发射多枚导弹的武器载弹量还需除以单次发射量。",可重装的导弹系统,,graphics/jc/hullmods/jc_sf_dragonForge.png
+龙息煅炉,jc_sf_dragonForge,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_dragonForge,该舰配备有导弹纳米工厂，可以在战术系统激活时补充一轮发射所需的导弹，但额外补充的弹药规格会受到限制。,可重装的导弹系统,,graphics/jc/hullmods/jc_sf_dragonForge.png
 空间站核心,jc_sf_station,,,幽灵部队,hide_in_codex,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sf_station,空间站核心,空间站核心,,graphics/hullmods/stealth_mines.png
 移动要塞核心,jc_sf_movingbase,,,幽灵部队,hide_in_codex,,,,TRUE,TRUE,0,0,0,0,data.scripts.hullmods.Jc_sf_movingbase,移动要塞核心,移动要塞核心,,graphics/hullmods/stealth_mines.png
 阻尼装甲,jc_sf_ramArmor,,,幽灵部队,hide_in_codex,,,,TRUE,,0,0,0,0,data.scripts.hullmods.Jc_sf_ramArmor,装甲或结构受到伤害后，依据伤害量在接下来一段时间内获得伤害减免，并释放电弧击退攻击者。此外该模块会为后方相连的火力平台提供一定的伤害减免。,阻尼装甲系统,,graphics/hullmods/damper_field.png
